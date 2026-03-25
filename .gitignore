@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.vsix
+.vscode-test/
+out/
+cpp/build/
+cpp/build-native/
+cpp/build-pcg2/
+pcg-launcher/bin/
+pcg-launcher/obj/
+pcg-launcher/publish/
+pcg-launcher/*.zip
+
+.fake

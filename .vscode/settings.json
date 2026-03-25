@@ -1,0 +1,11 @@
+{
+    "cmake.sourceDirectory": "E:/Celeste/celeste-map-editor-vscode/cpp",
+    "markdownlint.ignore": [
+        "**/node_modules/**",
+        "**/dist/**",
+        "**/cpp/build/**",
+        "**/cpp/build-native/**",
+        "**/cpp/build-pcg2/**",
+        "**/cpp/third_party/pcg-cpp/**"
+    ]
+}

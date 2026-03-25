@@ -1,0 +1,138 @@
+name: release-artifacts
+
+on:
+  workflow_dispatch:
+    inputs:
+      publishMarketplace:
+        description: Publish the built VSIX to the VS Code Marketplace when VSCE_PAT is available
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: read
+
+jobs:
+  build-artifacts:
+    name: Build release artifacts
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build extension bundle
+        run: npm run compile
+
+      - name: Lint Markdown docs
+        run: npm run lint:md
+
+      - name: Package Windows launcher
+        run: npm run package:pcg-launcher
+
+      - name: Package VS Code extension
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path artifacts | Out-Null
+          $version = node -p "require('./package.json').version"
+          "PACKAGE_VERSION=$version" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+          npx --yes @vscode/vsce package --out "artifacts/celeste-map-editor-$version.vsix"
+          Copy-Item "pcg-launcher/CelestePcgLauncher-win-x64.zip" "artifacts/CelestePcgLauncher-win-x64.zip"
+
+      - name: Generate checksums
+        shell: pwsh
+        run: |
+          $lines = Get-ChildItem artifacts | ForEach-Object {
+            $hash = (Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+            "$hash  $($_.Name)"
+          }
+          $lines | Set-Content artifacts/SHA256SUMS.txt
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-artifacts-${{ env.PACKAGE_VERSION || github.run_number }}
+          path: artifacts/*
+          if-no-files-found: error
+
+  publish-release:
+    name: Publish GitHub release assets
+    runs-on: windows-latest
+    needs: build-artifacts
+    if: startsWith(github.ref, 'refs/tags/v')
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download packaged artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: release-artifacts
+          pattern: release-artifacts-*
+          merge-multiple: true
+
+      - name: Attach assets to GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: |
+            release-artifacts/*.vsix
+            release-artifacts/*.zip
+            release-artifacts/SHA256SUMS.txt
+
+  publish-marketplace:
+    name: Publish VS Code Marketplace extension
+    runs-on: windows-latest
+    needs: build-artifacts
+    if: (startsWith(github.ref, 'refs/tags/v') || github.event.inputs.publishMarketplace == 'true')
+    permissions:
+      contents: read
+
+    steps:
+      - name: Download packaged artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: release-artifacts
+          pattern: release-artifacts-*
+          merge-multiple: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Publish VSIX to Marketplace
+        shell: pwsh
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        run: |
+          if ([string]::IsNullOrWhiteSpace($env:VSCE_PAT)) {
+            throw 'VSCE_PAT secret is missing. Add it in GitHub repository secrets before enabling Marketplace publishing.'
+          }
+
+          $vsix = Get-ChildItem release-artifacts -Filter *.vsix | Select-Object -First 1
+          if (-not $vsix) {
+            throw 'No VSIX artifact was found for Marketplace publishing.'
+          }
+
+          npx --yes @vscode/vsce publish --packagePath $vsix.FullName --pat $env:VSCE_PAT
