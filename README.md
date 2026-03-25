@@ -1,4 +1,4 @@
-# Celeste Map Editor for VS Code
+# Celeste Map Editor for Producal Content Generation
 
 A visual tile map editor for Celeste `.bin` map files, built as a VS Code extension.
 
