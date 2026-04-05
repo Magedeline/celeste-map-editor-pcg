@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
+using System.Security.Cryptography;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Threading.Tasks;
@@ -12,15 +13,15 @@ namespace CelestePcgLauncher;
 
 internal sealed class MainForm : Form
 {
-    private static readonly Color NightBackground = Color.FromArgb(18, 22, 30);
-    private static readonly Color NightPanel = Color.FromArgb(25, 30, 40);
-    private static readonly Color NightPanelAlt = Color.FromArgb(31, 36, 48);
-    private static readonly Color NightInput = Color.FromArgb(36, 42, 56);
-    private static readonly Color NightBorder = Color.FromArgb(63, 74, 95);
-    private static readonly Color NightText = Color.FromArgb(228, 234, 242);
-    private static readonly Color NightMuted = Color.FromArgb(160, 171, 188);
-    private static readonly Color NightAction = Color.FromArgb(78, 116, 184);
-    private static readonly Color NightActionSecondary = Color.FromArgb(67, 82, 113);
+    private static readonly Color NightBackground = NightTheme.Background;
+    private static readonly Color NightPanel = NightTheme.Panel;
+    private static readonly Color NightPanelAlt = NightTheme.PanelAlt;
+    private static readonly Color NightInput = NightTheme.Input;
+    private static readonly Color NightBorder = NightTheme.Border;
+    private static readonly Color NightText = NightTheme.Text;
+    private static readonly Color NightMuted = NightTheme.Muted;
+    private static readonly Color NightAction = NightTheme.Action;
+    private static readonly Color NightActionSecondary = NightTheme.ActionSecondary;
 
     private const string ExecutableName = "celeste_pcg_generator.exe";
     private static readonly string SettingsDirectory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "CelestePcgLauncher");
@@ -28,6 +29,7 @@ internal sealed class MainForm : Form
 
     private readonly ComboBox _modeComboBox;
     private readonly TextBox _seedTextBox;
+    private readonly CheckBox _autoRandomizeSeedCheckBox;
     private readonly ComboBox _kitComboBox;
     private readonly ComboBox _layoutComboBox;
     private readonly ComboBox _archetypeComboBox;
@@ -157,10 +159,18 @@ internal sealed class MainForm : Form
         settingsShell.Controls.Add(settingsPanel, 0, 0);
 
         _modeComboBox = CreateComboBox("pseudo", "true");
-        _seedTextBox = CreateTextBox("12345");
+        _seedTextBox = CreateTextBox(string.Empty);
+        _autoRandomizeSeedCheckBox = new CheckBox
+        {
+            AutoSize = true,
+            Checked = true,
+            Text = "Auto-randomize pseudo seed each run",
+            BackColor = NightPanel,
+            ForeColor = NightText,
+        };
         _kitComboBox = CreateComboBox(LauncherKitCatalog.GetIds());
         _kitComboBox.SelectedIndexChanged += (_, _) => RefreshSelectedKitDetails();
-        _layoutComboBox = CreateComboBox("grid", "criticalPath", "criticalPathBranches", "openSkeleton");
+        _layoutComboBox = CreateComboBox("grid", "criticalPath", "criticalPathBranches", "celesteRandomizer", "openSkeleton");
         _layoutComboBox.SelectedIndexChanged += (_, _) =>
         {
             RefreshSelectedKitDetails();
@@ -199,21 +209,22 @@ internal sealed class MainForm : Form
 
         AddField(settingsPanel, 0, "Mode", _modeComboBox);
         AddField(settingsPanel, 1, "Seed", _seedTextBox);
-        AddField(settingsPanel, 2, "Kit", _kitComboBox);
-        AddField(settingsPanel, 3, "Layout", _layoutComboBox);
-        AddField(settingsPanel, 4, "Archetype", _archetypeComboBox);
-        AddField(settingsPanel, 5, "Cluster Width", _clusterWidthInput);
-        AddField(settingsPanel, 6, "Cluster Height", _clusterHeightInput);
-        AddField(settingsPanel, 7, "Room Width", _roomWidthInput);
-        AddField(settingsPanel, 8, "Room Height", _roomHeightInput);
-        AddField(settingsPanel, 9, "Room Gap", _roomGapInput);
-        AddField(settingsPanel, 10, "Package Name", _packageNameTextBox);
+        AddField(settingsPanel, 2, "Seed Mode", _autoRandomizeSeedCheckBox);
+        AddField(settingsPanel, 3, "Kit", _kitComboBox);
+        AddField(settingsPanel, 4, "Layout", _layoutComboBox);
+        AddField(settingsPanel, 5, "Archetype", _archetypeComboBox);
+        AddField(settingsPanel, 6, "Cluster Width", _clusterWidthInput);
+        AddField(settingsPanel, 7, "Cluster Height", _clusterHeightInput);
+        AddField(settingsPanel, 8, "Room Width", _roomWidthInput);
+        AddField(settingsPanel, 9, "Room Height", _roomHeightInput);
+        AddField(settingsPanel, 10, "Room Gap", _roomGapInput);
+        AddField(settingsPanel, 11, "Package Name", _packageNameTextBox);
 
         var outputPanel = CreatePathPickerPanel(_outputPathTextBox, _browseButton);
-        AddField(settingsPanel, 11, "Output JSON", outputPanel);
-        AddField(settingsPanel, 12, "Export map.bin", _exportBinCheckBox);
+        AddField(settingsPanel, 12, "Output JSON", outputPanel);
+        AddField(settingsPanel, 13, "Export map.bin", _exportBinCheckBox);
         var binOutputPanel = CreatePathPickerPanel(_binOutputPathTextBox, _browseBinButton);
-        AddField(settingsPanel, 13, "Output map.bin", binOutputPanel);
+        AddField(settingsPanel, 14, "Output map.bin", binOutputPanel);
 
         var kitPanel = new Panel
         {
@@ -579,15 +590,23 @@ internal sealed class MainForm : Form
             "--kit", _kitComboBox.Text,
         };
 
-        if (!string.IsNullOrWhiteSpace(_seedTextBox.Text))
+        var seedText = _seedTextBox.Text.Trim();
+        if (string.Equals(_modeComboBox.Text, "pseudo", StringComparison.OrdinalIgnoreCase)
+            && _autoRandomizeSeedCheckBox.Checked)
         {
-            if (!uint.TryParse(_seedTextBox.Text, out _))
+            seedText = GenerateRandomPseudoSeed().ToString();
+            _seedTextBox.Text = seedText;
+        }
+
+        if (!string.IsNullOrWhiteSpace(seedText))
+        {
+            if (!uint.TryParse(seedText, out _))
             {
                 throw new InvalidOperationException("Seed must be an unsigned integer or empty.");
             }
 
             arguments.Add("--seed");
-            arguments.Add(_seedTextBox.Text.Trim());
+            arguments.Add(seedText);
         }
 
         return arguments.ToArray();
@@ -691,6 +710,7 @@ internal sealed class MainForm : Form
         {
             "criticalPath" => "Layout: one start-to-goal route that uses the full room set. Best for direct Celeste pacing.",
             "criticalPathBranches" => "Layout: one main route plus side rooms for berries, detours, and optional challenge pockets.",
+            "celesteRandomizer" => "Layout: paper-inspired chapter skeleton with a staged route, side detours, and shortcut links.",
             "openSkeleton" => "Layout: hub-and-spoke structure with a few loops. Best for exploratory multi-room worlds.",
             _ => "Layout: full adjacency grid. Dense, readable, and closest to the original rectangular cluster generator.",
         };
@@ -1013,6 +1033,7 @@ internal sealed class MainForm : Form
 
             ApplyComboBoxSelection(_modeComboBox, settings.Mode);
             ApplyTextValue(_seedTextBox, settings.Seed);
+            _autoRandomizeSeedCheckBox.Checked = settings.AutoRandomizeSeed;
             ApplyComboBoxSelection(_kitComboBox, settings.Kit);
             ApplyComboBoxSelection(_layoutComboBox, settings.Layout);
             ApplyComboBoxSelection(_archetypeComboBox, settings.Archetype);
@@ -1042,6 +1063,7 @@ internal sealed class MainForm : Form
             var settings = new LauncherSettings(
                 _modeComboBox.Text,
                 _seedTextBox.Text,
+                _autoRandomizeSeedCheckBox.Checked,
                 _kitComboBox.Text,
                 _layoutComboBox.Text,
                 _archetypeComboBox.Text,
@@ -1105,9 +1127,17 @@ internal sealed class MainForm : Form
         return Path.Combine(directory, "room-cluster.bin");
     }
 
+    private static uint GenerateRandomPseudoSeed()
+    {
+        Span<byte> bytes = stackalloc byte[4];
+        RandomNumberGenerator.Fill(bytes);
+        return BitConverter.ToUInt32(bytes);
+    }
+
     private sealed record LauncherSettings(
         string Mode,
         string Seed,
+        bool AutoRandomizeSeed,
         string Kit,
         string Layout,
         string Archetype,

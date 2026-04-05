@@ -1,0 +1,23 @@
+{
+  "package": "d_14_Digital",
+  "levels": [
+    {
+      "id": "00",
+      "name": "00",
+      "width": 32,
+      "height": 32,
+      "xoffset": -8,
+      "yoffset": -8,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 16,
+          "y": 24
+        }
+      ],
+      "decals": []
+    }
+  ]
+}

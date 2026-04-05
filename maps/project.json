@@ -1,0 +1,230 @@
+{
+  "name": "Celeste Maps",
+  "description": "Converted Celeste Mod Maps",
+  "defaultWidth": 320,
+  "defaultHeight": 180,
+  "defaultExportMode": "XML",
+  
+  "tilesets": [
+    {
+      "id": "solids",
+      "label": "Solids",
+      "path": "",
+      "tileWidth": 8,
+      "tileHeight": 8
+    },
+    {
+      "id": "bg",
+      "label": "Background",
+      "path": "",
+      "tileWidth": 8,
+      "tileHeight": 8
+    },
+    {
+      "id": "objtiles",
+      "label": "Object Tiles",
+      "path": "",
+      "tileWidth": 8,
+      "tileHeight": 8
+    },
+    {
+      "id": "bgtiles",
+      "label": "BG Tiles",
+      "path": "",
+      "tileWidth": 8,
+      "tileHeight": 8
+    }
+  ],
+  
+  "layers": [
+    {
+      "id": "bg",
+      "name": "Background",
+      "type": "tile",
+      "tileset": "bg"
+    },
+    {
+      "id": "solids",
+      "name": "Solids",
+      "type": "tile",
+      "tileset": "solids"
+    },
+    {
+      "id": "objtiles",
+      "name": "Object Tiles",
+      "type": "tile",
+      "tileset": "objtiles"
+    },
+    {
+      "id": "bgtiles",
+      "name": "BG Tiles",
+      "type": "tile",
+      "tileset": "bgtiles"
+    },
+    {
+      "id": "entities",
+      "name": "Entities",
+      "type": "entity"
+    },
+    {
+      "id": "decals",
+      "name": "Decals",
+      "type": "decal"
+    }
+  ],
+  
+  "entities": [
+    {
+      "name": "player",
+      "limit": 1,
+      "width": 8,
+      "height": 8,
+      "color": "FF0000",
+      "resizable": false,
+      "rotatable": false
+    },
+    {
+      "name": "introCar",
+      "limit": -1,
+      "width": 48,
+      "height": 48,
+      "color": "FF8800",
+      "resizable": false,
+      "rotatable": false
+    },
+    {
+      "name": "lamp",
+      "limit": -1,
+      "width": 8,
+      "height": 16,
+      "color": "FFFF00",
+      "resizable": false,
+      "rotatable": false
+    },
+    {
+      "name": "wire",
+      "limit": -1,
+      "width": 8,
+      "height": 8,
+      "color": "00FF00",
+      "resizable": false,
+      "rotatable": false
+    },
+    {
+      "name": "spring",
+      "limit": -1,
+      "width": 12,
+      "height": 8,
+      "color": "00FFFF",
+      "resizable": false,
+      "rotatable": false
+    },
+    {
+      "name": "spike",
+      "limit": -1,
+      "width": 8,
+      "height": 8,
+      "color": "FF00FF",
+      "resizable": false,
+      "rotatable": false
+    },
+    {
+      "name": "chest",
+      "limit": -1,
+      "width": 16,
+      "height": 16,
+      "color": "8800FF",
+      "resizable": false,
+      "rotatable": false
+    },
+    {
+      "name": "strawberry",
+      "limit": -1,
+      "width": 8,
+      "height": 8,
+      "color": "FF0088",
+      "resizable": false,
+      "rotatable": false
+    },
+    {
+      "name": "cassette",
+      "limit": -1,
+      "width": 16,
+      "height": 16,
+      "color": "00FF88",
+      "resizable": false,
+      "rotatable": false
+    },
+    {
+      "name": "heartGem",
+      "limit": -1,
+      "width": 12,
+      "height": 12,
+      "color": "FF88FF",
+      "resizable": false,
+      "rotatable": false
+    },
+    {
+      "name": "crumbleWall",
+      "limit": -1,
+      "width": 8,
+      "height": 8,
+      "color": "888888",
+      "resizable": true,
+      "rotatable": false
+    },
+    {
+      "name": "cloud",
+      "limit": -1,
+      "width": 32,
+      "height": 32,
+      "color": "CCCCCC",
+      "resizable": false,
+      "rotatable": false
+    },
+    {
+      "name": "platforms",
+      "limit": -1,
+      "width": 32,
+      "height": 8,
+      "color": "AA0000",
+      "resizable": true,
+      "rotatable": false
+    },
+    {
+      "name": "hazard",
+      "limit": -1,
+      "width": 8,
+      "height": 8,
+      "color": "FF0000",
+      "resizable": false,
+      "rotatable": false
+    }
+  ],
+  
+  "decals": [],
+  
+  "levels": [
+    "aside/00_Prologue.ogmo",
+    "aside/01_City.ogmo",
+    "aside/02_Nightmare.ogmo",
+    "aside/03_Stars.ogmo",
+    "aside/04_Legend.ogmo",
+    "aside/05_Restore.ogmo",
+    "aside/06_Stronghold.ogmo",
+    "aside/07_Hell.ogmo",
+    "aside/08_Truth.ogmo",
+    "aside/09_Summit.ogmo",
+    "aside/10_Ruins.ogmo",
+    "aside/11_Snow.ogmo",
+    "aside/12_Water.ogmo",
+    "aside/13_Fire.ogmo",
+    "aside/14_Digital.ogmo",
+    "aside/15_Castle.ogmo",
+    "aside/16_Corruption.ogmo",
+    "aside/17_Epilogue.ogmo",
+    "aside/18_Heart.ogmo",
+    "aside/19_Space.ogmo",
+    "aside/20_TheEnd.ogmo"
+  ]
+}

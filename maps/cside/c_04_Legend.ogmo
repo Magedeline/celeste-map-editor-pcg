@@ -1,0 +1,2464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <level id="a-01" width="320" height="184" xoffset="0" yoffset="0">
+    <tiles tileset="solids" offsetX="0" offsetY="0">
+  00000000000033333333
+  000000000033333333333
+  000000003333333333333
+  0000000333333333333333000000000003333333
+  0000033333333333333333331111113333333333
+  3333333333333333333313311111111333333333
+  3333333333333333333313331111111113333333
+  3333333333333333333311111111111113333333
+  3333333333333333333311111111111113333333
+    </tiles>
+    <tiles tileset="bg" offsetX="0" offsetY="0">
+  0000000000000000000111
+  0000bbbb0000000000011111
+  0000bbbbb0000bbb0011111110000111
+  00bbbbbbb000000000111111100111111
+  00bbbbbbb000000000001111110111111
+  0bbbbbb00000000000000011110111111
+  0bbbbbb
+  00000000000000000000011111111111
+  00000000000000000000000000011111
+    </tiles>
+    <entity name="bonfire" x="216" y="145" />
+    <entity name="floatingDebris" x="16" y="128" />
+    <entity name="floatingDebris" x="24" y="136" />
+    <entity name="floatingDebris" x="40" y="120" />
+    <entity name="floatingDebris" x="88" y="112" />
+    <entity name="floatingDebris" x="288" y="120" />
+    <entity name="floatingDebris" x="312" y="128" />
+    <entity name="goldenBerry" x="184" y="104" />
+    <entity name="player" x="192" y="144" />
+    <entity name="player" x="312" y="136" />
+    <decal x="112" y="112" texture="generic/snow_d.png" />
+    <decal x="184" y="140" texture="generic/snow_i.png" />
+    <decal x="175" y="138" texture="generic/snow_g.png" />
+    <decal x="248" y="144" texture="generic/snow_d.png" />
+    <decal x="272" y="136" texture="generic/snow_d.png" />
+    <decal x="271" y="136" texture="generic/snow_g.png" />
+    <decal x="256" y="136" texture="generic/snow_c.png" />
+    <decal x="88" y="112" texture="generic/snow_b.png" />
+    <decal x="168" y="128" texture="generic/snow_c.png" />
+    <decal x="160" y="112" texture="generic/snow_c.png" />
+    <decal x="80" y="128" texture="generic/snow_d.png" />
+    <decal x="63" y="136" texture="generic/snow_d.png" />
+    <decal x="35" y="146" texture="generic/snow_n.png" />
+    <decal x="53" y="146" texture="generic/snow_l.png" />
+    <decal x="50" y="141" texture="generic/snow_e.png" />
+    <decal x="44" y="136" texture="generic/snow_c.png" />
+    <decal x="27" y="146" texture="generic/snow_c.png" />
+    <decal x="8" y="149" texture="generic/snow_i.png" />
+    <decal x="256" y="136" texture="generic/snow_b.png" />
+    <decal x="74" y="129" texture="generic/snow_d.png" />
+    <decal x="68" y="133" texture="generic/snow_d.png" />
+    <decal x="80" y="126" texture="generic/snow_d.png" />
+    <decal x="84" y="124" texture="generic/snow_d.png" />
+  </level>
+  <level id="a-02" width="536" height="184" xoffset="640" yoffset="-88">
+    <tiles tileset="solids" offsetX="0" offsetY="0">
+  5555555555555555555555555555555555555555555555555555555555500555555
+  5555555555555555555555555555555555555555555555555555555555500555555
+  5555555555555555555555555550055555000005555555555555555555500555555
+  5555555555555555555500555550055555000005550005555555555555500555555
+  5555555555000005555500555550055555000005550005555555555555500555555
+  5555000000000005555500555550000000000005550005555555555555500555555
+  5555000000000005555500555550000000000005550005555555555555500555555
+  5555000000000005555500555550000000000005550005555555555555500555555
+  5555000000000005555500555550000000000005550005555555555555500555555
+  5555000000000005555500555550055555000005550005555555555555500555555
+  5550000000000000000000555550055555000005550005555555555555500555555
+  5550000000000000000000555550055555000005550005555555555555500555555
+  5550000000000000000000555550055555000005550005555555555555500555555
+  5550000000000000000000555500055555000005550000005555555555500555555
+  5550000000000005555500555500055555555555550000005555555555500555555
+  0000000000000005555500000000055555555555550000000000000000000555555
+  0000000055550005555500000000055555555555550000000000000000000555555
+  0000000055550005555500000000055555555555550000000000000000000555555
+  0000000055555555555500000000055555555555550000000000000000000555555
+  5555555555555555555500555550055555555555550000005555555555500555555
+  5555555555555555555500555555555555555555550000005555555555500555555
+  5555555555555555555555555555555555555555555555555555555555555555555
+  5555555555555555555555555555555555555555555555555555555555555555555
+    </tiles>
+    <tiles tileset="bg" offsetX="0" offsetY="0">
+  00000000000000000000000000000000000000000000000000000000002222
+  00000000000000000000000000333300033333330000000000000000002222
+  00000000030000000003333000333300033333330333333330000000002222
+  00000000033333330003333000333300033333330333333330000000002222
+  00000000033333330003333000333300033333330333333330000000002222
+  00000000003333330003333000333300033003330333333330000000002222
+  00000000003300330003333000333300033003330333333330000000002222
+  0000000000330033000333300033330003333333033333333000000000222233333
+  0003000000333333000333300033330003333333033333333000000000333333333
+  0333300000033333000333300033330003333333033333333000000000333333333
+  0333300000033333300333300033330003333303033333333000000000333333333
+  0333333000003333300333300033330003300000033333333000000000333333333
+  0333333330003333300333300333330000000002033330033000000000333333333
+  3333333330003333300333303333330000000000033300333000000000333333333
+  3333333330000333300333303333330000000000033000033000000000333333333
+  3333333330000333000333300333330000000000030000333000000000333333333
+  3333333333000333000333300033330000000000030000333000000000333333333
+  3333333333000333000333300033330000000000030003333000000000333333333
+  3333333333000033000333300033330000000000033003333000000000333333333
+  3333333333000033000333300033330000000000033333333000000000333333333
+  0333333330000000000333300033330000000000033333333000000000333333333
+  0000000000000000000333300000000000000000033333333000000000333333333
+    </tiles>
+    <entity name="player" x="80" y="128" />
+    <entity name="dreamBlock" x="120" y="80" />
+    <entity name="dreamBlock" x="176" y="120" />
+    <entity name="spikesDown" x="160" y="24" />
+    <entity name="spikesLeft" x="176" y="32" />
+    <entity name="spikesUp" x="160" y="168" />
+    <entity name="spikesUp" x="208" y="120" />
+    <entity name="spikesDown" x="208" y="104" />
+    <entity name="spikesDown" x="216" y="16" />
+    <entity name="spikesUp" x="216" y="160" />
+    <entity name="spikesLeft" x="232" y="72" />
+    <entity name="spikesLeft" x="232" y="24" />
+    <entity name="dreamBlock" x="232" y="40" />
+    <entity name="dreamBlock" x="304" y="36" />
+    <entity name="spikesUp" x="304" y="36" />
+    <entity name="spikesUp" x="272" y="112" />
+    <entity name="spikesDown" x="272" y="16" />
+    <entity name="spikesDown" x="336" y="24" />
+    <entity name="spikesUp" x="328" y="168" />
+    <entity name="dreamBlock" x="384" y="120" />
+    <entity name="spikesUp" x="472" y="168" />
+    <entity name="spikesLeft" x="488" y="112" />
+    <entity name="jumpThru" x="472" y="104" />
+    <entity name="spikesLeft" x="360" y="32" />
+    <entity name="spikesRight" x="336" y="32" />
+    <entity name="player" x="480" y="104" />
+    <entity name="hanginglamp" x="288" y="16" />
+    <entity name="hanginglamp" x="72" y="40" />
+    <entity name="hanginglamp" x="360" y="104" />
+    <entity name="spikesRight" x="272" y="24" />
+    <entity name="touchSwitch" x="161" y="40" />
+    <entity name="touchSwitch" x="217" y="33" />
+    <entity name="switchGate" x="472" y="120" />
+    <entity name="touchSwitch" x="309" y="89" />
+    <entity name="touchSwitch" x="380" y="109" />
+    <decal x="32" y="136" texture="2-oldsite/tableA.png" />
+    <decal x="104" y="56" texture="2-oldsite/window.png" />
+    <decal x="288" y="48" texture="2-oldsite/window_boarded.png" />
+    <decal x="168" y="156" texture="2-oldsite/door.png" />
+    <decal x="481" y="92" texture="2-oldsite/door.png" />
+    <decal x="56" y="72" texture="2-oldsite/chained_cage.png" />
+    <decal x="108" y="132" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="73" y="116" texture="2-oldsite/barrel.png" />
+    <decal x="89" y="116" texture="2-oldsite/barrel.png" />
+    <decal x="78" y="100" texture="2-oldsite/barrel.png" />
+    <decal x="216" y="112" texture="2-oldsite/simple_pole.png" />
+    <decal x="221" y="145" texture="2-oldsite/simple_pole.png" />
+    <decal x="368" y="112" texture="2-oldsite/simple_pole.png" />
+    <decal x="363" y="145" texture="2-oldsite/simple_pole.png" />
+    <decal x="296" y="96" texture="2-oldsite/medium_cage.png" />
+    <decal x="24" y="104" texture="2-oldsite/pilar_hA.png" />
+    <decal x="32" y="104" texture="2-oldsite/pilar_hA.png" />
+    <decal x="40" y="104" texture="2-oldsite/pilar_hA.png" />
+    <decal x="48" y="104" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="35" y="93" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="216" y="88" texture="2-oldsite/pilar_hA.png" />
+    <decal x="224" y="88" texture="2-oldsite/pilar_hA.png" />
+    <decal x="232" y="88" texture="2-oldsite/pilar_hA.png" />
+    <decal x="216" y="32" texture="2-oldsite/pilar_hB.png" />
+    <decal x="224" y="32" texture="2-oldsite/pilar_hB.png" />
+    <decal x="232" y="32" texture="2-oldsite/pilar_hB.png" />
+    <decal x="272" y="72" texture="2-oldsite/pilar_hC.png" />
+    <decal x="280" y="72" texture="2-oldsite/pilar_hC.png" />
+    <decal x="288" y="72" texture="2-oldsite/pilar_hB.png" />
+    <decal x="296" y="72" texture="2-oldsite/pilar_hA.png" />
+    <decal x="304" y="72" texture="2-oldsite/pilar_hC.png" />
+    <decal x="312" y="72" texture="2-oldsite/pilar_hA.png" />
+    <decal x="290" y="60" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="349" y="156" texture="2-oldsite/barrel.png" />
+    <decal x="350" y="140" texture="2-oldsite/barrel.png" />
+    <decal x="374" y="156" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="344" y="112" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="340" y="116" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="348" y="108" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="352" y="104" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="356" y="100" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="360" y="96" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="336" y="72" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="340" y="76" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="344" y="80" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="348" y="84" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="352" y="88" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="356" y="92" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="472" y="152" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="476" y="148" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="480" y="144" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="484" y="140" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="488" y="136" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="492" y="132" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="160" y="104" texture="2-oldsite/pilar_hA.png" />
+    <decal x="168" y="104" texture="2-oldsite/pilar_hA.png" />
+    <decal x="176" y="104" texture="2-oldsite/pilar_hA.png" />
+    <decal x="160" y="48" texture="2-oldsite/pilar_hA.png" />
+    <decal x="168" y="48" texture="2-oldsite/pilar_hA.png" />
+    <decal x="176" y="48" texture="2-oldsite/pilar_hA.png" />
+    <decal x="224" y="72" texture="2-oldsite/chair.png" />
+  </level>
+  <level id="a-03" width="320" height="184" xoffset="320" yoffset="0">
+    <tiles tileset="solids" offsetX="0" offsetY="0">
+  0055555555555555555555555555555555555555
+  0005555555555555555555555555555555555555
+  0005505555555555000000555555555555555555
+  0000000555555555000000555555500000555555
+  00000005555555550000000555555
+  00000005555555500000000550055
+  00000000555555500000000550055
+  00000000555555500000000555555
+  0000000055555550000000055555500000555555
+  0000000055555550000000555555500000055555
+  0000000055555555000000555555550000055555
+  0000000055555555000000555555550000055555
+  0000000555555555000000000000000000055555
+  0000000555555555000000000000000000055555
+  0000000000000000000000000000000000055555
+  0000000000000000000000000000000000055555
+  0000003333333300000000000000000000055555
+  3333333333333300000000000000000000555555
+  3333333333333300000000000000000000000555
+  3333333333333000000000000000000000000555
+  3333333333333000000000000000000000000055
+  3333333333333000000000000000000000000055
+  3333333333333000000000000000000000000055
+    </tiles>
+    <tiles tileset="bg" offsetX="0" offsetY="0">
+  03300000000000000000000000000333333
+  03233333330000033333333300033333333
+  00233332220000033333333300033333333
+  0023333222000003333333330003333322222222
+  0003333222000003333333332223333333322222
+  0003233222000002222333332223332333322222
+  0000233222000032222333332223332222222222
+  0000033330000032002333333323332002222222
+  0000003333000032002333333303332002222222
+  00000003330000322223333333033322223
+  000000033300003333333332230333333333
+  000000033000003333220032200000032333
+  0000000330000033230000000000000002223
+  00000000bbbb000000000000000000000022
+  0000000bbbbb000000000000000000000022
+  00000bbbbbbb
+  0000bbbbbbbb
+  0000b0bbb
+  bbbbb0bbb
+    </tiles>
+    <entity name="player" x="64" y="128" />
+    <entity name="player" x="8" y="136" />
+    <entity name="spikesDown" x="176" y="96" />
+    <entity name="spikesDown" x="176" y="32" />
+    <entity name="spikesDown" x="120" y="40" />
+    <entity name="spikesDown" x="112" y="128" />
+    <entity name="floatingDebris" x="56" y="56" />
+    <entity name="floatingDebris" x="48" y="32" />
+    <entity name="floatingDebris" x="144" y="48" />
+    <entity name="floatingDebris" x="152" y="24" />
+    <entity name="floatingDebris" x="160" y="32" />
+    <entity name="spikesRight" x="120" y="112" />
+    <entity name="spikesRight" x="128" y="16" />
+    <entity name="spikesRight" x="232" y="32" />
+    <entity name="spikesRight" x="128" y="80" />
+    <entity name="hanginglamp" x="28" y="24" />
+    <entity name="hanginglamp" x="216" y="96" />
+    <entity name="spikesUp" x="120" y="80" />
+    <entity name="spikesUp" x="176" y="72" />
+    <entity name="dreamBlock" x="72" y="112" />
+    <entity name="spikesLeft" x="280" y="72" />
+    <entity name="spikesLeft" x="176" y="72" />
+    <entity name="spikesLeft" x="176" y="16" />
+    <entity name="spikesUp" x="272" y="136" />
+    <entity name="spikesLeft" x="296" y="144" />
+    <entity name="spikesDown" x="232" y="24" />
+    <entity name="spikesRight" x="240" y="80" />
+    <entity name="spikesUp" x="232" y="80" />
+    <entity name="spikesLeft" x="304" y="160" />
+    <entity name="bird" x="208" y="56" />
+    <entity name="touchSwitch" x="262" y="146" />
+    <entity name="switchGate" x="272" y="32" />
+    <entity name="refill" x="136" y="120" />
+    <decal x="72" y="120" texture="generic/snow_c.png" />
+    <decal x="110" y="128" texture="generic/snow_e.png" />
+    <decal x="40" y="128" texture="generic/snow_a.png" />
+    <decal x="56" y="72" texture="2-oldsite/cloth_pole00.png" />
+    <decal x="120" y="136" texture="generic/snow_h.png" />
+    <decal x="120" y="146" texture="generic/snow_k.png" />
+    <decal x="111" y="149" texture="generic/snow_g.png" />
+    <decal x="107" y="151" texture="generic/snow_g.png" />
+    <decal x="162" y="46" texture="2-oldsite/chained_cage.png" />
+    <decal x="175" y="40" texture="2-oldsite/chain_broken.png" />
+    <decal x="143" y="23" texture="2-oldsite/chain_mid.png" />
+    <decal x="143" y="39" texture="2-oldsite/chain_mid.png" />
+    <decal x="122" y="47" texture="2-oldsite/chain_mid.png" />
+    <decal x="136" y="64" texture="2-oldsite/window.png" />
+    <decal x="256" y="64" texture="2-oldsite/window.png" />
+    <decal x="136" y="64" texture="2-oldsite/window_boarded.png" />
+    <decal x="44" y="23" texture="2-oldsite/chain_mid.png" />
+    <decal x="12" y="22" texture="2-oldsite/chain_mid.png" />
+    <decal x="59" y="53" texture="2-oldsite/chain_mid.png" />
+    <decal x="149" y="22" texture="2-oldsite/chain_mid.png" />
+    <decal x="135" y="23" texture="2-oldsite/chain_mid.png" />
+    <decal x="168" y="21" texture="2-oldsite/chain_mid.png" />
+    <decal x="198" y="102" texture="2-oldsite/chain_mid.png" />
+    <decal x="215" y="92" texture="2-oldsite/chain_mid.png" />
+    <decal x="210" y="100" texture="2-oldsite/chain_broken.png" />
+    <decal x="230" y="81" texture="2-oldsite/chain_broken.png" />
+    <decal x="240" y="32" texture="2-oldsite/chain_broken.png" />
+    <decal x="272" y="80" texture="2-oldsite/chain_broken.png" />
+    <decal x="205" y="39" texture="2-oldsite/simple_pole.png" />
+    <decal x="213" y="44" texture="2-oldsite/simple_pole.png" />
+    <decal x="312" y="53" texture="maggy/3_stars/skelly.png" />
+    <decal x="297" y="54" texture="maggy/3_stars/cook_pot.png" />
+  </level>
+  <level id="a-04" width="1848" height="184" xoffset="1072" yoffset="-272">
+    <tiles tileset="solids" offsetX="0" offsetY="0">
+  555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555550000000000000000000000000000000000000555555555555555550000000000000000000000000000000000055555555555555555555555
+  555555555555555555555555555000000000000000005555555555555555555555555555555555555555555555555555555555555555555555555550000000000000000000000000000000000000555555555555555550000000000000000000000000000000000055555555555000555555555
+  555555555555555555505555000000000000000000005555555555500000000000000005555555555555555555555555555555555555555555555550000000000000000000000000000000000000000000555555555550000000000000000000000000000000000055555555555000555555555
+  555555555555555555500000000000000000000000005555555555500000000000000005555500000000055555555555555555555555555555555550000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000555555555
+  555555555555555555500000000000000000000000000000000000000000000000000005555000000000005555555500000000000000555555555555000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000555555555
+  555555555555555555000000000000000000000000000000000000000000000000000005555000000000000000000000000000000000555555555555000000000000000000000000000000000000000000555555555550000000000000000000000000000000000055555555555000555555555
+  555555555555555555000000000000000000000000000555555555500000000000000005555000000000000000000000000000000000555555555550000055555500000000000000000000000000000000555555555550000000000000000000000000000000000055555555555000555555555
+  555555555555555555000000000000000005555555555555555555500000000000000005555000000000000000000000000000000000555555555550000055555500000000000000000000000000000000555555555555555555555555000005555555500000555555555555555000555555555
+  555555555555555555000000000000000005555555555555555555555555555550000555555005555555555555555555000000000000555555555550000055000000000000000000000000000000000000555555555555555555555555000005555555500000555555555555555000555555555
+  555555555555555555000000000000000005555550000000555555555555555550000555555005555555555555555555555000000000555555555550000055000000000000000000000000000000000000555555555550000000000000000000500000000000000055555555555000555555555
+  555555555555555555000000000000000000555550000000005555555550000000000055555005555555555555555555555000000000555555555550000055000000000000000000000000000000000000555555555550000000000000000000500000000000000055555555555000555
+  555555555555555555000000000000000000555500000000005555555000000000000055555005555555555555555555555550000000555555555550000055000000000000000000000000000000000000555555555550000000000000000000500000000000000055555555555
+  555500000055555555000000000000005000555500000000000055555000000000000055000005555555555555555555555550000000555555555550000055000000000000000000000000000000000000555555555550000000000000000000500000000000000055555555555
+  555500000005555555000000000000005000555500000000000055555000000000000055000005555555555555555555555550000000555555555550000055000000000000000000000000000000000000555555555555555555555555550000555550000055555555555555555
+  55500000000555555500000000000000500055500000000000005555500000000000005500000555555555555555555555555000000055555555555500005500000000000000000000000000000000000055555555555555555555555555000055555000005555555555555555
+  555000000005555555500000000000005005555000000000000055555500000000000055000005555555555555555555555550000000555555555555000055000000000000000000000000000000000000555555555550000000000000000000000000000000000055555555550000000555555
+  555000000005555555500000000000000005555000000000000055555500000000000055000555555555555555555555555550000000000000000000000055000000000000000000000000000000000000555555555550000000000000000000000000000000000055555555550000000555555
+  555000000005555555500000000000000005555000000000000055555500000000000055000555555555555555555555555550000000000000000000000055000000000000000000000000000000000000555555555550000000000000000000000000000000000055555555550000000555555
+  555550000000000000000000000000000005555550000000000055555500000000000000000555555555555555555555555500000000000000000000000055000000000000000000000000000000000000555555555550000000000000000000000000000000000055555555555555555555555
+  555550000000000000000000000000000005555550000000000055555500000000000000000555555555555555555555555500000000000000000000000055000000000000000000000000000000000000555555555555555555555555555555555555555555555555555555555555555555555
+  555550000555555555500000000000000005555550000000000555550000000000000000000555555555555555555555555500000000555555555550000055000000000000000000000000000000000000555555555555555555555555555555555555555555555555555555555555555555555
+  555550055555555555500000000000000000555550000000000555550000000000000000000555555555555555555555555500000000555555555550000055000000000000000000000000000000000000555555555555555555555555555555555555555555555555555555555555555555555
+  555550055555555555500000000000000000555550000000000555550000000000000000000555555555555555555555555500000000555555555550000055000000000000000000000000000000000000555555555555555555555555555555555555555555555555555555555555555555555
+    </tiles>
+    <tiles tileset="bg" offsetX="0" offsetY="0">
+  3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333300000000333333333330000000000000000000000000000000000000000000333330000000000000000000000000000000000000000033333
+  3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333300000000333003333000000000000000000000000000000333333000000000333330000000000000000000000000000000000000000033333
+  3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333300000000333003300000000000000000000000000000000333333000000000333333000000000000000003333300000333300000000033333
+  3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333300000000333333000000000000000000000000000000000333333000000000333333300003300000000003333333333333300000000033333
+  3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333300000000333333000000000000000000000000000000000330033000000000333333300333300000000033003333330033300000000033333
+  3333333333333333333232233333333333333333333333333333333333333333333333333333333333333333333333333333333333333300000000333300000000000000000000000000000000000030033000000000333333333333300000330033003333330033300000000033333
+  3333333333333333333200230033333333333333333333333333333333333333333333333333333333333333333333333333333333333300000000333300000000000000000000000000000000000033333000000000333333333333300000333333333333333333300000000033333
+  3333333333333333333300230033333333333333333333333333333333333333333333333333333333333333333333333333333333333300000000333333333000000000000000000000000000000033333000000000333333333333300000333333333333000333300000000033333003333
+  333333333333333333332223333333333333333333333333333333333333333333333333333333333333333333333333333333333333330000000033333333300000000000000000000000000000003333300000000033300003333333330000333333333300033330000000003333333333333
+  333333333333333333322223333333333333333333333333333333333333333333333333333333333333333333333333333333333333330000000033333333330000000000000000000000000000003333300000000033300003333333330000333333333300033330000000003333333333333
+  333333333333333333330023003333333333333333333333333333333333333333333333333333333333333333333333333333333333330000000033333333330000000000000000000000000000000333300000000033330003333333330000333003330000033330000000003333333333333
+  333333333333333333320023003333333333333333333333333333333333333333333333333333333333333333333333333333222333330000000033333333330000000000000000000000000000000333300000000033333000333333000000033003330000333330000000003333333330033
+  333333333333333333322223333333333333333333333333333333333333333333333333333333333333333333333333333333002333330000000033333333330000000000000000000000000000000333300000000033333000333333000000003333300033333330000000003333333330033
+  333333333333333333333333333333333333333333333333333333333333232322233333333333333333333333333333333332002333330000000003333333300000000000000000000000000000000033300000000033333000333333000000003333300033333330000000033330033333333
+  333333333333333333333333333333333333333333333333333333333333002002233333333333333333333333333333333333222333222222222223333333300000000000000000000000000000000033300000000033300000333300000000003333000003333330000000033330033333333
+  333333333333333333333333333333333333333333333333333333333333002003333333333333333333333333333333333333333333222222222223333333300000000000000000000000000000000033300000000033300000333300000000003333000003333330000000033333333333333
+  333333333333333333333333333333333333333333333333333333333333222222233333333333333333333333333333333333333333222222222223333333300000000000000000000000000000000033300000000033300000300300000330003333300003333330000000033333333333333
+  33333333333333333333333333333333333333333333333333333333333200200333333333333333333333333333333333333333333322222222222333333330000000000000000000000000000000033330000000003300003330033300033333333333333333333000000003333333333
+  33333333333333333333333333333333333333333333333333333333333200200233333333333333333333333333333333333333333322222222222333333333000000000000000000000000000000033330000000003300003333333333333333333333333333333000000003333333333
+  333333333333333333333333333333333333333333333333333333333332222222223333333333333333333333333333333333333333222222222223333333330000000000000000000000000000000333300000000033000033333333333333333333333333333330000000033333333
+  3333333333333333333333333333333333333333333333333333333333222233333333333333333333333333333333333333333333332222222222223333333300000000000000000000000000000003333000000000333333333333333333300000003333333333300000000300033
+  3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333332222222222233333333300000000000000000000000000000033333000000000333333333333333333000000003333333333300000000000003
+  3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333332222222222233333333000000000000000000000000000000033333000000000333333333333300000000000000033333333300000000000003
+    </tiles>
+    <entity name="dreamBlock" x="96" y="144" />
+    <entity name="jumpThru" x="40" y="168" />
+    <entity name="player" x="88" y="160" />
+    <entity name="spikesRight" x="152" y="120" />
+    <entity name="spikesUp" x="144" y="120" />
+    <entity name="spikesUp" x="256" y="96" />
+    <entity name="spikesRight" x="264" y="96" />
+    <entity name="spikesLeft" x="256" y="96" />
+    <entity name="spikesDown" x="256" y="128" />
+    <entity name="refill" x="320" y="40" />
+    <entity name="spikesUp" x="280" y="56" />
+    <entity name="spikesUp" x="280" y="120" />
+    <entity name="spikesLeft" x="288" y="80" />
+    <entity name="spikesLeft" x="288" y="168" />
+    <entity name="dreamBlock" x="360" y="32" />
+    <entity name="spikesRight" x="440" y="24" />
+    <entity name="spikesUp" x="440" y="64" />
+    <entity name="spikesDown" x="440" y="16" />
+    <entity name="spikesLeft" x="568" y="24" />
+    <entity name="spikesUp" x="552" y="64" />
+    <entity name="spikesRight" x="520" y="64" />
+    <entity name="spikesLeft" x="552" y="64" />
+    <entity name="spikesLeft" x="560" y="80" />
+    <entity name="spikesDown" x="560" y="144" />
+    <entity name="dreamBlock" x="584" y="96" />
+    <entity name="spikesRight" x="448" y="160" />
+    <entity name="spikesDown" x="472" y="80" />
+    <entity name="spikesUp" x="600" y="128" />
+    <entity name="spikesLeft" x="616" y="64" />
+    <entity name="spikesUp" x="616" y="64" />
+    <entity name="dreamBlock" x="688" y="40" />
+    <entity name="spikesUp" x="768" y="72" />
+    <entity name="spikesUp" x="792" y="88" />
+    <entity name="spikesUp" x="456" y="120" />
+    <entity name="spikesRight" x="456" y="88" />
+    <entity name="spikesRight" x="464" y="120" />
+    <entity name="refill" x="572" y="160" />
+    <entity name="spikesDown" x="752" y="32" />
+    <entity name="spikesRight" x="752" y="40" />
+    <entity name="spikesLeft" x="864" y="40" />
+    <entity name="spikesRight" x="800" y="144" />
+    <entity name="spikesDown" x="864" y="128" />
+    <entity name="spikesUp" x="864" y="160" />
+    <entity name="spikesLeft" x="864" y="160" />
+    <entity name="hanginglamp" x="168" y="24" />
+    <entity name="hanginglamp" x="304" y="8" />
+    <entity name="hanginglamp" x="336" y="8" />
+    <entity name="hanginglamp" x="504" y="80" />
+    <entity name="hanginglamp" x="840" y="32" />
+    <entity name="foregroundDebris" x="104" y="64" />
+    <entity name="dreamBlock" x="856" y="136" />
+    <entity name="spikesRight" x="952" y="136" />
+    <entity name="dreamBlock" x="1096" y="144" />
+    <entity name="spikesUp" x="1096" y="144" />
+    <entity name="spikesRight" x="1112" y="144" />
+    <entity name="spikesRight" x="952" y="48" />
+    <entity name="spikesRight" x="952" y="160" />
+    <entity name="dreamBlock" x="1072" y="16" />
+    <entity name="spikesUp" x="1072" y="16" />
+    <entity name="spikesRight" x="1088" y="16" />
+    <entity name="spikesDown" x="1072" y="40" />
+    <entity name="dreamBlock" x="1136" y="80" />
+    <entity name="spikesUp" x="1136" y="80" />
+    <entity name="spikesDown" x="1096" y="168" />
+    <entity name="spikesLeft" x="1136" y="80" />
+    <entity name="dreamBlock" x="1288" y="24" />
+    <entity name="spikesRight" x="1392" y="24" />
+    <entity name="spikesDown" x="1248" y="16" />
+    <entity name="spikesLeft" x="1296" y="48" />
+    <entity name="spikesUp" x="1384" y="24" />
+    <entity name="refill" x="1592" y="136" />
+    <entity name="refill" x="1464" y="88" />
+    <entity name="refill" x="1612" y="64" />
+    <entity name="dreamBlock" x="1656" y="24" />
+    <entity name="spikesUp" x="1384" y="56" />
+    <entity name="spikesUp" x="1528" y="56" />
+    <entity name="spikesUp" x="1632" y="56" />
+    <entity name="spikesDown" x="1384" y="72" />
+    <entity name="spikesDown" x="1384" y="120" />
+    <entity name="spikesDown" x="1544" y="120" />
+    <entity name="spikesDown" x="1616" y="120" />
+    <entity name="spikesUp" x="1384" y="104" />
+    <entity name="spikesUp" x="1384" y="152" />
+    <entity name="spikesUp" x="1544" y="104" />
+    <entity name="spikesUp" x="1616" y="104" />
+    <entity name="spikesDown" x="1544" y="72" />
+    <entity name="spikesDown" x="1632" y="72" />
+    <entity name="spikesRight" x="1488" y="56" />
+    <entity name="spikesRight" x="1504" y="104" />
+    <entity name="spikesRight" x="1576" y="104" />
+    <entity name="spikesRight" x="1592" y="56" />
+    <entity name="spikesLeft" x="1528" y="56" />
+    <entity name="spikesLeft" x="1536" y="72" />
+    <entity name="spikesLeft" x="1616" y="104" />
+    <entity name="spikesLeft" x="1632" y="56" />
+    <entity name="spikesUp" x="1656" y="24" />
+    <entity name="spikesUp" x="1752" y="24" />
+    <entity name="spikesDown" x="1752" y="8" />
+    <entity name="spikesLeft" x="1776" y="16" />
+    <entity name="spikesRight" x="1752" y="48" />
+    <entity name="spikesLeft" x="1664" y="0" />
+    <entity name="spikesUp" x="1744" y="144" />
+    <entity name="spikesRight" x="1744" y="112" />
+    <entity name="player" x="1824" y="120" />
+    <entity name="refill" x="1528" y="136" />
+    <entity name="refill" x="1592" y="88" />
+    <entity name="refill" x="1612" y="32" />
+    <entity name="refill" x="1552" y="88" />
+    <entity name="refill" x="1224" y="144" />
+    <entity name="MaxHelpingHand/FlagTouchSwitch" x="1568" y="88" />
+    <entity name="MaxHelpingHand/FlagSwitchGate" x="1800" y="80" />
+    <entity name="spikesDown" x="1136" y="104" />
+    <entity name="spikesUp" x="1280" y="136" />
+    <entity name="refill" x="1216" y="24" />
+    <entity name="refill" x="1024" y="80" />
+    <entity name="refill" x="968" y="72" />
+    <entity name="spikesLeft" x="992" y="48" />
+    <entity name="spikesUp" x="992" y="48" />
+    <entity name="spikesRight" x="1040" y="48" />
+    <entity name="spikesRight" x="1008" y="120" />
+    <entity name="spikesRight" x="952" y="0" />
+    <entity name="touchSwitch" x="968" y="72" />
+    <entity name="touchSwitch" x="1024" y="80" />
+    <entity name="touchSwitch" x="1216" y="25" />
+    <entity name="touchSwitch" x="1224" y="143" />
+    <entity name="switchGate" x="1280" y="136" />
+    <entity name="MaxHelpingHand/FlagTouchSwitch" x="1488" y="88" />
+    <decal x="1432" y="48" texture="2-oldsite/cage_modular_midB.png" />
+    <decal x="1432" y="32" texture="2-oldsite/cage_modular_midD.png" />
+    <decal x="1400" y="80" texture="2-oldsite/cage_modular_midB.png" />
+    <decal x="1400" y="96" texture="2-oldsite/cage_modular_midB.png" />
+    <decal x="168" y="56" texture="2-oldsite/window.png" />
+    <decal x="168" y="88" texture="2-oldsite/window.png" />
+    <decal x="200" y="88" texture="2-oldsite/window.png" />
+    <decal x="200" y="56" texture="2-oldsite/window.png" />
+    <decal x="488" y="120" texture="2-oldsite/window.png" />
+    <decal x="512" y="120" texture="2-oldsite/window.png" />
+    <decal x="512" y="144" texture="2-oldsite/window.png" />
+    <decal x="488" y="144" texture="2-oldsite/window.png" />
+    <decal x="824" y="104" texture="2-oldsite/window.png" />
+    <decal x="200" y="56" texture="2-oldsite/window_boarded.png" />
+    <decal x="168" y="88" texture="2-oldsite/window_boarded.png" />
+    <decal x="512" y="120" texture="2-oldsite/window_boarded.png" />
+    <decal x="569" y="38" texture="2-oldsite/nameguy_oldsite_pillar_smallcross_alt.png" />
+    <decal x="608" y="136" texture="2-oldsite/nameguy_oldsite_pillar_bigcross.png" />
+    <decal x="30" y="128" texture="2-oldsite/chair_old.png" />
+    <decal x="350" y="44" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="292" y="44" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="511" y="52" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="466" y="52" texture="2-oldsite/barrel.png" />
+    <decal x="480" y="52" texture="2-oldsite/barrel.png" />
+    <decal x="555" y="40" texture="2-oldsite/cloth_pole00.png" />
+    <decal x="640" y="48" texture="2-oldsite/medium_cage_broken.png" />
+    <decal x="672" y="48" texture="2-oldsite/chair_broken.png" />
+    <decal x="766" y="64" texture="2-oldsite/cage_modular_bot.png" />
+    <decal x="766" y="48" texture="2-oldsite/cage_modular_midA.png" />
+    <decal x="766" y="32" texture="2-oldsite/cage_modular_midB.png" />
+    <decal x="782" y="64" texture="2-oldsite/cage_modular_midC.png" />
+    <decal x="782" y="48" texture="2-oldsite/cage_modular_midB.png" />
+    <decal x="782" y="40" texture="2-oldsite/cage_modular_top.png" />
+    <decal x="1484" y="136" texture="2-oldsite/tableA.png" />
+    <decal x="1640" y="92" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="1640" y="40" texture="2-oldsite/window_boarded.png" />
+    <decal x="976" y="16" texture="2-oldsite/window.png" />
+    <decal x="980" y="64" texture="2-oldsite/pilar_hB.png" />
+    <decal x="972" y="64" texture="2-oldsite/pilar_hA.png" />
+    <decal x="988" y="64" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="956" y="72" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="956" y="64" texture="2-oldsite/pilar_hA.png" />
+    <decal x="964" y="64" texture="2-oldsite/pilar_hA.png" />
+    <decal x="964" y="20" texture="2-oldsite/pilar_hA.png" />
+    <decal x="956" y="20" texture="2-oldsite/pilar_hA.png" />
+    <decal x="956" y="28" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="972" y="20" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="960" y="52" texture="2-oldsite/barrel.png" />
+    <decal x="960" y="8" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="1276" y="160" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1268" y="160" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1292" y="168" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="1260" y="160" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="1292" y="160" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1284" y="160" texture="2-oldsite/pilar_hB.png" />
+    <decal x="1292" y="124" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1284" y="124" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="1292" y="132" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="1284" y="88" texture="2-oldsite/pilar_hB.png" />
+    <decal x="1292" y="88" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1292" y="96" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="1276" y="88" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1268" y="88" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="1288" y="148" texture="2-oldsite/barrel.png" />
+    <decal x="1288" y="76" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="1272" y="148" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="1280" y="40" texture="2-oldsite/window_boarded.png" />
+    <decal x="1464" y="92" texture="2-oldsite/door.png" />
+    <decal x="1408" y="44" texture="2-oldsite/door.png" />
+    <decal x="1648" y="140" texture="2-oldsite/door.png" />
+    <decal x="1568" y="88" texture="2-oldsite/window_boarded.png" />
+    <decal x="1456" y="136" texture="2-oldsite/window.png" />
+    <decal x="1576" y="40" texture="2-oldsite/window.png" />
+    <decal x="1460" y="44" texture="2-oldsite/barrel.png" />
+    <decal x="1476" y="44" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="1400" y="44" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="1420" y="136" texture="2-oldsite/medium_cage_broken.png" />
+    <decal x="1496" y="148" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1496" y="124" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1496" y="132" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1496" y="140" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1480" y="92" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1480" y="84" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1480" y="76" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1480" y="100" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1440" y="140" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1440" y="132" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1440" y="124" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1440" y="148" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1424" y="92" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1424" y="84" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1424" y="76" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1424" y="100" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1560" y="92" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1560" y="84" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1560" y="76" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1560" y="100" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1572" y="140" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1572" y="132" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1572" y="124" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1572" y="148" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1548" y="148" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1548" y="124" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1548" y="132" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1548" y="140" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1632" y="148" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1632" y="124" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1632" y="132" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1632" y="140" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1640" y="100" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1640" y="76" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1640" y="84" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1640" y="92" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1544" y="44" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1544" y="52" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1544" y="36" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="1544" y="28" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="1640" y="52" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1640" y="44" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1640" y="36" texture="2-oldsite/pilar_vertical_endA.png" />
+    <decal x="1656" y="92" texture="2-oldsite/barrel.png" />
+    <decal x="1656" y="76" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="1520" y="136" texture="2-oldsite/chair_broken.png" />
+    <decal x="1528" y="32" texture="2-oldsite/cloth_pole00.png" />
+    <decal x="1392" y="92" texture="2-oldsite/barrel.png" />
+    <decal x="1408" y="92" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="1600" y="140" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="1656" y="136" texture="2-oldsite/chair.png" />
+    <decal x="1556" y="44" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="1776" y="112" texture="2-oldsite/window.png" />
+    <decal x="1756" y="12" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="1772" y="12" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="1756" y="60" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1764" y="60" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1772" y="60" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1756" y="80" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1772" y="80" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1764" y="80" texture="2-oldsite/pilar_hC.png" />
+    <decal x="1768" y="68" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="1760" y="48" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="1784" y="128" texture="2-oldsite/tableB.png" />
+    <decal x="1760" y="128" texture="2-oldsite/chair_broken.png" />
+    <decal x="1824" y="104" texture="2-oldsite/tableB.png" />
+    <decal x="1824" y="96" texture="2-oldsite/window_boarded.png" />
+  </level>
+  <level id="b-01" width="968" height="456" xoffset="2920" yoffset="-576">
+    <tiles tileset="solids" offsetX="0" offsetY="0">
+  5555555555555555555555555555555555555555000000000000000000000000000000000000000000000000000000000000000000000000000000555
+  5555555555555555555555555555555555555555000000000000000000000000000000000000000000000000000000000000000000000000000000555
+  5555555555555555555555555555555555555555000000000000000000000000000000000000000000000000000000000000000000000000000000555
+  5555555555555555555555555555555555555555000000000000000000000000000000000000000000000000000000000000000000000000000000555
+  5555555555555555555555555555555555555555000000000000000000000000000000000000000000000000000000000000000000000000000000055
+  5555555555555555555555555555555555555555000000000000000000000000000000000000000000000000000000000000000000000000000000055
+  5555555555555555555555000005555555555555000000000000000000000000000000000000000000000000000000000000000000000000000000055
+  5555555555555555555555000000000055555555000000000000000000000000000000000000000000000000000000000000000000000000000000055
+  5555555555555555555550000000000000000000000000000000000000000000005500000000000000000000000000000000055550000055555555555
+  5555555555555555555550000000000000000000000000000000000000000000005000000000000000000000000000000000055550000055555555555
+  5555555555555555555550000000000000000000000000000000000000000000000000000000000000000000000000000000055550000055555555555
+  5555555555555555555550000000000000000000000000000000000000000000000000000000000000000000000000000005555550000055555555555
+  5555555555555555555555000000000055555555000000000000000000000000000000000000000000000000000000000005555500000055555555555
+  5555555555555555555555000000000055555555000000000000000000000000000000000000500000000000000000000005555500000055555555555
+  5555555555555555555550000000000055555555000000000000000000000000000000000000500000000000000000000005555500000555555555555
+  5555005555555555555550000000000055555555000000000000000000000000000000000000500000000000000000000555555500000555555555555
+  5555000005555555555550000000000055555555000000000000000000000000000000000000500000000000000000000555555500000555555555555
+  5555000000000005555550000000000055555555000000000000000000000000000000000000500000000000000000000555555500000555555555555
+  5550000000000005555550005550000055555555000000000000000000000000050005550055500000000000000000000555555000000555555555555
+  5550000000000005555550005555555555555555000000000000000000000000050005000000500000000000000000000555555000000555555555555
+  5550000000000000555555005555555555555555000000000000000000000000050005000000500000000000000000000555555000005555555555555
+  5550000000000000555555005555555555555555555555555555000000000000050005000000000000000000000000000555555000005555555555555
+  5550000000000000555555005555555555555555555555555555000000000000050005000000000000000000000000000555555000005555555555555
+  5550000000000000555555005555555555555555555555555500000000000000000000000000000000000000000000000555555000005555555555555
+  5550000000000000000000005555555555555555555555555500000000000000000000000000000000000000000000000555550000005555555555555
+  5550000000000000000000005555555555555555555555555500000000000000000000000000000000000000000000000555550000005555555555555
+  5500000000000000000000005555555555555555555555555500000000000000000000000000000000000000000000000555550000055555555555555
+  5500000000000000000000005555555555555555555555555500000000000000000000000000000000000000000000000555550000055555555555555
+  5500000000000000555555005555555555555555555555555500000000000000000000000000000000000000000000000555550000055555555555555
+  5500000000000000555555555555555555000555555555555500000000000000000000000000000000000000000000000555550000055555555555555
+  5500000000000000555555555555500000000555555555555500000000000000000000000000000000000000000000000555550000055555555555555
+  5500000000000000555555500000000000000555555555555500000000000000000000000000000000000000000000000555500000055555555555555
+  5500000000000005555555500000000000000555555555555500000000000000000000000000000000000000000000000555500000055555555555555
+  5550000000000005555555500000000000000555555555555555555555555555555555555555555555555555555555555555500000055555555555555
+  5555555555000000555555500000000000000555555555555555555555555555555555555555555555555555555555555555000000555555555555555
+  5555555555555000000000000000000000000555555555555555555555555555555555555555555555555555555555555555000000555555555555555
+  5555555555555000000000000000000000000555555555555555555555555555555555555555555555555555555555555555000000555555555555555
+  5555555555555000000000000000000000000555555555555555555555555555555555555555555555555555555555555550000005555555555555555
+  5555555555555000000000000000000000000555555555555555555555555555555555555555555555555555555555555550000005555555555555555
+  5555555555555000555555000000000000000555555555555555555555555555555555555555555555555555555555555550000005555555555555555
+  5555555555555555555555000000000000000555555555555555555555555555555555555555555555555555555555555500000055555555555555555
+  5555000055555555555555000000000000000555555555555555555555555555555555555555555555555555555555555500000055555555555555555
+  5500000055555555555555000000000000000555555555555555555555555555555555555555555555555555555555555500000055555555555555555
+  5500000000000000555555500000000000000555555555555555555555555555555555555555555555555555555555555000000555555555555555555
+  5500000000000000555555500000000555555555555555555555555555555555555555555555555555555555555555555000000555555555555555555
+  5500000000000000555555000055555555555555555555555555555555555555555555555555555555555555555555555000000555555555555555555
+  5500000000000000000000000055555555555555555555555555555555555555555555555555555555555555555555550000005555555555555555555
+  5500000000000000000000000055555555555555555555555555555555555555555555555555555555555555555555550000005555555555555555555
+  000000000000000000000000005555555555555555555555555555555555555555555555555555555555555555555555
+  000000000000000000000000005555555555555555555555555555555555555555555555555555555555555555555555
+  000000000000000055555500000555555555555555555555555555555555555555555555555555555555555555555555
+  000000055550000055555500000555555555555555555555555555555555555555555555555555555555555555555555
+  0000000555500000555555000005555555555555555555555555555555555555555555555555555555555555555555550000005555555555555555555
+  5555555555500000555555000005555555555555555555555555555555555555555555555555555555555555555555550000005555555555555555555
+  5555555555500000555555000000555555555555555555555555555555555555555555555555555555555555555555550000005555555555555555555
+  5555555555500000555555000000555555555555555555555555555555555555555555555555555555555555555555550000005555555555555555555
+  5555555555500000555555000000555555555555555555555555555555555555555555555555555555555555555555550000005555555555555555555
+    </tiles>
+    <tiles tileset="bg" offsetX="0" offsetY="0">
+  00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000333
+  00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000333
+  00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000033333
+  000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000333333
+  000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000333333
+  000000000000000000000333333333333000000000000000000000000000000000000000000000000000000000000000000000000000000000333333
+  000000000000000000000333333333333000000000000000000000000000000000000000000000000000000000000000000000000000000003333333
+  000000000000000000000003333333333333333300000000000000000000000000000000000000000000000000000000000000000000000003333333
+  000000000000000000000000333333333333333300000000000000000000000000033000000000000000000000000000000000000000000003333333
+  0000000000000000000000003333333333333333000000000000000000000000003333
+  0000000000000000000033333300003333333333000000000000000000000000003333
+  0000000000000000000033333000003333333333000000000000000000000000003333
+  00000000000000000000333330030033333333330000000000000000000000000033330000333333333
+  00000000000000000000333333330033333333330000000000000000000000000033330033333333333333300033333
+  0033333000000000000033333333033330000000000000000000000000000000003333333333333333333333333333333333300333
+  0003333333000000000033333333333330000000000000000000000000000000003333330033333333333333333333333333300333
+  00030003333333330000333333333333300000000000000000000000000000333333333300333333333003333333333003333003333
+  00330003333333330000333333333333300000000000000000000000000000333333333333333333333003333333333003333033333
+  003300033333333300033333333333333000033333333000000000033333333333333333333333333333333330033333333330333333
+  00333033333333333000333330333333300003333333330000000333333333333333333333333333333333333003333333333033333333
+  00333003333333333000333330000000000003333333333333333333333333333333333333333333333333333000000003333033333333
+  0033000000330033300033333000000000000333333333333333333333333333333333330003333333333333300000000033303333333
+  0033300003330033300033333000000000000333333333333333333333333333333333000000000000003333300000000033303333333
+  0033300000333333333333333000000000000333333333333333333333333333333300000000000000000000000000000033333333333
+  0033300000033333333333333000000000000000003333333333333333000033300000000000000000000000000000000033333333333
+  0333000003333333333333333000000000000000000003333333333000000000000000000000000000000000000000000033333333333
+  0333300003333333333333333000000000000000000000333333000000000000000000000000000000000000000000000003333333333
+  0333330000033333333333333000000333333330000000333333000000000000000000000000000000000000000000000003333333333333333333333
+  0333330000333333333333333000033333333330000000333333000000000000000000000000000000000000000000000003333333333333333333333
+  0333000033330033300003333333333333333330000000333330000000000000000000000000000000000000000000000000033333333333333333333
+  0333000333330033300000333333333333333330000000333330000000000000000000000000000000000000000000000000333333333333333333333
+  0330000000333333300333333333333333333330000000333300000000000000000000000000000000000000000000000000333003333333333333333
+  0333000003333333300333333333330033333330000000333300000000000000000000000000000000000000000000000000333003333333333333333
+  0333300333333333300333333333330033333330000000333300000000000000000000000000000000000000000000003333333333333333333333333
+  3333333333333333333333333333000003333330000000333300000000000000000000000000000000000000033333333333333333333333333333333
+  0000000003333333333333333333000003333330000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  0000000000003333333333333330000033333330000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  0000000000003333333333333330000333333330000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  0000000000003333333333333300000333333330000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  0000000000003333333333333000000003333330000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  0003332000003333300333333300000033333330000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  0333330000000000000333333300000033333330000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  0333333000000003333333333000000033333300000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  0333333000000003333333333300030033333300000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  0333333330000033333333333303333333333300000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  0333333330000033333333333333333333333300000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  3333333333300333333333333333333333333000000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  3333333333333333333333330033333333000000000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  3333333333333333333333330033333300000000000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  3330033333333333333333333333333300000000000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  3330033333333333333333333333333300000000000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  3333333333333333300000333333333000000000000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  3333333300333333300000333333333000000000000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  3333333300333333300003303330003000000000000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  0000000000333333300002000300003000000000000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  0000000000333333300002000000003000000000000000000000000000000000000000000000000000000000033333333333333333333333333333333
+  0000000000333333300002000000003000000000000000000000000000000000000000000000000000000000033333333333333333333333333333333
+    </tiles>
+    <entity name="dreamBlock" x="128" y="368" />
+    <entity name="spikesRight" x="176" y="360" />
+    <entity name="player" x="72" y="408" />
+    <entity name="spikesUp" x="176" y="344" />
+    <entity name="spikesRight" x="176" y="312" />
+    <entity name="refill" x="220" y="296" />
+    <entity name="spikesUp" x="208" y="360" />
+    <entity name="spikesUp" x="248" y="352" />
+    <entity name="spikesLeft" x="296" y="240" />
+    <entity name="spikesLeft" x="208" y="360" />
+    <entity name="spikesLeft" x="216" y="400" />
+    <entity name="spikesLeft" x="224" y="432" />
+    <entity name="dreamBlock" x="128" y="280" />
+    <entity name="spikesDown" x="272" y="232" />
+    <entity name="spikesDown" x="232" y="240" />
+    <entity name="spikesDown" x="184" y="248" />
+    <entity name="spikesRight" x="184" y="256" />
+    <entity name="spikesLeft" x="128" y="272" />
+    <entity name="spikesUp" x="104" y="320" />
+    <entity name="spikesUp" x="120" y="256" />
+    <entity name="spikesRight" x="104" y="280" />
+    <entity name="spikesUp" x="80" y="280" />
+    <entity name="spikesUp" x="24" y="272" />
+    <entity name="spikesUp" x="16" y="264" />
+    <entity name="dreamBlock" x="112" y="192" />
+    <entity name="spikesUp" x="168" y="160" />
+    <entity name="spikesRight" x="16" y="208" />
+    <entity name="spikesRight" x="24" y="144" />
+    <entity name="spikesRight" x="32" y="128" />
+    <entity name="spikesDown" x="32" y="120" />
+    <entity name="spikesDown" x="48" y="128" />
+    <entity name="spikesDown" x="72" y="136" />
+    <entity name="spikesLeft" x="120" y="144" />
+    <entity name="spikesLeft" x="128" y="160" />
+    <entity name="spikesLeft" x="128" y="224" />
+    <entity name="refill" x="84" y="208" />
+    <entity name="spikesRight" x="168" y="112" />
+    <entity name="spikesUp" x="168" y="96" />
+    <entity name="spikesRight" x="168" y="64" />
+    <entity name="spikesUp" x="216" y="152" />
+    <entity name="spikesUp" x="192" y="144" />
+    <entity name="spikesLeft" x="192" y="144" />
+    <entity name="spikesUp" x="176" y="232" />
+    <entity name="hanginglamp" x="44" y="328" />
+    <entity name="hanginglamp" x="208" y="248" />
+    <entity name="hanginglamp" x="56" y="128" />
+    <entity name="spikesUp" x="184" y="280" />
+    <entity name="spikesUp" x="112" y="192" />
+    <entity name="triggerSpikesOriginalLeft" x="128" y="368" />
+    <entity name="triggerSpikesOriginalRight" x="192" y="280" />
+    <entity name="triggerSpikesOriginalLeft" x="112" y="192" />
+    <entity name="triggerSpikesOriginalRight" x="176" y="192" />
+    <entity name="spikesRight" x="176" y="48" />
+    <entity name="spikesDown" x="216" y="56" />
+    <entity name="dreamBlock" x="256" y="64" />
+    <entity name="spikesRight" x="320" y="-40" />
+    <entity name="triggerSpikesOriginalLeft" x="256" y="64" />
+    <entity name="refill" x="212" y="72" />
+    <entity name="dreamBlock" x="528" y="144" />
+    <entity name="spikesUp" x="520" y="144" />
+    <entity name="spikesLeft" x="520" y="144" />
+    <entity name="dreamBlock" x="616" y="104" />
+    <entity name="spikesLeft" x="608" y="104" />
+    <entity name="spikesUp" x="608" y="104" />
+    <entity name="spikesRight" x="640" y="104" />
+    <entity name="spikesUp" x="712" y="56" />
+    <entity name="spikesDown" x="672" y="80" />
+    <entity name="spikesRight" x="768" y="56" />
+    <entity name="spikesUp" x="808" y="64" />
+    <entity name="spikesUp" x="880" y="64" />
+    <entity name="dreamBlock" x="824" y="384" />
+    <entity name="spikesLeft" x="880" y="64" />
+    <entity name="spikesRight" x="840" y="64" />
+    <entity name="spikesLeft" x="872" y="112" />
+    <entity name="spikesLeft" x="864" y="160" />
+    <entity name="spikesLeft" x="856" y="208" />
+    <entity name="spikesRight" x="832" y="96" />
+    <entity name="spikesRight" x="824" y="144" />
+    <entity name="spikesRight" x="816" y="192" />
+    <entity name="spikesRight" x="808" y="248" />
+    <entity name="spikesUp" x="872" y="112" />
+    <entity name="spikesUp" x="864" y="160" />
+    <entity name="spikesUp" x="856" y="208" />
+    <entity name="spikesUp" x="792" y="88" />
+    <entity name="spikesUp" x="592" y="144" />
+    <entity name="spikesLeft" x="808" y="64" />
+    <entity name="spikesLeft" x="792" y="88" />
+    <entity name="spikesLeft" x="944" y="0" />
+    <entity name="player" x="928" y="416" />
+    <entity name="hanginglamp" x="552" y="184" />
+    <entity name="spikesUp" x="744" y="56" />
+    <entity name="spikesUp" x="672" y="56" />
+    <entity name="refill" x="456" y="168" />
+    <entity name="refill" x="600" y="72" />
+    <entity name="refill" x="624" y="176" />
+    <entity name="dreamBlock" x="672" y="56" />
+    <entity name="spikesUp" x="400" y="264" />
+    <entity name="spikesRight" x="800" y="272" />
+    <entity name="spikesRight" x="792" y="296" />
+    <entity name="spikesRight" x="784" y="320" />
+    <entity name="spikesRight" x="776" y="344" />
+    <entity name="spikesRight" x="768" y="368" />
+    <entity name="spikesLeft" x="848" y="272" />
+    <entity name="spikesLeft" x="840" y="296" />
+    <entity name="spikesLeft" x="832" y="320" />
+    <entity name="spikesLeft" x="824" y="344" />
+    <entity name="spikesLeft" x="816" y="368" />
+    <entity name="spikesLeft" x="816" y="416" />
+    <entity name="spikesUp" x="816" y="416" />
+    <entity name="spikesDown" x="816" y="384" />
+    <entity name="spikesLeft" x="776" y="120" />
+    <entity name="spikesUp" x="528" y="64" />
+    <entity name="spikesLeft" x="528" y="64" />
+    <entity name="spikesRight" x="400" y="184" />
+    <entity name="spikesRight" x="416" y="168" />
+    <entity name="spikesUp" x="320" y="168" />
+    <entity name="spikesUp" x="776" y="120" />
+    <entity name="MaggyHelper/CharaChaser" x="88" y="344" />
+    <entity name="MaggyHelper/CharaChaser" x="112" y="344" />
+    <entity name="MaggyHelper/CharaChaser" x="104" y="344" />
+    <entity name="MaggyHelper/CharaChaser" x="80" y="344" />
+    <entity name="MaggyHelper/CharaChaser" x="96" y="344" />
+    <entity name="MaggyHelper/CharaChaser" x="88" y="344" />
+    <entity name="MaggyHelper/CharaChaser" x="72" y="344" />
+    <entity name="checkpoint" x="48" y="384" />
+    <decal x="32" y="400" texture="2-oldsite/window_boarded.png" />
+    <decal x="200" y="384" texture="2-oldsite/window.png" />
+    <decal x="104" y="240" texture="2-oldsite/window_boarded.png" />
+    <decal x="104" y="176" texture="2-oldsite/window.png" />
+    <decal x="72" y="396" texture="2-oldsite/door.png" />
+    <decal x="88" y="448" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="92" y="444" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="96" y="440" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="100" y="436" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="104" y="432" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="108" y="428" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="112" y="424" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="116" y="420" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="120" y="416" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="124" y="412" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="128" y="408" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="61" y="339" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="57" y="335" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="53" y="331" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="264" y="243" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="268" y="247" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="272" y="251" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="276" y="255" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="280" y="259" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="284" y="263" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="288" y="267" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="292" y="271" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="104" y="280" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="108" y="276" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="112" y="272" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="116" y="268" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="120" y="264" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="176" y="104" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="180" y="108" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="184" y="112" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="188" y="116" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="192" y="120" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="196" y="124" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="200" y="128" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="204" y="132" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="208" y="136" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="212" y="140" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="216" y="144" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="220" y="148" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="224" y="152" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="272" y="336" texture="2-oldsite/medium_cage_broken.png" />
+    <decal x="48" y="256" texture="2-oldsite/medium_cage.png" />
+    <decal x="16" y="408" texture="2-oldsite/chair_old.png" />
+    <decal x="40" y="408" texture="2-oldsite/chair_broken.png" />
+    <decal x="248" y="272" texture="2-oldsite/chained_cage.png" />
+    <decal x="96" y="360" texture="2-oldsite/chained_cage.png" />
+    <decal x="237" y="140" texture="2-oldsite/barrel.png" />
+    <decal x="239" y="124" texture="2-oldsite/barrel.png" />
+    <decal x="198" y="132" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="91" y="268" texture="2-oldsite/barrel.png" />
+    <decal x="89" y="252" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="235" y="356" texture="2-oldsite/barrel.png" />
+    <decal x="233" y="340" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="128" y="440" texture="2-oldsite/pilar_hA.png" />
+    <decal x="120" y="440" texture="2-oldsite/pilar_hB.png" />
+    <decal x="112" y="440" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="16" y="352" texture="2-oldsite/pilar_hB.png" />
+    <decal x="24" y="352" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="176" y="416" texture="2-oldsite/pilar_hA.png" />
+    <decal x="184" y="416" texture="2-oldsite/pilar_hB.png" />
+    <decal x="192" y="416" texture="2-oldsite/pilar_hC.png" />
+    <decal x="200" y="416" texture="2-oldsite/pilar_hA.png" />
+    <decal x="208" y="416" texture="2-oldsite/pilar_hB.png" />
+    <decal x="216" y="416" texture="2-oldsite/pilar_hA.png" />
+    <decal x="224" y="416" texture="2-oldsite/pilar_hC.png" />
+    <decal x="232" y="416" texture="2-oldsite/pilar_hA.png" />
+    <decal x="296" y="304" texture="2-oldsite/pilar_hA.png" />
+    <decal x="288" y="304" texture="2-oldsite/pilar_hA.png" />
+    <decal x="280" y="304" texture="2-oldsite/pilar_hC.png" />
+    <decal x="272" y="304" texture="2-oldsite/pilar_hB.png" />
+    <decal x="264" y="304" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="176" y="328" texture="2-oldsite/pilar_hA.png" />
+    <decal x="184" y="328" texture="2-oldsite/pilar_hA.png" />
+    <decal x="192" y="328" texture="2-oldsite/pilar_hA.png" />
+    <decal x="200" y="328" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="81" y="140" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="81" y="148" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="81" y="156" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="81" y="164" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="81" y="172" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="16" y="223" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="20" y="219" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="24" y="215" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="28" y="211" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="32" y="207" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="36" y="203" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="41" y="196" texture="2-oldsite/pilar_instersection_small.png" />
+    <decal x="45" y="204" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="45" y="212" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="45" y="188" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="45" y="180" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="45" y="172" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="45" y="164" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="45" y="156" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="45" y="148" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="45" y="140" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="45" y="132" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="44" y="124" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="120" y="152" texture="2-oldsite/pilar_hA.png" />
+    <decal x="112" y="152" texture="2-oldsite/pilar_hA.png" />
+    <decal x="104" y="152" texture="2-oldsite/pilar_hB.png" />
+    <decal x="96" y="152" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="16" y="232" texture="2-oldsite/pilar_hA.png" />
+    <decal x="24" y="232" texture="2-oldsite/pilar_hA.png" />
+    <decal x="32" y="232" texture="2-oldsite/pilar_hA.png" />
+    <decal x="40" y="232" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="179" y="227" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="183" y="223" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="187" y="219" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="191" y="215" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="174" y="169" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="178" y="173" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="182" y="177" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="186" y="181" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="190" y="185" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="168" y="192" texture="2-oldsite/pilar_hA.png" />
+    <decal x="176" y="192" texture="2-oldsite/pilar_hA.png" />
+    <decal x="184" y="192" texture="2-oldsite/pilar_hA.png" />
+    <decal x="192" y="192" texture="2-oldsite/pilar_hA.png" />
+    <decal x="168" y="72" texture="2-oldsite/pilar_hA.png" />
+    <decal x="176" y="72" texture="2-oldsite/pilar_hA.png" />
+    <decal x="184" y="72" texture="2-oldsite/pilar_hC.png" />
+    <decal x="192" y="72" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="672" y="136" texture="2-oldsite/window_boarded.png" />
+    <decal x="584" y="128" texture="2-oldsite/window.png" />
+    <decal x="768" y="136" texture="2-oldsite/window.png" />
+    <decal x="940" y="52" texture="2-oldsite/door.png" />
+    <decal x="612" y="172" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="524" y="188" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="524" y="196" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="524" y="212" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="612" y="180" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="612" y="196" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="612" y="204" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="612" y="220" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="612" y="188" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="612" y="212" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="524" y="204" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="524" y="228" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="612" y="228" texture="2-oldsite/pilar_vertical_endA.png" />
+    <decal x="520" y="220" texture="2-oldsite/pilar_instersection_small.png" />
+    <decal x="492" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="500" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="516" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="524" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="532" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="540" y="212" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="508" y="212" texture="2-oldsite/pilar_hC.png" />
+    <decal x="580" y="144" texture="2-oldsite/pilar_hA.png" />
+    <decal x="588" y="144" texture="2-oldsite/pilar_hA.png" />
+    <decal x="492" y="168" texture="2-oldsite/pilar_hA.png" />
+    <decal x="500" y="168" texture="2-oldsite/pilar_hA.png" />
+    <decal x="508" y="168" texture="2-oldsite/pilar_hA.png" />
+    <decal x="516" y="168" texture="2-oldsite/pilar_hA.png" />
+    <decal x="516" y="176" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="496" y="156" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="512" y="156" texture="2-oldsite/barrel.png" />
+    <decal x="508" y="140" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="524" y="132" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="540" y="132" texture="2-oldsite/barrel.png" />
+    <decal x="572" y="132" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="588" y="132" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="552" y="140" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="552" y="132" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="552" y="124" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="552" y="108" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="552" y="100" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="552" y="116" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="612" y="100" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="612" y="84" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="612" y="76" texture="2-oldsite/pilar_vertical_endA.png" />
+    <decal x="612" y="92" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="564" y="156" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="604" y="156" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="572" y="160" texture="2-oldsite/chain_mid.png" />
+    <decal x="572" y="176" texture="2-oldsite/chain_mid.png" />
+    <decal x="572" y="192" texture="2-oldsite/chain_broken.png" />
+    <decal x="880" y="40" texture="2-oldsite/cloth_pole00.png" />
+    <decal x="908" y="48" texture="2-oldsite/chair_broken.png" />
+    <decal x="836" y="116" texture="2-oldsite/pilar_hA.png" />
+    <decal x="868" y="116" texture="2-oldsite/pilar_hA.png" />
+    <decal x="860" y="116" texture="2-oldsite/pilar_hC.png" />
+    <decal x="852" y="132" texture="2-oldsite/pilar_hC.png" />
+    <decal x="868" y="132" texture="2-oldsite/pilar_hA.png" />
+    <decal x="860" y="132" texture="2-oldsite/pilar_hA.png" />
+    <decal x="836" y="132" texture="2-oldsite/pilar_hA.png" />
+    <decal x="836" y="164" texture="2-oldsite/pilar_hC.png" />
+    <decal x="860" y="164" texture="2-oldsite/pilar_hA.png" />
+    <decal x="852" y="164" texture="2-oldsite/pilar_hA.png" />
+    <decal x="828" y="164" texture="2-oldsite/pilar_hA.png" />
+    <decal x="836" y="180" texture="2-oldsite/pilar_hC.png" />
+    <decal x="860" y="180" texture="2-oldsite/pilar_hA.png" />
+    <decal x="828" y="180" texture="2-oldsite/pilar_hA.png" />
+    <decal x="820" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="836" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="852" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="844" y="212" texture="2-oldsite/pilar_hC.png" />
+    <decal x="836" y="124" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="836" y="140" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="828" y="172" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="828" y="188" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="820" y="220" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="852" y="220" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="860" y="188" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="860" y="172" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="868" y="140" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="868" y="124" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="876" y="76" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="876" y="92" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="844" y="92" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="844" y="76" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="844" y="84" texture="2-oldsite/pilar_hA.png" />
+    <decal x="876" y="84" texture="2-oldsite/pilar_hA.png" />
+    <decal x="852" y="68" texture="2-oldsite/pilar_hC.png" />
+    <decal x="876" y="68" texture="2-oldsite/pilar_hA.png" />
+    <decal x="868" y="68" texture="2-oldsite/pilar_hA.png" />
+    <decal x="860" y="68" texture="2-oldsite/pilar_hA.png" />
+    <decal x="844" y="68" texture="2-oldsite/pilar_hA.png" />
+    <decal x="852" y="84" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="868" y="84" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="844" y="164" texture="2-oldsite/pilar_hB.png" />
+    <decal x="844" y="116" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="852" y="116" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="844" y="132" texture="2-oldsite/pilar_hB.png" />
+    <decal x="844" y="180" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="852" y="180" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="828" y="212" texture="2-oldsite/pilar_hB.png" />
+    <decal x="772" y="176" texture="2-oldsite/pilar_hA.png" />
+    <decal x="764" y="176" texture="2-oldsite/pilar_hA.png" />
+    <decal x="756" y="176" texture="2-oldsite/pilar_hB.png" />
+    <decal x="772" y="184" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="748" y="176" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="764" y="200" texture="2-oldsite/pilar_hA.png" />
+    <decal x="756" y="200" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="772" y="208" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="772" y="200" texture="2-oldsite/pilar_hB.png" />
+    <decal x="596" y="160" texture="2-oldsite/chain_mid.png" />
+    <decal x="596" y="176" texture="2-oldsite/chain_broken.png" />
+    <decal x="720" y="128" texture="2-oldsite/chained_cage.png" />
+    <decal x="812" y="60" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="836" y="60" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="812" y="52" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="836" y="52" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="836" y="36" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="836" y="44" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="812" y="44" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="836" y="28" texture="2-oldsite/pilar_vertical_endA.png" />
+    <decal x="924" y="60" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="924" y="52" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="924" y="36" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="924" y="28" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="924" y="44" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="620" y="148" texture="2-oldsite/pilar_hA.png" />
+    <decal x="620" y="156" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="628" y="148" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="836" y="220" texture="2-oldsite/pilar_instersection_smallB.png" />
+    <decal x="836" y="228" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="836" y="236" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="832" y="256" texture="2-oldsite/window_boarded.png" />
+    <decal x="836" y="244" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="836" y="252" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="836" y="260" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="468" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="476" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="484" y="212" texture="2-oldsite/pilar_hC.png" />
+    <decal x="452" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="460" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="428" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="436" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="444" y="212" texture="2-oldsite/pilar_hC.png" />
+    <decal x="412" y="212" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="412" y="228" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="416" y="220" texture="2-oldsite/pilar_instersection_small.png" />
+    <decal x="420" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="412" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="404" y="212" texture="2-oldsite/pilar_hA.png" />
+    <decal x="395" y="212" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="413" y="188" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="413" y="196" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="413" y="204" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="804" y="276" texture="2-oldsite/pilar_hA.png" />
+    <decal x="844" y="276" texture="2-oldsite/pilar_hA.png" />
+    <decal x="836" y="276" texture="2-oldsite/pilar_hC.png" />
+    <decal x="828" y="292" texture="2-oldsite/pilar_hC.png" />
+    <decal x="844" y="292" texture="2-oldsite/pilar_hA.png" />
+    <decal x="836" y="292" texture="2-oldsite/pilar_hA.png" />
+    <decal x="804" y="292" texture="2-oldsite/pilar_hA.png" />
+    <decal x="788" y="332" texture="2-oldsite/pilar_hC.png" />
+    <decal x="828" y="332" texture="2-oldsite/pilar_hA.png" />
+    <decal x="820" y="332" texture="2-oldsite/pilar_hA.png" />
+    <decal x="780" y="332" texture="2-oldsite/pilar_hA.png" />
+    <decal x="788" y="356" texture="2-oldsite/pilar_hC.png" />
+    <decal x="820" y="356" texture="2-oldsite/pilar_hA.png" />
+    <decal x="780" y="356" texture="2-oldsite/pilar_hA.png" />
+    <decal x="804" y="284" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="804" y="300" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="780" y="340" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="780" y="364" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="820" y="364" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="828" y="340" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="844" y="300" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="844" y="284" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="796" y="332" texture="2-oldsite/pilar_hB.png" />
+    <decal x="812" y="276" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="828" y="276" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="812" y="292" texture="2-oldsite/pilar_hB.png" />
+    <decal x="796" y="356" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="812" y="356" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="820" y="292" texture="2-oldsite/pilar_hC.png" />
+    <decal x="804" y="332" texture="2-oldsite/pilar_hA.png" />
+    <decal x="812" y="332" texture="2-oldsite/pilar_hA.png" />
+  </level>
+  <level id="b-02" width="320" height="584" xoffset="3888" yoffset="-712">
+    <tiles tileset="solids" offsetX="0" offsetY="0">
+  5555555555555550005555555555555555555555
+  5555555555550000005555555555555555555555
+  055555555555000000555555555555555555555
+  055555555555000000555555555555555555555
+  00555555555550000005555555555555555555
+  0055555555555000000555555555555555555
+  000555555555500000055555555555555555
+  000555555555500000555555555555555555
+  00005555555550000055555555555555555
+  00005555555550000055555555555555555
+  00005555555550000055555555555555555
+  0000055555555000055555000000055555
+  0000055555000000055555000000055555
+  0000055555000000000000000000055555
+  0000055555000000000000000000055555
+  0000055555000000000000000000055555
+  0000055555000000000000000000055555
+  0000055555000000000055000000055555
+  0000055555000000000055000000055555
+  0000055555000000005555000000055555
+  0000055555000000555555000000055555
+  0000055555000000555555500000055555
+  0000055555500000055555500000555555
+  0000055555500000055555000000555555
+  0000055555500000000000000000555555
+  0000055555500000000000000000555555
+  0000055555500000000000000000555555
+  0000055555500000000000000000555555
+  0000055555500000055000000000555555
+  0000055555500000055000000005555555
+  0000055555500000055550000005555555
+  0000055555500000055555500005555555
+  0000055555500000555555500005555555
+  0000055555500000555555000005555555
+  0000055555500000055555000005555555
+  0000055555500000000000000000555555
+  000005555550000000000000000055555
+  000000555550000000000000000055555
+  000000555500000000055000000055555
+  000000555500000000055000000055555
+  000000555500000005555000000055555
+  000005555500000555555000000055555
+  0000055555000005555555000000555555
+  0000055550000000555555000000555555
+  0000055550000000555550000000555555
+  0000055550000000000000000000055555
+  00000055500000000000000000000555555
+  00000055500000000000000000000555555
+  00000055500000000555500000000555555
+  00000055500000000555555550000555555
+  00000055500000000555555550000055555
+  00000555500000000555555550000055555
+  000005550000000555555555000000555555
+  000005550000000555555555000000555555
+  000055550000000055555555000000055555
+  0000555500000000000000000000000555555005
+  5550555500000000000000000000000555555555
+  5555555500000000000000000000000555555555
+  5555555500000000555550000000000555555555
+  5555555500000000555550000000000555555555
+  5500005000000055555550000000000055555555
+  5500005000000055555550000000000055555555
+  5500005000000055555555000000000055555555
+  5500000000055555555555000000000055555555
+  0000000000055555555550000000000055555555
+  0000000000000000000000000000000055555555
+  0000000000000000000000000000000055555555
+  0000000000000000000000000000000005555555
+  0000000000000055555500000000000005555555
+  5555555000000055555500000000000005555555
+  5555555000000055555000000000000005555555
+  5555550000000055555000000000000005555555
+  5555550000000005555000000000000005555555
+    </tiles>
+    <tiles tileset="bg" offsetX="0" offsetY="0">
+  000000000003333333333333333333
+  000000000003333333333333333333
+  000000000003333333333333333333
+  000000000003333333333333333333
+  000000000003333333333333333333
+  000000000003333333333333333333
+  000000000003333333333333333333
+  000000000003333333333333333333
+  000000000003333333333333333333
+  000000000003333333333333333333
+  00000000000333333333333333333333
+  00000000000333333333333333333333
+  00000000000333333333000333330333
+  00000000033333333333003333330333
+  00000000033333333333003333333333
+  00000000033333333333003333333333
+  00000000333333333333333333333333
+  00000000333333333333333333333333
+  000000003333333333333333333333
+  000000003333330003333330033333
+  000000003333330003333330003333
+  000000000030330003333330003333
+  000000000033333333333333333333
+  000000000033333333033333333333
+  000000000003333333033333333333
+  000000000003333303033333333333
+  000000000022003300033333333333
+  000000000000000000033333333333
+  000000000000000000003333333333
+  000000000000000000003333333333
+  003333330000300000003333333333
+  00333333003333000330333333333300333
+  03333333033333003333333333333300333333
+  000333330333333033333333333333003333333
+  00333333033333333333333003333300333333
+  033333330333333333333330033333033333
+  0003333303333003333333333333330333333
+  0033333303333003333333333333330333333
+  00333333033333333333333333333303333
+  00333333033333333333333333333303333333
+  003333330333333333333333030030033333
+  0000333303333333333333300000000333333
+  00333333033003330003330000000003333333
+  0033333330000033300030000000000333333
+  00033333300000000000000000333333333
+  03333333300000000000000000333333333333
+  0033333330000300000000000333333333333
+  00003333300003300000000033333333333333
+  03333333300033330000000033333333333333
+  0033333330033333300000033300333333333
+  033333330003333333333003330033333333333
+  0033333300033333330000033333333333333333
+  3333333300333333333000033333333333333333
+  3333333333333333333000033333333333333333
+  3333333333333333333000030033333333333333
+  3333333333300333333000000003300033333333
+  333333333330033333300000000000000333333
+  0333333333333333333
+  0000000333333333333000000000000003
+  33333333333333333330000030003000333
+  33333333000333333330000333033333333
+  33333330000333333333333333333333333
+  33333333000000333333333333333333333
+  33333333300000030333333330033333333
+  33333333300000030333333330033333333
+  33333333300000030333333333333333333
+  33333333000000030333333333333333333
+  33333333300000030333333333333333333
+  33333333300000030333330330333333333
+  33333333000000030333300000333033333
+  333333300000000303330000000330000033
+  3333330000000003
+  3333300000000003
+    </tiles>
+    <entity name="exitBlock" x="-8" y="488" />
+    <entity name="invisibleBarrier" x="-8" y="216" />
+    <entity name="player" x="32" y="552" />
+    <entity name="dreamBlock" x="80" y="520" />
+    <entity name="spikesRight" x="168" y="512" />
+    <entity name="spikesLeft" x="264" y="536" />
+    <entity name="spikesLeft" x="256" y="480" />
+    <entity name="spikesLeft" x="248" y="432" />
+    <entity name="spikesLeft" x="240" y="400" />
+    <entity name="spikesLeft" x="232" y="360" />
+    <entity name="spikesLeft" x="224" y="280" />
+    <entity name="spikesLeft" x="216" y="232" />
+    <entity name="spikesRight" x="88" y="176" />
+    <entity name="spikesRight" x="80" y="304" />
+    <entity name="spikesRight" x="72" y="344" />
+    <entity name="spikesRight" x="64" y="416" />
+    <entity name="spikesUp" x="80" y="520" />
+    <entity name="spikesUp" x="88" y="504" />
+    <entity name="spikesUp" x="168" y="496" />
+    <entity name="spikesRight" x="160" y="544" />
+    <entity name="spikesLeft" x="112" y="544" />
+    <entity name="spikesLeft" x="120" y="576" />
+    <entity name="spikesRight" x="152" y="560" />
+    <entity name="refill" x="180" y="532" />
+    <entity name="dreamBlock" x="128" y="440" />
+    <entity name="spikesLeft" x="112" y="480" />
+    <entity name="spikesUp" x="112" y="480" />
+    <entity name="spikesLeft" x="128" y="432" />
+    <entity name="spikesRight" x="168" y="464" />
+    <entity name="refill" x="116" y="452" />
+    <entity name="dreamBlock" x="112" y="360" />
+    <entity name="spikesRight" x="192" y="416" />
+    <entity name="spikesRight" x="200" y="392" />
+    <entity name="spikesUp" x="168" y="392" />
+    <entity name="spikesLeft" x="136" y="384" />
+    <entity name="spikesUp" x="120" y="416" />
+    <entity name="spikesRight" x="168" y="352" />
+    <entity name="refill" x="180" y="372" />
+    <entity name="dreamBlock" x="144" y="280" />
+    <entity name="spikesLeft" x="120" y="328" />
+    <entity name="spikesUp" x="120" y="328" />
+    <entity name="spikesLeft" x="152" y="304" />
+    <entity name="spikesUp" x="168" y="336" />
+    <entity name="spikesRight" x="168" y="304" />
+    <entity name="spikesUp" x="136" y="320" />
+    <entity name="spikesLeft" x="144" y="280" />
+    <entity name="spikesDown" x="120" y="344" />
+    <entity name="jumpThru" x="24" y="328" />
+    <entity name="jumpThru" x="16" y="408" />
+    <entity name="jumpThru" x="288" y="416" />
+    <entity name="jumpThru" x="272" y="336" />
+    <entity name="spikesRight" x="56" y="480" />
+    <entity name="spikesUp" x="112" y="360" />
+    <entity name="touchSwitch" x="224" y="456" />
+    <entity name="touchSwitch" x="96" y="368" />
+    <entity name="touchSwitch" x="200" y="288" />
+    <entity name="touchSwitch" x="120" y="208" />
+    <entity name="refill" x="120" y="208" />
+    <entity name="spikesLeft" x="224" y="176" />
+    <entity name="spikesLeft" x="232" y="96" />
+    <entity name="spikesRight" x="80" y="96" />
+    <entity name="spikesDown" x="176" y="88" />
+    <entity name="spikesRight" x="96" y="8" />
+    <entity name="spikesLeft" x="152" y="32" />
+    <entity name="spikesUp" x="136" y="88" />
+    <entity name="dreamBlock" x="144" y="104" />
+    <entity name="spikesLeft" x="144" y="104" />
+    <entity name="dreamBlock" x="136" y="192" />
+    <entity name="spikesRight" x="176" y="192" />
+    <entity name="switchGate" x="88" y="8" />
+    <entity name="touchSwitch" x="192" y="120" />
+    <entity name="spikesUp" x="176" y="280" />
+    <entity name="spikesDown" x="176" y="304" />
+    <entity name="spikesDown" x="152" y="224" />
+    <entity name="hanginglamp" x="200" y="88" />
+    <entity name="hanginglamp" x="128" y="176" />
+    <entity name="hanginglamp" x="176" y="304" />
+    <entity name="hanginglamp" x="184" y="464" />
+    <entity name="hanginglamp" x="112" y="384" />
+    <entity name="hanginglamp" x="128" y="272" />
+    <entity name="MaggyHelper/CharaChaser" x="40" y="488" />
+    <entity name="MaggyHelper/CharaChaser" x="40" y="504" />
+    <entity name="MaggyHelper/CharaChaser" x="56" y="496" />
+    <decal x="24" y="536" texture="2-oldsite/chair_broken.png" />
+    <decal x="208" y="512" texture="2-oldsite/window.png" />
+    <decal x="96" y="448" texture="2-oldsite/window.png" />
+    <decal x="192" y="280" texture="2-oldsite/window_boarded.png" />
+    <decal x="112" y="296" texture="2-oldsite/window.png" />
+    <decal x="216" y="400" texture="2-oldsite/window.png" />
+    <decal x="288" y="288" texture="2-oldsite/chained_cage.png" />
+    <decal x="24" y="288" texture="2-oldsite/chained_cage.png" />
+    <decal x="292" y="408" texture="2-oldsite/cage_modular_bot.png" />
+    <decal x="292" y="392" texture="2-oldsite/cage_modular_midA.png" />
+    <decal x="292" y="376" texture="2-oldsite/cage_modular_top.png" />
+    <decal x="32" y="400" texture="2-oldsite/cage_modular_bot.png" />
+    <decal x="32" y="384" texture="2-oldsite/cage_modular_midA.png" />
+    <decal x="32" y="368" texture="2-oldsite/cage_modular_midD.png" />
+    <decal x="100" y="492" texture="2-oldsite/barrel.png" />
+    <decal x="99" y="476" texture="2-oldsite/barrel.png" />
+    <decal x="184" y="380" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="125" y="404" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="128" y="316" texture="2-oldsite/barrel.png" />
+    <decal x="129" y="300" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="46" y="540" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="64" y="464" texture="2-oldsite/pilar_hB.png" />
+    <decal x="72" y="464" texture="2-oldsite/pilar_hB.png" />
+    <decal x="80" y="464" texture="2-oldsite/pilar_hA.png" />
+    <decal x="88" y="464" texture="2-oldsite/pilar_hC.png" />
+    <decal x="96" y="464" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="79" y="452" texture="2-oldsite/barrel.png" />
+    <decal x="79" y="436" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="264" y="560" texture="2-oldsite/pilar_hA.png" />
+    <decal x="256" y="560" texture="2-oldsite/pilar_hA.png" />
+    <decal x="248" y="560" texture="2-oldsite/pilar_hB.png" />
+    <decal x="240" y="560" texture="2-oldsite/pilar_hC.png" />
+    <decal x="232" y="560" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="256" y="512" texture="2-oldsite/pilar_hB.png" />
+    <decal x="248" y="512" texture="2-oldsite/pilar_hB.png" />
+    <decal x="240" y="512" texture="2-oldsite/pilar_hC.png" />
+    <decal x="232" y="512" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="168" y="483" texture="2-oldsite/pilar_hA.png" />
+    <decal x="176" y="483" texture="2-oldsite/pilar_hA.png" />
+    <decal x="184" y="483" texture="2-oldsite/pilar_hB.png" />
+    <decal x="192" y="483" texture="2-oldsite/pilar_hC.png" />
+    <decal x="200" y="483" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="248" y="472" texture="2-oldsite/pilar_hA.png" />
+    <decal x="240" y="472" texture="2-oldsite/pilar_hA.png" />
+    <decal x="232" y="472" texture="2-oldsite/pilar_hB.png" />
+    <decal x="224" y="472" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="72" y="384" texture="2-oldsite/pilar_hA.png" />
+    <decal x="80" y="384" texture="2-oldsite/pilar_hA.png" />
+    <decal x="88" y="384" texture="2-oldsite/pilar_hC.png" />
+    <decal x="96" y="384" texture="2-oldsite/pilar_hC.png" />
+    <decal x="104" y="384" texture="2-oldsite/pilar_hB.png" />
+    <decal x="112" y="384" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="224" y="344" texture="2-oldsite/pilar_hA.png" />
+    <decal x="216" y="344" texture="2-oldsite/pilar_hA.png" />
+    <decal x="208" y="344" texture="2-oldsite/pilar_hA.png" />
+    <decal x="200" y="344" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="88" y="232" texture="2-oldsite/pilar_hA.png" />
+    <decal x="96" y="232" texture="2-oldsite/pilar_hA.png" />
+    <decal x="104" y="232" texture="2-oldsite/pilar_hA.png" />
+    <decal x="112" y="232" texture="2-oldsite/pilar_hC.png" />
+    <decal x="120" y="232" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="110" y="220" texture="2-oldsite/barrel.png" />
+    <decal x="111" y="204" texture="2-oldsite/barrel.png" />
+    <decal x="211" y="332" texture="2-oldsite/barrel.png" />
+    <decal x="209" y="316" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="102" y="372" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="88" y="372" texture="2-oldsite/barrel.png" />
+    <decal x="93" y="356" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="235" y="460" texture="2-oldsite/barrel.png" />
+    <decal x="234" y="444" texture="2-oldsite/barrel.png" />
+    <decal x="242" y="500" texture="2-oldsite/barrel.png" />
+    <decal x="244" y="548" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="184" y="472" texture="2-oldsite/barrel_brokenA.png" />
+  </level>
+  <level id="c-01" width="1016" height="192" xoffset="3944" yoffset="-904">
+    <tiles tileset="solids" offsetX="0" offsetY="0">
+  55550000555555555000000000000000000000000000555555
+  55550000555555555000000000000000000000000000555555
+  55550000555555000000000000000000000000000000555555
+  55550000555555000000000000000000000000000000555555
+  55550000555555000000000000000000000000000000555555
+  55550000555555000000000000000000000000000000555555
+  55550000555555000000000000000000000000000000555555
+  55550000555555000000000000055500000000000000555555
+  55550000555555555550000055555555555500000055555555550000555555555000000000000000000005555555555555555555555
+  5555000055
+  5555
+  5555
+  5555
+  5555
+  5555555555
+  55555555555555555550000055555555555555555550000005550000555555555555555555555555555555555555
+  55000000000000000000000000000000000000000000000000000000000000055000000000000000000000000055
+  55000000000000000000000000000000000000000000000000000000000000055000000000000000000000000005
+  55000000000000000000000000000000000000000000000000000000000000055000000000000000000000000005
+  55000000000000000000000000000000000000000000000000000000000000055
+  55555555000000000000000000000000000000000000000000000000000000005
+  55555555000555555500000000000000000000000000000000000000000000005
+  555555550005555555
+  555555550005555555
+    </tiles>
+    <tiles tileset="bg" offsetX="0" offsetY="0">
+  000333333
+  000333333000033333
+  000333003000033333333333000000000000000000333
+  000000003000033333333333333333300000000333333000033
+  000000033000033333003330033333300033333333333000033333
+  000000033000033333003330033333333333333333333000033333333333333
+  0000000330000333333333333333333333333300333330000333333333333333333
+  0000003330000333333333333333333333333300333330000333333333333333333
+  0000003333333333333333333333333333333333333333333333333333333333333
+  0000033333333333333333333333333333333333333333333333333333333333333
+  00033333333333333333333333333333333333333333333333333333333333333333
+  00033300333333333333333333333333333333333333333333333333333333333333
+  00033300333333333333333333333333333333333333333333333333333333333333
+  00033333333333333333333333333333333333333333333333333333333333333333
+  00033333333333333333333333333333333333333333333333333333333333333333
+  03333333333333333333333333333333333333333333333333333333333333333333
+  0333333333333333333333333333333333333333333333333333333333333333333
+  0330033333333333333333333333333330033333333333000033300333333333333
+  0330033333003333333330000033333330000003333333000033300330033333333
+  033333333300333000000000003330000000000333330000003333333000333333
+  033333333333333000000000000000000000000333330000000000333000000033
+  000000033333333000000000000000000000000000330000000000333
+  000000033333
+  000000033333
+    </tiles>
+    <entity name="jumpThru" x="64" y="168" />
+    <entity name="player" x="72" y="168" />
+    <entity name="refill" x="424" y="152" />
+    <entity name="dreamBlock" x="216" y="16" />
+    <entity name="spikesUp" x="216" y="16" />
+    <entity name="spikesUp" x="152" y="72" />
+    <entity name="spikesUp" x="112" y="64" />
+    <entity name="spikesUp" x="192" y="64" />
+    <entity name="spikesUp" x="240" y="64" />
+    <entity name="spikesUp" x="336" y="64" />
+    <entity name="spikesUp" x="400" y="64" />
+    <entity name="spikesUp" x="416" y="72" />
+    <entity name="spikesUp" x="448" y="64" />
+    <entity name="CommunalHelper/ConnectedDreamBlock" x="80" y="72" />
+    <entity name="spikesUp" x="520" y="72" />
+    <entity name="CommunalHelper/ConnectedDreamBlock" x="448" y="0" />
+    <entity name="CommunalHelper/ConnectedDreamBlock" x="584" y="0" />
+    <entity name="spikesLeft" x="584" y="0" />
+    <entity name="spikesLeft" x="680" y="32" />
+    <entity name="CommunalHelper/ConnectedDreamBlock" x="680" y="0" />
+    <entity name="spikesRight" x="912" y="0" />
+    <entity name="spikesRight" x="736" y="120" />
+    <entity name="refill" x="944" y="32" />
+    <entity name="refill" x="912" y="104" />
+    <entity name="MaggyHelper/CharaChaser" x="64" y="136" />
+    <entity name="MaggyHelper/CharaChaser" x="48" y="136" />
+    <entity name="MaggyHelper/CharaChaser" x="32" y="136" />
+    <entity name="refill" x="784" y="104" />
+    <entity name="checkpoint" x="168" y="144" />
+    <decal x="52" y="148" texture="2-oldsite/door.png" />
+    <decal x="32" y="144" texture="2-oldsite/window.png" />
+    <decal x="88" y="152" texture="2-oldsite/window_boarded.png" />
+    <decal x="312" y="56" texture="2-oldsite/window.png" />
+    <decal x="152" y="40" texture="2-oldsite/window.png" />
+    <decal x="192" y="40" texture="2-oldsite/window_boarded.png" />
+    <decal x="56" y="96" texture="2-oldsite/window_boarded.png" />
+    <decal x="272" y="48" texture="2-oldsite/chair_old.png" />
+    <decal x="476" y="48" texture="2-oldsite/tableA.png" />
+    <decal x="200" y="132" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="336" y="132" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="268" y="132" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="200" y="140" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="268" y="140" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="268" y="164" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="336" y="140" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="268" y="156" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="200" y="156" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="336" y="156" texture="2-oldsite/pilar_vertical_endA.png" />
+    <decal x="268" y="172" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="268" y="148" texture="2-oldsite/pilar_instersection_smallB.png" />
+    <decal x="204" y="148" texture="2-oldsite/pilar_instersection_small.png" />
+    <decal x="332" y="148" texture="2-oldsite/pilar_instersection_small.png" />
+    <decal x="200" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="208" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="224" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="268" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="260" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="276" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="252" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="284" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="300" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="308" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="324" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="332" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="340" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="348" y="140" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="192" y="140" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="232" y="140" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="244" y="140" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="292" y="140" texture="2-oldsite/pilar_hB.png" />
+    <decal x="316" y="140" texture="2-oldsite/pilar_hC.png" />
+    <decal x="216" y="140" texture="2-oldsite/pilar_hC.png" />
+    <decal x="136" y="164" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="136" y="132" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="136" y="140" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="136" y="156" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="136" y="148" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="108" y="164" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="108" y="156" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="108" y="148" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="108" y="132" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="108" y="140" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="240" y="160" texture="2-oldsite/chained_cage.png" />
+    <decal x="128" y="52" texture="2-oldsite/door.png" />
+    <decal x="116" y="20" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="20" y="132" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="500" y="132" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="432" y="144" texture="2-oldsite/window_boarded.png" />
+    <decal x="408" y="132" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="456" y="132" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="408" y="140" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="456" y="140" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="408" y="148" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="456" y="156" texture="2-oldsite/pilar_vertical_endA.png" />
+    <decal x="456" y="148" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="468" y="160" texture="2-oldsite/chained_cage.png" />
+    <decal x="500" y="152" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="500" y="144" texture="2-oldsite/pilar_hA.png" />
+    <decal x="484" y="144" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="492" y="144" texture="2-oldsite/pilar_hB.png" />
+    <decal x="524" y="136" texture="2-oldsite/pilar_hA.png" />
+    <decal x="540" y="136" texture="2-oldsite/pilar_hA.png" />
+    <decal x="532" y="136" texture="2-oldsite/pilar_hC.png" />
+    <decal x="548" y="136" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="524" y="144" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="540" y="172" texture="2-oldsite/chained_cage.png" />
+    <decal x="508" y="48" texture="2-oldsite/chair_broken.png" />
+    <decal x="416" y="40" texture="2-oldsite/cloth_pole00.png" />
+    <decal x="336" y="40" texture="2-oldsite/cloth_pole00.png" />
+    <decal x="44" y="88" texture="2-oldsite/cloth_pole00.png" />
+    <decal x="36" y="44" texture="2-oldsite/pilar_hA.png" />
+    <decal x="44" y="44" texture="2-oldsite/pilar_hA.png" />
+    <decal x="60" y="44" texture="2-oldsite/pilar_hA.png" />
+    <decal x="52" y="44" texture="2-oldsite/pilar_hC.png" />
+    <decal x="36" y="52" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="60" y="52" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="132" y="20" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="132" y="28" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="256" y="60" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="256" y="52" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="256" y="36" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="256" y="28" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="256" y="44" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="72" y="88" texture="2-oldsite/simple_pole.png" />
+    <decal x="184" y="60" texture="2-oldsite/barrel.png" />
+    <decal x="160" y="60" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="440" y="60" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="96" y="156" texture="2-oldsite/barrel.png" />
+    <decal x="24" y="148" texture="2-oldsite/barrel_brokenA.png" />
+  </level>
+  <level id="c-02" width="320" height="184" xoffset="3960" yoffset="-1088">
+    <tiles tileset="solids" offsetX="0" offsetY="0">
+  5555555555555555555555555000055555555555
+  5555555555555555000000055000055555555555
+  5500000000000055000000055000005500000055
+  5500000000000055000550000000000000000055
+  5500055000550055000550000005555555550055
+  5500055000550055000555555005555555550055
+  5500055555550055000555555005500550000055
+  5500055555550055000550000005500550000055
+  5500000000000000000550000000000550055555
+  5500000000000000000000000000000550055555
+  5500000000000000000000000005500550000555
+  5500555500555550000550000005500550000555
+  5500555500555550000550000005500550000555
+  5500550000000555500550055555500000000555
+  5500550000000555500550055555500000000555
+  5500550000000000000550000000000000000555
+  5500555555500000000550000000000555005555
+  5500555555500055000555555005500555005555
+  5500000005500055000555555005500000005555
+  5500000005500055000000000005500000005555
+  5500000000000055000000000005500000005555
+  5500055555555555555555555555555555555555
+  5500055555555555555555555555555555555555
+    </tiles>
+    <tiles tileset="bg" offsetX="0" offsetY="0">
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+    </tiles>
+    <entity name="player" x="32" y="168" />
+    <entity name="jumpThru" x="16" y="168" />
+    <entity name="exitBlock" x="0" y="168" />
+    <entity name="touchSwitch" x="296" y="56" />
+    <entity name="touchSwitch" x="140" y="156" />
+    <entity name="touchSwitch" x="260" y="156" />
+    <entity name="crumbleBlock" x="128" y="56" />
+    <entity name="crumbleBlock" x="16" y="32" />
+    <entity name="crumbleBlock" x="264" y="72" />
+    <entity name="crumbleBlock" x="232" y="136" />
+    <entity name="jumpThru" x="64" y="88" />
+    <entity name="jumpThru" x="200" y="40" />
+    <entity name="jumpThru" x="272" y="128" />
+    <entity name="jumpThru" x="136" y="104" />
+    <entity name="crumbleBlock" x="16" y="88" />
+    <entity name="crumbleBlock" x="128" y="24" />
+    <entity name="crumbleBlock" x="288" y="32" />
+    <entity name="switchGate" x="200" y="0" />
+    <entity name="jumpThru" x="96" y="32" />
+    <entity name="hanginglamp" x="176" y="56" />
+    <entity name="hanginglamp" x="236" y="48" />
+    <entity name="hanginglamp" x="204" y="120" />
+    <entity name="hanginglamp" x="280" y="80" />
+    <entity name="jumpThru" x="168" y="104" />
+    <entity name="crumbleBlock" x="232" y="80" />
+    <entity name="crumbleBlock" x="128" y="136" />
+    <entity name="MaggyHelper/CharaChaser" x="24" y="136" />
+    <entity name="MaggyHelper/CharaChaser" x="24" y="128" />
+    <entity name="MaggyHelper/CharaChaser" x="24" y="120" />
+    <entity name="MaggyHelper/CharaChaser" x="24" y="112" />
+    <entity name="touchSwitch" x="188" y="76" />
+    <entity name="touchSwitch" x="140" y="44" />
+    <entity name="touchSwitch" x="68" y="36" />
+    <entity name="touchSwitch" x="60" y="116" />
+    <decal x="40" y="152" texture="2-oldsite/tableA.png" />
+    <decal x="272" y="112" texture="2-oldsite/tableC.png" />
+    <decal x="64" y="72" texture="2-oldsite/tableB.png" />
+    <decal x="200" y="92" texture="2-oldsite/door.png" />
+    <decal x="176" y="152" texture="2-oldsite/table_broken.png" />
+    <decal x="130" y="92" texture="2-oldsite/barrel.png" />
+    <decal x="124" y="76" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="109" y="76" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="100" y="156" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="88" y="144" texture="2-oldsite/pilar_hA.png" />
+    <decal x="96" y="144" texture="2-oldsite/pilar_hA.png" />
+    <decal x="104" y="144" texture="2-oldsite/pilar_hA.png" />
+    <decal x="112" y="144" texture="2-oldsite/pilar_hA.png" />
+    <decal x="100" y="133" texture="2-oldsite/barrel.png" />
+    <decal x="96" y="117" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="278" y="156" texture="2-oldsite/door.png" />
+    <decal x="240" y="152" texture="2-oldsite/chair.png" />
+    <decal x="208" y="152" texture="2-oldsite/chair_broken.png" />
+    <decal x="144" y="152" texture="2-oldsite/chair.png" />
+    <decal x="64" y="112" texture="2-oldsite/chair.png" />
+    <decal x="80" y="112" texture="2-oldsite/chair_broken.png" />
+    <decal x="40" y="72" texture="2-oldsite/chair_old.png" />
+    <decal x="88" y="16" texture="2-oldsite/chair_old.png" />
+    <decal x="48" y="16" texture="2-oldsite/chair_broken.png" />
+    <decal x="192" y="24" texture="2-oldsite/table_broken.png" />
+    <decal x="272" y="16" texture="2-oldsite/chair.png" />
+    <decal x="232" y="16" texture="2-oldsite/chair_old.png" />
+    <decal x="160" y="8" texture="2-oldsite/chair_broken.png" />
+    <decal x="16" y="56" texture="2-oldsite/pilar_hA.png" />
+    <decal x="24" y="56" texture="2-oldsite/pilar_hA.png" />
+    <decal x="32" y="56" texture="2-oldsite/pilar_hA.png" />
+    <decal x="40" y="56" texture="2-oldsite/pilar_hA.png" />
+    <decal x="28" y="45" texture="2-oldsite/barrel_brokenA.png" />
+  </level>
+  <level id="c-03" width="2368" height="184" xoffset="4128" yoffset="-1272">
+    <tiles tileset="solids" offsetX="0" offsetY="0">
+  55555555555555555555555555555555555555555555555550000000000000000055555550000005555555555555550000005555555555555555500000000000000055555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555500005555555
+  55555555555555555555555555555555555555555555555550000000000000000055555550000005555555555555550000005555555555555555500000000000000055555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555500005555555
+  55555555555555555555555555555555555555555555555550000000000000000005555550000005555555555555550000005555555555555555500000000000000055555555555555555555555555555555555555555555550000005550000055555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555500005555555
+  55555555555555555555555555555555555555555555555550000000000000000005555550000005555555555555500000005555555555555555000000000000000005555555555555555555555555555555555555555555550000000000000055550000055555500000005555555555555555555555555555555555555555555555555555555555555555555555500005555555
+  55555555555555555555550055555555555555555555555555000000000000000005555500000000555555555555500000000555555555555555000000000000000005555555555555555555555555555555555555555555550000000000000055550000055555500000005555555555555550000000005500000000000000000555555555555555555000055555500005555555
+  55555555555000000555550055555555555555555555555555000000000000000005555500000000555555555555500000000555555555555555000000000000000005555555555555555555555555555555555555555555550000000000000000000000055555000000005555555555555550000000005500000000000000000555555555555555000000055555500005555555
+  55000000000000000555550055555555555555555555555555000000000000000005555500000000555555555555500000000555555555555550000000000000000005555555555555555555555555555555555555555555550000000000000000000000055555000000005555555555555550000000005500000000000000000555555555555555000000055555500005555555
+  55000000000000000555550055555555555555555555555555000000000000000000555500000000555555555555500000000555555555555550000000000000000005555555555500555555555000555555555555555555550000005550000000000000055555000000005555555555555550000000005500000000000000000555000555555500000000050005500005555555
+  55000000000000000555550055555555555555000005555555550000055500000000555500000000555555500555000000000555555555555550000000000000000000555555555500000000000000005555555555000005550000005550000000000000055555000000005555555555555550000000000500000000000000000550000555555500000000000005500005555555
+  55000000000000000000000055555555500000000005555555550000055500000000555500000000000000000555000000000000000000000000000000000000000000555555555500000000000000005555555555000005550000005550000055550000055555000000005555555555555550000550000500000000000000000500000055555000000000000000500005555555
+  55000000000000000000000055555000000000000005555555500000055500000000555000000000000000000555000000000000000000000000000000000000000000000000000000000000000000000000000000000005555000055550000055550000055550000000005555555555555550000550000500005500000055000500000055555000000000000000500005550055
+  55000000000000000000000055555000000000000000000000000000055500000000555000000000000000000555000000000000000000000000000000000000000000000000000000000000000000000000000000000005555000055555555555550000055550000000005555555555555550000550000000005500000055000550000055555000000000000000500005050055
+  55000000000000000555550055555000000000000000000000000000055550000000555000000000550000000555000000005555555555555500000000000000000000000000000000000555000000000000000000000005555000055555555555550000055550000000000000000000000000000550000000005500000055000550000055555000000000000000500005000055
+  55000000000000000555550055555000000000000000000000000000055550000000550000000000550000000555000055555555555555555500000000000000000000555555555500555555555000005555555555000005555000055555555555550000000000000000000000000000000000000550000000005500000055000550000055555000000000000000000005000055
+  55000055555555000555550000000000000000000005555555000000055550000000550000000055550000000000000055555555555555555500000000000000000000555555555555555555555550005555555555000005555000055555555555550000000000000000000000000000000000000550000000005500000055000550000055555000000000000000000005000055
+  55000055555555000555550000000000000000000005555555000055555550000000000000000055550000000000000055555555555555555500000000000000000000555555555555555555555555555555555555000005550000005550000055550000000000000000000000000000000000000550000000005500000055000000000000000000000000000000000000000055
+  55000000555550000555550000000000000000000005555555555555555550000000000000000055555000000000000055555555555555555500000000000000000000055555555555555555555555555555555555000000000000005550000000000000000000000000005555500000000000000000000000005500000055000000000000000000000000000000000000000005
+  55000000555550000555550055555000000000000005555555555000055550000000000000000055555000000000000055555555555555555500000000000000000000055555555555555555555555555555555555000000000000005550000000000000000000000000005555500000000000000000000000005500000050000000000000000000000000000000000000000005
+  55000000555550000555550055555000000000000005555555555000000000000000000000000555555000000555000005555555555555555000000000000000000000055555555555555555555555555555555555000000000000005550000000000000000000000000005555500000000000000000000000000500000050000000000000000000000000000000000000000005
+  55000000555555555555550055555000000000000555555555555000000000000000000000000555555000000555000005555555555555555000000000000000000000055555555555555555555555555555555555000000000000005550000000000000000000000000005555000000000000000000000000000500000000000000000055555000000000000000000000000005
+  55550000555555555555555555555000000555555555555555555000000000000000000000000555555000000555000005555555555555555000000000000000000000005555555555555555555555555555555555000000000000005550000055550000000000000000000055000000000000000000000000000000000000000000000050550000000000000000000000000005
+  55550000555555555555555555555555555555555555555555555000055555000000000000000555555555555555005555555555555555555000000000000000000000005555555555555555555555555555555555000005550000005555555555550000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005
+  55550000555555555555555555555555555555555555555555555555555555000000000000005555555555555555555555555555555555555000000000000000000000005555555555555555555555555555555555555555555555555555555555550000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005
+    </tiles>
+    <tiles tileset="bg" offsetX="0" offsetY="0">
+  00000000000000000000000000000000000000000000000033330000000000033333333300000000003000000000000000000000000003333333333000000000033333333330000000000000000000000000000000000333333333333333333333333333333333333333330000000000000000000000000000000000000000000000000000000000000000000000333333
+  00000000000000000000000000000000000000000000000033330000000000033333330300000000003000000000000000000000000003333333333000000003333333333330000000000000000000000000000000000333333333333333333333333333333333333333330000000000000000000000000000000000000000000000000000000000000000000000333333
+  00000000000000000033333333330000000000000000000033300000000030003333330300030000003000000000000000000000000003333333330000000000003333333330000000000000000000000000000000000333333333333333333333333333333333333330000000000000000000000000000000000000000000000000000000000000000000000000333333
+  33333333333333333333333333333333333333333333330033333000000033033333330300333000003000000000000000000000000003333333333000000000003333333330000000000000000000000000000000000333333333333333333333333333333333330000000000000000333333333333333333333333333333333330000000000000003333330000330033
+  33333333333333333333333333333333333333333333330033333003000033333333330333333000033000000000000000333300000003333333330000000000033333333330003333333333333333333333000000000333333333333333333333333333333333330000000000000333333333333333333333333333333333333333330000000003333333330000330033
+  33333333333333333333333333333333333333333333330033330033330333333333333333333033333000000000000000333330000003333333300000000000033333333330003333333333333333333333000000000333333300333333333333333333333333330000000000000333333333333333333333333333333333333333330000000003333333330000333333
+  33333333333333333333333333333333333333333333330033330333333333333333333333333333333333333333000000033330000003333333333000000000000333333330003333333333333333333333000000000333333300333333333333333333333333330000003000033333333000333333333333333300330033333333333300000333333333333333333333
+  33333333333333333333333333333333333333333333330033333333333333333333333333333333333333333333003300033330000003333333333000000000003333333330003333333333333333333333000033333333333333333333333333333333333333330000003000033333333000333333333333333300330033333333333300000333333300333333333333
+  33333333333333333333333333333333333333333333330033333333333333300333333333300333333333333333033303333330000003333333000000000000000333333330003333333333333333333333000033333333333333333333333333333333333333330000003000333333333000333333333333333333333333333333333330003333333300333333333333
+  3333330033300333333333333333333333333333333333003333333333333330033333333330033333333333333303333333333000000333333333000000000000333333333000333333333333333333333300003333333333333333333333333333333333333333000000300033333300000003333333333333333333333333330033333000333333333333333333003303333
+  3333330033300333333333333333333333333333333333003333333333333333333333333333333333333333333333333333333000000333333330000000000000033333333000333333333333330033333300003333333333333333333333333333333333333333000000300033333300000000333333333333333333333333330033333000333003333333333333003333333
+  3333333333333333333333333333333333333333333333003333333333333333333333333333333333333333333333333333333000000333333300000000000000333333333000333333333333330033333300003333333333333333333333333333333333333330000000333333333300000000333333333333333333333333333333333000333003333333333333333333333
+  3333333333333333333333333333333333333333333333003333333333333333333333333333333333333333333333333333333000000333333330000000000000333333333000333333333333333333333300003333333333333333333333333333333333330000000000333333330000000000333333333333300033333000033333333000333333333330033333333333333
+  3333333333333333333333333333333333333300333333003333333333333333333333300333333333333333333333333333333000000333333330000000000000003333333000333333333333333333333300003333333333333333333333333333333333000000000000333333330000000000000000333333300000033000003333333333333333333330033333333333333
+  3333333333333333333333333333333300333300333333003333333333333333330000000333333333333333333333333333333000000333333000000000000000000333333000333333333333333333333300003333333333333333333333333333333333000000000000333333330000000000000000000033300000000000000333333333333333333330003333333333333
+  3333333333333333333333333333333300333333333333003333333333333303330000000330033333333003333333333333333000000333333330000000000000033333333000333333333333333333333300003333333333333333333333333333333330000000000000333333330000000000000000000000000000000000000003333333333300333330000033333333333
+  3333333333333333333333333333333333333333333333003333333333333300330000000000033333333003333333333333330000000333333333000000000000003333333000333333333333333333333300003333333333333333333333333333333300000000000000333333330000000000000000000000000000000000000000000333333000333000000033333333333
+  3333333333333333333333333333333333333333333333003333333333333300000000000000033003333333333333333333330000000333333300000000000000000333333000333333333333333333333300003333333333330033333333333333333333000000000000300000000000000000000000000000000000000000000000000333333000000000000000000333333
+  3333333333333333333333333333333333333333333333003333333333333000000000000000000003333333333333333333330000000333330000000000000000000333330000333333333333333333333300003333333333330033333333333333333333000000000000000000000000000000000000000000000000000000000000000333300000000000000000000333333
+  3333333333333333333333333333333333333333333333003333333333333000000000000000000003333333333333333333330000000333333300000000000000033333330000000000000000000000000000003333333333333333333333333333333000000000000000000000000000000000000000000000000000000000000000000333300000000000000000000333
+  3333333333333333333333333333333333333333333333003333333333333000000000000000000003333333333333333333330000000333333300000000000000033333330000000000000000000000000000003333333333333333333333333333333
+  33333333333333333333333333333333333333333333330033333333333330000000000000000000033333333333333333333300000003333330000000000000000003333300000000000000000000000000000033333333333333333333333333333333
+  333333333333333333303333333333333333333333333300333333333333330000000000000000000333333333333333333300000000033333333300000000000003333333000000000000000000000000000000333333333333333333333333333
+    </tiles>
+    <entity name="jumpThru" x="16" y="80" />
+    <entity name="jumpThru" x="16" y="112" />
+    <entity name="jumpThru" x="32" y="160" />
+    <entity name="exitBlock" x="0" y="112" />
+    <entity name="player" x="96" y="112" />
+    <entity name="towerviewer" x="28" y="80" />
+    <entity name="dreamBlock" x="136" y="72" />
+    <entity name="dreamBlock" x="192" y="112" />
+    <entity name="dreamBlock" x="344" y="88" />
+    <entity name="spikesUp" x="232" y="168" />
+    <entity name="spikesUp" x="280" y="160" />
+    <entity name="spikesUp" x="328" y="152" />
+    <entity name="spikesLeft" x="344" y="112" />
+    <entity name="spikesLeft" x="344" y="72" />
+    <entity name="spikesDown" x="304" y="64" />
+    <entity name="spikesDown" x="264" y="72" />
+    <entity name="spikesDown" x="232" y="80" />
+    <entity name="spikesRight" x="232" y="88" />
+    <entity name="spikesDown" x="176" y="32" />
+    <entity name="spikesLeft" x="192" y="40" />
+    <entity name="spikesUp" x="104" y="152" />
+    <entity name="spikesLeft" x="136" y="96" />
+    <entity name="spikesLeft" x="136" y="48" />
+    <entity name="spikesDown" x="88" y="40" />
+    <entity name="spikesRight" x="104" y="128" />
+    <entity name="refill" x="420" y="100" />
+    <entity name="spikesRight" x="408" y="80" />
+    <entity name="spikesUp" x="400" y="64" />
+    <entity name="spikesRight" x="400" y="32" />
+    <entity name="spikesUp" x="392" y="32" />
+    <entity name="spikesRight" x="392" y="-24" />
+    <entity name="spikesUp" x="400" y="128" />
+    <entity name="spikesRight" x="400" y="112" />
+    <entity name="spikesUp" x="432" y="120" />
+    <entity name="spikesLeft" x="456" y="64" />
+    <entity name="spikesUp" x="456" y="64" />
+    <entity name="spikesRight" x="480" y="64" />
+    <entity name="spikesUp" x="480" y="96" />
+    <entity name="spikesDown" x="424" y="136" />
+    <entity name="spikesUp" x="424" y="176" />
+    <entity name="spikesRight" x="424" y="144" />
+    <entity name="dreamBlock" x="456" y="144" />
+    <entity name="spikesUp" x="488" y="144" />
+    <entity name="spikesRight" x="488" y="96" />
+    <entity name="spikesRight" x="496" y="168" />
+    <entity name="spikesLeft" x="528" y="-24" />
+    <entity name="spikesLeft" x="536" y="16" />
+    <entity name="spikesLeft" x="544" y="56" />
+    <entity name="spikesDown" x="544" y="120" />
+    <entity name="spikesRight" x="576" y="32" />
+    <entity name="spikesRight" x="584" y="-24" />
+    <entity name="spikesUp" x="624" y="112" />
+    <entity name="spikesLeft" x="624" y="112" />
+    <entity name="spikesUp" x="616" y="144" />
+    <entity name="spikesLeft" x="616" y="144" />
+    <entity name="spikesUp" x="608" y="176" />
+    <entity name="spikesLeft" x="608" y="176" />
+    <entity name="spikesRight" x="656" y="104" />
+    <entity name="spikesUp" x="656" y="128" />
+    <entity name="spikesRight" x="664" y="128" />
+    <entity name="dreamBlock" x="640" y="72" />
+    <entity name="spikesDown" x="640" y="96" />
+    <entity name="spikesLeft" x="640" y="32" />
+    <entity name="spikesLeft" x="632" y="-24" />
+    <entity name="spikesDown" x="696" y="64" />
+    <entity name="spikesLeft" x="712" y="72" />
+    <entity name="spikesDown" x="712" y="112" />
+    <entity name="spikesRight" x="736" y="64" />
+    <entity name="spikesRight" x="744" y="24" />
+    <entity name="spikesUp" x="712" y="144" />
+    <entity name="spikesLeft" x="712" y="144" />
+    <entity name="spikesUp" x="664" y="168" />
+    <entity name="spikesRight" x="736" y="144" />
+    <entity name="spikesUp" x="736" y="176" />
+    <entity name="refill" x="752" y="128" />
+    <entity name="refill" x="760" y="84" />
+    <entity name="spikesLeft" x="768" y="104" />
+    <entity name="spikesLeft" x="776" y="144" />
+    <entity name="spikesUp" x="752" y="168" />
+    <entity name="spikesUp" x="768" y="104" />
+    <entity name="dreamBlock" x="800" y="72" />
+    <entity name="spikesUp" x="800" y="72" />
+    <entity name="spikesLeft" x="808" y="32" />
+    <entity name="spikesLeft" x="800" y="-24" />
+    <entity name="spikesRight" x="936" y="-24" />
+    <entity name="spikesRight" x="928" y="24" />
+    <entity name="spikesRight" x="920" y="48" />
+    <entity name="spikesRight" x="912" y="96" />
+    <entity name="spikesRight" x="904" y="144" />
+    <entity name="dreamBlock" x="1072" y="80" />
+    <entity name="spikesUp" x="1168" y="104" />
+    <entity name="spikesUp" x="1192" y="96" />
+    <entity name="spikesUp" x="1216" y="104" />
+    <entity name="spikesDown" x="1168" y="64" />
+    <entity name="dreamBlock" x="1280" y="80" />
+    <entity name="spikesDown" x="1152" y="56" />
+    <entity name="spikesDown" x="1240" y="56" />
+    <entity name="spikesDown" x="1264" y="64" />
+    <entity name="spikesUp" x="1256" y="120" />
+    <entity name="spikesUp" x="1240" y="112" />
+    <entity name="spikesUp" x="1152" y="112" />
+    <entity name="spikesRight" x="1152" y="64" />
+    <entity name="spikesLeft" x="1056" y="-24" />
+    <entity name="spikesLeft" x="1064" y="24" />
+    <entity name="spikesLeft" x="1072" y="64" />
+    <entity name="spikesLeft" x="1072" y="112" />
+    <entity name="spikesLeft" x="1080" y="128" />
+    <entity name="spikesLeft" x="1088" y="160" />
+    <entity name="spikesDown" x="1360" y="64" />
+    <entity name="spikesRight" x="1360" y="72" />
+    <entity name="spikesUp" x="1360" y="176" />
+    <entity name="spikesLeft" x="1400" y="72" />
+    <entity name="spikesDown" x="1400" y="128" />
+    <entity name="spikesUp" x="1400" y="168" />
+    <entity name="refill" x="1380" y="92" />
+    <entity name="refill" x="1412" y="148" />
+    <entity name="dreamBlock" x="1432" y="80" />
+    <entity name="spikesDown" x="1424" y="16" />
+    <entity name="spikesRight" x="1424" y="24" />
+    <entity name="spikesUp" x="1424" y="80" />
+    <entity name="spikesLeft" x="1472" y="128" />
+    <entity name="spikesUp" x="1424" y="176" />
+    <entity name="spikesLeft" x="1472" y="56" />
+    <entity name="spikesUp" x="1472" y="56" />
+    <entity name="spikesDown" x="1472" y="24" />
+    <entity name="refill" x="1484" y="40" />
+    <entity name="spikesRight" x="568" y="80" />
+    <entity name="spikesRight" x="560" y="104" />
+    <entity name="spikesDown" x="1464" y="120" />
+    <entity name="spikesDown" x="1424" y="120" />
+    <entity name="spikesUp" x="1496" y="88" />
+    <entity name="spikesRight" x="1496" y="56" />
+    <entity name="spikesDown" x="1496" y="16" />
+    <entity name="spikesLeft" x="1536" y="24" />
+    <entity name="spikesLeft" x="1536" y="72" />
+    <entity name="dreamBlock" x="1536" y="40" />
+    <entity name="spikesDown" x="1568" y="24" />
+    <entity name="spikesRight" x="1568" y="32" />
+    <entity name="spikesRight" x="1568" y="160" />
+    <entity name="spikesDown" x="1496" y="120" />
+    <entity name="spikesRight" x="1496" y="128" />
+    <entity name="spikesUp" x="1496" y="168" />
+    <entity name="spikesLeft" x="1608" y="32" />
+    <entity name="spikesDown" x="1608" y="104" />
+    <entity name="spikesRight" x="1640" y="80" />
+    <entity name="spikesRight" x="1648" y="40" />
+    <entity name="spikesRight" x="1656" y="24" />
+    <entity name="dreamBlock" x="1536" y="128" />
+    <entity name="refill" x="1588" y="80" />
+    <entity name="hanginglamp" x="1584" y="24" />
+    <entity name="hanginglamp" x="320" y="64" />
+    <entity name="hanginglamp" x="72" y="48" />
+    <entity name="spikesUp" x="328" y="88" />
+    <entity name="MaxHelpingHand/FlagSwitchGate" x="576" y="32" />
+    <entity name="MaxHelpingHand/FlagSwitchGate" x="624" y="72" />
+    <entity name="spikesDown" x="624" y="96" />
+    <entity name="MaxHelpingHand/FlagSwitchGate" x="712" y="112" />
+    <entity name="MaxHelpingHand/FlagSwitchGate" x="1056" y="72" />
+    <entity name="touchSwitch" x="96" y="80" />
+    <entity name="MaxHelpingHand/FlagTouchSwitch" x="184" y="88" />
+    <entity name="MaxHelpingHand/FlagTouchSwitch" x="464" y="32" />
+    <entity name="MaxHelpingHand/FlagTouchSwitch" x="440" y="152" />
+    <entity name="MaxHelpingHand/FlagTouchSwitch" x="608" y="88" />
+    <entity name="MaxHelpingHand/FlagTouchSwitch" x="760" y="40" />
+    <entity name="MaxHelpingHand/FlagTouchSwitch" x="992" y="56" />
+    <entity name="refill" x="992" y="72" />
+    <entity name="MaxHelpingHand/FlagTouchSwitch" x="1176" y="88" />
+    <entity name="MaxHelpingHand/FlagTouchSwitch" x="1448" y="56" />
+    <entity name="MaxHelpingHand/FlagTouchSwitch" x="1520" y="144" />
+    <entity name="MaxHelpingHand/FlagSwitchGate" x="328" y="88" />
+    <entity name="MaxHelpingHand/FlagSwitchGate" x="1360" y="64" />
+    <entity name="MaxHelpingHand/FlagSwitchGate" x="1568" y="40" />
+    <entity name="MaxHelpingHand/FlagSwitchGate" x="1640" y="104" />
+    <entity name="refill" x="608" y="80" />
+    <entity name="spikesUp" x="1864" y="72" />
+    <entity name="spikesUp" x="1952" y="80" />
+    <entity name="spikesUp" x="2016" y="80" />
+    <entity name="spikesLeft" x="1952" y="80" />
+    <entity name="hanginglamp" x="2328" y="96" />
+    <entity name="CommunalHelper/ConnectedDreamBlock" x="1712" y="96" />
+    <entity name="spikesDown" x="1752" y="128" />
+    <entity name="wallBooster" x="1832" y="32" />
+    <entity name="wallBooster" x="1896" y="32" />
+    <entity name="wallBooster" x="1880" y="72" />
+    <entity name="wallBooster" x="1904" y="64" />
+    <entity name="wallBooster" x="1920" y="32" />
+    <entity name="wallBooster" x="1952" y="144" />
+    <entity name="wallBooster" x="1968" y="80" />
+    <entity name="wallBooster" x="2008" y="80" />
+    <entity name="wallBooster" x="2032" y="80" />
+    <entity name="wallBooster" x="2024" y="136" />
+    <entity name="spikesLeft" x="2056" y="32" />
+    <entity name="CommunalHelper/ConnectedDreamBlock" x="2112" y="120" />
+    <entity name="touchSwitch" x="2088" y="80" />
+    <entity name="switchGate" x="2280" y="40" />
+    <entity name="refill" x="1992" y="144" />
+    <entity name="MaggyHelper/CharaChaser" x="56" y="64" />
+    <entity name="MaggyHelper/CharaChaser" x="40" y="64" />
+    <entity name="spikesUp" x="176" y="160" />
+    <entity name="spikesLeft" x="192" y="136" />
+    <entity name="spikesLeft" x="1640" y="104" />
+    <entity name="refill" x="1648" y="134" />
+    <entity name="spikesRight" x="1824" y="96" />
+    <entity name="spikesLeft" x="1712" y="128" />
+    <entity name="spikesLeft" x="1712" y="24" />
+    <entity name="spikesDown" x="1664" y="24" />
+    <decal x="56" y="80" texture="2-oldsite/window.png" />
+    <decal x="264" y="120" texture="2-oldsite/window.png" />
+    <decal x="312" y="112" texture="2-oldsite/window_boarded.png" />
+    <decal x="512" y="72" texture="2-oldsite/window_boarded.png" />
+    <decal x="608" y="72" texture="2-oldsite/window.png" />
+    <decal x="688" y="128" texture="2-oldsite/window.png" />
+    <decal x="1256" y="88" texture="2-oldsite/window_boarded.png" />
+    <decal x="1448" y="144" texture="2-oldsite/window_boarded.png" />
+    <decal x="1448" y="48" texture="2-oldsite/window.png" />
+    <decal x="30" y="100" texture="2-oldsite/door.png" />
+    <decal x="24" y="144" texture="2-oldsite/chair.png" />
+    <decal x="55" y="148" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="39" y="148" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="58" y="100" texture="2-oldsite/barrel.png" />
+    <decal x="73" y="100" texture="2-oldsite/barrel.png" />
+    <decal x="71" y="84" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="88" y="96" texture="2-oldsite/chair.png" />
+    <decal x="254" y="156" texture="2-oldsite/door.png" />
+    <decal x="304" y="144" texture="2-oldsite/tableA.png" />
+    <decal x="272" y="152" texture="2-oldsite/chair.png" />
+    <decal x="120" y="136" texture="2-oldsite/chair.png" />
+    <decal x="288" y="76" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="288" y="84" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="288" y="92" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="288" y="100" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="468" y="60" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="468" y="52" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="468" y="44" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="468" y="36" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="468" y="28" texture="2-oldsite/pilar_vertical_endA.png" />
+    <decal x="552" y="124" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="552" y="132" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="552" y="140" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="552" y="148" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="552" y="156" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="724" y="116" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="724" y="124" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="724" y="132" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="724" y="140" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1203" y="92" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1203" y="84" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="1203" y="68" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1203" y="76" texture="2-oldsite/pilar_vertical_endA.png" />
+    <decal x="688" y="152" texture="2-oldsite/tableC.png" />
+    <decal x="440" y="164" texture="2-oldsite/door.png" />
+    <decal x="442" y="108" texture="2-oldsite/barrel.png" />
+    <decal x="440" y="92" texture="2-oldsite/barrel.png" />
+    <decal x="440" y="76" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="418" y="116" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="784" y="88" texture="2-oldsite/medium_cage_broken.png" />
+    <decal x="762" y="156" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="1179" y="92" texture="2-oldsite/barrel.png" />
+    <decal x="1178" y="76" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="1268" y="108" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="1228" y="92" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="1360" y="120" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1368" y="120" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1376" y="120" texture="2-oldsite/pilar_hB.png" />
+    <decal x="1384" y="120" texture="2-oldsite/pilar_hC.png" />
+    <decal x="1392" y="120" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1400" y="120" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1568" y="88" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1576" y="88" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1584" y="88" texture="2-oldsite/pilar_hC.png" />
+    <decal x="1592" y="88" texture="2-oldsite/pilar_hB.png" />
+    <decal x="1600" y="88" texture="2-oldsite/pilar_hC.png" />
+    <decal x="1608" y="88" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1648" y="64" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1656" y="64" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1064" y="48" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1056" y="48" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1048" y="48" texture="2-oldsite/pilar_hC.png" />
+    <decal x="1040" y="48" texture="2-oldsite/pilar_hB.png" />
+    <decal x="1032" y="48" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="1080" y="144" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1072" y="144" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1064" y="144" texture="2-oldsite/pilar_hC.png" />
+    <decal x="1056" y="144" texture="2-oldsite/pilar_hB.png" />
+    <decal x="1048" y="144" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1040" y="144" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="912" y="120" texture="2-oldsite/pilar_hA.png" />
+    <decal x="920" y="120" texture="2-oldsite/pilar_hA.png" />
+    <decal x="928" y="120" texture="2-oldsite/pilar_hB.png" />
+    <decal x="936" y="120" texture="2-oldsite/pilar_hA.png" />
+    <decal x="944" y="120" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="904" y="168" texture="2-oldsite/pilar_hA.png" />
+    <decal x="912" y="168" texture="2-oldsite/pilar_hA.png" />
+    <decal x="920" y="168" texture="2-oldsite/pilar_hA.png" />
+    <decal x="928" y="168" texture="2-oldsite/pilar_hC.png" />
+    <decal x="936" y="168" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="928" y="40" texture="2-oldsite/pilar_hA.png" />
+    <decal x="936" y="40" texture="2-oldsite/pilar_hA.png" />
+    <decal x="944" y="40" texture="2-oldsite/pilar_hA.png" />
+    <decal x="952" y="40" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="808" y="48" texture="2-oldsite/pilar_hA.png" />
+    <decal x="800" y="48" texture="2-oldsite/pilar_hA.png" />
+    <decal x="792" y="48" texture="2-oldsite/pilar_hA.png" />
+    <decal x="784" y="48" texture="2-oldsite/pilar_hC.png" />
+    <decal x="776" y="48" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="744" y="48" texture="2-oldsite/pilar_hA.png" />
+    <decal x="752" y="48" texture="2-oldsite/pilar_hC.png" />
+    <decal x="760" y="48" texture="2-oldsite/pilar_hA.png" />
+    <decal x="768" y="48" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="440" y="24" texture="2-oldsite/chained_cage.png" />
+    <decal x="608" y="24" texture="2-oldsite/chained_cage.png" />
+    <decal x="992" y="24" texture="2-oldsite/chained_cage.png" />
+    <decal x="1624" y="136" texture="2-oldsite/chained_cage.png" />
+    <decal x="744" y="160" texture="2-oldsite/chair.png" />
+    <decal x="759" y="36" texture="2-oldsite/barrel.png" />
+    <decal x="789" y="36" texture="2-oldsite/barrel.png" />
+    <decal x="787" y="20" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="930" y="108" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="942" y="28" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="1053" y="36" texture="2-oldsite/barrel.png" />
+    <decal x="1038" y="36" texture="2-oldsite/barrel.png" />
+    <decal x="1042" y="20" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="1048" y="132" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="1063" y="132" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="925" y="156" texture="2-oldsite/barrel.png" />
+    <decal x="1374" y="108" texture="2-oldsite/barrel.png" />
+    <decal x="1389" y="108" texture="2-oldsite/barrel.png" />
+    <decal x="1379" y="92" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="1408" y="152" texture="2-oldsite/chair.png" />
+    <decal x="1384" y="168" texture="2-oldsite/cage_modular_bot.png" />
+    <decal x="1384" y="152" texture="2-oldsite/cage_modular_midC.png" />
+    <decal x="1384" y="136" texture="2-oldsite/cage_modular_top.png" />
+    <decal x="1438" y="164" texture="2-oldsite/barrel.png" />
+    <decal x="1452" y="164" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="1508" y="156" texture="2-oldsite/barrel.png" />
+    <decal x="1524" y="156" texture="2-oldsite/barrel.png" />
+    <decal x="1515" y="140" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="1513" y="76" texture="2-oldsite/barrel.png" />
+    <decal x="1514" y="60" texture="2-oldsite/barrel.png" />
+    <decal x="1512" y="44" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="1580" y="77" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="1595" y="77" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="1872" y="68" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1872" y="36" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1872" y="44" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1872" y="52" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1872" y="60" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1960" y="36" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="2024" y="36" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="2024" y="76" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="1960" y="76" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="2024" y="44" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="2024" y="68" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="1960" y="44" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="2024" y="60" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="1960" y="52" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="1960" y="68" texture="2-oldsite/pilar_vertical_endA.png" />
+    <decal x="1916" y="120" texture="2-oldsite/chained_cage.png" />
+    <decal x="1972" y="88" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1980" y="88" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1988" y="88" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2004" y="88" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2012" y="88" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1972" y="96" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="2012" y="96" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="1996" y="88" texture="2-oldsite/pilar_hC.png" />
+    <decal x="1972" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1980" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2012" y="140" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1988" y="140" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="2004" y="140" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="1972" y="148" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="2012" y="148" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="1976" y="56" texture="2-oldsite/window_boarded.png" />
+    <decal x="2008" y="56" texture="2-oldsite/window.png" />
+    <decal x="1952" y="56" texture="2-oldsite/cloth_pole00.png" />
+    <decal x="1756" y="136" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1764" y="136" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="1756" y="144" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="2036" y="88" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2044" y="88" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2052" y="88" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="2036" y="96" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="2036" y="124" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2044" y="124" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="2036" y="132" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="2028" y="52" texture="2-oldsite/pilar_instersection_small.png" />
+    <decal x="2024" y="44" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2032" y="44" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2040" y="44" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2048" y="44" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="2016" y="44" texture="2-oldsite/pilar_h_endA.png" />
+    <decal x="2216" y="64" texture="2-oldsite/window_boarded.png" />
+    <decal x="2296" y="32" texture="2-oldsite/window_boarded.png" />
+    <decal x="2296" y="80" texture="2-oldsite/window_boarded.png" />
+    <decal x="2176" y="88" texture="2-oldsite/window.png" />
+    <decal x="2324" y="104" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2332" y="104" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2348" y="104" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2340" y="104" texture="2-oldsite/pilar_hC.png" />
+    <decal x="2324" y="112" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="2348" y="112" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="2276" y="108" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="2316" y="124" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="2316" y="132" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="2276" y="116" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="2276" y="132" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="2276" y="140" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="2276" y="148" texture="2-oldsite/pilar_vertical_endB.png" />
+    <decal x="2276" y="124" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="2316" y="140" texture="2-oldsite/pilar_vertical_endA.png" />
+    <decal x="2284" y="52" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2300" y="52" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2308" y="52" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2284" y="60" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="2308" y="60" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="2292" y="52" texture="2-oldsite/pilar_hB.png" />
+    <decal x="2236" y="68" texture="2-oldsite/pilar_vertical_endC.png" />
+    <decal x="2236" y="76" texture="2-oldsite/pilar_verticalB.png" />
+    <decal x="2236" y="84" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="2236" y="92" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="2236" y="100" texture="2-oldsite/pilar_verticalA.png" />
+    <decal x="2236" y="108" texture="2-oldsite/pilar_vertical_endA.png" />
+    <decal x="2180" y="44" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2188" y="44" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2204" y="44" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2220" y="44" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2228" y="44" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2164" y="60" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2172" y="60" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2180" y="60" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2188" y="60" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="2164" y="68" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="2180" y="52" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="2228" y="52" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="2196" y="44" texture="2-oldsite/pilar_hC.png" />
+    <decal x="2212" y="44" texture="2-oldsite/pilar_hB.png" />
+    <decal x="2108" y="88" texture="2-oldsite/cloth_pole00.png" />
+    <decal x="2100" y="60" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2092" y="60" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2084" y="60" texture="2-oldsite/pilar_hA.png" />
+    <decal x="2076" y="60" texture="2-oldsite/pilar_h_endB.png" />
+    <decal x="2100" y="68" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="2072" y="80" texture="2-oldsite/window.png" />
+    <decal x="1884" y="76" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1900" y="76" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1908" y="76" texture="2-oldsite/pilar_hA.png" />
+    <decal x="1892" y="76" texture="2-oldsite/pilar_hC.png" />
+    <decal x="1884" y="84" texture="2-oldsite/pilar_diagonalB.png" />
+    <decal x="1908" y="84" texture="2-oldsite/pilar_diagonalB.png" />
+  </level>
+  <level id="c-04" width="320" height="184" xoffset="6264" yoffset="-1456">
+    <tiles tileset="solids" offsetX="0" offsetY="0">
+  00000000555555555500005555555555
+  00000000555555555500005555555555
+  00000000555555550000005555555555
+  00000000555555550000000005555555
+  000000055555555000000000055555555
+  000000055555555000000000055555555
+  000000055555555000000000055555555
+  000000055555555555550000055555555
+  000000055555555555550000005555555
+  000000055555555000000000005555555
+  000000555555555000000000005555555
+  0000005555555500000000000055555555
+  0000005555555500000000000055555555
+  0000055555555500000000000055555555
+  0000055555555500000555555555555555
+  0000055555555500000555555555555555
+  0000055555555500000000000555555555
+  0000055555555000000000000555555555
+  0000055555555000000000000555555555555
+  0005555555555000000000000555555555555555
+  5555555555555555550000555555555555555555
+  5555555555555555550000555555555555555555
+  5555555555555555550000555555555555555555
+    </tiles>
+    <tiles tileset="bg" offsetX="0" offsetY="0">
+  000000333333333333333333333333333333
+  0003333333333333333333333333333333333
+  00000333333333333333333333333333333
+  00033333333333333300333333333333333
+  00333333333333333300333333333333333
+  00003333333333333333333333333333333
+  0000333333333333333333333333333333333
+  0003333333333333333333333333333333333
+  000333333333333333333333333333333333
+  0000033333333333333333333333333333333
+  0033333333333333333333003333333333333
+  003333333333333333333300333333333333
+  00003333333333333333333333333333333
+  0033333333333333333333333333333333333
+  0333333333333333333333333333333333333
+  000333333333333333333333333333333333
+  0003333333333330033333333333333333333303
+  3333333333333330033333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+  3333333333333333333333333333333333333333
+    </tiles>
+    <entity name="jumpThru" x="112" y="112" />
+    <entity name="jumpThru" x="160" y="56" />
+    <entity name="jumpThru" x="144" y="160" />
+    <entity name="jumpThru" x="272" y="88" />
+    <entity name="jumpThru" x="264" y="32" />
+    <entity name="jumpThru" x="32" y="32" />
+    <entity name="jumpThru" x="16" y="104" />
+    <entity name="player" x="160" y="160" />
+    <decal x="128" y="136" texture="2-oldsite/window.png" />
+    <decal x="184" y="88" texture="2-oldsite/window_boarded.png" />
+    <decal x="152" y="32" texture="2-oldsite/window.png" />
+    <decal x="144" y="96" texture="2-oldsite/table_broken.png" />
+    <decal x="176" y="144" texture="2-oldsite/tableC.png" />
+    <decal x="152" y="40" texture="2-oldsite/tableA.png" />
+    <decal x="274" y="76" texture="2-oldsite/door.png" />
+    <decal x="53" y="20" texture="2-oldsite/barrel.png" />
+    <decal x="50" y="4" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="32" y="92" texture="2-oldsite/barrel.png" />
+    <decal x="33" y="76" texture="2-oldsite/barrel.png" />
+    <decal x="31" y="140" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="13" y="148" texture="2-oldsite/barrel.png" />
+    <decal x="308" y="140" texture="2-oldsite/barrel.png" />
+    <decal x="284" y="132" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="288" y="76" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="266" y="20" texture="2-oldsite/barrel.png" />
+    <decal x="281" y="20" texture="2-oldsite/barrel.png" />
+    <decal x="272" y="4" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="195" y="100" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="116" y="148" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="185" y="44" texture="2-oldsite/barrel.png" />
+    <decal x="185" y="28" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="127" y="40" texture="2-oldsite/chair.png" />
+    <decal x="176" y="96" texture="2-oldsite/chair_broken.png" />
+    <decal x="144" y="144" texture="2-oldsite/chair_old.png" />
+  </level>
+  <level id="c-05" width="320" height="1176" xoffset="6264" yoffset="-2632">
+    <tiles tileset="solids" offsetX="0" offsetY="0">
+  00000000555055055500005550550555
+  00000000555555555500005555555555
+  00000000555555555500005555555555
+    </tiles>
+    <tiles tileset="bg" offsetX="0" offsetY="0">
+  0000000000000330000003000000003
+  0000000000000330000033000000003
+  00000000030033303033333003000333
+  00000000030333333033333033033333
+  0000000033033333333333333333333333
+  0000000333333333333333333333333333
+  000000033333333333333333333333333333
+  00000033333333333333333333333333333
+  000000333333333333333333333333333333
+    </tiles>
+    <entity name="jumpThru" x="144" y="1152" />
+    <entity name="player" x="160" y="1152" />
+    <entity name="cassetteBlock" x="128" y="1008" />
+    <entity name="cassetteBlock" x="176" y="1008" />
+    <entity name="refill" x="160" y="1088" />
+    <entity name="cassetteBlock" x="176" y="936" />
+    <entity name="cassetteBlock" x="128" y="936" />
+    <entity name="cassetteBlock" x="128" y="704" />
+    <entity name="cassetteBlock" x="176" y="704" />
+    <entity name="cassetteBlock" x="184" y="664" />
+    <entity name="cassetteBlock" x="120" y="664" />
+    <entity name="cassetteBlock" x="152" y="552" />
+    <entity name="cassetteBlock" x="200" y="552" />
+    <entity name="cassetteBlock" x="104" y="552" />
+    <entity name="cassetteBlock" x="152" y="512" />
+    <entity name="cassetteBlock" x="136" y="456" />
+    <entity name="cassetteBlock" x="176" y="304" />
+    <entity name="cassetteBlock" x="128" y="304" />
+    <entity name="MaggyHelper/CharaChaser" x="280" y="1136" />
+    <entity name="MaggyHelper/CharaChaser" x="32" y="1136" />
+    <entity name="MaggyHelper/CharaChaser" x="280" y="1112" />
+    <entity name="MaggyHelper/CharaChaser" x="32" y="1112" />
+    <entity name="refill" x="160" y="872" />
+    <entity name="refill" x="160" y="744" />
+    <entity name="badelineBoost" x="160" y="184" />
+    <entity name="refill" x="160" y="280" />
+    <decal x="189" y="1140" texture="2-oldsite/barrel.png" />
+    <decal x="191" y="1124" texture="2-oldsite/barrel.png" />
+    <decal x="215" y="1140" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="242" y="1140" texture="2-oldsite/barrel_brokenB.png" />
+    <decal x="128" y="1136" texture="2-oldsite/chair.png" />
+    <decal x="77" y="1140" texture="2-oldsite/barrel.png" />
+    <decal x="77" y="1124" texture="2-oldsite/barrel_brokenA.png" />
+    <decal x="155" y="1140" texture="2-oldsite/barrel_brokenA.png" />
+  </level>
+  <level id="c-end" width="320" height="232" xoffset="6264" yoffset="-2864">
+    <entity name="MaggyHelper/HeartGem" x="167" y="53" />
+    <entity name="BrokemiaHelper/floatierSpaceBlock" x="112" y="192" />
+    <entity name="BrokemiaHelper/floatierSpaceBlock" x="184" y="192" />
+    <entity name="BrokemiaHelper/floatierSpaceBlock" x="240" y="136" />
+    <entity name="BrokemiaHelper/floatierSpaceBlock" x="80" y="88" />
+    <entity name="jumpThru" x="144" y="200" />
+    <entity name="killbox" x="-8" y="224" />
+    <entity name="player" x="166" y="172" />
+  </level>
+</map>

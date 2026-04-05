@@ -1,0 +1,8880 @@
+{
+  "package": "b_06_Stronghold",
+  "levels": [
+    {
+      "id": "lvl_a-00",
+      "name": "lvl_a-00",
+      "width": 504,
+      "height": 184,
+      "xoffset": -56,
+      "yoffset": -56,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 16,
+          "y": 152
+        },
+        {
+          "name": "booster",
+          "x": 128,
+          "y": 120
+        },
+        {
+          "name": "booster",
+          "x": 200,
+          "y": 104
+        },
+        {
+          "name": "spikesLeft",
+          "x": 152,
+          "y": 96
+        },
+        {
+          "name": "spikesUp",
+          "x": 152,
+          "y": 96
+        },
+        {
+          "name": "spikesRight",
+          "x": 160,
+          "y": 96
+        },
+        {
+          "name": "spikesDown",
+          "x": 152,
+          "y": 128
+        },
+        {
+          "name": "booster",
+          "x": 240,
+          "y": 104
+        },
+        {
+          "name": "spikesRight",
+          "x": 280,
+          "y": 40
+        },
+        {
+          "name": "spikesDown",
+          "x": 272,
+          "y": 112
+        },
+        {
+          "name": "spikesLeft",
+          "x": 272,
+          "y": 32
+        },
+        {
+          "name": "booster",
+          "x": 312,
+          "y": 112
+        },
+        {
+          "name": "booster",
+          "x": 312,
+          "y": 64
+        },
+        {
+          "name": "spikesUp",
+          "x": 336,
+          "y": 64
+        },
+        {
+          "name": "spikesRight",
+          "x": 344,
+          "y": 64
+        },
+        {
+          "name": "spikesDown",
+          "x": 336,
+          "y": 128
+        },
+        {
+          "name": "spikesLeft",
+          "x": 336,
+          "y": 64
+        },
+        {
+          "name": "booster",
+          "x": 416,
+          "y": 112
+        },
+        {
+          "name": "spikesUp",
+          "x": 384,
+          "y": 88
+        },
+        {
+          "name": "spikesLeft",
+          "x": 384,
+          "y": 88
+        },
+        {
+          "name": "spikesRight",
+          "x": 440,
+          "y": 88
+        },
+        {
+          "name": "spikesDown",
+          "x": 384,
+          "y": 96
+        },
+        {
+          "name": "spikesLeft",
+          "x": 488,
+          "y": 80
+        },
+        {
+          "name": "player",
+          "x": 496,
+          "y": 56
+        },
+        {
+          "name": "spikesUp",
+          "x": 272,
+          "y": 32
+        },
+        {
+          "name": "spikesRight",
+          "x": 312,
+          "y": 32
+        },
+        {
+          "name": "spikesDown",
+          "x": 288,
+          "y": 40
+        },
+        {
+          "name": "goldenBerry",
+          "x": 16,
+          "y": 120
+        },
+        {
+          "name": "cliffflag",
+          "x": 480,
+          "y": 56
+        },
+        {
+          "name": "cliffflag",
+          "x": 312,
+          "y": 32
+        },
+        {
+          "name": "Ingeste/PinkPlatinumStrawberry",
+          "x": 32,
+          "y": 120
+        }
+      ],
+      "decals": [
+        {
+          "x": 320,
+          "y": 136,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 36,
+          "y": 144,
+          "texture": "4-cliffside/rubble_b.png"
+        },
+        {
+          "x": 4,
+          "y": 144,
+          "texture": "4-cliffside/rubble_c.png"
+        },
+        {
+          "x": 20,
+          "y": 144,
+          "texture": "4-cliffside/rubble_f.png"
+        },
+        {
+          "x": 156,
+          "y": 160,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 352,
+          "y": 104,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 432,
+          "y": 120,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 448,
+          "y": 168,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 492,
+          "y": 48,
+          "texture": "4-cliffside/rubble_d.png"
+        },
+        {
+          "x": 392,
+          "y": 80,
+          "texture": "4-cliffside/woodbeam_d.png"
+        },
+        {
+          "x": 392,
+          "y": 64,
+          "texture": "4-cliffside/woodbeam_d.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_a-01",
+      "name": "lvl_a-01",
+      "width": 624,
+      "height": 184,
+      "xoffset": 448,
+      "yoffset": -152,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 8,
+          "y": 152
+        },
+        {
+          "name": "movingPlatform",
+          "x": 136,
+          "y": 136
+        },
+        {
+          "name": "movingPlatform",
+          "x": 200,
+          "y": 152
+        },
+        {
+          "name": "movingPlatform",
+          "x": 328,
+          "y": 104
+        },
+        {
+          "name": "spikesLeft",
+          "x": 600,
+          "y": 72
+        },
+        {
+          "name": "player",
+          "x": 616,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 112,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 144,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 80,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 272,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 128
+        },
+        {
+          "name": "movingPlatform",
+          "x": 432,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 528,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 128
+        }
+      ],
+      "decals": [
+        {
+          "x": 608,
+          "y": 24,
+          "texture": "4-cliffside/tree_c.png"
+        },
+        {
+          "x": 292,
+          "y": 56,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 236,
+          "y": 56,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 260,
+          "y": 28,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 316,
+          "y": 20,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 332,
+          "y": 48,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 400,
+          "y": 136,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 220,
+          "y": 40,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 448,
+          "y": 128,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 564,
+          "y": 76,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 480,
+          "y": 40,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 512,
+          "y": 48,
+          "texture": "4-cliffside/bg_f.png"
+        },
+        {
+          "x": 568,
+          "y": 144,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 536,
+          "y": 136,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 212,
+          "y": 16,
+          "texture": "4-cliffside/bg_f.png"
+        },
+        {
+          "x": 600,
+          "y": 40,
+          "texture": "4-cliffside/flower_b.png"
+        },
+        {
+          "x": 20,
+          "y": 136,
+          "texture": "4-cliffside/rock_b.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_a-02",
+      "name": "lvl_a-02",
+      "width": 504,
+      "height": 200,
+      "xoffset": 1072,
+      "yoffset": -264,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 8,
+          "y": 160
+        },
+        {
+          "name": "booster",
+          "x": 136,
+          "y": 168
+        },
+        {
+          "name": "jumpThru",
+          "x": 120,
+          "y": 144
+        },
+        {
+          "name": "spikesUp",
+          "x": 120,
+          "y": 144
+        },
+        {
+          "name": "spikesUp",
+          "x": 152,
+          "y": 96
+        },
+        {
+          "name": "spikesUp",
+          "x": 168,
+          "y": 128
+        },
+        {
+          "name": "spikesUp",
+          "x": 232,
+          "y": 120
+        },
+        {
+          "name": "booster",
+          "x": 200,
+          "y": 168
+        },
+        {
+          "name": "dashBlock",
+          "x": 232,
+          "y": 72
+        },
+        {
+          "name": "dashBlock",
+          "x": 304,
+          "y": 128
+        },
+        {
+          "name": "booster",
+          "x": 392,
+          "y": 96
+        },
+        {
+          "name": "spikesUp",
+          "x": 304,
+          "y": 112
+        },
+        {
+          "name": "spikesUp",
+          "x": 336,
+          "y": 120
+        },
+        {
+          "name": "spikesUp",
+          "x": 376,
+          "y": 112
+        },
+        {
+          "name": "booster",
+          "x": 328,
+          "y": 168
+        },
+        {
+          "name": "booster",
+          "x": 376,
+          "y": 168
+        },
+        {
+          "name": "booster",
+          "x": 424,
+          "y": 168
+        },
+        {
+          "name": "player",
+          "x": 496,
+          "y": 144
+        },
+        {
+          "name": "spikesDown",
+          "x": 424,
+          "y": 144
+        },
+        {
+          "name": "spikesUp",
+          "x": 328,
+          "y": 80
+        },
+        {
+          "name": "spikesUp",
+          "x": 368,
+          "y": 72
+        },
+        {
+          "name": "spikesRight",
+          "x": 376,
+          "y": 72
+        },
+        {
+          "name": "spikesLeft",
+          "x": 416,
+          "y": 56
+        },
+        {
+          "name": "spikesRight",
+          "x": 336,
+          "y": 80
+        },
+        {
+          "name": "jumpThru",
+          "x": 456,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 8
+        }
+      ],
+      "decals": [
+        {
+          "x": 28,
+          "y": 152,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 8,
+          "y": 152,
+          "texture": "4-cliffside/flower_c.png"
+        },
+        {
+          "x": 68,
+          "y": 168,
+          "texture": "4-cliffside/tree_d.png"
+        },
+        {
+          "x": 204,
+          "y": 128,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 204,
+          "y": 80,
+          "texture": "4-cliffside/roots_b.png"
+        },
+        {
+          "x": 204,
+          "y": 32,
+          "texture": "4-cliffside/roots_a.png"
+        },
+        {
+          "x": 160,
+          "y": 72,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 160,
+          "y": 24,
+          "texture": "4-cliffside/roots_b.png"
+        },
+        {
+          "x": 272,
+          "y": 124,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 304,
+          "y": 16,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 400,
+          "y": 80,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 320,
+          "y": 184,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 488,
+          "y": 136,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 488,
+          "y": 96,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 388,
+          "y": 48,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 388,
+          "y": 0,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 352,
+          "y": 152,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 388,
+          "y": 148,
+          "texture": "4-cliffside/bg_d.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_a-03",
+      "name": "lvl_a-03",
+      "width": 1144,
+      "height": 184,
+      "xoffset": 1576,
+      "yoffset": -280,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 8,
+          "y": 160
+        },
+        {
+          "name": "moveBlock",
+          "x": 88,
+          "y": 80
+        },
+        {
+          "name": "spring",
+          "x": 48,
+          "y": 152
+        },
+        {
+          "name": "spikesUp",
+          "x": 168,
+          "y": 48
+        },
+        {
+          "name": "spikesUp",
+          "x": 280,
+          "y": 72
+        },
+        {
+          "name": "spikesUp",
+          "x": 352,
+          "y": 80
+        },
+        {
+          "name": "spikesUp",
+          "x": 456,
+          "y": 56
+        },
+        {
+          "name": "booster",
+          "x": 616,
+          "y": 64
+        },
+        {
+          "name": "booster",
+          "x": 680,
+          "y": 64
+        },
+        {
+          "name": "spikesUp",
+          "x": 664,
+          "y": 96
+        },
+        {
+          "name": "spikesUp",
+          "x": 632,
+          "y": 88
+        },
+        {
+          "name": "spikesUp",
+          "x": 656,
+          "y": 88
+        },
+        {
+          "name": "player",
+          "x": 1136,
+          "y": 96
+        },
+        {
+          "name": "spikesUp",
+          "x": 712,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 640,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 656,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 656,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 640,
+          "y": 160
+        },
+        {
+          "name": "spikesLeft",
+          "x": 848,
+          "y": 72
+        },
+        {
+          "name": "spikesUp",
+          "x": 848,
+          "y": 72
+        },
+        {
+          "name": "spikesDown",
+          "x": 848,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 920,
+          "y": 168
+        },
+        {
+          "name": "spikesUp",
+          "x": 904,
+          "y": 120
+        },
+        {
+          "name": "booster",
+          "x": 872,
+          "y": 56
+        },
+        {
+          "name": "spikesDown",
+          "x": 880,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 936,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 952,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 952,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 648,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 648,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 944,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 656,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 640,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 920,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 936,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 584,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 584,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 816,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 816,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 1016,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 1016,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 1024,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 968,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 984,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 1000,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 896,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 1016,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 1016,
+          "y": 184
+        }
+      ],
+      "decals": [
+        {
+          "x": 32,
+          "y": 152,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 20,
+          "y": 152,
+          "texture": "4-cliffside/flower_c.png"
+        },
+        {
+          "x": 60,
+          "y": 52,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 60,
+          "y": 100,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 84,
+          "y": 156,
+          "texture": "4-cliffside/tree_b.png"
+        },
+        {
+          "x": 16,
+          "y": 112,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 192,
+          "y": 76,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 304,
+          "y": 160,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 520,
+          "y": 100,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 520,
+          "y": 52,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 664,
+          "y": 28,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 788,
+          "y": 104,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 784,
+          "y": 56,
+          "texture": "4-cliffside/roots_b.png"
+        },
+        {
+          "x": 784,
+          "y": 8,
+          "texture": "4-cliffside/roots_a.png"
+        },
+        {
+          "x": 744,
+          "y": 40,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 616,
+          "y": 88,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 704,
+          "y": 72,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 968,
+          "y": 88,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 904,
+          "y": 64,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 840,
+          "y": 40,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 1060,
+          "y": 48,
+          "texture": "4-cliffside/tree_d.png"
+        },
+        {
+          "x": 1100,
+          "y": 148,
+          "texture": "4-cliffside/tree_b.png"
+        },
+        {
+          "x": 1136,
+          "y": 88,
+          "texture": "4-cliffside/rubble_e.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_a-04",
+      "name": "lvl_a-04",
+      "width": 544,
+      "height": 184,
+      "xoffset": 2720,
+      "yoffset": -296,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 8,
+          "y": 112
+        },
+        {
+          "name": "moveBlock",
+          "x": 120,
+          "y": 64
+        },
+        {
+          "name": "spikesUp",
+          "x": 120,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 56
+        },
+        {
+          "name": "booster",
+          "x": 208,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 248,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 272,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 120
+        },
+        {
+          "name": "booster",
+          "x": 296,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 120
+        },
+        {
+          "name": "booster",
+          "x": 344,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 488,
+          "y": 56
+        },
+        {
+          "name": "player",
+          "x": 536,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 536,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 536,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 536,
+          "y": 104
+        },
+        {
+          "name": "cliffflag",
+          "x": 472,
+          "y": 32
+        }
+      ],
+      "decals": [
+        {
+          "x": 256,
+          "y": 76,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 520,
+          "y": 108,
+          "texture": "4-cliffside/woodbeam_h.png"
+        },
+        {
+          "x": 512,
+          "y": 124,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 492,
+          "y": 108,
+          "texture": "4-cliffside/woodbeam_l.png"
+        },
+        {
+          "x": 508,
+          "y": 92,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 496,
+          "y": 76,
+          "texture": "4-cliffside/woodbeam_j.png"
+        },
+        {
+          "x": 516,
+          "y": 24,
+          "texture": "4-cliffside/rock_a.png"
+        },
+        {
+          "x": 484,
+          "y": 24,
+          "texture": "4-cliffside/flower_b.png"
+        },
+        {
+          "x": 280,
+          "y": 36,
+          "texture": "4-cliffside/woodbeam_b.png"
+        },
+        {
+          "x": 280,
+          "y": 16,
+          "texture": "4-cliffside/woodbeam_l.png"
+        },
+        {
+          "x": 260,
+          "y": 36,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 236,
+          "y": 24,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 244,
+          "y": 52,
+          "texture": "4-cliffside/woodbeam_j.png"
+        },
+        {
+          "x": 228,
+          "y": 36,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 220,
+          "y": 16,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 204,
+          "y": 24,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 188,
+          "y": 0,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 252,
+          "y": 72,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 268,
+          "y": 60,
+          "texture": "4-cliffside/woodbeam_l.png"
+        },
+        {
+          "x": 288,
+          "y": 40,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 288,
+          "y": 60,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 268,
+          "y": 48,
+          "texture": "4-cliffside/woodbeam_g.png"
+        },
+        {
+          "x": 252,
+          "y": 56,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 8,
+          "y": 104,
+          "texture": "4-cliffside/rubble_b.png"
+        },
+        {
+          "x": 24,
+          "y": 104,
+          "texture": "4-cliffside/rubble_d.png"
+        },
+        {
+          "x": 104,
+          "y": 36,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 184,
+          "y": 68,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 204,
+          "y": 148,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 112,
+          "y": 104,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 304,
+          "y": 144,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 336,
+          "y": 120,
+          "texture": "4-cliffside/bg_f.png"
+        },
+        {
+          "x": 136,
+          "y": 40,
+          "texture": "4-cliffside/bg_a.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_b-00",
+      "name": "lvl_b-00",
+      "width": 424,
+      "height": 184,
+      "xoffset": 3264,
+      "yoffset": -376,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 48,
+          "y": 136
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 104,
+          "y": 120
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 136,
+          "y": 80
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 232,
+          "y": 152
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 352,
+          "y": 128
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 256,
+          "y": 56
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 312,
+          "y": 32
+        },
+        {
+          "name": "player",
+          "x": 416,
+          "y": 32
+        },
+        {
+          "name": "spikesLeft",
+          "x": 408,
+          "y": 40
+        },
+        {
+          "name": "spikesLeft",
+          "x": 416,
+          "y": 120
+        },
+        {
+          "name": "booster",
+          "x": 208,
+          "y": 160
+        },
+        {
+          "name": "booster",
+          "x": 296,
+          "y": 152
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 360,
+          "y": 32
+        },
+        {
+          "name": "checkpoint",
+          "x": 36,
+          "y": 104
+        }
+      ],
+      "decals": [
+        {
+          "x": 232,
+          "y": 112,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 252,
+          "y": 88,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 384,
+          "y": 152,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 368,
+          "y": 48,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 392,
+          "y": 56,
+          "texture": "4-cliffside/bg_f.png"
+        },
+        {
+          "x": 64,
+          "y": 152,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 236,
+          "y": 168,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 328,
+          "y": 40,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 356,
+          "y": 176,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 96,
+          "y": 128,
+          "texture": "4-cliffside/bg_b.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_b-01",
+      "name": "lvl_b-01",
+      "width": 600,
+      "height": 200,
+      "xoffset": 3688,
+      "yoffset": -496,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 8,
+          "y": 152
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 224,
+          "y": 144
+        },
+        {
+          "name": "spikesUp",
+          "x": 200,
+          "y": 56
+        },
+        {
+          "name": "booster",
+          "x": 264,
+          "y": 40
+        },
+        {
+          "name": "spikesDown",
+          "x": 280,
+          "y": 24
+        },
+        {
+          "name": "spikesUp",
+          "x": 328,
+          "y": 56
+        },
+        {
+          "name": "spikesDown",
+          "x": 248,
+          "y": 8
+        },
+        {
+          "name": "spikesRight",
+          "x": 352,
+          "y": 56
+        },
+        {
+          "name": "spikesUp",
+          "x": 368,
+          "y": 136
+        },
+        {
+          "name": "booster",
+          "x": 480,
+          "y": 104
+        },
+        {
+          "name": "spikesDown",
+          "x": 480,
+          "y": 72
+        },
+        {
+          "name": "spikesUp",
+          "x": 480,
+          "y": 64
+        },
+        {
+          "name": "spikesLeft",
+          "x": 480,
+          "y": 64
+        },
+        {
+          "name": "booster",
+          "x": 480,
+          "y": 40
+        },
+        {
+          "name": "spikesDown",
+          "x": 456,
+          "y": 16
+        },
+        {
+          "name": "player",
+          "x": 576,
+          "y": 56
+        },
+        {
+          "name": "spikesRight",
+          "x": 400,
+          "y": 104
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 440,
+          "y": 184
+        },
+        {
+          "name": "spikesLeft",
+          "x": 560,
+          "y": 88
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 216,
+          "y": 64
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 72,
+          "y": 154
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 72,
+          "y": 168
+        }
+      ],
+      "decals": [
+        {
+          "x": 40,
+          "y": 128,
+          "texture": "4-cliffside/house_b.png"
+        },
+        {
+          "x": 12,
+          "y": 144,
+          "texture": "4-cliffside/rubble_h.png"
+        },
+        {
+          "x": 308,
+          "y": 84,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 308,
+          "y": 36,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 368,
+          "y": 52,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 364,
+          "y": 96,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 452,
+          "y": 60,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 448,
+          "y": 12,
+          "texture": "4-cliffside/roots_a.png"
+        },
+        {
+          "x": 532,
+          "y": 100,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 556,
+          "y": 124,
+          "texture": "4-cliffside/woodbeam_g.png"
+        },
+        {
+          "x": 576,
+          "y": 48,
+          "texture": "4-cliffside/rubble_a.png"
+        },
+        {
+          "x": 540,
+          "y": 168,
+          "texture": "4-cliffside/tree_d.png"
+        },
+        {
+          "x": 560,
+          "y": 28,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 512,
+          "y": 40,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 420,
+          "y": 120,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 384,
+          "y": 172,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 388,
+          "y": 168,
+          "texture": "4-cliffside/tree_b.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_b-02",
+      "name": "lvl_b-02",
+      "width": 320,
+      "height": 904,
+      "xoffset": 4072,
+      "yoffset": -1400,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 208,
+          "y": 888
+        },
+        {
+          "name": "moveBlock",
+          "x": 144,
+          "y": 832
+        },
+        {
+          "name": "spikesUp",
+          "x": 144,
+          "y": 832
+        },
+        {
+          "name": "jumpThru",
+          "x": 168,
+          "y": 888
+        },
+        {
+          "name": "player",
+          "x": 296,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 888
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 880
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 880
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 864
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 864
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 848
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 832
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 816
+        },
+        {
+          "name": "spinner",
+          "x": 112,
+          "y": 816
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 800
+        },
+        {
+          "name": "spinner",
+          "x": 112,
+          "y": 800
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 784
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 768
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 752
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 752
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 736
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 736
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 728
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 824
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 808
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 840
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 808
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 808
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 792
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 720
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 704
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 688
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 672
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 680
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 672
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 664
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 672
+        },
+        {
+          "name": "spring",
+          "x": 192,
+          "y": 656
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 656
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 640
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 624
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 608
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 592
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 576
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 544
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 552
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 576
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 560
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 544
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 544
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 528
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 528
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 448
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 448
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 432
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 416
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 400
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 600
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 592
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 608
+        },
+        {
+          "name": "spinner",
+          "x": 144,
+          "y": 560
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 464
+        },
+        {
+          "name": "spinner",
+          "x": 112,
+          "y": 448
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 448
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 432
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 416
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 400
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 384
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 368
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 352
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 384
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 368
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 400
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 352
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 336
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 320
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 304
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 336
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 320
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 304
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 288
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 288
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 272
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 256
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 240
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 224
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 288
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 272
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 256
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 240
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 224
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 400
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 288
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 288
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 208
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 224
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 224
+        },
+        {
+          "name": "refill",
+          "x": 88,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 88,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 32,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 32,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 32,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 32,
+          "y": 216
+        },
+        {
+          "name": "spinner",
+          "x": 40,
+          "y": 224
+        },
+        {
+          "name": "spinner",
+          "x": 56,
+          "y": 224
+        },
+        {
+          "name": "spinner",
+          "x": 72,
+          "y": 224
+        },
+        {
+          "name": "spinner",
+          "x": 88,
+          "y": 224
+        },
+        {
+          "name": "spinner",
+          "x": 32,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 24,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 24,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 24,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 24,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 464
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 480
+        },
+        {
+          "name": "towerviewer",
+          "x": 288,
+          "y": 888
+        }
+      ],
+      "decals": [
+        {
+          "x": 152,
+          "y": 32,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 272,
+          "y": 880,
+          "texture": "4-cliffside/rubble_d.png"
+        },
+        {
+          "x": 232,
+          "y": 880,
+          "texture": "4-cliffside/rubble_i.png"
+        },
+        {
+          "x": 296,
+          "y": 880,
+          "texture": "4-cliffside/rubble_a.png"
+        },
+        {
+          "x": 168,
+          "y": 880,
+          "texture": "4-cliffside/rubble_g.png"
+        },
+        {
+          "x": 200,
+          "y": 864,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 76,
+          "y": 804,
+          "texture": "4-cliffside/roots_b.png"
+        },
+        {
+          "x": 36,
+          "y": 684,
+          "texture": "4-cliffside/roots_a.png"
+        },
+        {
+          "x": 292,
+          "y": 696,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 176,
+          "y": 768,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 160,
+          "y": 624,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 192,
+          "y": 592,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 176,
+          "y": 692,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 140,
+          "y": 480,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 148,
+          "y": 800,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 236,
+          "y": 864,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 116,
+          "y": 136,
+          "texture": "4-cliffside/roots_b.png"
+        },
+        {
+          "x": 116,
+          "y": 184,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 80,
+          "y": 176,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 184,
+          "y": 312,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 184,
+          "y": 360,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 144,
+          "y": 368,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 160,
+          "y": 96,
+          "texture": "4-cliffside/roots_a.png"
+        },
+        {
+          "x": 160,
+          "y": 144,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 56,
+          "y": 148,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 64,
+          "y": 64,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 264,
+          "y": 32,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 296,
+          "y": 32,
+          "texture": "4-cliffside/rubble_e.png"
+        },
+        {
+          "x": 264,
+          "y": 48,
+          "texture": "4-cliffside/rubble_i.png"
+        },
+        {
+          "x": 212,
+          "y": 56,
+          "texture": "4-cliffside/rubble_d.png"
+        },
+        {
+          "x": 232,
+          "y": 56,
+          "texture": "4-cliffside/rubble_b.png"
+        },
+        {
+          "x": 144,
+          "y": 40,
+          "texture": "4-cliffside/rubble_f.png"
+        },
+        {
+          "x": 100,
+          "y": 48,
+          "texture": "4-cliffside/rubble_g.png"
+        },
+        {
+          "x": 200,
+          "y": 32,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 240,
+          "y": 48,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 296,
+          "y": 12,
+          "texture": "4-cliffside/bg_f.png"
+        },
+        {
+          "x": 56,
+          "y": 44,
+          "texture": "4-cliffside/roots_b.png"
+        },
+        {
+          "x": 56,
+          "y": 92,
+          "texture": "4-cliffside/roots_a.png"
+        },
+        {
+          "x": 56,
+          "y": 140,
+          "texture": "4-cliffside/roots_bot_a.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_b-03",
+      "name": "lvl_b-03",
+      "width": 432,
+      "height": 184,
+      "xoffset": 4336,
+      "yoffset": -1584,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "jumpThru",
+          "x": 16,
+          "y": 168
+        },
+        {
+          "name": "player",
+          "x": 64,
+          "y": 56
+        },
+        {
+          "name": "touchSwitch",
+          "x": 232,
+          "y": 24
+        },
+        {
+          "name": "movingPlatform",
+          "x": 184,
+          "y": 136
+        },
+        {
+          "name": "spring",
+          "x": 192,
+          "y": 136
+        },
+        {
+          "name": "touchSwitch",
+          "x": 232,
+          "y": 160
+        },
+        {
+          "name": "touchSwitch",
+          "x": 304,
+          "y": 160
+        },
+        {
+          "name": "booster",
+          "x": 128,
+          "y": 160
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 296,
+          "y": 168
+        },
+        {
+          "name": "spikesUp",
+          "x": 96,
+          "y": 48
+        },
+        {
+          "name": "touchSwitch",
+          "x": 128,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 48
+        },
+        {
+          "name": "switchGate",
+          "x": 376,
+          "y": 40
+        },
+        {
+          "name": "spikesLeft",
+          "x": 416,
+          "y": 56
+        },
+        {
+          "name": "spikesUp",
+          "x": 112,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 120
+        },
+        {
+          "name": "spikesUp",
+          "x": 144,
+          "y": 64
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 168,
+          "y": 104
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 168,
+          "y": 72
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 168,
+          "y": 88
+        }
+      ],
+      "decals": [
+        {
+          "x": 44,
+          "y": 20,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 44,
+          "y": 68,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 80,
+          "y": 108,
+          "texture": "4-cliffside/woodbeam_b.png"
+        },
+        {
+          "x": 96,
+          "y": 92,
+          "texture": "4-cliffside/woodbeam_l.png"
+        },
+        {
+          "x": 108,
+          "y": 96,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 132,
+          "y": 84,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 140,
+          "y": 84,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 32,
+          "y": 144,
+          "texture": "4-cliffside/tree_d.png"
+        },
+        {
+          "x": 172,
+          "y": 152,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 392,
+          "y": 80,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 400,
+          "y": 112,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 340,
+          "y": 24,
+          "texture": "4-cliffside/tree_d.png"
+        },
+        {
+          "x": 408,
+          "y": 76,
+          "texture": "4-cliffside/roots_b.png"
+        },
+        {
+          "x": 408,
+          "y": 124,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 412,
+          "y": 28,
+          "texture": "4-cliffside/roots_c.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_b-04",
+      "name": "lvl_b-04",
+      "width": 536,
+      "height": 184,
+      "xoffset": 4696,
+      "yoffset": -1768,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "jumpThru",
+          "x": 16,
+          "y": 168
+        },
+        {
+          "name": "player",
+          "x": 24,
+          "y": 168
+        },
+        {
+          "name": "booster",
+          "x": 64,
+          "y": 120
+        },
+        {
+          "name": "booster",
+          "x": 96,
+          "y": 88
+        },
+        {
+          "name": "spikesUp",
+          "x": 152,
+          "y": 104
+        },
+        {
+          "name": "spikesLeft",
+          "x": 152,
+          "y": 104
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 192,
+          "y": 136
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 224,
+          "y": 144
+        },
+        {
+          "name": "spikesUp",
+          "x": 288,
+          "y": 96
+        },
+        {
+          "name": "booster",
+          "x": 256,
+          "y": 32
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 256,
+          "y": 152
+        },
+        {
+          "name": "spikesLeft",
+          "x": 296,
+          "y": 64
+        },
+        {
+          "name": "spikesUp",
+          "x": 272,
+          "y": 48
+        },
+        {
+          "name": "spikesDown",
+          "x": 240,
+          "y": 16
+        },
+        {
+          "name": "booster",
+          "x": 400,
+          "y": 32
+        },
+        {
+          "name": "player",
+          "x": 528,
+          "y": 40
+        },
+        {
+          "name": "spikesUp",
+          "x": 416,
+          "y": 48
+        },
+        {
+          "name": "spikesRight",
+          "x": 328,
+          "y": 80
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 376,
+          "y": 168
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 480,
+          "y": 112
+        },
+        {
+          "name": "booster",
+          "x": 480,
+          "y": 168
+        },
+        {
+          "name": "booster",
+          "x": 440,
+          "y": 72
+        },
+        {
+          "name": "spikesLeft",
+          "x": 512,
+          "y": 96
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 288,
+          "y": 112
+        }
+      ],
+      "decals": [
+        {
+          "x": 76,
+          "y": 148,
+          "texture": "4-cliffside/tree_c.png"
+        },
+        {
+          "x": 56,
+          "y": 160,
+          "texture": "4-cliffside/flower_c.png"
+        },
+        {
+          "x": 36,
+          "y": 160,
+          "texture": "4-cliffside/flower_a.png"
+        },
+        {
+          "x": 44,
+          "y": 76,
+          "texture": "4-cliffside/tree_b.png"
+        },
+        {
+          "x": 260,
+          "y": 28,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 340,
+          "y": 76,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 340,
+          "y": 28,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 392,
+          "y": 56,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 396,
+          "y": 92,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 348,
+          "y": 176,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 456,
+          "y": 72,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 480,
+          "y": 88,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 480,
+          "y": 72,
+          "texture": "4-cliffside/woodbeam_h.png"
+        },
+        {
+          "x": 504,
+          "y": 80,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 496,
+          "y": 108,
+          "texture": "4-cliffside/woodbeam_l.png"
+        },
+        {
+          "x": 508,
+          "y": 128,
+          "texture": "4-cliffside/woodbeam_b.png"
+        },
+        {
+          "x": 272,
+          "y": 80,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 432,
+          "y": 32,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 464,
+          "y": 32,
+          "texture": "4-cliffside/bg_e.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_c-00",
+      "name": "lvl_c-00",
+      "width": 968,
+      "height": 192,
+      "xoffset": 5232,
+      "yoffset": -1896,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 32,
+          "y": 168
+        },
+        {
+          "name": "checkpoint",
+          "x": 44,
+          "y": 112
+        },
+        {
+          "name": "booster",
+          "x": 192,
+          "y": 112
+        },
+        {
+          "name": "spikesUp",
+          "x": 272,
+          "y": 56
+        },
+        {
+          "name": "spikesUp",
+          "x": 288,
+          "y": 64
+        },
+        {
+          "name": "spikesLeft",
+          "x": 272,
+          "y": 56
+        },
+        {
+          "name": "booster",
+          "x": 384,
+          "y": 120
+        },
+        {
+          "name": "spikesLeft",
+          "x": 424,
+          "y": 88
+        },
+        {
+          "name": "booster",
+          "x": 488,
+          "y": 128
+        },
+        {
+          "name": "spikesUp",
+          "x": 480,
+          "y": 64
+        },
+        {
+          "name": "spikesUp",
+          "x": 296,
+          "y": 72
+        },
+        {
+          "name": "spikesUp",
+          "x": 496,
+          "y": 80
+        },
+        {
+          "name": "spikesUp",
+          "x": 552,
+          "y": 48
+        },
+        {
+          "name": "spikesLeft",
+          "x": 536,
+          "y": 112
+        },
+        {
+          "name": "spikesUp",
+          "x": 568,
+          "y": 88
+        },
+        {
+          "name": "spikesUp",
+          "x": 584,
+          "y": 144
+        },
+        {
+          "name": "booster",
+          "x": 568,
+          "y": 168
+        },
+        {
+          "name": "booster",
+          "x": 632,
+          "y": 168
+        },
+        {
+          "name": "booster",
+          "x": 768,
+          "y": 168
+        },
+        {
+          "name": "spikesLeft",
+          "x": 952,
+          "y": 144
+        },
+        {
+          "name": "player",
+          "x": 960,
+          "y": 104
+        },
+        {
+          "name": "spikesRight",
+          "x": 432,
+          "y": 32
+        },
+        {
+          "name": "spikesDown",
+          "x": 744,
+          "y": 128
+        },
+        {
+          "name": "spikesLeft",
+          "x": 800,
+          "y": 160
+        },
+        {
+          "name": "spikesUp",
+          "x": 800,
+          "y": 160
+        },
+        {
+          "name": "spikesUp",
+          "x": 816,
+          "y": 168
+        },
+        {
+          "name": "spikesLeft",
+          "x": 880,
+          "y": 104
+        },
+        {
+          "name": "spikesRight",
+          "x": 896,
+          "y": 64
+        },
+        {
+          "name": "spikesDown",
+          "x": 880,
+          "y": 136
+        },
+        {
+          "name": "spikesDown",
+          "x": 672,
+          "y": 144
+        },
+        {
+          "name": "spikesDown",
+          "x": 720,
+          "y": 136
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 296,
+          "y": 128
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 568,
+          "y": 56
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 776,
+          "y": 104
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 904,
+          "y": 16
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 824,
+          "y": 176
+        },
+        {
+          "name": "spikesLeft",
+          "x": 280,
+          "y": 80
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 296,
+          "y": 112
+        }
+      ],
+      "decals": [
+        {
+          "x": 808,
+          "y": 96,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 504,
+          "y": 112,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 104,
+          "y": 120,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 92,
+          "y": 116,
+          "texture": "4-cliffside/woodbeam_l.png"
+        },
+        {
+          "x": 112,
+          "y": 132,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 136,
+          "y": 120,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 148,
+          "y": 96,
+          "texture": "4-cliffside/woodbeam_g.png"
+        },
+        {
+          "x": 120,
+          "y": 116,
+          "texture": "4-cliffside/woodbeam_h.png"
+        },
+        {
+          "x": 112,
+          "y": 96,
+          "texture": "4-cliffside/woodbeam_c.png"
+        },
+        {
+          "x": 152,
+          "y": 120,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 228,
+          "y": 48,
+          "texture": "4-cliffside/woodbeam_g.png"
+        },
+        {
+          "x": 244,
+          "y": 24,
+          "texture": "4-cliffside/woodbeam_h.png"
+        },
+        {
+          "x": 256,
+          "y": 36,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 272,
+          "y": 24,
+          "texture": "4-cliffside/woodbeam_h.png"
+        },
+        {
+          "x": 280,
+          "y": 20,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 260,
+          "y": 24,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 364,
+          "y": 40,
+          "texture": "4-cliffside/woodbeam_l.png"
+        },
+        {
+          "x": 384,
+          "y": 56,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 392,
+          "y": 44,
+          "texture": "4-cliffside/woodbeam_h.png"
+        },
+        {
+          "x": 400,
+          "y": 72,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 416,
+          "y": 92,
+          "texture": "4-cliffside/woodbeam_b.png"
+        },
+        {
+          "x": 312,
+          "y": 40,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 312,
+          "y": 96,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 496,
+          "y": 112,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 520,
+          "y": 120,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 512,
+          "y": 104,
+          "texture": "4-cliffside/woodbeam_h.png"
+        },
+        {
+          "x": 520,
+          "y": 136,
+          "texture": "4-cliffside/woodbeam_l.png"
+        },
+        {
+          "x": 532,
+          "y": 152,
+          "texture": "4-cliffside/woodbeam_b.png"
+        },
+        {
+          "x": 544,
+          "y": 164,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 460,
+          "y": 24,
+          "texture": "4-cliffside/tree_b.png"
+        },
+        {
+          "x": 604,
+          "y": 28,
+          "texture": "4-cliffside/tree_d.png"
+        },
+        {
+          "x": 664,
+          "y": 164,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 796,
+          "y": 92,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 820,
+          "y": 112,
+          "texture": "4-cliffside/woodbeam_g.png"
+        },
+        {
+          "x": 840,
+          "y": 88,
+          "texture": "4-cliffside/woodbeam_l.png"
+        },
+        {
+          "x": 840,
+          "y": 112,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 836,
+          "y": 120,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 860,
+          "y": 108,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 848,
+          "y": 88,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 872,
+          "y": 84,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 872,
+          "y": 116,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 952,
+          "y": 96,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 124,
+          "y": 96,
+          "texture": "4-cliffside/woodbeam_b.png"
+        },
+        {
+          "x": 196,
+          "y": 92,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 180,
+          "y": 112,
+          "texture": "4-cliffside/woodbeam_b.png"
+        },
+        {
+          "x": 456,
+          "y": 88,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 464,
+          "y": 112,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 448,
+          "y": 64,
+          "texture": "4-cliffside/bg_d.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_c-01",
+      "name": "lvl_c-01",
+      "width": 720,
+      "height": 184,
+      "xoffset": 6200,
+      "yoffset": -1904,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 8,
+          "y": 112
+        },
+        {
+          "name": "movingPlatform",
+          "x": 152,
+          "y": 56
+        },
+        {
+          "name": "movingPlatform",
+          "x": 224,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 248,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 80
+        },
+        {
+          "name": "movingPlatform",
+          "x": 296,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 376,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 376,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 376,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 80
+        },
+        {
+          "name": "movingPlatform",
+          "x": 416,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 440,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 528,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 528,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 384,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 384,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 0
+        },
+        {
+          "name": "movingPlatform",
+          "x": 584,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 536,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 536,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 584,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 584,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 592,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 536,
+          "y": -16
+        },
+        {
+          "name": "spinner",
+          "x": 600,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 600,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 600,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 600,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 592,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 592,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 592,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 592,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 592,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 584,
+          "y": 160
+        },
+        {
+          "name": "player",
+          "x": 712,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 0
+        },
+        {
+          "name": "jumpThru",
+          "x": 640,
+          "y": 136
+        }
+      ],
+      "decals": [
+        {
+          "x": 28,
+          "y": 92,
+          "texture": "4-cliffside/tree_c.png"
+        },
+        {
+          "x": 436,
+          "y": 48,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 316,
+          "y": 124,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 228,
+          "y": 72,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 156,
+          "y": 60,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 432,
+          "y": 168,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 624,
+          "y": 24,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 584,
+          "y": 40,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 688,
+          "y": 112,
+          "texture": "4-cliffside/rubble_d.png"
+        },
+        {
+          "x": 708,
+          "y": 112,
+          "texture": "4-cliffside/rubble_b.png"
+        },
+        {
+          "x": 652,
+          "y": 156,
+          "texture": "4-cliffside/tree_d.png"
+        },
+        {
+          "x": 240,
+          "y": 40,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 316,
+          "y": 160,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 160,
+          "y": 168,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 40,
+          "y": 104,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 84,
+          "y": 120,
+          "texture": "4-cliffside/tree_b.png"
+        },
+        {
+          "x": 16,
+          "y": 104,
+          "texture": "4-cliffside/flower_b.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_c-02",
+      "name": "lvl_c-02",
+      "width": 960,
+      "height": 184,
+      "xoffset": 6920,
+      "yoffset": -1904,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 16,
+          "y": 120
+        },
+        {
+          "name": "moveBlock",
+          "x": 72,
+          "y": 136
+        },
+        {
+          "name": "moveBlock",
+          "x": 360,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 256,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 272,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 256,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 272,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 256,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 256,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 272,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 272,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 352,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 384,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 384,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 376,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 128
+        },
+        {
+          "name": "moveBlock",
+          "x": 448,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 440,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 456,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 440,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 456,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 488,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 488,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 488,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 552,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 544,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 640,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 640,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 640,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 640,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 648,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 648,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 632,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 648,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 656,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 656,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 672,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 672,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 688,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 688,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 736,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 704,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 704,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 704,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 728,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 736,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 712,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 712,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 728,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 728,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 840,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 840,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 856,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 872,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 856,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 872,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 80
+        },
+        {
+          "name": "player",
+          "x": 952,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 736,
+          "y": 96
+        }
+      ],
+      "decals": [
+        {
+          "x": 32,
+          "y": 112,
+          "texture": "4-cliffside/rubble_d.png"
+        },
+        {
+          "x": 68,
+          "y": 136,
+          "texture": "4-cliffside/tree_b.png"
+        },
+        {
+          "x": 168,
+          "y": 40,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 168,
+          "y": 88,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 216,
+          "y": 52,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 436,
+          "y": 28,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 596,
+          "y": 92,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 612,
+          "y": 36,
+          "texture": "4-cliffside/roots_b.png"
+        },
+        {
+          "x": 612,
+          "y": 84,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 504,
+          "y": 32,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 348,
+          "y": 72,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 344,
+          "y": 24,
+          "texture": "4-cliffside/roots_a.png"
+        },
+        {
+          "x": 748,
+          "y": 64,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 748,
+          "y": 16,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 924,
+          "y": 128,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 920,
+          "y": 80,
+          "texture": "4-cliffside/roots_a.png"
+        },
+        {
+          "x": 936,
+          "y": 152,
+          "texture": "4-cliffside/rubble_g.png"
+        },
+        {
+          "x": 920,
+          "y": 144,
+          "texture": "4-cliffside/rubble_i.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_c-03",
+      "name": "lvl_c-03",
+      "width": 320,
+      "height": 1040,
+      "xoffset": 7880,
+      "yoffset": -2744,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 80,
+          "y": 1008
+        },
+        {
+          "name": "moveBlock",
+          "x": 136,
+          "y": 1000
+        },
+        {
+          "name": "cloud",
+          "x": 216,
+          "y": 976
+        },
+        {
+          "name": "moveBlock",
+          "x": 144,
+          "y": 864
+        },
+        {
+          "name": "spinner",
+          "x": 80,
+          "y": 688
+        },
+        {
+          "name": "spinner",
+          "x": 96,
+          "y": 688
+        },
+        {
+          "name": "spinner",
+          "x": 112,
+          "y": 688
+        },
+        {
+          "name": "spinner",
+          "x": 48,
+          "y": 600
+        },
+        {
+          "name": "spinner",
+          "x": 64,
+          "y": 600
+        },
+        {
+          "name": "spinner",
+          "x": 80,
+          "y": 600
+        },
+        {
+          "name": "spinner",
+          "x": 48,
+          "y": 584
+        },
+        {
+          "name": "spinner",
+          "x": 64,
+          "y": 584
+        },
+        {
+          "name": "spinner",
+          "x": 56,
+          "y": 568
+        },
+        {
+          "name": "spinner",
+          "x": 72,
+          "y": 568
+        },
+        {
+          "name": "spinner",
+          "x": 72,
+          "y": 552
+        },
+        {
+          "name": "spinner",
+          "x": 80,
+          "y": 544
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 496
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 496
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 496
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 496
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 496
+        },
+        {
+          "name": "cloud",
+          "x": 208,
+          "y": 544
+        },
+        {
+          "name": "spinner",
+          "x": 72,
+          "y": 496
+        },
+        {
+          "name": "spinner",
+          "x": 88,
+          "y": 496
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 352
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 352
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 352
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 352
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 352
+        },
+        {
+          "name": "spinner",
+          "x": 144,
+          "y": 352
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 352
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 352
+        },
+        {
+          "name": "cloud",
+          "x": 96,
+          "y": 376
+        },
+        {
+          "name": "moveBlock",
+          "x": 144,
+          "y": 184
+        },
+        {
+          "name": "cloud",
+          "x": 96,
+          "y": 288
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 496
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 336
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 336
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 336
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 336
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 336
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 320
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 320
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 368
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 368
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 360
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 360
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 384
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 480
+        },
+        {
+          "name": "spinner",
+          "x": 72,
+          "y": 480
+        },
+        {
+          "name": "spinner",
+          "x": 88,
+          "y": 480
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 480
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 480
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 512
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 512
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 504
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 704
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 704
+        },
+        {
+          "name": "spinner",
+          "x": 56,
+          "y": 784
+        },
+        {
+          "name": "spinner",
+          "x": 40,
+          "y": 784
+        },
+        {
+          "name": "spinner",
+          "x": 64,
+          "y": 792
+        },
+        {
+          "name": "spinner",
+          "x": 64,
+          "y": 808
+        },
+        {
+          "name": "spinner",
+          "x": 80,
+          "y": 808
+        },
+        {
+          "name": "spinner",
+          "x": 96,
+          "y": 816
+        },
+        {
+          "name": "spinner",
+          "x": 80,
+          "y": 824
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 712
+        },
+        {
+          "name": "spinner",
+          "x": 144,
+          "y": 720
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 736
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 720
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 736
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 752
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 752
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 768
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 776
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 792
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 800
+        },
+        {
+          "name": "spinner",
+          "x": 112,
+          "y": 664
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 664
+        },
+        {
+          "name": "spinner",
+          "x": 144,
+          "y": 664
+        },
+        {
+          "name": "spinner",
+          "x": 112,
+          "y": 680
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 648
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 664
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 648
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 656
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 656
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 648
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 640
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 632
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 624
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 608
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 600
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 600
+        },
+        {
+          "name": "spinner",
+          "x": 88,
+          "y": 536
+        },
+        {
+          "name": "spinner",
+          "x": 96,
+          "y": 528
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 520
+        },
+        {
+          "name": "spinner",
+          "x": 96,
+          "y": 600
+        },
+        {
+          "name": "towerviewer",
+          "x": 280,
+          "y": 1000
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 40
+        }
+      ],
+      "decals": [
+        {
+          "x": 100,
+          "y": 244,
+          "texture": "4-cliffside/tree_d.png"
+        },
+        {
+          "x": 100,
+          "y": 412,
+          "texture": "4-cliffside/tree_b.png"
+        },
+        {
+          "x": 204,
+          "y": 480,
+          "texture": "4-cliffside/tree_d.png"
+        },
+        {
+          "x": 76,
+          "y": 736,
+          "texture": "4-cliffside/tree_b.png"
+        },
+        {
+          "x": 228,
+          "y": 1004,
+          "texture": "4-cliffside/tree_d.png"
+        },
+        {
+          "x": 96,
+          "y": 988,
+          "texture": "4-cliffside/tree_c.png"
+        },
+        {
+          "x": 56,
+          "y": 992,
+          "texture": "4-cliffside/rubble_d.png"
+        },
+        {
+          "x": 12,
+          "y": 992,
+          "texture": "4-cliffside/rubble_b.png"
+        },
+        {
+          "x": 68,
+          "y": 1000,
+          "texture": "4-cliffside/rubble_g.png"
+        },
+        {
+          "x": 108,
+          "y": 1000,
+          "texture": "4-cliffside/flower_c.png"
+        },
+        {
+          "x": 264,
+          "y": 992,
+          "texture": "4-cliffside/flower_b.png"
+        },
+        {
+          "x": 156,
+          "y": 840,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 96,
+          "y": 908,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 236,
+          "y": 892,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 92,
+          "y": 620,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 184,
+          "y": 640,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 192,
+          "y": 392,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 224,
+          "y": 220,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 128,
+          "y": 116,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 156,
+          "y": 60,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 188,
+          "y": 184,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 188,
+          "y": 232,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 204,
+          "y": 564,
+          "texture": "4-cliffside/tree_b.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_c-04",
+      "name": "lvl_c-04",
+      "width": 656,
+      "height": 184,
+      "xoffset": 7976,
+      "yoffset": -2928,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "jumpThru",
+          "x": 32,
+          "y": 168
+        },
+        {
+          "name": "player",
+          "x": 160,
+          "y": 104
+        },
+        {
+          "name": "booster",
+          "x": 248,
+          "y": 96
+        },
+        {
+          "name": "booster",
+          "x": 312,
+          "y": 96
+        },
+        {
+          "name": "booster",
+          "x": 440,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 344,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 344,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 344,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 344,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 344,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 344,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 344,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 0
+        },
+        {
+          "name": "booster",
+          "x": 520,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 88
+        },
+        {
+          "name": "player",
+          "x": 648,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 440,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 456,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 488,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 528,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 440,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 536,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 536,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 592,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 592,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 592,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 592,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 592,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 624,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 624,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 624,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 488,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 488,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 488,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 536,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 536,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 544,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 544,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 376,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 456,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 456,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 440,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 440,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 248,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 248,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 264,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 264,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 256,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 272,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 384,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 376,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 344,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 168
+        }
+      ],
+      "decals": [
+        {
+          "x": 80,
+          "y": 152,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 148,
+          "y": 76,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 632,
+          "y": 112,
+          "texture": "4-cliffside/rock_a.png"
+        },
+        {
+          "x": 176,
+          "y": 96,
+          "texture": "4-cliffside/rubble_d.png"
+        },
+        {
+          "x": 144,
+          "y": 112,
+          "texture": "4-cliffside/rubble_h.png"
+        },
+        {
+          "x": 104,
+          "y": 128,
+          "texture": "4-cliffside/rubble_g.png"
+        },
+        {
+          "x": 132,
+          "y": 112,
+          "texture": "4-cliffside/rubble_b.png"
+        },
+        {
+          "x": 88,
+          "y": 160,
+          "texture": "4-cliffside/rubble_a.png"
+        },
+        {
+          "x": 144,
+          "y": 64,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 144,
+          "y": 16,
+          "texture": "4-cliffside/roots_b.png"
+        },
+        {
+          "x": 444,
+          "y": 96,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 444,
+          "y": 48,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 440,
+          "y": 0,
+          "texture": "4-cliffside/roots_a.png"
+        },
+        {
+          "x": 288,
+          "y": 128,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 288,
+          "y": 80,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 288,
+          "y": 32,
+          "texture": "4-cliffside/roots_b.png"
+        },
+        {
+          "x": 396,
+          "y": 136,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 216,
+          "y": 124,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 332,
+          "y": 52,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 488,
+          "y": 64,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 60,
+          "y": 128,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 536,
+          "y": 128,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 104,
+          "y": 96,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 40,
+          "y": 160,
+          "texture": "4-cliffside/rubble_c.png"
+        },
+        {
+          "x": 68,
+          "y": 160,
+          "texture": "4-cliffside/rubble_j.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_d-00",
+      "name": "lvl_d-00",
+      "width": 896,
+      "height": 184,
+      "xoffset": 8632,
+      "yoffset": -2888,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 40,
+          "y": 96
+        },
+        {
+          "name": "cloud",
+          "x": 120,
+          "y": 136
+        },
+        {
+          "name": "cloud",
+          "x": 216,
+          "y": 128
+        },
+        {
+          "name": "cloud",
+          "x": 328,
+          "y": 144
+        },
+        {
+          "name": "spikesUp",
+          "x": 248,
+          "y": 152
+        },
+        {
+          "name": "spikesUp",
+          "x": 288,
+          "y": 144
+        },
+        {
+          "name": "spikesUp",
+          "x": 256,
+          "y": 104
+        },
+        {
+          "name": "spikesUp",
+          "x": 272,
+          "y": 120
+        },
+        {
+          "name": "cloud",
+          "x": 488,
+          "y": 136
+        },
+        {
+          "name": "spikesUp",
+          "x": 368,
+          "y": 136
+        },
+        {
+          "name": "spikesUp",
+          "x": 392,
+          "y": 120
+        },
+        {
+          "name": "spikesUp",
+          "x": 360,
+          "y": 160
+        },
+        {
+          "name": "spikesUp",
+          "x": 416,
+          "y": 104
+        },
+        {
+          "name": "spikesUp",
+          "x": 448,
+          "y": 152
+        },
+        {
+          "name": "spikesUp",
+          "x": 464,
+          "y": 168
+        },
+        {
+          "name": "cloud",
+          "x": 696,
+          "y": 152
+        },
+        {
+          "name": "spikesUp",
+          "x": 520,
+          "y": 160
+        },
+        {
+          "name": "spikesUp",
+          "x": 528,
+          "y": 144
+        },
+        {
+          "name": "spikesUp",
+          "x": 544,
+          "y": 112
+        },
+        {
+          "name": "spikesUp",
+          "x": 560,
+          "y": 136
+        },
+        {
+          "name": "spikesUp",
+          "x": 576,
+          "y": 152
+        },
+        {
+          "name": "spikesUp",
+          "x": 592,
+          "y": 160
+        },
+        {
+          "name": "spikesUp",
+          "x": 616,
+          "y": 136
+        },
+        {
+          "name": "spikesUp",
+          "x": 640,
+          "y": 168
+        },
+        {
+          "name": "spikesUp",
+          "x": 664,
+          "y": 176
+        },
+        {
+          "name": "spikesUp",
+          "x": 488,
+          "y": 176
+        },
+        {
+          "name": "spikesUp",
+          "x": 736,
+          "y": 136
+        },
+        {
+          "name": "spikesUp",
+          "x": 744,
+          "y": 88
+        },
+        {
+          "name": "spikesUp",
+          "x": 760,
+          "y": 160
+        },
+        {
+          "name": "player",
+          "x": 888,
+          "y": 112
+        },
+        {
+          "name": "checkpoint",
+          "x": 44,
+          "y": 80
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 256,
+          "y": 104
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 40,
+          "y": 157
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 744,
+          "y": 112
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 760,
+          "y": 88
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 640,
+          "y": 136
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 432,
+          "y": 104
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 544,
+          "y": 112
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 360,
+          "y": 160
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 864,
+          "y": 120
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 744,
+          "y": 88
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 736,
+          "y": 144
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 560,
+          "y": 112
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 296,
+          "y": 144
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 248,
+          "y": 152
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 40,
+          "y": 116
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 256,
+          "y": 120
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 432,
+          "y": 116
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 760,
+          "y": 112
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 760,
+          "y": 136
+        },
+        {
+          "name": "spikesUp",
+          "x": 432,
+          "y": 136
+        }
+      ],
+      "decals": [
+        {
+          "x": 364,
+          "y": 92,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 644,
+          "y": 124,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 560,
+          "y": 100,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 448,
+          "y": 120,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 312,
+          "y": 96,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 736,
+          "y": 76,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 776,
+          "y": 144,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 732,
+          "y": 156,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 880,
+          "y": 96,
+          "texture": "4-cliffside/rock_d.png"
+        },
+        {
+          "x": 888,
+          "y": 104,
+          "texture": "4-cliffside/flower_c.png"
+        },
+        {
+          "x": 496,
+          "y": 152,
+          "texture": "4-cliffside/bg_a.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_d-01",
+      "name": "lvl_d-01",
+      "width": 992,
+      "height": 216,
+      "xoffset": 9528,
+      "yoffset": -2936,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 8,
+          "y": 160
+        },
+        {
+          "name": "spikesDown",
+          "x": 120,
+          "y": 96
+        },
+        {
+          "name": "cloud",
+          "x": 264,
+          "y": 160
+        },
+        {
+          "name": "cloud",
+          "x": 160,
+          "y": 152
+        },
+        {
+          "name": "spikesUp",
+          "x": 184,
+          "y": 152
+        },
+        {
+          "name": "spikesRight",
+          "x": 200,
+          "y": 152
+        },
+        {
+          "name": "spikesLeft",
+          "x": 184,
+          "y": 152
+        },
+        {
+          "name": "spikesDown",
+          "x": 248,
+          "y": 104
+        },
+        {
+          "name": "cloud",
+          "x": 368,
+          "y": 168
+        },
+        {
+          "name": "spikesUp",
+          "x": 336,
+          "y": 136
+        },
+        {
+          "name": "spikesLeft",
+          "x": 336,
+          "y": 136
+        },
+        {
+          "name": "spikesRight",
+          "x": 344,
+          "y": 136
+        },
+        {
+          "name": "spikesRight",
+          "x": 304,
+          "y": 64
+        },
+        {
+          "name": "spikesUp",
+          "x": 392,
+          "y": 96
+        },
+        {
+          "name": "spikesLeft",
+          "x": 392,
+          "y": 96
+        },
+        {
+          "name": "spikesRight",
+          "x": 400,
+          "y": 96
+        },
+        {
+          "name": "spikesLeft",
+          "x": 432,
+          "y": 48
+        },
+        {
+          "name": "cloud",
+          "x": 472,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 96
+        },
+        {
+          "name": "spikesRight",
+          "x": 448,
+          "y": 40
+        },
+        {
+          "name": "spikesRight",
+          "x": 504,
+          "y": 104
+        },
+        {
+          "name": "spikesUp",
+          "x": 496,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 128
+        },
+        {
+          "name": "spikesLeft",
+          "x": 552,
+          "y": 56
+        },
+        {
+          "name": "booster",
+          "x": 560,
+          "y": 200
+        },
+        {
+          "name": "cloud",
+          "x": 656,
+          "y": 128
+        },
+        {
+          "name": "spikesDown",
+          "x": 656,
+          "y": 72
+        },
+        {
+          "name": "cloud",
+          "x": 768,
+          "y": 128
+        },
+        {
+          "name": "spikesUp",
+          "x": 680,
+          "y": 128
+        },
+        {
+          "name": "spikesLeft",
+          "x": 680,
+          "y": 128
+        },
+        {
+          "name": "spikesRight",
+          "x": 744,
+          "y": 128
+        },
+        {
+          "name": "spikesUp",
+          "x": 792,
+          "y": 128
+        },
+        {
+          "name": "spikesLeft",
+          "x": 792,
+          "y": 128
+        },
+        {
+          "name": "spikesRight",
+          "x": 856,
+          "y": 128
+        },
+        {
+          "name": "cloud",
+          "x": 880,
+          "y": 128
+        },
+        {
+          "name": "player",
+          "x": 984,
+          "y": 184
+        },
+        {
+          "name": "spikesLeft",
+          "x": 904,
+          "y": 64
+        },
+        {
+          "name": "spikesRight",
+          "x": 856,
+          "y": 0
+        },
+        {
+          "name": "spikesLeft",
+          "x": 952,
+          "y": 0
+        },
+        {
+          "name": "spikesLeft",
+          "x": 960,
+          "y": 72
+        },
+        {
+          "name": "spikesLeft",
+          "x": 968,
+          "y": 104
+        },
+        {
+          "name": "spikesUp",
+          "x": 920,
+          "y": 104
+        },
+        {
+          "name": "spikesUp",
+          "x": 928,
+          "y": 136
+        },
+        {
+          "name": "spikesUp",
+          "x": 936,
+          "y": 168
+        },
+        {
+          "name": "spikesUp",
+          "x": 904,
+          "y": 56
+        },
+        {
+          "name": "cliffflag",
+          "x": 248,
+          "y": 152
+        },
+        {
+          "name": "cliffflag",
+          "x": 448,
+          "y": 56
+        },
+        {
+          "name": "cliffflag",
+          "x": 584,
+          "y": 160
+        },
+        {
+          "name": "cliffflag",
+          "x": 832,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 552,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 544,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 112
+        },
+        {
+          "name": "towerviewer",
+          "x": 72,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 344,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 344,
+          "y": 216
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 208
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 224
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 216
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 208
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 224
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 216
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 216
+        },
+        {
+          "name": "spinner",
+          "x": 488,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 216
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 216
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 216
+        },
+        {
+          "name": "spinner",
+          "x": 896,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 552,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 552,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 544,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 552,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 168
+        }
+      ],
+      "decals": [
+        {
+          "x": 224,
+          "y": 136,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 32,
+          "y": 144,
+          "texture": "4-cliffside/rock_b.png"
+        },
+        {
+          "x": 48,
+          "y": 152,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 208,
+          "y": 108,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 208,
+          "y": 156,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 164,
+          "y": 124,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 92,
+          "y": 80,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 368,
+          "y": 196,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 320,
+          "y": 112,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 608,
+          "y": 112,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 636,
+          "y": 80,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 464,
+          "y": 64,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 416,
+          "y": 128,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 64,
+          "y": 156,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 12,
+          "y": 152,
+          "texture": "4-cliffside/flower_b.png"
+        },
+        {
+          "x": 764,
+          "y": 92,
+          "texture": "4-cliffside/roots_b.png"
+        },
+        {
+          "x": 764,
+          "y": 140,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 604,
+          "y": 76,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 604,
+          "y": 124,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 868,
+          "y": 44,
+          "texture": "4-cliffside/tree_b.png"
+        },
+        {
+          "x": 828,
+          "y": 92,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 784,
+          "y": 192,
+          "texture": "4-cliffside/tree_d.png"
+        },
+        {
+          "x": 952,
+          "y": 132,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 952,
+          "y": 176,
+          "texture": "4-cliffside/rubble_h.png"
+        },
+        {
+          "x": 976,
+          "y": 176,
+          "texture": "4-cliffside/rubble_i.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_d-02",
+      "name": "lvl_d-02",
+      "width": 728,
+      "height": 192,
+      "xoffset": 10520,
+      "yoffset": -2928,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 8,
+          "y": 176
+        },
+        {
+          "name": "booster",
+          "x": 56,
+          "y": 168
+        },
+        {
+          "name": "exitBlock",
+          "x": -24,
+          "y": 144
+        },
+        {
+          "name": "booster",
+          "x": 152,
+          "y": 168
+        },
+        {
+          "name": "touchSwitch",
+          "x": 40,
+          "y": 56
+        },
+        {
+          "name": "touchSwitch",
+          "x": 168,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 56
+        },
+        {
+          "name": "booster",
+          "x": 240,
+          "y": 168
+        },
+        {
+          "name": "touchSwitch",
+          "x": 288,
+          "y": 56
+        },
+        {
+          "name": "booster",
+          "x": 408,
+          "y": 168
+        },
+        {
+          "name": "touchSwitch",
+          "x": 368,
+          "y": 88
+        },
+        {
+          "name": "touchSwitch",
+          "x": 512,
+          "y": 144
+        },
+        {
+          "name": "switchGate",
+          "x": 576,
+          "y": 144
+        },
+        {
+          "name": "player",
+          "x": 720,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 48,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 64,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 584,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 600,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 584,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 600,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 16,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 16,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 16,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 16,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 8,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 8,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 8,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 8,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 16,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 16,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 96,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 96,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 96,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 96,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 112,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 96,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 112,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 112,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 248,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 256,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 352,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 384,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 264,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 264,
+          "y": 72
+        },
+        {
+          "name": "refill",
+          "x": 288,
+          "y": 24
+        },
+        {
+          "name": "booster",
+          "x": 336,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 376,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 376,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 376,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 264,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 32
+        },
+        {
+          "name": "cliffflag",
+          "x": 264,
+          "y": 88
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 448,
+          "y": 60
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 720,
+          "y": 144
+        },
+        {
+          "name": "cliffflag",
+          "x": 24,
+          "y": 152
+        },
+        {
+          "name": "cliffflag",
+          "x": 264,
+          "y": 96
+        }
+      ],
+      "decals": [
+        {
+          "x": 64,
+          "y": 52,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 32,
+          "y": 80,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 204,
+          "y": 120,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 384,
+          "y": 104,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 236,
+          "y": 140,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 352,
+          "y": 140,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 472,
+          "y": 104,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 220,
+          "y": 84,
+          "texture": "4-cliffside/roots_b.png"
+        },
+        {
+          "x": 220,
+          "y": 132,
+          "texture": "4-cliffside/roots_bot_a.png"
+        },
+        {
+          "x": 368,
+          "y": 88,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 368,
+          "y": 136,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 696,
+          "y": 184,
+          "texture": "4-cliffside/tree_d.png"
+        },
+        {
+          "x": 692,
+          "y": 136,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 692,
+          "y": 36,
+          "texture": "4-cliffside/tree_c.png"
+        },
+        {
+          "x": 716,
+          "y": 40,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 688,
+          "y": 92,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 704,
+          "y": 120,
+          "texture": "4-cliffside/woodbeam_b.png"
+        },
+        {
+          "x": 708,
+          "y": 100,
+          "texture": "4-cliffside/woodbeam_h.png"
+        },
+        {
+          "x": 700,
+          "y": 100,
+          "texture": "4-cliffside/woodbeam_k.png"
+        },
+        {
+          "x": 692,
+          "y": 84,
+          "texture": "4-cliffside/woodbeam_l.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_d-03",
+      "name": "lvl_d-03",
+      "width": 1872,
+      "height": 184,
+      "xoffset": 11248,
+      "yoffset": -2936,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 8,
+          "y": 56
+        },
+        {
+          "name": "booster",
+          "x": 336,
+          "y": 64
+        },
+        {
+          "name": "booster",
+          "x": 400,
+          "y": 136
+        },
+        {
+          "name": "booster",
+          "x": 480,
+          "y": 48
+        },
+        {
+          "name": "booster",
+          "x": 544,
+          "y": 96
+        },
+        {
+          "name": "booster",
+          "x": 656,
+          "y": 128
+        },
+        {
+          "name": "booster",
+          "x": 816,
+          "y": 168
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 856,
+          "y": 128
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 1056,
+          "y": 104
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 1200,
+          "y": 128
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 1376,
+          "y": 128
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 1304,
+          "y": 144
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 1488,
+          "y": 88
+        },
+        {
+          "name": "player",
+          "x": 1864,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 344,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 376,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 376,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 384,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 384,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 384,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 528,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 544,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 552,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 536,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 536,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 592,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 632,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 632,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 688,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 688,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 688,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 688,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 688,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 688,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 696,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 704,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 712,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": -8
+        },
+        {
+          "name": "spinner",
+          "x": 768,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 768,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 768,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 768,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 776,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 792,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 792,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 792,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 792,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 840,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 840,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 840,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 840,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 856,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 872,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 920,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 928,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 944,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 960,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 976,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 992,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 1008,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 1024,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 1032,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 1040,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 1056,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 1072,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 1088,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 1096,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 1112,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 1128,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1144,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 1160,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 1160,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 544,
+          "y": 56
+        },
+        {
+          "name": "fallingBlock",
+          "x": 1776,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 1808,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 1808,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 1808,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1824,
+          "y": 152
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 605,
+          "y": 137
+        },
+        {
+          "name": "cliffside_flag",
+          "x": 701,
+          "y": 14
+        }
+      ],
+      "decals": [
+        {
+          "x": 1848,
+          "y": 88,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 584,
+          "y": 72,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 920,
+          "y": 76,
+          "texture": "4-cliffside/woodbeam_l.png"
+        },
+        {
+          "x": 76,
+          "y": 172,
+          "texture": "4-cliffside/roots_a.png"
+        },
+        {
+          "x": 76,
+          "y": 124,
+          "texture": "4-cliffside/roots_a.png"
+        },
+        {
+          "x": 580,
+          "y": 56,
+          "texture": "4-cliffside/woodbeam_c.png"
+        },
+        {
+          "x": 564,
+          "y": 56,
+          "texture": "4-cliffside/woodbeam_a.png"
+        },
+        {
+          "x": 596,
+          "y": 56,
+          "texture": "4-cliffside/woodbeam_a.png"
+        },
+        {
+          "x": 44,
+          "y": 32,
+          "texture": "4-cliffside/house_b.png"
+        },
+        {
+          "x": 420,
+          "y": 24,
+          "texture": "4-cliffside/tree_d.png"
+        },
+        {
+          "x": 580,
+          "y": 72,
+          "texture": "4-cliffside/woodbeam_f.png"
+        },
+        {
+          "x": 604,
+          "y": 128,
+          "texture": "4-cliffside/woodbeam_d.png"
+        },
+        {
+          "x": 604,
+          "y": 144,
+          "texture": "4-cliffside/woodbeam_d.png"
+        },
+        {
+          "x": 604,
+          "y": 160,
+          "texture": "4-cliffside/woodbeam_f.png"
+        },
+        {
+          "x": 612,
+          "y": 124,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 912,
+          "y": 100,
+          "texture": "4-cliffside/woodbeam_j.png"
+        },
+        {
+          "x": 920,
+          "y": 128,
+          "texture": "4-cliffside/woodbeam_j.png"
+        },
+        {
+          "x": 700,
+          "y": 48,
+          "texture": "4-cliffside/woodbeam_d.png"
+        },
+        {
+          "x": 700,
+          "y": 32,
+          "texture": "4-cliffside/woodbeam_d.png"
+        },
+        {
+          "x": 700,
+          "y": 16,
+          "texture": "4-cliffside/woodbeam_f.png"
+        },
+        {
+          "x": 1152,
+          "y": 148,
+          "texture": "4-cliffside/tree_c.png"
+        },
+        {
+          "x": 1828,
+          "y": 88,
+          "texture": "4-cliffside/rubble_i.png"
+        },
+        {
+          "x": 1808,
+          "y": 96,
+          "texture": "4-cliffside/rubble_c.png"
+        },
+        {
+          "x": 68,
+          "y": 48,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 76,
+          "y": 48,
+          "texture": "4-cliffside/flower_b.png"
+        },
+        {
+          "x": 864,
+          "y": 80,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 1472,
+          "y": 96,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 1400,
+          "y": 56,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 1376,
+          "y": 88,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 1336,
+          "y": 160,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 1208,
+          "y": 80,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 1128,
+          "y": 24,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 1124,
+          "y": 120,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 720,
+          "y": 96,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 336,
+          "y": 64,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 120,
+          "y": 160,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 136,
+          "y": 152,
+          "texture": "4-cliffside/bg_d.png"
+        }
+      ]
+    },
+    {
+      "id": "lvl_end",
+      "name": "lvl_end",
+      "width": 544,
+      "height": 232,
+      "xoffset": 13120,
+      "yoffset": -3000,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 72,
+          "y": 184
+        },
+        {
+          "name": "cassetteBlock",
+          "x": 120,
+          "y": 208
+        },
+        {
+          "name": "cassetteBlock",
+          "x": 176,
+          "y": 192
+        },
+        {
+          "name": "cassetteBlock",
+          "x": 224,
+          "y": 152
+        },
+        {
+          "name": "cassetteBlock",
+          "x": 152,
+          "y": 40
+        },
+        {
+          "name": "booster",
+          "x": 240,
+          "y": 32
+        },
+        {
+          "name": "jumpThru",
+          "x": 80,
+          "y": 216
+        },
+        {
+          "name": "towerviewer",
+          "x": 88,
+          "y": 216
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 64
+        },
+        {
+          "name": "refill",
+          "x": 176,
+          "y": 64
+        },
+        {
+          "name": "cassetteBlock",
+          "x": 416,
+          "y": 80
+        },
+        {
+          "name": "refill",
+          "x": 400,
+          "y": 56
+        },
+        {
+          "name": "blackGem",
+          "x": 440,
+          "y": 152
+        }
+      ],
+      "decals": [
+        {
+          "x": 80,
+          "y": 144,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 448,
+          "y": 112,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 380,
+          "y": 64,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 444,
+          "y": 204,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 136,
+          "y": 84,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 216,
+          "y": 220,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 508,
+          "y": 132,
+          "texture": "4-cliffside/roots_c.png"
+        },
+        {
+          "x": 504,
+          "y": 84,
+          "texture": "4-cliffside/roots_b.png"
+        },
+        {
+          "x": 508,
+          "y": 180,
+          "texture": "4-cliffside/roots_bot_b.png"
+        },
+        {
+          "x": 372,
+          "y": 32,
+          "texture": "4-cliffside/tree_b.png"
+        },
+        {
+          "x": 60,
+          "y": 132,
+          "texture": "4-cliffside/tree_c.png"
+        },
+        {
+          "x": 28,
+          "y": 152,
+          "texture": "4-cliffside/flower_d.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4298 @@
+{
+  "package": "d_18_Heart",
+  "levels": [
+    {
+      "id": "00",
+      "name": "00",
+      "width": 320,
+      "height": 184,
+      "xoffset": 4608,
+      "yoffset": -3880,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "goldenBerry",
+          "x": 48,
+          "y": 104
+        },
+        {
+          "name": "player",
+          "x": 32,
+          "y": 152
+        },
+        {
+          "name": "MaggyHelper/HeartDoorMod",
+          "x": 160,
+          "y": 112
+        },
+        {
+          "name": "MaggyHelper/PinkPlatinumStrawberry",
+          "x": 24,
+          "y": 104
+        }
+      ],
+      "decals": []
+    },
+    {
+      "id": "01",
+      "name": "01",
+      "width": 848,
+      "height": 184,
+      "xoffset": 4928,
+      "yoffset": -3880,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "spinner",
+          "x": 48,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 56,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 72,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 88,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 248,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 264,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 344,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 376,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 528,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 544,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 592,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 624,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 640,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 656,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 672,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 688,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 704,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 736,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 752,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 768,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 784,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 800,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 96,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 112,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 144,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 256,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 272,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 352,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 384,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 488,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 536,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 552,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 584,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 600,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 616,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 632,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 648,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 664,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 680,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 696,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 712,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 728,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 88,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 88,
+          "y": 96
+        },
+        {
+          "name": "player",
+          "x": 32,
+          "y": 136
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 176,
+          "y": 144
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 296,
+          "y": 136
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 416,
+          "y": 128
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 568,
+          "y": 128
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 704,
+          "y": 128
+        },
+        {
+          "name": "player",
+          "x": 832,
+          "y": 136
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 776,
+          "y": 120
+        }
+      ],
+      "decals": [
+        {
+          "x": 136,
+          "y": 128,
+          "texture": "maggy/18-heart/hayperdreemurr_face_melted_c.png"
+        },
+        {
+          "x": 352,
+          "y": 144,
+          "texture": "maggy/18-heart/heart_b.png"
+        },
+        {
+          "x": 464,
+          "y": 120,
+          "texture": "maggy/18-heart/heart_bevel_a.png"
+        },
+        {
+          "x": 240,
+          "y": 120,
+          "texture": "maggy/18-heart/fossil_a.png"
+        },
+        {
+          "x": 656,
+          "y": 112,
+          "texture": "maggy/18-heart/heart_sphere_a.png"
+        },
+        {
+          "x": 520,
+          "y": 128,
+          "texture": "maggy/18-heart/capsule_b.png"
+        },
+        {
+          "x": 296,
+          "y": 144,
+          "texture": "maggy/18-heart/capsule_c.png"
+        },
+        {
+          "x": 752,
+          "y": 144,
+          "texture": "maggy/18-heart/capsule_a.png"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "name": "02",
+      "width": 1312,
+      "height": 184,
+      "xoffset": 5776,
+      "yoffset": -3880,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 0
+        },
+        {
+          "name": "player",
+          "x": 16,
+          "y": 136
+        },
+        {
+          "name": "MaxHelpingHand/SidewaysLava",
+          "x": -24,
+          "y": 208
+        },
+        {
+          "name": "bounceBlock",
+          "x": 120,
+          "y": 56
+        },
+        {
+          "name": "spikesUp",
+          "x": 120,
+          "y": 56
+        },
+        {
+          "name": "spikesDown",
+          "x": 120,
+          "y": 96
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 184,
+          "y": 64
+        },
+        {
+          "name": "refill",
+          "x": 328,
+          "y": 120
+        },
+        {
+          "name": "refill",
+          "x": 480,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 128
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 544,
+          "y": 64
+        },
+        {
+          "name": "flingBird",
+          "x": 1088,
+          "y": 88
+        },
+        {
+          "name": "player",
+          "x": 1296,
+          "y": 112
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 1088,
+          "y": 88
+        },
+        {
+          "name": "bigSpinner",
+          "x": 632,
+          "y": 152
+        },
+        {
+          "name": "refill",
+          "x": 688,
+          "y": 136
+        },
+        {
+          "name": "bigSpinner",
+          "x": 752,
+          "y": 104
+        },
+        {
+          "name": "bigSpinner",
+          "x": 872,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": -16
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": -32
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": -40
+        }
+      ],
+      "decals": [
+        {
+          "x": 1264,
+          "y": 176,
+          "texture": "maggy/18-heart/rock_a.png"
+        },
+        {
+          "x": 1288,
+          "y": 168,
+          "texture": "maggy/18-heart/ball_a.png"
+        },
+        {
+          "x": 1296,
+          "y": 56,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 1288,
+          "y": 32,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 1272,
+          "y": 136,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 1296,
+          "y": 144,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 1304,
+          "y": 8,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 136,
+          "y": 16,
+          "texture": "maggy/18-heart/hyperdreemurr_arm_broken.png"
+        },
+        {
+          "x": 872,
+          "y": 136,
+          "texture": "maggy/18-heart/hyperdreemurr_wings_b.png"
+        },
+        {
+          "x": 1192,
+          "y": 120,
+          "texture": "maggy/18-heart/hyperdreemurr_wings_c.png"
+        },
+        {
+          "x": 72,
+          "y": 96,
+          "texture": "10-farewell/Bed.png"
+        },
+        {
+          "x": 216,
+          "y": 136,
+          "texture": "10-farewell/Car.png"
+        },
+        {
+          "x": 1056,
+          "y": 152,
+          "texture": "10-farewell/Tower.png"
+        },
+        {
+          "x": 1080,
+          "y": 56,
+          "texture": "10-farewell/GiantCassete.png"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "name": "03",
+      "width": 1312,
+      "height": 184,
+      "xoffset": 7088,
+      "yoffset": -3880,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "MaxHelpingHand/SidewaysLava",
+          "x": -16,
+          "y": 208
+        },
+        {
+          "name": "player",
+          "x": 24,
+          "y": 112
+        },
+        {
+          "name": "flingBird",
+          "x": 432,
+          "y": 112
+        },
+        {
+          "name": "flingBird",
+          "x": 928,
+          "y": 80
+        },
+        {
+          "name": "zipMover",
+          "x": 176,
+          "y": 120
+        },
+        {
+          "name": "fallingBlock",
+          "x": 624,
+          "y": 96
+        },
+        {
+          "name": "fallingBlock",
+          "x": 640,
+          "y": 96
+        },
+        {
+          "name": "fallingBlock",
+          "x": 776,
+          "y": 104
+        },
+        {
+          "name": "sandwichLava",
+          "x": 16,
+          "y": 208
+        },
+        {
+          "name": "fallingBlock",
+          "x": 1088,
+          "y": 104
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 432,
+          "y": 112
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 928,
+          "y": 80
+        },
+        {
+          "name": "spikesRight",
+          "x": 192,
+          "y": 120
+        },
+        {
+          "name": "spikesDown",
+          "x": 176,
+          "y": 136
+        },
+        {
+          "name": "spikesLeft",
+          "x": 176,
+          "y": 120
+        },
+        {
+          "name": "player",
+          "x": 1264,
+          "y": 104
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 1264,
+          "y": 88
+        },
+        {
+          "name": "fallingBlock",
+          "x": 224,
+          "y": 120
+        },
+        {
+          "name": "spikesUp",
+          "x": 224,
+          "y": 120
+        }
+      ],
+      "decals": [
+        {
+          "x": 24,
+          "y": 16,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 16,
+          "y": 144,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 24,
+          "y": 168,
+          "texture": "9-core/heart_bevel_a.png"
+        },
+        {
+          "x": 1288,
+          "y": 176,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 1280,
+          "y": 152,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 1296,
+          "y": 128,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 504,
+          "y": 96,
+          "texture": "10-farewell/creature_a00.png"
+        },
+        {
+          "x": 736,
+          "y": 80,
+          "texture": "10-farewell/creature_b00.png"
+        },
+        {
+          "x": 832,
+          "y": 72,
+          "texture": "10-farewell/creature_e00.png"
+        },
+        {
+          "x": 1088,
+          "y": 72,
+          "texture": "10-farewell/creature_d00.png"
+        },
+        {
+          "x": 1216,
+          "y": 56,
+          "texture": "10-farewell/creature_f00.png"
+        },
+        {
+          "x": 1280,
+          "y": 56,
+          "texture": "10-farewell/creature_c00.png"
+        },
+        {
+          "x": 248,
+          "y": 96,
+          "texture": "10-farewell/GiantCassete.png"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "name": "04",
+      "width": 2120,
+      "height": 184,
+      "xoffset": 8400,
+      "yoffset": -3880,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 40,
+          "y": 104
+        },
+        {
+          "name": "MaxHelpingHand/SidewaysLava",
+          "x": -16,
+          "y": 208
+        },
+        {
+          "name": "sandwichLava",
+          "x": 16,
+          "y": 208
+        },
+        {
+          "name": "fallingBlock",
+          "x": 192,
+          "y": 120
+        },
+        {
+          "name": "fallingBlock",
+          "x": 352,
+          "y": 136
+        },
+        {
+          "name": "fallingBlock",
+          "x": 512,
+          "y": 152
+        },
+        {
+          "name": "badelineBoost",
+          "x": 664,
+          "y": 152
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 664,
+          "y": 120
+        },
+        {
+          "name": "flingBird",
+          "x": 664,
+          "y": 80
+        },
+        {
+          "name": "flingBird",
+          "x": 1312,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 800,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 816,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 840,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 848,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 856,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 872,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 896,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 912,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 920,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 928,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 936,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 944,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 816,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 840,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 856,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 872,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 920,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 936,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 944,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 952,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 960,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 936,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 952,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 968,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 984,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 1000,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 1016,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 1008,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 1024,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 1040,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 1048,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 1032,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1048,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 1048,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 920,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 936,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 952,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 968,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 984,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 1000,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 1016,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 1024,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 1032,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 1040,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 912,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 920,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 928,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 944,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 952,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 984,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 976,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 968,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 960,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 952,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 896,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 880,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 864,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 856,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 912,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 896,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 880,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 968,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 976,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 984,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 992,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 1008,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 1016,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 872,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 864,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 856,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 840,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 968,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 976,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 984,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 992,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 1000,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 1000,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 984,
+          "y": 120
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 1464,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 880,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 872,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 864,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 848,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 840,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 800,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 792,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 784,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 784,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 784,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 792,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 800,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 832,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 856,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 840,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 816,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 800,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 832,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 816,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 840,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 848,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 816,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 120
+        },
+        {
+          "name": "bigSpinner",
+          "x": 1168,
+          "y": 136
+        },
+        {
+          "name": "player",
+          "x": 2104,
+          "y": 104
+        },
+        {
+          "name": "booster",
+          "x": 928,
+          "y": 112
+        },
+        {
+          "name": "booster",
+          "x": 968,
+          "y": 88
+        },
+        {
+          "name": "booster",
+          "x": 816,
+          "y": 72
+        },
+        {
+          "name": "booster",
+          "x": 896,
+          "y": 96
+        },
+        {
+          "name": "booster",
+          "x": 1496,
+          "y": 72
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 2096,
+          "y": 88
+        }
+      ],
+      "decals": [
+        {
+          "x": 24,
+          "y": 176,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 32,
+          "y": 152,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 16,
+          "y": 128,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 232,
+          "y": 80,
+          "texture": "10-farewell/creature_f00.png"
+        },
+        {
+          "x": 400,
+          "y": 64,
+          "texture": "10-farewell/creature_f00.png"
+        },
+        {
+          "x": 536,
+          "y": 80,
+          "texture": "10-farewell/creature_e00.png"
+        },
+        {
+          "x": 728,
+          "y": 104,
+          "texture": "10-farewell/creature_a00.png"
+        },
+        {
+          "x": 1272,
+          "y": 104,
+          "texture": "10-farewell/GiantCassete.png"
+        },
+        {
+          "x": 1528,
+          "y": 160,
+          "texture": "10-farewell/Tower.png"
+        },
+        {
+          "x": 1608,
+          "y": 48,
+          "texture": "10-farewell/Temple.png"
+        },
+        {
+          "x": 1672,
+          "y": 136,
+          "texture": "10-farewell/Reflection.png"
+        },
+        {
+          "x": 1752,
+          "y": 64,
+          "texture": "10-farewell/Cliffside.png"
+        },
+        {
+          "x": 1856,
+          "y": 144,
+          "texture": "10-farewell/Car.png"
+        },
+        {
+          "x": 1976,
+          "y": 80,
+          "texture": "10-farewell/Bed.png"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "name": "05",
+      "width": 7232,
+      "height": 184,
+      "xoffset": 10520,
+      "yoffset": -3880,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 56,
+          "y": 104
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 512,
+          "y": 88
+        },
+        {
+          "name": "fallingBlock",
+          "x": 544,
+          "y": 112
+        },
+        {
+          "name": "fallingBlock",
+          "x": 624,
+          "y": 120
+        },
+        {
+          "name": "fallingBlock",
+          "x": 696,
+          "y": 136
+        },
+        {
+          "name": "fallingBlock",
+          "x": 776,
+          "y": 96
+        },
+        {
+          "name": "fallingBlock",
+          "x": 792,
+          "y": 96
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 832,
+          "y": 80
+        },
+        {
+          "name": "fallingBlock",
+          "x": 864,
+          "y": 144
+        },
+        {
+          "name": "refill",
+          "x": 912,
+          "y": 120
+        },
+        {
+          "name": "dreamBlock",
+          "x": 1024,
+          "y": 88
+        },
+        {
+          "name": "spikesUp",
+          "x": 1024,
+          "y": 88
+        },
+        {
+          "name": "dreamBlock",
+          "x": 1120,
+          "y": 88
+        },
+        {
+          "name": "spikesUp",
+          "x": 1120,
+          "y": 88
+        },
+        {
+          "name": "dreamBlock",
+          "x": 1216,
+          "y": 88
+        },
+        {
+          "name": "spikesUp",
+          "x": 1216,
+          "y": 88
+        },
+        {
+          "name": "refill",
+          "x": 1072,
+          "y": 64
+        },
+        {
+          "name": "fallingBlock",
+          "x": 1288,
+          "y": 104
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 1288,
+          "y": 96
+        },
+        {
+          "name": "bigSpinner",
+          "x": 1408,
+          "y": 112
+        },
+        {
+          "name": "bigSpinner",
+          "x": 1560,
+          "y": 144
+        },
+        {
+          "name": "refill",
+          "x": 1592,
+          "y": 80
+        },
+        {
+          "name": "cloud",
+          "x": 1680,
+          "y": 112
+        },
+        {
+          "name": "cloud",
+          "x": 1736,
+          "y": 120
+        },
+        {
+          "name": "cloud",
+          "x": 1792,
+          "y": 128
+        },
+        {
+          "name": "cloud",
+          "x": 1848,
+          "y": 136
+        },
+        {
+          "name": "swapBlock",
+          "x": 1888,
+          "y": 160
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 2104,
+          "y": 144
+        },
+        {
+          "name": "fallingBlock",
+          "x": 2112,
+          "y": 160
+        },
+        {
+          "name": "fallingBlock",
+          "x": 2192,
+          "y": 88
+        },
+        {
+          "name": "fallingBlock",
+          "x": 2144,
+          "y": 32
+        },
+        {
+          "name": "fallingBlock",
+          "x": 2192,
+          "y": 56
+        },
+        {
+          "name": "fallingBlock",
+          "x": 2208,
+          "y": 56
+        },
+        {
+          "name": "refill",
+          "x": 2288,
+          "y": 72
+        },
+        {
+          "name": "crushBlock",
+          "x": 2344,
+          "y": 88
+        },
+        {
+          "name": "spikesLeft",
+          "x": 2344,
+          "y": 88
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 2384,
+          "y": 112
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 3048,
+          "y": 112
+        },
+        {
+          "name": "bounceBlock",
+          "x": 4304,
+          "y": 144
+        },
+        {
+          "name": "refill",
+          "x": 4400,
+          "y": 56
+        },
+        {
+          "name": "spikesLeft",
+          "x": 4400,
+          "y": 80
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 4520,
+          "y": 48
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 4824,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 4696,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 4712,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 4728,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 4744,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 4760,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 4776,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 4792,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 4808,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 4824,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 4840,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 4856,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 4936,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 4936,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 4680,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4696,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4712,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4728,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4744,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4760,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4776,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4792,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4808,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4824,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4840,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4856,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4872,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4888,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4904,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4920,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 4920,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 4920,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 4920,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 4920,
+          "y": -8
+        },
+        {
+          "name": "spinner",
+          "x": 4936,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 4936,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 4936,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 4640,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 4656,
+          "y": 40
+        },
+        {
+          "name": "player",
+          "x": 4456,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 4872,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 4888,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 4904,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 4920,
+          "y": 120
+        },
+        {
+          "name": "refill",
+          "x": 4928,
+          "y": 88
+        },
+        {
+          "name": "towerviewer",
+          "x": 16,
+          "y": 64
+        },
+        {
+          "name": "sandwichLava",
+          "x": 56,
+          "y": 200
+        },
+        {
+          "name": "fallingBlock",
+          "x": 3056,
+          "y": 96
+        },
+        {
+          "name": "fallingBlock",
+          "x": 3080,
+          "y": 72
+        },
+        {
+          "name": "fallingBlock",
+          "x": 3104,
+          "y": 48
+        },
+        {
+          "name": "fallingBlock",
+          "x": 3128,
+          "y": 96
+        },
+        {
+          "name": "spikesUp",
+          "x": 3056,
+          "y": 96
+        },
+        {
+          "name": "spikesUp",
+          "x": 3080,
+          "y": 72
+        },
+        {
+          "name": "spikesUp",
+          "x": 3104,
+          "y": 48
+        },
+        {
+          "name": "spikesUp",
+          "x": 3128,
+          "y": 96
+        },
+        {
+          "name": "wallSpringLeft",
+          "x": 3144,
+          "y": 104
+        },
+        {
+          "name": "fallingBlock",
+          "x": 3224,
+          "y": 104
+        },
+        {
+          "name": "spikesUp",
+          "x": 3224,
+          "y": 104
+        },
+        {
+          "name": "wallSpringLeft",
+          "x": 3240,
+          "y": 112
+        },
+        {
+          "name": "fallingBlock",
+          "x": 3320,
+          "y": 112
+        },
+        {
+          "name": "spikesUp",
+          "x": 3320,
+          "y": 112
+        },
+        {
+          "name": "wallSpringLeft",
+          "x": 3336,
+          "y": 120
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 3240,
+          "y": 72
+        },
+        {
+          "name": "refill",
+          "x": 3464,
+          "y": 120
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 3464,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 3496,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 3496,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 3496,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 3496,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 3496,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 3496,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 3496,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 3496,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 3496,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 3496,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 3496,
+          "y": 184
+        },
+        {
+          "name": "refill",
+          "x": 3528,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 3560,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 3560,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 3560,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 3560,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 3560,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 3560,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 3560,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 3560,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 3560,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 3560,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 3560,
+          "y": 184
+        },
+        {
+          "name": "refill",
+          "x": 3592,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 3624,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 3624,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 3624,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 3624,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 3624,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 3624,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 3624,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 3624,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 3624,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 3624,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 3624,
+          "y": 16
+        },
+        {
+          "name": "refill",
+          "x": 3656,
+          "y": 72
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 3656,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 3688,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 3688,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 3688,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 3688,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 3688,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 3688,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 3688,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 3688,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 3688,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 3688,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 3688,
+          "y": 184
+        },
+        {
+          "name": "refill",
+          "x": 3720,
+          "y": 104
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 3720,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 3752,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 3752,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 3752,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 3752,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 3752,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 3752,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 3752,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 3752,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 3752,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 3752,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 3752,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 3816,
+          "y": 184
+        },
+        {
+          "name": "refill",
+          "x": 3784,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 3816,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 3816,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 3816,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 3816,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 3816,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 3816,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 3816,
+          "y": 72
+        },
+        {
+          "name": "bounceBlock",
+          "x": 3816,
+          "y": 80
+        },
+        {
+          "name": "spikesUp",
+          "x": 3816,
+          "y": 80
+        },
+        {
+          "name": "spikesRight",
+          "x": 3840,
+          "y": 104
+        },
+        {
+          "name": "refill",
+          "x": 3976,
+          "y": 40
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 4024,
+          "y": 40
+        },
+        {
+          "name": "bounceBlock",
+          "x": 4072,
+          "y": 40
+        },
+        {
+          "name": "bounceBlock",
+          "x": 4144,
+          "y": 72
+        },
+        {
+          "name": "spikesUp",
+          "x": 4280,
+          "y": 88
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 4288,
+          "y": 64
+        },
+        {
+          "name": "fallingBlock",
+          "x": 4280,
+          "y": 88
+        },
+        {
+          "name": "bounceBlock",
+          "x": 4208,
+          "y": 104
+        },
+        {
+          "name": "spikesUp",
+          "x": 4144,
+          "y": 72
+        },
+        {
+          "name": "spikesUp",
+          "x": 4208,
+          "y": 104
+        },
+        {
+          "name": "zipMover",
+          "x": 120,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 4944,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 4952,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 4960,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 4968,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 4976,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 4984,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 4992,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 4992,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 5000,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 5000,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 5008,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 5016,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 5024,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 5040,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 5048,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 5056,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 5064,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 5072,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 5080,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 5088,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 5096,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 5104,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 5120,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 5128,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 5136,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 5152,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 5168,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 5184,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 5200,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 5216,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 5232,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 5240,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 5256,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 5264,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 5272,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 5280,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 5288,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 5296,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 5312,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 5320,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 5328,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 5072,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 5080,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 5088,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 5096,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 5104,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 5120,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 5128,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 5136,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 5152,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 5168,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 5176,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 5192,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 5200,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 5216,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 5232,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 5240,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 5256,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 5264,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 5272,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 5288,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 5296,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 5304,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 5312,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 5320,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 5328,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 5336,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 5344,
+          "y": 8
+        },
+        {
+          "name": "infiniteStar",
+          "x": 4992,
+          "y": 48
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 4928,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 5336,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 5344,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 5352,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 5360,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 5368,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 5376,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 5384,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 5392,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 5400,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 5408,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 5344,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 5360,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 5376,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 5392,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 5400,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 5416,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 5424,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 5432,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 5448,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 5464,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 5472,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 5480,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 5480,
+          "y": 0
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 5672,
+          "y": 96
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 6096,
+          "y": 88
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 6592,
+          "y": 40
+        },
+        {
+          "name": "introCrusher",
+          "x": 5928,
+          "y": -192
+        },
+        {
+          "name": "introCrusher",
+          "x": 5816,
+          "y": 184
+        },
+        {
+          "name": "introCrusher",
+          "x": 6136,
+          "y": 184
+        },
+        {
+          "name": "flingBird",
+          "x": 6456,
+          "y": 40
+        },
+        {
+          "name": "spikesRight",
+          "x": 1056,
+          "y": 88
+        },
+        {
+          "name": "spikesRight",
+          "x": 1152,
+          "y": 88
+        },
+        {
+          "name": "spikesRight",
+          "x": 1248,
+          "y": 88
+        },
+        {
+          "name": "spikesRight",
+          "x": 1320,
+          "y": 104
+        },
+        {
+          "name": "spikesUp",
+          "x": 1312,
+          "y": 104
+        },
+        {
+          "name": "spikesUp",
+          "x": 624,
+          "y": 120
+        },
+        {
+          "name": "spikesUp",
+          "x": 696,
+          "y": 136
+        },
+        {
+          "name": "spikesUp",
+          "x": 776,
+          "y": 96
+        },
+        {
+          "name": "coreModeToggle",
+          "x": 5344,
+          "y": 48
+        },
+        {
+          "name": "flingBird",
+          "x": 6128,
+          "y": 88
+        },
+        {
+          "name": "badelineBoost",
+          "x": 6456,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 4680,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 4680,
+          "y": 72
+        },
+        {
+          "name": "everest/customBirdTutorial",
+          "x": 4520,
+          "y": 80
+        },
+        {
+          "name": "booster",
+          "x": 5616,
+          "y": 96
+        },
+        {
+          "name": "flingBird",
+          "x": 5464,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 4664,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 4664,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 4664,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 4664,
+          "y": 40
+        },
+        {
+          "name": "glider",
+          "x": 6528,
+          "y": 48
+        },
+        {
+          "name": "Ingeste/BlackholeFlareSideway",
+          "x": -736,
+          "y": -24
+        },
+        {
+          "name": "MaxHelpingHand/SidewaysLava",
+          "x": -48,
+          "y": 200
+        },
+        {
+          "name": "MaggyHelper/HeartGem",
+          "x": 7064,
+          "y": 88
+        },
+        {
+          "name": "fallingBlock",
+          "x": 168,
+          "y": 96
+        },
+        {
+          "name": "spikesUp",
+          "x": 168,
+          "y": 96
+        }
+      ],
+      "decals": [
+        {
+          "x": 32,
+          "y": 168,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 40,
+          "y": 144,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 24,
+          "y": 120,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 2856,
+          "y": 64,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 2856,
+          "y": 40,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 2856,
+          "y": 16,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4440,
+          "y": 144,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4432,
+          "y": 120,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 4448,
+          "y": 96,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4416,
+          "y": 104,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4456,
+          "y": 168,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4472,
+          "y": 144,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 4488,
+          "y": 120,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4504,
+          "y": 104,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4480,
+          "y": 96,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 4456,
+          "y": 112,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4552,
+          "y": 168,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4544,
+          "y": 144,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 4560,
+          "y": 120,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4528,
+          "y": 128,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4584,
+          "y": 168,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 4600,
+          "y": 144,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4616,
+          "y": 128,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4592,
+          "y": 120,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 4568,
+          "y": 136,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4680,
+          "y": 184,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4672,
+          "y": 160,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 4688,
+          "y": 136,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4656,
+          "y": 144,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4712,
+          "y": 184,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 4728,
+          "y": 160,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4744,
+          "y": 144,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4720,
+          "y": 136,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 4696,
+          "y": 152,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4800,
+          "y": 184,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4792,
+          "y": 160,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 4808,
+          "y": 136,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4776,
+          "y": 144,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4832,
+          "y": 184,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 4848,
+          "y": 160,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4864,
+          "y": 144,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4840,
+          "y": 136,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 4816,
+          "y": 152,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4904,
+          "y": 168,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4920,
+          "y": 152,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4896,
+          "y": 144,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 4760,
+          "y": 192,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4776,
+          "y": 176,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4752,
+          "y": 168,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 4624,
+          "y": 184,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4640,
+          "y": 168,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4616,
+          "y": 160,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 4504,
+          "y": 176,
+          "texture": "9-core/heart_bevel_d.png"
+        },
+        {
+          "x": 4520,
+          "y": 160,
+          "texture": "9-core/heart_bevel_b.png"
+        },
+        {
+          "x": 4496,
+          "y": 152,
+          "texture": "9-core/heart_bevel_c.png"
+        },
+        {
+          "x": 2852,
+          "y": 92,
+          "texture": "9-core/stalagtite_c.png"
+        },
+        {
+          "x": 16,
+          "y": 40,
+          "texture": "9-core/stalagtite_b.png"
+        },
+        {
+          "x": 16,
+          "y": 92,
+          "texture": "9-core/stalagtite_d.png"
+        },
+        {
+          "x": 44,
+          "y": 48,
+          "texture": "9-core/stalagtite.png"
+        },
+        {
+          "x": 44,
+          "y": 96,
+          "texture": "9-core/stalagtite_c.png"
+        },
+        {
+          "x": 4648,
+          "y": 72,
+          "texture": "9-core/stalagtite_b.png"
+        },
+        {
+          "x": 4600,
+          "y": 84,
+          "texture": "9-core/stalagtite_d.png"
+        },
+        {
+          "x": 4552,
+          "y": 76,
+          "texture": "9-core/stalagtite_b.png"
+        },
+        {
+          "x": 4660,
+          "y": 88,
+          "texture": "9-core/stalagtite_c.png"
+        },
+        {
+          "x": 4684,
+          "y": 96,
+          "texture": "9-core/stalagtite_d.png"
+        },
+        {
+          "x": 4772,
+          "y": 72,
+          "texture": "9-core/stalagtite_c.png"
+        },
+        {
+          "x": 4872,
+          "y": 100,
+          "texture": "9-core/stalagtite_d.png"
+        },
+        {
+          "x": 4900,
+          "y": 68,
+          "texture": "9-core/stalagtite_b.png"
+        },
+        {
+          "x": 4852,
+          "y": 72,
+          "texture": "9-core/stalagtite_c.png"
+        },
+        {
+          "x": 4436,
+          "y": 64,
+          "texture": "9-core/stalagtite.png"
+        },
+        {
+          "x": 4460,
+          "y": 72,
+          "texture": "9-core/stalagtite_b.png"
+        },
+        {
+          "x": 4660,
+          "y": 24,
+          "texture": "9-core/stalagtite_c.png"
+        },
+        {
+          "x": 4524,
+          "y": 72,
+          "texture": "9-core/stalagtite_c.png"
+        },
+        {
+          "x": 2864,
+          "y": 96,
+          "texture": "9-core/stalagtite_b.png"
+        },
+        {
+          "x": 6792,
+          "y": 72,
+          "texture": "10-farewell/Bed.png"
+        },
+        {
+          "x": 6672,
+          "y": 88,
+          "texture": "10-farewell/Car.png"
+        },
+        {
+          "x": 6528,
+          "y": 72,
+          "texture": "10-farewell/Cliffside.png"
+        },
+        {
+          "x": 6280,
+          "y": 88,
+          "texture": "10-farewell/GiantCassete.png"
+        },
+        {
+          "x": 5992,
+          "y": 104,
+          "texture": "10-farewell/Temple.png"
+        },
+        {
+          "x": 5752,
+          "y": 96,
+          "texture": "10-farewell/Tower.png"
+        },
+        {
+          "x": 256,
+          "y": 104,
+          "texture": "10-farewell/GiantCassete.png"
+        },
+        {
+          "x": 464,
+          "y": 112,
+          "texture": "10-farewell/Reflection.png"
+        },
+        {
+          "x": 616,
+          "y": 56,
+          "texture": "10-farewell/Temple.png"
+        },
+        {
+          "x": 704,
+          "y": 104,
+          "texture": "10-farewell/Tower.png"
+        },
+        {
+          "x": 912,
+          "y": 56,
+          "texture": "10-farewell/Car.png"
+        },
+        {
+          "x": 976,
+          "y": 120,
+          "texture": "10-farewell/Bed.png"
+        },
+        {
+          "x": 1192,
+          "y": 40,
+          "texture": "10-farewell/Cliffside.png"
+        },
+        {
+          "x": 1360,
+          "y": 160,
+          "texture": "10-farewell/Bed.png"
+        },
+        {
+          "x": 1488,
+          "y": 48,
+          "texture": "10-farewell/GiantCassete.png"
+        },
+        {
+          "x": 1824,
+          "y": 80,
+          "texture": "10-farewell/Tower.png"
+        },
+        {
+          "x": 1728,
+          "y": 32,
+          "texture": "10-farewell/Temple.png"
+        },
+        {
+          "x": 1944,
+          "y": 128,
+          "texture": "10-farewell/Reflection.png"
+        },
+        {
+          "x": 2016,
+          "y": 80,
+          "texture": "10-farewell/Car.png"
+        },
+        {
+          "x": 2072,
+          "y": 128,
+          "texture": "10-farewell/Cliffside.png"
+        },
+        {
+          "x": 2264,
+          "y": 144,
+          "texture": "10-farewell/Bed.png"
+        },
+        {
+          "x": 2448,
+          "y": 128,
+          "texture": "10-farewell/heart_a.png"
+        },
+        {
+          "x": 2336,
+          "y": 40,
+          "texture": "10-farewell/heart_b.png"
+        },
+        {
+          "x": 2544,
+          "y": 160,
+          "texture": "10-farewell/submarine.png"
+        },
+        {
+          "x": 2744,
+          "y": 152,
+          "texture": "10-farewell/ship.png"
+        },
+        {
+          "x": 2888,
+          "y": 176,
+          "texture": "10-farewell/clam.png"
+        },
+        {
+          "x": 2952,
+          "y": 104,
+          "texture": "10-farewell/Reflection.png"
+        },
+        {
+          "x": 2624,
+          "y": 64,
+          "texture": "10-farewell/GiantCassete.png"
+        },
+        {
+          "x": 3040,
+          "y": 40,
+          "texture": "10-farewell/Cliffside.png"
+        },
+        {
+          "x": 3192,
+          "y": 144,
+          "texture": "10-farewell/Car.png"
+        },
+        {
+          "x": 3328,
+          "y": 56,
+          "texture": "10-farewell/Bed.png"
+        },
+        {
+          "x": 3408,
+          "y": 136,
+          "texture": "10-farewell/Car.png"
+        },
+        {
+          "x": 3960,
+          "y": 128,
+          "texture": "10-farewell/Bed.png"
+        },
+        {
+          "x": 4096,
+          "y": 152,
+          "texture": "10-farewell/Car.png"
+        },
+        {
+          "x": 4224,
+          "y": 32,
+          "texture": "10-farewell/Tower.png"
+        },
+        {
+          "x": 4344,
+          "y": 48,
+          "texture": "10-farewell/Cliffside.png"
+        },
+        {
+          "x": 5544,
+          "y": 96,
+          "texture": "10-farewell/Cliffside.png"
+        },
+        {
+          "x": 5232,
+          "y": 112,
+          "texture": "10-farewell/GiantCassete.png"
+        },
+        {
+          "x": 5480,
+          "y": 144,
+          "texture": "10-farewell/floating house.png"
+        },
+        {
+          "x": 7064,
+          "y": 88,
+          "texture": "maggy/19-goodbye/Blackhole_msg_00.png"
+        },
+        {
+          "x": 7064,
+          "y": 88,
+          "texture": "maggy/19-goodbye/Blackhole_msg_00.png"
+        },
+        {
+          "x": 5880,
+          "y": 112,
+          "texture": "10-farewell/floating house.png"
+        },
+        {
+          "x": 6080,
+          "y": 136,
+          "texture": "10-farewell/Car.png"
+        }
+      ]
+    }
+  ]
+}

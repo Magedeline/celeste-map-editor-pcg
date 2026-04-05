@@ -1,0 +1,32 @@
+{
+  "name": "CelesteDZ",
+  "ogmoVersion": "3.4.0",
+  "levelPaths": ["."],
+  "backgroundColor": "#282c34ff",
+  "gridColor": "#3c4049cc",
+  "anglesRadians": false,
+  "directoryDepth": 5,
+  "layerGridDefaultSize": {"x": 8, "y": 8},
+  "levelDefaultSize": {"x": 320, "y": 240},
+  "levelMinSize": {"x": 320, "y": 720},
+  "levelMaxSize": {"x": 4096, "y": 4096},
+  "levelValues": [],
+  "defaultExportMode": ".json",
+  "compactExport": false,
+  "externalScript": "../../ogmo-to-celeste.js",
+  "playCommand": "",
+  "entityTags": [],
+  "layers": [
+    {
+      "definition": "tile",
+      "name": "CelesteDZ",
+      "gridSize": {"x": 8, "y": 8},
+      "exportID": "57762791",
+      "exportMode": 0,
+      "arrayMode": 0,
+      "defaultTileset": ""
+    }
+  ],
+  "entities": [],
+  "tilesets": []
+}

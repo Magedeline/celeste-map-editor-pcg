@@ -3,6 +3,7 @@ dist/
 *.vsix
 .vscode-test/
 out/
+build/
 cpp/build/
 cpp/build-native/
 cpp/build-pcg2/
@@ -10,5 +11,13 @@ pcg-launcher/bin/
 pcg-launcher/obj/
 pcg-launcher/publish/
 pcg-launcher/*.zip
+csharp-decompiler/bin/
+csharp-decompiler/obj/
+csharp-monogame-preview/bin/
+csharp-monogame-preview/obj/
+csharp-monogame-shared/bin/
+csharp-monogame-shared/obj/
+csharp-native-editor/bin/
+csharp-native-editor/obj/
 
 .fake

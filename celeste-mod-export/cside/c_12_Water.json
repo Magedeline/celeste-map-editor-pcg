@@ -1,0 +1,3667 @@
+{
+  "package": "c_12_Water",
+  "levels": [
+    {
+      "id": "00",
+      "name": "00",
+      "width": 32,
+      "height": 32,
+      "xoffset": -8,
+      "yoffset": -8,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 16,
+          "y": 24
+        }
+      ],
+      "decals": []
+    },
+    {
+      "id": "smot-00",
+      "name": "smot-00",
+      "width": 800,
+      "height": 184,
+      "xoffset": -752,
+      "yoffset": 2280,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "booster",
+          "x": 312,
+          "y": 128
+        },
+        {
+          "name": "booster",
+          "x": 448,
+          "y": 136
+        },
+        {
+          "name": "booster",
+          "x": 568,
+          "y": 16
+        },
+        {
+          "name": "spikesDown",
+          "x": 592,
+          "y": 24
+        },
+        {
+          "name": "floatingDebris",
+          "x": 56,
+          "y": 120
+        },
+        {
+          "name": "floatingDebris",
+          "x": 112,
+          "y": 144
+        },
+        {
+          "name": "floatingDebris",
+          "x": 136,
+          "y": 88
+        },
+        {
+          "name": "floatingDebris",
+          "x": 160,
+          "y": 120
+        },
+        {
+          "name": "floatingDebris",
+          "x": 200,
+          "y": 128
+        },
+        {
+          "name": "floatingDebris",
+          "x": 224,
+          "y": 96
+        },
+        {
+          "name": "floatingDebris",
+          "x": 208,
+          "y": 72
+        },
+        {
+          "name": "floatingDebris",
+          "x": 272,
+          "y": 56
+        },
+        {
+          "name": "floatingDebris",
+          "x": 336,
+          "y": 168
+        },
+        {
+          "name": "floatingDebris",
+          "x": 384,
+          "y": 160
+        },
+        {
+          "name": "floatingDebris",
+          "x": 472,
+          "y": 136
+        },
+        {
+          "name": "floatingDebris",
+          "x": 520,
+          "y": 160
+        },
+        {
+          "name": "floatingDebris",
+          "x": 584,
+          "y": 120
+        },
+        {
+          "name": "floatingDebris",
+          "x": 568,
+          "y": 40
+        },
+        {
+          "name": "floatingDebris",
+          "x": 576,
+          "y": 32
+        },
+        {
+          "name": "floatingDebris",
+          "x": 688,
+          "y": 24
+        },
+        {
+          "name": "floatingDebris",
+          "x": 744,
+          "y": 48
+        },
+        {
+          "name": "floatingDebris",
+          "x": 760,
+          "y": 24
+        },
+        {
+          "name": "floatingDebris",
+          "x": 728,
+          "y": 136
+        },
+        {
+          "name": "spikesRight",
+          "x": 624,
+          "y": 104
+        },
+        {
+          "name": "wallSpringLeft",
+          "x": 624,
+          "y": 152
+        },
+        {
+          "name": "spikesUp",
+          "x": 184,
+          "y": 152
+        },
+        {
+          "name": "spikesUp",
+          "x": 608,
+          "y": 104
+        },
+        {
+          "name": "spikesLeft",
+          "x": 168,
+          "y": 112
+        },
+        {
+          "name": "spikesLeft",
+          "x": 592,
+          "y": -24
+        },
+        {
+          "name": "spikesLeft",
+          "x": 608,
+          "y": 104
+        },
+        {
+          "name": "spikesLeft",
+          "x": 752,
+          "y": 96
+        },
+        {
+          "name": "player",
+          "x": 96,
+          "y": 152
+        },
+        {
+          "name": "player",
+          "x": 280,
+          "y": 136
+        },
+        {
+          "name": "goldenBerry",
+          "x": 64,
+          "y": 120
+        }
+      ],
+      "decals": [
+        {
+          "x": 160,
+          "y": 152,
+          "texture": "generic/snow_b.png"
+        },
+        {
+          "x": 51,
+          "y": 161,
+          "texture": "generic/snow_g.png"
+        },
+        {
+          "x": 288,
+          "y": 136,
+          "texture": "generic/snow_d.png"
+        },
+        {
+          "x": 56,
+          "y": 152,
+          "texture": "generic/snow_c.png"
+        },
+        {
+          "x": 248,
+          "y": 144,
+          "texture": "generic/snow_e.png"
+        },
+        {
+          "x": 208,
+          "y": 32,
+          "texture": "4-cliffside/wall_rock_a.png"
+        },
+        {
+          "x": 88,
+          "y": 128,
+          "texture": "4-cliffside/tree_c.png"
+        },
+        {
+          "x": 88,
+          "y": 144,
+          "texture": "4-cliffside/rubble_j.png"
+        },
+        {
+          "x": 680,
+          "y": 24,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 704,
+          "y": 32,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 72,
+          "y": 80,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 144,
+          "y": 152,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 136,
+          "y": 48,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 128,
+          "y": 64,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 728,
+          "y": 168,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 696,
+          "y": 56,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 64,
+          "y": 152,
+          "texture": "4-cliffside/flower_a.png"
+        },
+        {
+          "x": 152,
+          "y": 152,
+          "texture": "4-cliffside/flower_c.png"
+        },
+        {
+          "x": 264,
+          "y": 128,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 280,
+          "y": 128,
+          "texture": "4-cliffside/flower_b.png"
+        },
+        {
+          "x": 768,
+          "y": 64,
+          "texture": "4-cliffside/flower_a.png"
+        },
+        {
+          "x": 240,
+          "y": 128,
+          "texture": "4-cliffside/rock_d.png"
+        }
+      ]
+    },
+    {
+      "id": "smot-01",
+      "name": "smot-01",
+      "width": 816,
+      "height": 184,
+      "xoffset": -32,
+      "yoffset": 2096,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "spikesRight",
+          "x": 752,
+          "y": 26
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 352,
+          "y": 96
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 464,
+          "y": 80
+        },
+        {
+          "name": "spikesLeft",
+          "x": 736,
+          "y": 26
+        },
+        {
+          "name": "player",
+          "x": 64,
+          "y": 160
+        },
+        {
+          "name": "switchGate",
+          "x": 736,
+          "y": 26
+        },
+        {
+          "name": "spikesUp",
+          "x": 464,
+          "y": 80
+        },
+        {
+          "name": "spikesUp",
+          "x": 544,
+          "y": 80
+        },
+        {
+          "name": "spikesUp",
+          "x": 736,
+          "y": 26
+        },
+        {
+          "name": "touchSwitch",
+          "x": 644,
+          "y": 20
+        },
+        {
+          "name": "spikesDown",
+          "x": 736,
+          "y": 42
+        },
+        {
+          "name": "floatingDebris",
+          "x": 40,
+          "y": 136
+        },
+        {
+          "name": "floatingDebris",
+          "x": 96,
+          "y": 152
+        },
+        {
+          "name": "floatingDebris",
+          "x": 192,
+          "y": 120
+        },
+        {
+          "name": "floatingDebris",
+          "x": 528,
+          "y": 40
+        },
+        {
+          "name": "floatingDebris",
+          "x": 552,
+          "y": 56
+        },
+        {
+          "name": "floatingDebris",
+          "x": 552,
+          "y": 8
+        },
+        {
+          "name": "floatingDebris",
+          "x": 512,
+          "y": 104
+        },
+        {
+          "name": "floatingDebris",
+          "x": 648,
+          "y": 40
+        },
+        {
+          "name": "floatingDebris",
+          "x": 624,
+          "y": 88
+        },
+        {
+          "name": "floatingDebris",
+          "x": 696,
+          "y": 128
+        },
+        {
+          "name": "floatingDebris",
+          "x": 720,
+          "y": 120
+        },
+        {
+          "name": "floatingDebris",
+          "x": 712,
+          "y": 96
+        },
+        {
+          "name": "floatingDebris",
+          "x": 640,
+          "y": 24
+        },
+        {
+          "name": "floatingDebris",
+          "x": 776,
+          "y": 56
+        },
+        {
+          "name": "floatingDebris",
+          "x": 800,
+          "y": 48
+        },
+        {
+          "name": "wallSpringRight",
+          "x": 720,
+          "y": 96
+        },
+        {
+          "name": "refill",
+          "x": 672,
+          "y": 168
+        },
+        {
+          "name": "refill",
+          "x": 708,
+          "y": 92
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 680,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 688,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 704,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 704,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 584,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 584,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 584,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 736,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 752,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 752,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 736,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 736,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 728,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 728,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 776,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 776,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 776,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 680,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 688,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 792,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 792,
+          "y": 88
+        },
+        {
+          "name": "jumpThru",
+          "x": 40,
+          "y": 168
+        },
+        {
+          "name": "jumpThru",
+          "x": 176,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": -16
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": -32
+        },
+        {
+          "name": "spinner",
+          "x": 672,
+          "y": 16
+        }
+      ],
+      "decals": [
+        {
+          "x": 728,
+          "y": 80,
+          "texture": "4-cliffside/flower_a.png"
+        },
+        {
+          "x": 736,
+          "y": 80,
+          "texture": "4-cliffside/flower_c.png"
+        },
+        {
+          "x": 792,
+          "y": 72,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 720,
+          "y": 128,
+          "texture": "4-cliffside/tree_c.png"
+        },
+        {
+          "x": 776,
+          "y": 56,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 752,
+          "y": 16,
+          "texture": "4-cliffside/bg_c.png"
+        },
+        {
+          "x": 632,
+          "y": 32,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 104,
+          "y": 168,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 16,
+          "y": 152,
+          "texture": "4-cliffside/flower_b.png"
+        },
+        {
+          "x": 112,
+          "y": 160,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 96,
+          "y": 160,
+          "texture": "4-cliffside/flower_a.png"
+        },
+        {
+          "x": 704,
+          "y": 144,
+          "texture": "4-cliffside/rock_b.png"
+        }
+      ]
+    },
+    {
+      "id": "smot-02",
+      "name": "smot-02",
+      "width": 1208,
+      "height": 184,
+      "xoffset": 736,
+      "yoffset": 1912,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "floatingDebris",
+          "x": 88,
+          "y": 128
+        },
+        {
+          "name": "floatingDebris",
+          "x": 120,
+          "y": 112
+        },
+        {
+          "name": "floatingDebris",
+          "x": 144,
+          "y": 136
+        },
+        {
+          "name": "floatingDebris",
+          "x": 40,
+          "y": 144
+        },
+        {
+          "name": "floatingDebris",
+          "x": 8,
+          "y": 128
+        },
+        {
+          "name": "floatingDebris",
+          "x": 232,
+          "y": 168
+        },
+        {
+          "name": "floatingDebris",
+          "x": 264,
+          "y": 152
+        },
+        {
+          "name": "floatingDebris",
+          "x": 312,
+          "y": 168
+        },
+        {
+          "name": "floatingDebris",
+          "x": 336,
+          "y": 160
+        },
+        {
+          "name": "floatingDebris",
+          "x": 360,
+          "y": 128
+        },
+        {
+          "name": "floatingDebris",
+          "x": 360,
+          "y": 168
+        },
+        {
+          "name": "floatingDebris",
+          "x": 392,
+          "y": 136
+        },
+        {
+          "name": "floatingDebris",
+          "x": 400,
+          "y": 168
+        },
+        {
+          "name": "floatingDebris",
+          "x": 408,
+          "y": 160
+        },
+        {
+          "name": "floatingDebris",
+          "x": 416,
+          "y": 8
+        },
+        {
+          "name": "floatingDebris",
+          "x": 424,
+          "y": 32
+        },
+        {
+          "name": "floatingDebris",
+          "x": 504,
+          "y": 40
+        },
+        {
+          "name": "floatingDebris",
+          "x": 528,
+          "y": 56
+        },
+        {
+          "name": "floatingDebris",
+          "x": 728,
+          "y": 56
+        },
+        {
+          "name": "floatingDebris",
+          "x": 744,
+          "y": 48
+        },
+        {
+          "name": "floatingDebris",
+          "x": 640,
+          "y": 72
+        },
+        {
+          "name": "floatingDebris",
+          "x": 856,
+          "y": 8
+        },
+        {
+          "name": "floatingDebris",
+          "x": 848,
+          "y": 32
+        },
+        {
+          "name": "floatingDebris",
+          "x": 856,
+          "y": 64
+        },
+        {
+          "name": "floatingDebris",
+          "x": 840,
+          "y": 88
+        },
+        {
+          "name": "floatingDebris",
+          "x": 864,
+          "y": 120
+        },
+        {
+          "name": "floatingDebris",
+          "x": 848,
+          "y": 144
+        },
+        {
+          "name": "floatingDebris",
+          "x": 856,
+          "y": 168
+        },
+        {
+          "name": "wallSpringLeft",
+          "x": 472,
+          "y": 80
+        },
+        {
+          "name": "spikesRight",
+          "x": 824,
+          "y": 88
+        },
+        {
+          "name": "spikesRight",
+          "x": 832,
+          "y": 128
+        },
+        {
+          "name": "spikesRight",
+          "x": 824,
+          "y": 24
+        },
+        {
+          "name": "moveBlock",
+          "x": 112,
+          "y": 152
+        },
+        {
+          "name": "moveBlock",
+          "x": 1088,
+          "y": 136
+        },
+        {
+          "name": "refill",
+          "x": 448,
+          "y": 164
+        },
+        {
+          "name": "jumpThru",
+          "x": 24,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 376,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 376,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 376,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 456,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 456,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 456,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 536,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 552,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 632,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 648,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 648,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 656,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 656,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 656,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 656,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 528,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 656,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 656,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 656,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 664,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 664,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 1120,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 1128,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 1080,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1128,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 1128,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 1120,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 1144,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 1160,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 1168,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 1144,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 1096,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 1136,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 1112,
+          "y": 168
+        },
+        {
+          "name": "spikesUp",
+          "x": 280,
+          "y": 88
+        },
+        {
+          "name": "spikesUp",
+          "x": 368,
+          "y": 80
+        },
+        {
+          "name": "player",
+          "x": 96,
+          "y": 144
+        },
+        {
+          "name": "player",
+          "x": 1200,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 696,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 120
+        },
+        {
+          "name": "spikesLeft",
+          "x": 552,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 624,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 616,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 680,
+          "y": 56
+        },
+        {
+          "name": "spikesRight",
+          "x": 832,
+          "y": -32
+        },
+        {
+          "name": "spikesUp",
+          "x": 824,
+          "y": 128
+        },
+        {
+          "name": "jumpThru",
+          "x": 1152,
+          "y": 72
+        },
+        {
+          "name": "spikesUp",
+          "x": 768,
+          "y": 96
+        },
+        {
+          "name": "spikesUp",
+          "x": 760,
+          "y": 144
+        },
+        {
+          "name": "spikesUp",
+          "x": 728,
+          "y": 160
+        },
+        {
+          "name": "spikesUp",
+          "x": 656,
+          "y": 176
+        },
+        {
+          "name": "spikesLeft",
+          "x": 768,
+          "y": 96
+        },
+        {
+          "name": "jumpThru",
+          "x": 824,
+          "y": 80
+        },
+        {
+          "name": "spikesUp",
+          "x": 104,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 1176,
+          "y": 104
+        }
+      ],
+      "decals": [
+        {
+          "x": 800,
+          "y": 88,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 1112,
+          "y": 152,
+          "texture": "4-cliffside/flower_b.png"
+        },
+        {
+          "x": 61,
+          "y": 144,
+          "texture": "4-cliffside/rock_a.png"
+        },
+        {
+          "x": 744,
+          "y": 128,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 312,
+          "y": 144,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 424,
+          "y": 64,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 600,
+          "y": 104,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 88,
+          "y": 136,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 16,
+          "y": 152,
+          "texture": "4-cliffside/flower_c.png"
+        },
+        {
+          "x": 56,
+          "y": 152,
+          "texture": "4-cliffside/flower_a.png"
+        },
+        {
+          "x": 208,
+          "y": 96,
+          "texture": "4-cliffside/woodbeam_d.png"
+        },
+        {
+          "x": 208,
+          "y": 112,
+          "texture": "4-cliffside/woodbeam_d.png"
+        },
+        {
+          "x": 208,
+          "y": 128,
+          "texture": "4-cliffside/woodbeam_d.png"
+        },
+        {
+          "x": 208,
+          "y": 144,
+          "texture": "4-cliffside/woodbeam_d.png"
+        },
+        {
+          "x": 208,
+          "y": 160,
+          "texture": "4-cliffside/woodbeam_d.png"
+        },
+        {
+          "x": 208,
+          "y": 176,
+          "texture": "4-cliffside/woodbeam_d.png"
+        },
+        {
+          "x": 224,
+          "y": 160,
+          "texture": "4-cliffside/woodbeam_g.png"
+        },
+        {
+          "x": 248,
+          "y": 156,
+          "texture": "4-cliffside/woodbeam_b.png"
+        },
+        {
+          "x": 264,
+          "y": 156,
+          "texture": "4-cliffside/woodbeam_a.png"
+        },
+        {
+          "x": 280,
+          "y": 156,
+          "texture": "4-cliffside/woodbeam_a.png"
+        },
+        {
+          "x": 235,
+          "y": 175,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 261,
+          "y": 168,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 277,
+          "y": 184,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 270,
+          "y": 162,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 274,
+          "y": 165,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 279,
+          "y": 144,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 216,
+          "y": 162,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 225,
+          "y": 144,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 216,
+          "y": 135,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 208,
+          "y": 78,
+          "texture": "4-cliffside/woodbeam_f.png"
+        },
+        {
+          "x": 1104,
+          "y": 8,
+          "texture": "4-cliffside/bg_e.png"
+        },
+        {
+          "x": 1168,
+          "y": 48,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 1136,
+          "y": 40,
+          "texture": "4-cliffside/bg_b.png"
+        }
+      ]
+    },
+    {
+      "id": "smot-03",
+      "name": "smot-03",
+      "width": 760,
+      "height": 184,
+      "xoffset": 1944,
+      "yoffset": 1832,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "floatingDebris",
+          "x": 32,
+          "y": 128
+        },
+        {
+          "name": "floatingDebris",
+          "x": 56,
+          "y": 136
+        },
+        {
+          "name": "floatingDebris",
+          "x": 48,
+          "y": 56
+        },
+        {
+          "name": "floatingDebris",
+          "x": 120,
+          "y": 32
+        },
+        {
+          "name": "floatingDebris",
+          "x": 184,
+          "y": 40
+        },
+        {
+          "name": "floatingDebris",
+          "x": 200,
+          "y": 56
+        },
+        {
+          "name": "floatingDebris",
+          "x": 104,
+          "y": 24
+        },
+        {
+          "name": "floatingDebris",
+          "x": 168,
+          "y": 160
+        },
+        {
+          "name": "floatingDebris",
+          "x": 192,
+          "y": 152
+        },
+        {
+          "name": "floatingDebris",
+          "x": 120,
+          "y": 128
+        },
+        {
+          "name": "floatingDebris",
+          "x": 288,
+          "y": 72
+        },
+        {
+          "name": "floatingDebris",
+          "x": 304,
+          "y": 64
+        },
+        {
+          "name": "floatingDebris",
+          "x": 264,
+          "y": 120
+        },
+        {
+          "name": "floatingDebris",
+          "x": 288,
+          "y": 128
+        },
+        {
+          "name": "floatingDebris",
+          "x": 344,
+          "y": 120
+        },
+        {
+          "name": "floatingDebris",
+          "x": 424,
+          "y": 104
+        },
+        {
+          "name": "floatingDebris",
+          "x": 464,
+          "y": 96
+        },
+        {
+          "name": "floatingDebris",
+          "x": 376,
+          "y": 8
+        },
+        {
+          "name": "floatingDebris",
+          "x": 400,
+          "y": 24
+        },
+        {
+          "name": "floatingDebris",
+          "x": 320,
+          "y": 24
+        },
+        {
+          "name": "floatingDebris",
+          "x": 448,
+          "y": 32
+        },
+        {
+          "name": "floatingDebris",
+          "x": 488,
+          "y": 16
+        },
+        {
+          "name": "floatingDebris",
+          "x": 496,
+          "y": 32
+        },
+        {
+          "name": "floatingDebris",
+          "x": 640,
+          "y": 176
+        },
+        {
+          "name": "floatingDebris",
+          "x": 664,
+          "y": 160
+        },
+        {
+          "name": "floatingDebris",
+          "x": 672,
+          "y": 88
+        },
+        {
+          "name": "floatingDebris",
+          "x": 720,
+          "y": 104
+        },
+        {
+          "name": "floatingDebris",
+          "x": 728,
+          "y": 56
+        },
+        {
+          "name": "floatingDebris",
+          "x": 696,
+          "y": 32
+        },
+        {
+          "name": "floatingDebris",
+          "x": 608,
+          "y": 88
+        },
+        {
+          "name": "floatingDebris",
+          "x": 576,
+          "y": 64
+        },
+        {
+          "name": "floatingDebris",
+          "x": 544,
+          "y": 80
+        },
+        {
+          "name": "floatingDebris",
+          "x": 528,
+          "y": 112
+        },
+        {
+          "name": "movingPlatform",
+          "x": 160,
+          "y": 136
+        },
+        {
+          "name": "movingPlatform",
+          "x": 248,
+          "y": 96
+        },
+        {
+          "name": "movingPlatform",
+          "x": 320,
+          "y": 80
+        },
+        {
+          "name": "movingPlatform",
+          "x": 448,
+          "y": 88
+        },
+        {
+          "name": "movingPlatform",
+          "x": 592,
+          "y": 120
+        },
+        {
+          "name": "infiniteStar",
+          "x": 488,
+          "y": 24
+        },
+        {
+          "name": "infiniteStar",
+          "x": 608,
+          "y": 156
+        },
+        {
+          "name": "spikesUp",
+          "x": 304,
+          "y": 104
+        },
+        {
+          "name": "spikesUp",
+          "x": 592,
+          "y": 120
+        },
+        {
+          "name": "spikesUp",
+          "x": 672,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 248,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": -8
+        },
+        {
+          "name": "spinner",
+          "x": 302,
+          "y": 90
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 440,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 504,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 552,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 544,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 528,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 520,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 544,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 528,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 544,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 536,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 632,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 640,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 640,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 648,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 648,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 648,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 696,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 696,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 664,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 664,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 680,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 696,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 712,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 728,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 728,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 712,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 704,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 120
+        },
+        {
+          "name": "player",
+          "x": 64,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 264,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 632,
+          "y": 48
+        }
+      ],
+      "decals": [
+        {
+          "x": 96,
+          "y": 176,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 136,
+          "y": 152,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 184,
+          "y": 168,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 32,
+          "y": 112,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 216,
+          "y": 32,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 728,
+          "y": 96,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 40,
+          "y": 152,
+          "texture": "4-cliffside/flower_c.png"
+        },
+        {
+          "x": 16,
+          "y": 152,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 344,
+          "y": 96,
+          "texture": "4-cliffside/flower_b.png"
+        },
+        {
+          "x": 320,
+          "y": 96,
+          "texture": "4-cliffside/flower_c.png"
+        },
+        {
+          "x": 680,
+          "y": 160,
+          "texture": "4-cliffside/flower_d.png"
+        }
+      ]
+    },
+    {
+      "id": "smot-04",
+      "name": "smot-04",
+      "width": 1600,
+      "height": 184,
+      "xoffset": 2584,
+      "yoffset": 1648,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "spikesRight",
+          "x": 336,
+          "y": 120
+        },
+        {
+          "name": "spikesRight",
+          "x": 544,
+          "y": 104
+        },
+        {
+          "name": "spikesRight",
+          "x": 1000,
+          "y": 0
+        },
+        {
+          "name": "floatySpaceBlock",
+          "x": 432,
+          "y": 64
+        },
+        {
+          "name": "floatySpaceBlock",
+          "x": 536,
+          "y": 56
+        },
+        {
+          "name": "floatySpaceBlock",
+          "x": 512,
+          "y": 40
+        },
+        {
+          "name": "floatySpaceBlock",
+          "x": 528,
+          "y": 104
+        },
+        {
+          "name": "floatySpaceBlock",
+          "x": 652,
+          "y": 104
+        },
+        {
+          "name": "floatySpaceBlock",
+          "x": 800,
+          "y": 40
+        },
+        {
+          "name": "floatySpaceBlock",
+          "x": 944,
+          "y": 16
+        },
+        {
+          "name": "floatySpaceBlock",
+          "x": 968,
+          "y": 40
+        },
+        {
+          "name": "floatySpaceBlock",
+          "x": 1104,
+          "y": 40
+        },
+        {
+          "name": "floatySpaceBlock",
+          "x": 1160,
+          "y": 136
+        },
+        {
+          "name": "floatySpaceBlock",
+          "x": 1208,
+          "y": 32
+        },
+        {
+          "name": "fallingBlock",
+          "x": 1504,
+          "y": 64
+        },
+        {
+          "name": "fallingBlock",
+          "x": 1488,
+          "y": 80
+        },
+        {
+          "name": "player",
+          "x": 128,
+          "y": 152
+        },
+        {
+          "name": "spikesLeft",
+          "x": 432,
+          "y": 64
+        },
+        {
+          "name": "spikesLeft",
+          "x": 512,
+          "y": 40
+        },
+        {
+          "name": "spikesLeft",
+          "x": 528,
+          "y": 104
+        },
+        {
+          "name": "wallSpringLeft",
+          "x": 336,
+          "y": 168
+        },
+        {
+          "name": "wallSpringLeft",
+          "x": 552,
+          "y": 64
+        },
+        {
+          "name": "wallSpringLeft",
+          "x": 676,
+          "y": 112
+        },
+        {
+          "name": "wallSpringLeft",
+          "x": 808,
+          "y": 48
+        },
+        {
+          "name": "wallSpringLeft",
+          "x": 1224,
+          "y": 40
+        },
+        {
+          "name": "spikesUp",
+          "x": 192,
+          "y": 176
+        },
+        {
+          "name": "spikesUp",
+          "x": 280,
+          "y": 168
+        },
+        {
+          "name": "spikesUp",
+          "x": 320,
+          "y": 120
+        },
+        {
+          "name": "spikesUp",
+          "x": 432,
+          "y": 64
+        },
+        {
+          "name": "spikesUp",
+          "x": 512,
+          "y": 40
+        },
+        {
+          "name": "spikesUp",
+          "x": 536,
+          "y": 56
+        },
+        {
+          "name": "spikesUp",
+          "x": 528,
+          "y": 104
+        },
+        {
+          "name": "spikesUp",
+          "x": 652,
+          "y": 104
+        },
+        {
+          "name": "spikesUp",
+          "x": 800,
+          "y": 40
+        },
+        {
+          "name": "spikesUp",
+          "x": 944,
+          "y": 16
+        },
+        {
+          "name": "spikesUp",
+          "x": 968,
+          "y": 40
+        },
+        {
+          "name": "spikesUp",
+          "x": 1104,
+          "y": 40
+        },
+        {
+          "name": "spikesUp",
+          "x": 1208,
+          "y": 32
+        },
+        {
+          "name": "spring",
+          "x": 1168,
+          "y": 136
+        },
+        {
+          "name": "spikesDown",
+          "x": 528,
+          "y": 128
+        },
+        {
+          "name": "floatingDebris",
+          "x": 24,
+          "y": 136
+        },
+        {
+          "name": "floatingDebris",
+          "x": 56,
+          "y": 152
+        },
+        {
+          "name": "floatingDebris",
+          "x": 72,
+          "y": 136
+        },
+        {
+          "name": "floatingDebris",
+          "x": 128,
+          "y": 128
+        },
+        {
+          "name": "floatingDebris",
+          "x": 176,
+          "y": 144
+        },
+        {
+          "name": "floatingDebris",
+          "x": 240,
+          "y": 152
+        },
+        {
+          "name": "floatingDebris",
+          "x": 296,
+          "y": 144
+        },
+        {
+          "name": "floatingDebris",
+          "x": 344,
+          "y": 152
+        },
+        {
+          "name": "floatingDebris",
+          "x": 472,
+          "y": 88
+        },
+        {
+          "name": "floatingDebris",
+          "x": 512,
+          "y": 104
+        },
+        {
+          "name": "floatingDebris",
+          "x": 528,
+          "y": 72
+        },
+        {
+          "name": "floatingDebris",
+          "x": 496,
+          "y": 40
+        },
+        {
+          "name": "floatingDebris",
+          "x": 424,
+          "y": 48
+        },
+        {
+          "name": "floatingDebris",
+          "x": 576,
+          "y": 128
+        },
+        {
+          "name": "floatingDebris",
+          "x": 616,
+          "y": 88
+        },
+        {
+          "name": "floatingDebris",
+          "x": 640,
+          "y": 104
+        },
+        {
+          "name": "floatingDebris",
+          "x": 672,
+          "y": 56
+        },
+        {
+          "name": "floatingDebris",
+          "x": 688,
+          "y": 64
+        },
+        {
+          "name": "floatingDebris",
+          "x": 728,
+          "y": 96
+        },
+        {
+          "name": "floatingDebris",
+          "x": 808,
+          "y": 64
+        },
+        {
+          "name": "floatingDebris",
+          "x": 816,
+          "y": 40
+        },
+        {
+          "name": "floatingDebris",
+          "x": 792,
+          "y": 32
+        },
+        {
+          "name": "floatingDebris",
+          "x": 928,
+          "y": 32
+        },
+        {
+          "name": "floatingDebris",
+          "x": 992,
+          "y": 72
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1008,
+          "y": 56
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1176,
+          "y": 152
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1160,
+          "y": 144
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1224,
+          "y": 16
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1240,
+          "y": 8
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1240,
+          "y": 40
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1488,
+          "y": 136
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1480,
+          "y": 120
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1512,
+          "y": 48
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1536,
+          "y": 32
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1552,
+          "y": 56
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1592,
+          "y": 40
+        },
+        {
+          "name": "wallSpringRight",
+          "x": 652,
+          "y": 112
+        },
+        {
+          "name": "wallSpringRight",
+          "x": 1104,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 1088,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 1104,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 1120,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 1136,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 1168,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 1128,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 1136,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 1128,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 1112,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 1160,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 1144,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 1168,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 1160,
+          "y": -8
+        },
+        {
+          "name": "spinner",
+          "x": 1176,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 1112,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 1096,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 1112,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 1120,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 1136,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 1136,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 1144,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1136,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 1200,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 1208,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 1192,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 1200,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 1184,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 1216,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1192,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 1152,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 1160,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 1176,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 1184,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 1200,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 1216,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 1192,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 1152,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 1192,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 1328,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 1336,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 1328,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 1336,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 1328,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 1336,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 1328,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 1312,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 1296,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 1280,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 1264,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 1248,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 1232,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 1280,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1312,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 1328,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 1344,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 1360,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 1376,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 1360,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 1376,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1208,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 1424,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 1416,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 1424,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 1408,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 1416,
+          "y": -8
+        },
+        {
+          "name": "spinner",
+          "x": 1504,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 1504,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 1504,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1504,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 1504,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 1568,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 1568,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 1568,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 1568,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 1568,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 1568,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 1576,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 1576,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 1504,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 1504,
+          "y": 184
+        },
+        {
+          "name": "jumpThru",
+          "x": 32,
+          "y": 168
+        }
+      ],
+      "decals": [
+        {
+          "x": 304,
+          "y": 160,
+          "texture": "4-cliffside/flower_a.png"
+        },
+        {
+          "x": 216,
+          "y": 168,
+          "texture": "4-cliffside/flower_b.png"
+        },
+        {
+          "x": 232,
+          "y": 168,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 1507,
+          "y": 82,
+          "texture": "4-cliffside/woodbeam_d.png"
+        },
+        {
+          "x": 1507,
+          "y": 92,
+          "texture": "4-cliffside/woodbeam_d.png"
+        },
+        {
+          "x": 80,
+          "y": 168,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 1472,
+          "y": 120,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 1448,
+          "y": 144,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 1392,
+          "y": 160,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 136,
+          "y": 144,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 16,
+          "y": 152,
+          "texture": "4-cliffside/flower_c.png"
+        },
+        {
+          "x": 64,
+          "y": 160,
+          "texture": "4-cliffside/flower_a.png"
+        },
+        {
+          "x": 1528,
+          "y": 56,
+          "texture": "4-cliffside/flower_d.png"
+        },
+        {
+          "x": 1530,
+          "y": 69,
+          "texture": "4-cliffside/woodbeam_b.png"
+        },
+        {
+          "x": 1515,
+          "y": 75,
+          "texture": "4-cliffside/woodbean_h.png"
+        },
+        {
+          "x": 1515,
+          "y": 69,
+          "texture": "4-cliffside/woodbeam_a.png"
+        },
+        {
+          "x": 1507,
+          "y": 73,
+          "texture": "4-cliffside/woodbeam_d.png"
+        },
+        {
+          "x": 1537,
+          "y": 73,
+          "texture": "4-cliffside/woodbeam_d.png"
+        },
+        {
+          "x": 1537,
+          "y": 84,
+          "texture": "4-cliffside/woodbeam_f.png"
+        },
+        {
+          "x": 1507,
+          "y": 106,
+          "texture": "4-cliffside/woodbeam_f.png"
+        },
+        {
+          "x": 264,
+          "y": 152,
+          "texture": "4-cliffside/rock_e.png"
+        }
+      ]
+    },
+    {
+      "id": "smot-05",
+      "name": "smot-05",
+      "width": 1600,
+      "height": 184,
+      "xoffset": 4184,
+      "yoffset": 1648,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "crumbleBlock",
+          "x": 208,
+          "y": 112
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 304,
+          "y": 88
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 304,
+          "y": 64
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 256,
+          "y": 40
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 336,
+          "y": 16
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 424,
+          "y": 72
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 624,
+          "y": 112
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 688,
+          "y": 96
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 744,
+          "y": 104
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 864,
+          "y": 104
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 904,
+          "y": 96
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 1112,
+          "y": 160
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 1144,
+          "y": 112
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 1136,
+          "y": 64
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 608,
+          "y": 168
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 1224,
+          "y": 48
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 1440,
+          "y": 136
+        },
+        {
+          "name": "booster",
+          "x": 1336,
+          "y": 32
+        },
+        {
+          "name": "booster",
+          "x": 1360,
+          "y": 56
+        },
+        {
+          "name": "booster",
+          "x": 1384,
+          "y": 80
+        },
+        {
+          "name": "booster",
+          "x": 1408,
+          "y": 64
+        },
+        {
+          "name": "booster",
+          "x": 1432,
+          "y": 88
+        },
+        {
+          "name": "booster",
+          "x": 1432,
+          "y": 120
+        },
+        {
+          "name": "booster",
+          "x": 1528,
+          "y": 16
+        },
+        {
+          "name": "floatingDebris",
+          "x": 40,
+          "y": 168
+        },
+        {
+          "name": "floatingDebris",
+          "x": 96,
+          "y": 144
+        },
+        {
+          "name": "floatingDebris",
+          "x": 104,
+          "y": 160
+        },
+        {
+          "name": "floatingDebris",
+          "x": 256,
+          "y": 88
+        },
+        {
+          "name": "floatingDebris",
+          "x": 288,
+          "y": 72
+        },
+        {
+          "name": "floatingDebris",
+          "x": 360,
+          "y": 104
+        },
+        {
+          "name": "floatingDebris",
+          "x": 400,
+          "y": 56
+        },
+        {
+          "name": "floatingDebris",
+          "x": 504,
+          "y": 88
+        },
+        {
+          "name": "floatingDebris",
+          "x": 672,
+          "y": 136
+        },
+        {
+          "name": "floatingDebris",
+          "x": 712,
+          "y": 120
+        },
+        {
+          "name": "floatingDebris",
+          "x": 864,
+          "y": 80
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1560,
+          "y": 128
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1576,
+          "y": 104
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1536,
+          "y": 72
+        },
+        {
+          "name": "floatingDebris",
+          "x": 1560,
+          "y": 24
+        },
+        {
+          "name": "spikesRight",
+          "x": 1160,
+          "y": 64
+        },
+        {
+          "name": "invisibleBarrier",
+          "x": -8,
+          "y": -8
+        },
+        {
+          "name": "spikesUp",
+          "x": 304,
+          "y": 88
+        },
+        {
+          "name": "spikesUp",
+          "x": 304,
+          "y": 64
+        },
+        {
+          "name": "spikesUp",
+          "x": 336,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 1344,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 1352,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 1368,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 1344,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 1376,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 1368,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 1376,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 1360,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 1392,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 1400,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 1408,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 1400,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 1384,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 1408,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 1400,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 1376,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 1432,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 1440,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 1432,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 1440,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 1424,
+          "y": -8
+        },
+        {
+          "name": "spinner",
+          "x": 1408,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 1456,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 1448,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 1456,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 1456,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 1448,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 1472,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 1456,
+          "y": -8
+        },
+        {
+          "name": "spinner",
+          "x": 1472,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 1488,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 1504,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 1488,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 1544,
+          "y": 4
+        },
+        {
+          "name": "spinner",
+          "x": 1544,
+          "y": 20
+        },
+        {
+          "name": "spinner",
+          "x": 1552,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 1568,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1584,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1592,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 1600,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1568,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 1584,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 1576,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 1576,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 1576,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 1592,
+          "y": 80
+        },
+        {
+          "name": "spikesLeft",
+          "x": 1144,
+          "y": 112
+        },
+        {
+          "name": "player",
+          "x": 72,
+          "y": 160
+        },
+        {
+          "name": "player",
+          "x": 1584,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 1456,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 1472,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 1496,
+          "y": 104
+        }
+      ],
+      "decals": [
+        {
+          "x": 74,
+          "y": 180,
+          "texture": "4-cliffside/woodbeam_i.png"
+        },
+        {
+          "x": 75,
+          "y": 185,
+          "texture": "4-cliffside/woodbeam_f.png"
+        },
+        {
+          "x": 1568,
+          "y": 40,
+          "texture": "4-cliffside/flower_a.png"
+        },
+        {
+          "x": 1424,
+          "y": 16,
+          "texture": "4-cliffside/bg_b.png"
+        },
+        {
+          "x": 1368,
+          "y": 0,
+          "texture": "4-cliffside/bg_a.png"
+        },
+        {
+          "x": 1400,
+          "y": 56,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 1440,
+          "y": 128,
+          "texture": "4-cliffside/bg_d.png"
+        },
+        {
+          "x": 1456,
+          "y": 56,
+          "texture": "4-cliffside/bg_e.png"
+        }
+      ]
+    }
+  ]
+}

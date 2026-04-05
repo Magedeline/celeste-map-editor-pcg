@@ -1,0 +1,726 @@
+{
+  "package": "a_00_Prologue",
+  "levels": [
+    {
+      "id": "-1",
+      "name": "-1",
+      "width": 320,
+      "height": 184,
+      "xoffset": -368,
+      "yoffset": 0,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 312,
+          "y": 136
+        },
+        {
+          "name": "introCar",
+          "x": 208,
+          "y": 152
+        },
+        {
+          "name": "lamp",
+          "x": 296,
+          "y": 136
+        },
+        {
+          "name": "lamp",
+          "x": 144,
+          "y": 152
+        },
+        {
+          "name": "lamp",
+          "x": 16,
+          "y": 152
+        },
+        {
+          "name": "wire",
+          "x": 16,
+          "y": 96
+        },
+        {
+          "name": "wire",
+          "x": 144,
+          "y": 96
+        },
+        {
+          "name": "wire",
+          "x": -104,
+          "y": 96
+        },
+        {
+          "name": "wire",
+          "x": 296,
+          "y": 80
+        }
+      ],
+      "decals": [
+        {
+          "x": 292,
+          "y": 132,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 268,
+          "y": 148,
+          "texture": "generic/grass_d.png"
+        },
+        {
+          "x": 312,
+          "y": 132,
+          "texture": "generic/grass_c.png"
+        },
+        {
+          "x": 284,
+          "y": 140,
+          "texture": "generic/grass_a.png"
+        },
+        {
+          "x": 260,
+          "y": 148,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 300,
+          "y": 132,
+          "texture": "generic/grass_a.png"
+        },
+        {
+          "x": 276,
+          "y": 148,
+          "texture": "generic/grass_b.png"
+        }
+      ]
+    },
+    {
+      "id": "0",
+      "name": "0",
+      "width": 448,
+      "height": 184,
+      "xoffset": -48,
+      "yoffset": 0,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "introCrusher",
+          "x": 256,
+          "y": 40
+        },
+        {
+          "name": "player",
+          "x": 8,
+          "y": 136
+        },
+        {
+          "name": "player",
+          "x": 440,
+          "y": 152
+        },
+        {
+          "name": "wire",
+          "x": 352,
+          "y": 144
+        },
+        {
+          "name": "lamp",
+          "x": 88,
+          "y": 136
+        },
+        {
+          "name": "lamp",
+          "x": 384,
+          "y": 120
+        },
+        {
+          "name": "wire",
+          "x": 312,
+          "y": 32
+        },
+        {
+          "name": "wire",
+          "x": 184,
+          "y": 64
+        },
+        {
+          "name": "wire",
+          "x": 208,
+          "y": 64
+        },
+        {
+          "name": "wire",
+          "x": -24,
+          "y": 80
+        },
+        {
+          "name": "player",
+          "x": 192,
+          "y": 56
+        },
+        {
+          "name": "jumpThru",
+          "x": 344,
+          "y": 144
+        }
+      ],
+      "decals": [
+        {
+          "x": 4,
+          "y": 132,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 76,
+          "y": 132,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 20,
+          "y": 132,
+          "texture": "generic/grass_d.png"
+        },
+        {
+          "x": 36,
+          "y": 132,
+          "texture": "generic/grass_a.png"
+        },
+        {
+          "x": 52,
+          "y": 132,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 192,
+          "y": 140,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 216,
+          "y": 116,
+          "texture": "generic/grass_a.png"
+        },
+        {
+          "x": 264,
+          "y": 124,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 272,
+          "y": 124,
+          "texture": "generic/grass_d.png"
+        },
+        {
+          "x": 360,
+          "y": 140,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 424,
+          "y": 148,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 432,
+          "y": 148,
+          "texture": "generic/grass_c.png"
+        },
+        {
+          "x": 420,
+          "y": 148,
+          "texture": "generic/grass_d.png"
+        },
+        {
+          "x": 200,
+          "y": 52,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 300,
+          "y": 124,
+          "texture": "generic/grass_c.png"
+        },
+        {
+          "x": 384,
+          "y": 116,
+          "texture": "generic/grass_a.png"
+        },
+        {
+          "x": 92,
+          "y": 132,
+          "texture": "generic/grass_d.png"
+        },
+        {
+          "x": 228,
+          "y": 132,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 125,
+          "y": 110,
+          "texture": "0-prologue/sign.png"
+        },
+        {
+          "x": 424,
+          "y": 144,
+          "texture": "1-forsakencity/leftArrowSign.png"
+        },
+        {
+          "x": 28,
+          "y": 132,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 12,
+          "y": 132,
+          "texture": "generic/grass_c.png"
+        },
+        {
+          "x": 56,
+          "y": 132,
+          "texture": "generic/grass_d.png"
+        },
+        {
+          "x": 68,
+          "y": 132,
+          "texture": "generic/grass_c.png"
+        },
+        {
+          "x": 192,
+          "y": 52,
+          "texture": "generic/grass_c.png"
+        },
+        {
+          "x": 372,
+          "y": 140,
+          "texture": "generic/grass_a.png"
+        },
+        {
+          "x": 288,
+          "y": 124,
+          "texture": "generic/grass_d.png"
+        },
+        {
+          "x": 212,
+          "y": 116,
+          "texture": "generic/grass_d.png"
+        },
+        {
+          "x": 200,
+          "y": 140,
+          "texture": "generic/grass_a.png"
+        }
+      ]
+    },
+    {
+      "id": "0b",
+      "name": "0b",
+      "width": 448,
+      "height": 184,
+      "xoffset": -48,
+      "yoffset": -184,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 216,
+          "y": 168
+        },
+        {
+          "name": "jumpThru",
+          "x": 208,
+          "y": 168
+        },
+        {
+          "name": "flutterbird",
+          "x": 280,
+          "y": 120
+        },
+        {
+          "name": "flutterbird",
+          "x": 256,
+          "y": 128
+        },
+        {
+          "name": "flutterbird",
+          "x": 252,
+          "y": 127
+        },
+        {
+          "name": "flutterbird",
+          "x": 312,
+          "y": 152
+        },
+        {
+          "name": "flutterbird",
+          "x": 240,
+          "y": 160
+        },
+        {
+          "name": "flutterbird",
+          "x": 272,
+          "y": 120
+        }
+      ],
+      "decals": [
+        {
+          "x": 220,
+          "y": 164,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 284,
+          "y": 116,
+          "texture": "generic/grass_c.png"
+        },
+        {
+          "x": 324,
+          "y": 164,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 228,
+          "y": 164,
+          "texture": "generic/grass_a.png"
+        },
+        {
+          "x": 292,
+          "y": 108,
+          "texture": "generic/grass_a.png"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "1",
+      "width": 552,
+      "height": 272,
+      "xoffset": 400,
+      "yoffset": -88,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 8,
+          "y": 240
+        },
+        {
+          "name": "player",
+          "x": 456,
+          "y": 160
+        },
+        {
+          "name": "wire",
+          "x": 64,
+          "y": 240
+        },
+        {
+          "name": "wire",
+          "x": 224,
+          "y": 208
+        },
+        {
+          "name": "wire",
+          "x": 264,
+          "y": 152
+        },
+        {
+          "name": "wire",
+          "x": 400,
+          "y": 232
+        },
+        {
+          "name": "lamp",
+          "x": 304,
+          "y": 200
+        },
+        {
+          "name": "lamp",
+          "x": 40,
+          "y": 240
+        },
+        {
+          "name": "wire",
+          "x": 40,
+          "y": 184
+        },
+        {
+          "name": "wire",
+          "x": 280,
+          "y": 160
+        },
+        {
+          "name": "jumpThru",
+          "x": 256,
+          "y": 240
+        },
+        {
+          "name": "lamp",
+          "x": 496,
+          "y": 160
+        },
+        {
+          "name": "wire",
+          "x": 496,
+          "y": 104
+        },
+        {
+          "name": "wire",
+          "x": 472,
+          "y": 160
+        },
+        {
+          "name": "player",
+          "x": 480,
+          "y": 160
+        },
+        {
+          "name": "MaggyHelper/BirdNPCMod",
+          "x": 144,
+          "y": 176
+        }
+      ],
+      "decals": [
+        {
+          "x": 28,
+          "y": 236,
+          "texture": "generic/grass_d.png"
+        },
+        {
+          "x": 12,
+          "y": 236,
+          "texture": "generic/grass_a.png"
+        },
+        {
+          "x": 108,
+          "y": 228,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 444,
+          "y": 156,
+          "texture": "generic/grass_c.png"
+        },
+        {
+          "x": 368,
+          "y": 100,
+          "texture": "generic/grass_d.png"
+        },
+        {
+          "x": 312,
+          "y": 196,
+          "texture": "generic/grass_c.png"
+        },
+        {
+          "x": 152,
+          "y": 168,
+          "texture": "generic/snow_c.png"
+        },
+        {
+          "x": 500,
+          "y": 156,
+          "texture": "generic/grass_a.png"
+        },
+        {
+          "x": 388,
+          "y": 212,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 20,
+          "y": 236,
+          "texture": "generic/grass_c.png"
+        },
+        {
+          "x": 104,
+          "y": 228,
+          "texture": "generic/grass_a.png"
+        },
+        {
+          "x": 436,
+          "y": 196,
+          "texture": "generic/grass_a.png"
+        },
+        {
+          "x": 456,
+          "y": 156,
+          "texture": "generic/grass_d.png"
+        },
+        {
+          "x": 492,
+          "y": 156,
+          "texture": "generic/grass_c.png"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2",
+      "width": 320,
+      "height": 184,
+      "xoffset": 952,
+      "yoffset": -88,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 24,
+          "y": 112
+        },
+        {
+          "name": "player",
+          "x": 312,
+          "y": 128
+        },
+        {
+          "name": "wire",
+          "x": -56,
+          "y": 104
+        },
+        {
+          "name": "MaggyHelper/NPC00_Theo",
+          "x": 176,
+          "y": 112
+        }
+      ],
+      "decals": [
+        {
+          "x": 268,
+          "y": 124,
+          "texture": "generic/grass_a.png"
+        },
+        {
+          "x": 304,
+          "y": 124,
+          "texture": "generic/grass_c.png"
+        },
+        {
+          "x": 232,
+          "y": 108,
+          "texture": "generic/grass_d.png"
+        },
+        {
+          "x": 263,
+          "y": 116,
+          "texture": "0-prologue/axe.png"
+        },
+        {
+          "x": 220,
+          "y": 108,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 256,
+          "y": 124,
+          "texture": "generic/grass_d.png"
+        },
+        {
+          "x": 296,
+          "y": 124,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 161,
+          "y": 81,
+          "texture": "0-prologue/house.png"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3",
+      "width": 992,
+      "height": 184,
+      "xoffset": 1272,
+      "yoffset": -88,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 8,
+          "y": 128
+        },
+        {
+          "name": "lamp",
+          "x": 968,
+          "y": 128
+        },
+        {
+          "name": "MaggyHelper/BridgeAgain",
+          "x": 64,
+          "y": 128
+        },
+        {
+          "name": "MaggyHelper/BirdNPC",
+          "x": 920,
+          "y": 128
+        }
+      ],
+      "decals": [
+        {
+          "x": 964,
+          "y": 124,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 988,
+          "y": 76,
+          "texture": "generic/grass_a.png"
+        },
+        {
+          "x": 980,
+          "y": 100,
+          "texture": "generic/grass_c.png"
+        },
+        {
+          "x": 928,
+          "y": 124,
+          "texture": "generic/grass_d.png"
+        },
+        {
+          "x": 916,
+          "y": 124,
+          "texture": "generic/grass_c.png"
+        },
+        {
+          "x": 16,
+          "y": 124,
+          "texture": "generic/grass_b.png"
+        },
+        {
+          "x": 44,
+          "y": 124,
+          "texture": "generic/grass_a.png"
+        },
+        {
+          "x": 948,
+          "y": 124,
+          "texture": "generic/grass_d.png"
+        },
+        {
+          "x": 24,
+          "y": 124,
+          "texture": "generic/grass_d.png"
+        }
+      ]
+    },
+    {
+      "id": "x1",
+      "name": "x1",
+      "width": 320,
+      "height": 184,
+      "xoffset": 952,
+      "yoffset": 96,
+      "solids": "",
+      "bg": "",
+      "entities": [],
+      "decals": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level id="00" width="32" height="32" xoffset="-8" yoffset="-8">
+  <tiles tileset="solids" offsetX="0" offsetY="0">
+nnnn
+n00n
+n00n
+nnnn
+  </tiles>
+  <tiles tileset="bg" offsetX="0" offsetY="0">
+eeee
+eeee
+eeee
+eeee
+  </tiles>
+  <entity name="player" x="16" y="24" />
+</level>

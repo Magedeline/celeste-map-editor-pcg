@@ -1,0 +1,8865 @@
+{
+  "package": "d_05_Restore",
+  "levels": [
+    {
+      "id": "00",
+      "name": "00",
+      "width": 1512,
+      "height": 184,
+      "xoffset": 1096,
+      "yoffset": -72,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 80,
+          "y": 160
+        },
+        {
+          "name": "greenBlocks",
+          "x": 168,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 64,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 80,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 64,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 80,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 96,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 80,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 80,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 112
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 208,
+          "y": 56
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 264,
+          "y": 112
+        },
+        {
+          "name": "exitBlock",
+          "x": 224,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 144,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 184
+        },
+        {
+          "name": "refill",
+          "x": 192,
+          "y": 56
+        },
+        {
+          "name": "yellowBlocks",
+          "x": 336,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 344,
+          "y": 88
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 344,
+          "y": 128
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 312,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 256,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 256,
+          "y": 16
+        },
+        {
+          "name": "jumpThru",
+          "x": 88,
+          "y": 160
+        },
+        {
+          "name": "refill",
+          "x": 400,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 440,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 440,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 440,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 440,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 456,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 456,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 456,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 456,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 456,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 112
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 464,
+          "y": 192
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 464,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 544,
+          "y": 128
+        },
+        {
+          "name": "fallingBlock",
+          "x": 592,
+          "y": 136
+        },
+        {
+          "name": "yellowBlocks",
+          "x": 536,
+          "y": 128
+        },
+        {
+          "name": "greenBlocks",
+          "x": 456,
+          "y": 152
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 640,
+          "y": 104
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 672,
+          "y": 72
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 608,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 640,
+          "y": 64
+        },
+        {
+          "name": "redBlocks",
+          "x": 632,
+          "y": 64
+        },
+        {
+          "name": "jumpThru",
+          "x": 696,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 752,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 752,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 488,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 488,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 552,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 584,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 600,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 600,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 688,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 672,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 664,
+          "y": 16
+        },
+        {
+          "name": "door",
+          "x": 752,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 104,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 16
+        },
+        {
+          "name": "redBlocks",
+          "x": 88,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 96,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 64,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 112,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 96,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 128,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 144,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 256,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 272,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 352,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 208
+        },
+        {
+          "name": "soundSource",
+          "x": 288,
+          "y": 120
+        },
+        {
+          "name": "soundSource",
+          "x": 376,
+          "y": 144
+        },
+        {
+          "name": "soundSource",
+          "x": 688,
+          "y": 144
+        },
+        {
+          "name": "soundSource",
+          "x": 704,
+          "y": 144
+        },
+        {
+          "name": "waterfall",
+          "x": 832,
+          "y": 32
+        },
+        {
+          "name": "waterfall",
+          "x": 824,
+          "y": 32
+        },
+        {
+          "name": "waterfall",
+          "x": 944,
+          "y": 32
+        },
+        {
+          "name": "waterfall",
+          "x": 952,
+          "y": 32
+        },
+        {
+          "name": "waterfall",
+          "x": 1056,
+          "y": 32
+        },
+        {
+          "name": "waterfall",
+          "x": 1064,
+          "y": 32
+        },
+        {
+          "name": "waterfall",
+          "x": 1184,
+          "y": 32
+        },
+        {
+          "name": "waterfall",
+          "x": 1192,
+          "y": 32
+        },
+        {
+          "name": "waterfall",
+          "x": 1272,
+          "y": 32
+        },
+        {
+          "name": "waterfall",
+          "x": 1280,
+          "y": 32
+        },
+        {
+          "name": "waterfall",
+          "x": 1392,
+          "y": 32
+        },
+        {
+          "name": "waterfall",
+          "x": 1400,
+          "y": 32
+        },
+        {
+          "name": "water",
+          "x": 1360,
+          "y": 144
+        },
+        {
+          "name": "water",
+          "x": 1136,
+          "y": 144
+        },
+        {
+          "name": "water",
+          "x": 1024,
+          "y": 144
+        },
+        {
+          "name": "water",
+          "x": 912,
+          "y": 144
+        },
+        {
+          "name": "water",
+          "x": 824,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 832,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 848,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 864,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 880,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 920,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 936,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 952,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 968,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 984,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1032,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1048,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1064,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1080,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1096,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1144,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1160,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1176,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1192,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1208,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1224,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1240,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1256,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1272,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1288,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1304,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1320,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1368,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1384,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1400,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1416,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 1432,
+          "y": 152
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 896,
+          "y": 40
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 897,
+          "y": 40
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 896,
+          "y": 96
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1008,
+          "y": 96
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1040,
+          "y": 40
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1040,
+          "y": 56
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1040,
+          "y": 72
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1040,
+          "y": 88
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1096,
+          "y": 152
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1096,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1096,
+          "y": 120
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1096,
+          "y": 104
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1152,
+          "y": 120
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1144,
+          "y": 136
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 1168,
+          "y": 120
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 1256,
+          "y": 120
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1368,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1384,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1400,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1416,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1416,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1400,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1384,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1368,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1368,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1384,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1400,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1416,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1416,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1400,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1384,
+          "y": 136
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 1368,
+          "y": 136
+        },
+        {
+          "name": "player",
+          "x": 1456,
+          "y": 64
+        },
+        {
+          "name": "redBlocks",
+          "x": 952,
+          "y": 48
+        },
+        {
+          "name": "redBlocks",
+          "x": 944,
+          "y": 48
+        },
+        {
+          "name": "fallingBlock",
+          "x": 1184,
+          "y": 88
+        },
+        {
+          "name": "fallingBlock",
+          "x": 1272,
+          "y": 88
+        },
+        {
+          "name": "refill",
+          "x": 1344,
+          "y": 72
+        },
+        {
+          "name": "refill",
+          "x": 1120,
+          "y": 72
+        },
+        {
+          "name": "refill",
+          "x": 952,
+          "y": 96
+        },
+        {
+          "name": "refill",
+          "x": 832,
+          "y": 56
+        },
+        {
+          "name": "goldenBerry",
+          "x": 16,
+          "y": 72
+        },
+        {
+          "name": "jumpThru",
+          "x": 32,
+          "y": 112
+        },
+        {
+          "name": "Ingeste/PinkPlatinumStrawberry",
+          "x": 40,
+          "y": 72
+        }
+      ],
+      "decals": [
+        {
+          "x": 760,
+          "y": 80,
+          "texture": "3-resort/vent.png"
+        },
+        {
+          "x": 64,
+          "y": 40,
+          "texture": "3-resort/vent.png"
+        },
+        {
+          "x": 752,
+          "y": 128,
+          "texture": "3-resort/sticks.png"
+        },
+        {
+          "x": 88,
+          "y": 32,
+          "texture": "3-resort/cobweb.png"
+        },
+        {
+          "x": 1120,
+          "y": 120,
+          "texture": "3-resort/vent.png"
+        },
+        {
+          "x": 1008,
+          "y": 120,
+          "texture": "3-resort/vent.png"
+        },
+        {
+          "x": 896,
+          "y": 120,
+          "texture": "3-resort/vent.png"
+        },
+        {
+          "x": 1344,
+          "y": 120,
+          "texture": "3-resort/vent.png"
+        },
+        {
+          "x": 656,
+          "y": 104,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 656,
+          "y": 120,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 656,
+          "y": 136,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 672,
+          "y": 136,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 720,
+          "y": 136,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 720,
+          "y": 120,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 704,
+          "y": 120,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 688,
+          "y": 120,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 672,
+          "y": 120,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 672,
+          "y": 104,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 688,
+          "y": 104,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 704,
+          "y": 104,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 720,
+          "y": 104,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 600,
+          "y": 144,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 40,
+          "y": 152,
+          "texture": "3-resort/bench.png"
+        },
+        {
+          "x": 120,
+          "y": 88,
+          "texture": "3-resort/bgtilehole_d.png"
+        },
+        {
+          "x": 144,
+          "y": 144,
+          "texture": "3-resort/bgtilehole.png"
+        },
+        {
+          "x": 272,
+          "y": 128,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 272,
+          "y": 144,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 272,
+          "y": 160,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 288,
+          "y": 160,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 288,
+          "y": 144,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 304,
+          "y": 128,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 304,
+          "y": 144,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 304,
+          "y": 160,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 320,
+          "y": 160,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 320,
+          "y": 144,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 320,
+          "y": 128,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 336,
+          "y": 128,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 336,
+          "y": 144,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 336,
+          "y": 160,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 352,
+          "y": 160,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 352,
+          "y": 144,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 352,
+          "y": 128,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 368,
+          "y": 128,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 368,
+          "y": 160,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 288,
+          "y": 128,
+          "texture": "3-resort/window_broken_a.png"
+        },
+        {
+          "x": 368,
+          "y": 144,
+          "texture": "3-resort/window_broken_b.png"
+        },
+        {
+          "x": 688,
+          "y": 136,
+          "texture": "3-resort/window_broken_a.png"
+        },
+        {
+          "x": 704,
+          "y": 136,
+          "texture": "nameguy/broken_window_alt.png"
+        },
+        {
+          "x": 176,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 160,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 144,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 192,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 208,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 224,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 104,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 104,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 104,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 224,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 224,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 208,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 208,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 192,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 192,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 176,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 176,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 160,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 152,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 144,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 160,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 128,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 120,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 120,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 128,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 120,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 384,
+          "y": 88,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 400,
+          "y": 88,
+          "texture": "monidsidespack_resort_improved/carpet_innercorner_a.png"
+        },
+        {
+          "x": 400,
+          "y": 104,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 400,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 400,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 384,
+          "y": 72,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 384,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 392,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_innercorner_a.png"
+        },
+        {
+          "x": 392,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 392,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 400,
+          "y": 72,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 408,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 400,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 408,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 416,
+          "y": 72,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 416,
+          "y": 88,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 416,
+          "y": 104,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 416,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 416,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 400,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 416,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 432,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 448,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 464,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 480,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 488,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 488,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 488,
+          "y": 112,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 488,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 480,
+          "y": 112,
+          "texture": "monidsidespack_resort_improved/carpet_innercorner_a.png"
+        },
+        {
+          "x": 480,
+          "y": 96,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 480,
+          "y": 80,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 480,
+          "y": 64,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 480,
+          "y": 48,
+          "texture": "monidsidespack_resort_improved/carpet_innercorner_a.png"
+        },
+        {
+          "x": 496,
+          "y": 48,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 496,
+          "y": 32,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 496,
+          "y": 16,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 424,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 432,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 424,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 440,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 440,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 440,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 456,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 456,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 456,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 472,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 480,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 480,
+          "y": 32,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 464,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 464,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 464,
+          "y": 72,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 448,
+          "y": 72,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 432,
+          "y": 72,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 432,
+          "y": 88,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 448,
+          "y": 88,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 464,
+          "y": 88,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 432,
+          "y": 104,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 432,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 432,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 448,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 440,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 448,
+          "y": 104,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 464,
+          "y": 104,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 464,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 472,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 480,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 544,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 560,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 576,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 592,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 544,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 608,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 632,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_innercorner_a.png"
+        },
+        {
+          "x": 632,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 632,
+          "y": 80,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 616,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 632,
+          "y": 64,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 648,
+          "y": 80,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 664,
+          "y": 80,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 680,
+          "y": 80,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 680,
+          "y": 64,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 680,
+          "y": 48,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 680,
+          "y": 32,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 680,
+          "y": 16,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 560,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 576,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 592,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 608,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 624,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 640,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 656,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 664,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 648,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 664,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 664,
+          "y": 48,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 648,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 648,
+          "y": 64,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 672,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 688,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 704,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 720,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 736,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 752,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 672,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 688,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 704,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 720,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 736,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 752,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 136,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_b.png"
+        },
+        {
+          "x": 416,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_c.png"
+        },
+        {
+          "x": 456,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_inner_b.png"
+        },
+        {
+          "x": 472,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 664,
+          "y": 64,
+          "texture": "monidsidespack_resort_improved/carpet_inner_c.png"
+        },
+        {
+          "x": 280,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/bgtilehole_a.png"
+        },
+        {
+          "x": 516,
+          "y": 68,
+          "texture": "monidsidespack_resort_improved/bgtilehole_b.png"
+        },
+        {
+          "x": 640,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/bgtilehole_c.png"
+        },
+        {
+          "x": 600,
+          "y": 80,
+          "texture": "monidsidespack_resort_improved/bgtilehole_big.png"
+        },
+        {
+          "x": 264,
+          "y": 144,
+          "texture": "3-resort/curtain_side_a.png"
+        },
+        {
+          "x": 376,
+          "y": 144,
+          "texture": "3-resort/curtain_side_d.png"
+        },
+        {
+          "x": 320,
+          "y": 150,
+          "texture": "3-resort/curtain_center_b.png"
+        },
+        {
+          "x": 648,
+          "y": 120,
+          "texture": "3-resort/curtain_side_d.png"
+        },
+        {
+          "x": 728,
+          "y": 120,
+          "texture": "3-resort/curtain_side_a.png"
+        },
+        {
+          "x": 80,
+          "y": 152,
+          "texture": "3-resort/desk.png"
+        },
+        {
+          "x": 88,
+          "y": 128,
+          "texture": "3-resort/keyrack.png"
+        },
+        {
+          "x": 136,
+          "y": 24,
+          "texture": "3-resort/hangshelf_a.png"
+        },
+        {
+          "x": 184,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/hangshelf_b.png"
+        },
+        {
+          "x": 232,
+          "y": 184,
+          "texture": "3-resort/storageshelf_mid_a.png"
+        },
+        {
+          "x": 232,
+          "y": 168,
+          "texture": "3-resort/storageshelf_mid_b.png"
+        },
+        {
+          "x": 232,
+          "y": 152,
+          "texture": "3-resort/storageshelf_top_a.png"
+        },
+        {
+          "x": 408,
+          "y": 176,
+          "texture": "3-resort/storageshelf_mid_b.png"
+        },
+        {
+          "x": 408,
+          "y": 160,
+          "texture": "3-resort/storageshelf_top_a.png"
+        },
+        {
+          "x": 408,
+          "y": 144,
+          "texture": "3-resort/storageshelf_mid_a.png"
+        },
+        {
+          "x": 720,
+          "y": 184,
+          "texture": "3-resort/storageshelf_mid_a.png"
+        },
+        {
+          "x": 720,
+          "y": 168,
+          "texture": "3-resort/storageshelf_mid_b.png"
+        },
+        {
+          "x": 672,
+          "y": 176,
+          "texture": "3-resort/storageshelf_top_a.png"
+        },
+        {
+          "x": 672,
+          "y": 160,
+          "texture": "3-resort/storageshelf_mid_a.png"
+        },
+        {
+          "x": 392,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/hangshelf_a.png"
+        },
+        {
+          "x": 704,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/hangshelf_b.png"
+        },
+        {
+          "x": 192,
+          "y": 96,
+          "texture": "3-resort/painting_a.png"
+        },
+        {
+          "x": 320,
+          "y": 88,
+          "texture": "3-resort/painting_f.png"
+        },
+        {
+          "x": 504,
+          "y": 88,
+          "texture": "3-resort/painting_b.png"
+        },
+        {
+          "x": 528,
+          "y": 80,
+          "texture": "3-resort/painting_e.png"
+        },
+        {
+          "x": 624,
+          "y": 136,
+          "texture": "3-resort/painting_f.png"
+        },
+        {
+          "x": 336,
+          "y": 120,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 344,
+          "y": 120,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 352,
+          "y": 120,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 360,
+          "y": 120,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 368,
+          "y": 120,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 328,
+          "y": 120,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 312,
+          "y": 120,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 304,
+          "y": 120,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 296,
+          "y": 120,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 288,
+          "y": 120,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 280,
+          "y": 120,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 272,
+          "y": 120,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 656,
+          "y": 96,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 664,
+          "y": 96,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 672,
+          "y": 96,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 680,
+          "y": 96,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 688,
+          "y": 96,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 696,
+          "y": 96,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 704,
+          "y": 96,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 712,
+          "y": 96,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 720,
+          "y": 96,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 224,
+          "y": 32,
+          "texture": "3-resort/cloth_a.png"
+        },
+        {
+          "x": 762,
+          "y": 56,
+          "texture": "3-resort/bedstand_a.png"
+        },
+        {
+          "x": 706,
+          "y": 56,
+          "texture": "3-resort/brokenbox_b.png"
+        },
+        {
+          "x": 727,
+          "y": 56,
+          "texture": "3-resort/brokenbox_b.png"
+        },
+        {
+          "x": 703,
+          "y": 43,
+          "texture": "3-resort/brokenbox_d.png"
+        },
+        {
+          "x": 256,
+          "y": 72,
+          "texture": "3-resort/head_trophy_a.png"
+        },
+        {
+          "x": 536,
+          "y": 104,
+          "texture": "3-resort/head_trophy_a.png"
+        },
+        {
+          "x": 288,
+          "y": 32,
+          "texture": "3-resort/chandelier_b.png"
+        },
+        {
+          "x": 520,
+          "y": 32,
+          "texture": "3-resort/chandelier_a.png"
+        },
+        {
+          "x": 624,
+          "y": 24,
+          "texture": "3-resort/cobweb_b.png"
+        },
+        {
+          "x": 200,
+          "y": 24,
+          "texture": "3-resort/cobweb_b.png"
+        },
+        {
+          "x": 888,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 888,
+          "y": 64,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 896,
+          "y": 64,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 896,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 904,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 904,
+          "y": 64,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1000,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1000,
+          "y": 64,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1008,
+          "y": 64,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1016,
+          "y": 64,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1016,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1008,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1128,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1120,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1120,
+          "y": 64,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1112,
+          "y": 64,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1112,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1336,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1344,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1352,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1352,
+          "y": 64,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 912,
+          "y": 152,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 920,
+          "y": 152,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 928,
+          "y": 152,
+          "texture": "3-resort/pipe_turn_a.png"
+        },
+        {
+          "x": 928,
+          "y": 144,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 928,
+          "y": 136,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 928,
+          "y": 128,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 928,
+          "y": 120,
+          "texture": "3-resort/pipe_turn_b.png"
+        },
+        {
+          "x": 936,
+          "y": 120,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 944,
+          "y": 120,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 952,
+          "y": 120,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 960,
+          "y": 120,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 968,
+          "y": 120,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 976,
+          "y": 120,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 984,
+          "y": 120,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 992,
+          "y": 120,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1024,
+          "y": 120,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1032,
+          "y": 120,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1040,
+          "y": 120,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1048,
+          "y": 120,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1056,
+          "y": 120,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1064,
+          "y": 120,
+          "texture": "3-resort/pipe_turn_d.png"
+        },
+        {
+          "x": 1064,
+          "y": 128,
+          "texture": "3-resort/pipe_vert_b.png"
+        },
+        {
+          "x": 1064,
+          "y": 136,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1064,
+          "y": 144,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1064,
+          "y": 144,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1064,
+          "y": 152,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1064,
+          "y": 160,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1072,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1080,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1088,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1096,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1096,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1104,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1136,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1144,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1152,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1160,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1168,
+          "y": 128,
+          "texture": "3-resort/pipe_vert_b.png"
+        },
+        {
+          "x": 1168,
+          "y": 136,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1168,
+          "y": 144,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1168,
+          "y": 152,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1168,
+          "y": 160,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1184,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1176,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1192,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1200,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1208,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1216,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1224,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1232,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1240,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1248,
+          "y": 128,
+          "texture": "3-resort/pipe_vert_b.png"
+        },
+        {
+          "x": 1248,
+          "y": 136,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1248,
+          "y": 144,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1248,
+          "y": 152,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1248,
+          "y": 160,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1256,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1264,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1272,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1280,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1288,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1296,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1304,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1312,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1320,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1328,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1360,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1368,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1376,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1392,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1408,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1416,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1424,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1432,
+          "y": 128,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 1384,
+          "y": 128,
+          "texture": "3-resort/pipe_vert_b.png"
+        },
+        {
+          "x": 1400,
+          "y": 128,
+          "texture": "3-resort/pipe_vert_b.png"
+        },
+        {
+          "x": 1400,
+          "y": 136,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1400,
+          "y": 144,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1400,
+          "y": 152,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1400,
+          "y": 160,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1384,
+          "y": 136,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1384,
+          "y": 144,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1384,
+          "y": 152,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1384,
+          "y": 160,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 928,
+          "y": 136,
+          "texture": "3-resort/pipe_vert_c.png"
+        },
+        {
+          "x": 920,
+          "y": 136,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 912,
+          "y": 136,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 880,
+          "y": 136,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 872,
+          "y": 136,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 864,
+          "y": 136,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 856,
+          "y": 136,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 848,
+          "y": 136,
+          "texture": "3-resort/pipe_vert_b.png"
+        },
+        {
+          "x": 840,
+          "y": 136,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 832,
+          "y": 136,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 824,
+          "y": 136,
+          "texture": "3-resort/pipe_horz.png"
+        },
+        {
+          "x": 848,
+          "y": 144,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 848,
+          "y": 152,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 848,
+          "y": 160,
+          "texture": "3-resort/pipe_vert_a.png"
+        },
+        {
+          "x": 1240,
+          "y": 96,
+          "texture": "3-resort/storageshelf_mid_a.png"
+        },
+        {
+          "x": 1240,
+          "y": 112,
+          "texture": "3-resort/storageshelf_mid_b.png"
+        },
+        {
+          "x": 1240,
+          "y": 128,
+          "texture": "3-resort/storageshelf_mid_c.png"
+        },
+        {
+          "x": 1240,
+          "y": 144,
+          "texture": "3-resort/storageshelf_mid_c.png"
+        },
+        {
+          "x": 1240,
+          "y": 80,
+          "texture": "3-resort/storageshelf_top_a.png"
+        },
+        {
+          "x": 1240,
+          "y": 152,
+          "texture": "3-resort/storageshelf_mid_a.png"
+        },
+        {
+          "x": 1424,
+          "y": 136,
+          "texture": "3-resort/sticks.png"
+        },
+        {
+          "x": 1352,
+          "y": 88,
+          "texture": "3-resort/trashcan_a.png"
+        },
+        {
+          "x": 1112,
+          "y": 80,
+          "texture": "3-resort/washing_machine_a.png"
+        },
+        {
+          "x": 808,
+          "y": 48,
+          "texture": "3-resort/washing_machine_a.png"
+        },
+        {
+          "x": 792,
+          "y": 48,
+          "texture": "3-resort/washing_machine_b.png"
+        },
+        {
+          "x": 1336,
+          "y": 72,
+          "texture": "3-resort/window_broken_a.png"
+        },
+        {
+          "x": 1352,
+          "y": 64,
+          "texture": "3-resort/window_broken_a.png"
+        },
+        {
+          "x": 1128,
+          "y": 64,
+          "texture": "3-resort/window_broken_b.png"
+        },
+        {
+          "x": 1488,
+          "y": 8,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 1472,
+          "y": 8,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 1488,
+          "y": 24,
+          "texture": "3-resort/carpet_top_a.png"
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "name": "01",
+      "width": 1400,
+      "height": 184,
+      "xoffset": 2520,
+      "yoffset": -256,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "jumpThru",
+          "x": 40,
+          "y": 160
+        },
+        {
+          "name": "player",
+          "x": 112,
+          "y": 96
+        },
+        {
+          "name": "player",
+          "x": 56,
+          "y": 160
+        },
+        {
+          "name": "jumpThru",
+          "x": 72,
+          "y": 96
+        },
+        {
+          "name": "jumpThru",
+          "x": 112,
+          "y": 136
+        },
+        {
+          "name": "towerviewer",
+          "x": 120,
+          "y": 136
+        },
+        {
+          "name": "trackSpinner",
+          "x": 208,
+          "y": 88
+        },
+        {
+          "name": "refill",
+          "x": 248,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 16
+        },
+        {
+          "name": "trackSpinner",
+          "x": 280,
+          "y": 96
+        },
+        {
+          "name": "trackSpinner",
+          "x": 280,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 144,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 176,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 144,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 144,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 160,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 224,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 256,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 256,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 272,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 272,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 144,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 144,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 352,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 352,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 352,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 360,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 352,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 352,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 352,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 384,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 432,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 440,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 168
+        },
+        {
+          "name": "spikesUp",
+          "x": 480,
+          "y": 40
+        },
+        {
+          "name": "spikesUp",
+          "x": 536,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 544,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 560,
+          "y": 124
+        },
+        {
+          "name": "spinner",
+          "x": 552,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 584,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 600,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 600,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 624,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 600,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 552,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 544,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 552,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 616,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 592,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 608,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 632,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 632,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 640,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 656,
+          "y": 16
+        },
+        {
+          "name": "crumbleBlock",
+          "x": 616,
+          "y": 128
+        },
+        {
+          "name": "trackSpinner",
+          "x": 720,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 640,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 656,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 672,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 704,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 704,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 712,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 720,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 728,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 688,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 744,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 760,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 776,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 788,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 792,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 792,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 808,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 880,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 872,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 872,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 840,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 824,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 856,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 856,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 88
+        },
+        {
+          "name": "trackSpinner",
+          "x": 984,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 984,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 984,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 984,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 984,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 984,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 984,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 984,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 984,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 984,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 984,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 912,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 912,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 896,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 896,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 888,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 872,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 896,
+          "y": 16
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1200,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1200,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1200,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1200,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1200,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1200,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1200,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1200,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1200,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1200,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1200,
+          "y": 184
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1064,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1064,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1064,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1064,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1064,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1064,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1064,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1064,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1064,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1064,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1064,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1240,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1240,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1240,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1240,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1240,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1240,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1240,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1240,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1240,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1240,
+          "y": 24
+        },
+        {
+          "name": "trackSpinner",
+          "x": 1240,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 1160,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 1184,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 1184,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 1184,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 1168,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 1184,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 1184,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 1176,
+          "y": 152
+        },
+        {
+          "name": "resortLantern",
+          "x": 496,
+          "y": 56
+        },
+        {
+          "name": "resortLantern",
+          "x": 960,
+          "y": 40
+        },
+        {
+          "name": "resortLantern",
+          "x": 1240,
+          "y": 40
+        },
+        {
+          "name": "redBlocks",
+          "x": 544,
+          "y": 160
+        },
+        {
+          "name": "yellowBlocks",
+          "x": 1376,
+          "y": 104
+        },
+        {
+          "name": "yellowBlocks",
+          "x": 1384,
+          "y": 144
+        },
+        {
+          "name": "yellowBlocks",
+          "x": 1376,
+          "y": 96
+        },
+        {
+          "name": "yellowBlocks",
+          "x": 1376,
+          "y": 128
+        },
+        {
+          "name": "yellowBlocks",
+          "x": 1384,
+          "y": 168
+        },
+        {
+          "name": "soundSource",
+          "x": 336,
+          "y": 32
+        },
+        {
+          "name": "soundSource",
+          "x": 976,
+          "y": 48
+        },
+        {
+          "name": "soundSource",
+          "x": 1288,
+          "y": 88
+        },
+        {
+          "name": "soundSource",
+          "x": 1232,
+          "y": 144
+        },
+        {
+          "name": "soundSource",
+          "x": 168,
+          "y": 56
+        },
+        {
+          "name": "soundSource",
+          "x": 984,
+          "y": 152
+        },
+        {
+          "name": "soundSource",
+          "x": 1096,
+          "y": 64
+        },
+        {
+          "name": "cobweb",
+          "x": 24,
+          "y": 64
+        },
+        {
+          "name": "cobweb",
+          "x": 40,
+          "y": 128
+        },
+        {
+          "name": "cobweb",
+          "x": 40,
+          "y": 56
+        },
+        {
+          "name": "cobweb",
+          "x": 240,
+          "y": 16
+        },
+        {
+          "name": "cobweb",
+          "x": 448,
+          "y": 24
+        },
+        {
+          "name": "cobweb",
+          "x": 312,
+          "y": 56
+        },
+        {
+          "name": "cobweb",
+          "x": 312,
+          "y": 40
+        },
+        {
+          "name": "cobweb",
+          "x": 1336,
+          "y": 32
+        },
+        {
+          "name": "touchSwitch",
+          "x": 248,
+          "y": 32
+        },
+        {
+          "name": "trackSpinner",
+          "x": 312,
+          "y": 80
+        },
+        {
+          "name": "trackSpinner",
+          "x": 344,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 352,
+          "y": 80
+        },
+        {
+          "name": "refill",
+          "x": 328,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 168
+        },
+        {
+          "name": "spikesUp",
+          "x": 504,
+          "y": 120
+        },
+        {
+          "name": "touchSwitch",
+          "x": 520,
+          "y": 24
+        },
+        {
+          "name": "touchSwitch",
+          "x": 448,
+          "y": 108
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 80
+        },
+        {
+          "name": "touchSwitch",
+          "x": 556,
+          "y": 88
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 512,
+          "y": 56
+        },
+        {
+          "name": "touchSwitch",
+          "x": 696,
+          "y": 107
+        },
+        {
+          "name": "touchSwitch",
+          "x": 704,
+          "y": 89
+        },
+        {
+          "name": "touchSwitch",
+          "x": 712,
+          "y": 71
+        },
+        {
+          "name": "touchSwitch",
+          "x": 720,
+          "y": 53
+        },
+        {
+          "name": "spinner",
+          "x": 712,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 728,
+          "y": 16
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 808,
+          "y": 68
+        },
+        {
+          "name": "spinner",
+          "x": 912,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 904,
+          "y": 192
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 800,
+          "y": 92
+        },
+        {
+          "name": "spring",
+          "x": 1040,
+          "y": 112
+        },
+        {
+          "name": "fallingBlock",
+          "x": 1032,
+          "y": 112
+        },
+        {
+          "name": "spikesUp",
+          "x": 1312,
+          "y": 152
+        },
+        {
+          "name": "spikesUp",
+          "x": 1328,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 1184,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 1184,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 1168,
+          "y": 160
+        },
+        {
+          "name": "refill",
+          "x": 1164,
+          "y": 80
+        },
+        {
+          "name": "fallingBlock",
+          "x": 1212,
+          "y": 144
+        },
+        {
+          "name": "spring",
+          "x": 1220,
+          "y": 144
+        },
+        {
+          "name": "jumpThru",
+          "x": 40,
+          "y": 96
+        },
+        {
+          "name": "touchSwitch",
+          "x": 832,
+          "y": 92
+        },
+        {
+          "name": "switchGate",
+          "x": 1376,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 1136,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 1132,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 1128,
+          "y": 56
+        },
+        {
+          "name": "trackSpinner",
+          "x": 208,
+          "y": 72
+        },
+        {
+          "name": "refill",
+          "x": 176,
+          "y": 80
+        },
+        {
+          "name": "refill",
+          "x": 328,
+          "y": 120
+        },
+        {
+          "name": "trackSpinner",
+          "x": 312,
+          "y": 96
+        },
+        {
+          "name": "trackSpinner",
+          "x": 312,
+          "y": 64
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 832,
+          "y": 60
+        },
+        {
+          "name": "rotateSpinner",
+          "x": 856,
+          "y": 68
+        },
+        {
+          "name": "infiniteStar",
+          "x": 664,
+          "y": 104
+        },
+        {
+          "name": "refill",
+          "x": 400,
+          "y": 144
+        },
+        {
+          "name": "refill",
+          "x": 520,
+          "y": 24
+        },
+        {
+          "name": "fallingBlock",
+          "x": 1000,
+          "y": 48
+        },
+        {
+          "name": "wallSpringLeft",
+          "x": 1016,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 1144,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 1160,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 1178,
+          "y": 113
+        },
+        {
+          "name": "refill",
+          "x": 1276,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 1328,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 1328,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 1328,
+          "y": 104
+        }
+      ],
+      "decals": [
+        {
+          "x": 528,
+          "y": 184,
+          "texture": "monidsidespack_resort_improved/fgtilehole_a.png"
+        },
+        {
+          "x": 296,
+          "y": 64,
+          "texture": "3-resort/vent.png"
+        },
+        {
+          "x": 912,
+          "y": 24,
+          "texture": "3-resort/vent.png"
+        },
+        {
+          "x": 936,
+          "y": 24,
+          "texture": "3-resort/vent.png"
+        },
+        {
+          "x": 1328,
+          "y": 164,
+          "texture": "3-resort/vent.png"
+        },
+        {
+          "x": 1272,
+          "y": 16,
+          "texture": "3-resort/vent.png"
+        },
+        {
+          "x": 552,
+          "y": 136,
+          "texture": "3-resort/sticks.png"
+        },
+        {
+          "x": 176,
+          "y": 24,
+          "texture": "3-resort/cobweb_b.png"
+        },
+        {
+          "x": 456,
+          "y": 16,
+          "texture": "3-resort/cobweb.png"
+        },
+        {
+          "x": 120,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 120,
+          "y": 56,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 136,
+          "y": 56,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 136,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 152,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 376,
+          "y": 48,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 352,
+          "y": 40,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 352,
+          "y": 56,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 368,
+          "y": 56,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 368,
+          "y": 40,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 384,
+          "y": 40,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 384,
+          "y": 56,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 632,
+          "y": 40,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 632,
+          "y": 56,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 648,
+          "y": 56,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 648,
+          "y": 40,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 664,
+          "y": 40,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 664,
+          "y": 56,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 680,
+          "y": 56,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 680,
+          "y": 40,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 696,
+          "y": 40,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 696,
+          "y": 56,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 744,
+          "y": 40,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 744,
+          "y": 56,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 760,
+          "y": 56,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 760,
+          "y": 40,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 776,
+          "y": 40,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 776,
+          "y": 56,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 792,
+          "y": 56,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 792,
+          "y": 40,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 808,
+          "y": 40,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 808,
+          "y": 56,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 984,
+          "y": 32,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1000,
+          "y": 32,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1016,
+          "y": 32,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1016,
+          "y": 48,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1000,
+          "y": 48,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 984,
+          "y": 64,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1000,
+          "y": 64,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1016,
+          "y": 64,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1000,
+          "y": 96,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 984,
+          "y": 80,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 984,
+          "y": 96,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1000,
+          "y": 80,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1000,
+          "y": 112,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 984,
+          "y": 112,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1016,
+          "y": 96,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1016,
+          "y": 80,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1016,
+          "y": 112,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1000,
+          "y": 128,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1016,
+          "y": 144,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1016,
+          "y": 128,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1016,
+          "y": 160,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1000,
+          "y": 176,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1016,
+          "y": 176,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1064,
+          "y": 144,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1064,
+          "y": 96,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1096,
+          "y": 96,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1080,
+          "y": 160,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1064,
+          "y": 160,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1064,
+          "y": 112,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1080,
+          "y": 48,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1080,
+          "y": 96,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1064,
+          "y": 176,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1064,
+          "y": 128,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1096,
+          "y": 144,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1064,
+          "y": 80,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1080,
+          "y": 176,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1064,
+          "y": 32,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1080,
+          "y": 32,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1080,
+          "y": 128,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1064,
+          "y": 48,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1096,
+          "y": 176,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1096,
+          "y": 112,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1064,
+          "y": 64,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1096,
+          "y": 32,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1096,
+          "y": 160,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1080,
+          "y": 80,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1080,
+          "y": 144,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1080,
+          "y": 112,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1096,
+          "y": 128,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1264,
+          "y": 136,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1264,
+          "y": 88,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1264,
+          "y": 120,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1248,
+          "y": 88,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1248,
+          "y": 136,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1264,
+          "y": 104,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1232,
+          "y": 120,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1232,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1248,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1232,
+          "y": 88,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1232,
+          "y": 104,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1264,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1248,
+          "y": 120,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1248,
+          "y": 104,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1280,
+          "y": 136,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1280,
+          "y": 120,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1280,
+          "y": 104,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1280,
+          "y": 72,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1256,
+          "y": 96,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1256,
+          "y": 112,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1256,
+          "y": 128,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 1256,
+          "y": 80,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 784,
+          "y": 48,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 768,
+          "y": 48,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 656,
+          "y": 48,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 672,
+          "y": 48,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 688,
+          "y": 48,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 640,
+          "y": 48,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 752,
+          "y": 48,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 800,
+          "y": 48,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 360,
+          "y": 48,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 144,
+          "y": 64,
+          "texture": "3-resort/window.png"
+        },
+        {
+          "x": 168,
+          "y": 72,
+          "texture": "3-resort/window_broken_a.png"
+        },
+        {
+          "x": 152,
+          "y": 56,
+          "texture": "3-resort/window_broken_b.png"
+        },
+        {
+          "x": 1096,
+          "y": 48,
+          "texture": "3-resort/window_broken_a.png"
+        },
+        {
+          "x": 1080,
+          "y": 64,
+          "texture": "3-resort/window_broken_b.png"
+        },
+        {
+          "x": 1096,
+          "y": 80,
+          "texture": "nameguy/broken_window_alt.png"
+        },
+        {
+          "x": 1000,
+          "y": 160,
+          "texture": "3-resort/window_broken_b.png"
+        },
+        {
+          "x": 984,
+          "y": 128,
+          "texture": "nameguy/broken_window_alt.png"
+        },
+        {
+          "x": 984,
+          "y": 176,
+          "texture": "3-resort/window_broken_a.png"
+        },
+        {
+          "x": 1000,
+          "y": 144,
+          "texture": "3-resort/window_broken_b.png"
+        },
+        {
+          "x": 984,
+          "y": 48,
+          "texture": "3-resort/window_broken_b.png"
+        },
+        {
+          "x": 1280,
+          "y": 88,
+          "texture": "3-resort/window_broken_b.png"
+        },
+        {
+          "x": 1232,
+          "y": 136,
+          "texture": "3-resort/window_broken_a.png"
+        },
+        {
+          "x": 48,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 64,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 64,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 48,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 64,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 80,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 120,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 104,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 88,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_innercorner_a.png"
+        },
+        {
+          "x": 88,
+          "y": 104,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 88,
+          "y": 88,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 96,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 112,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 128,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 120,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 104,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 88,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 72,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 72,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 24,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 24,
+          "y": 104,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 72,
+          "y": 104,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 72,
+          "y": 88,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 200,
+          "y": 48,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 200,
+          "y": 32,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 200,
+          "y": 16,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 216,
+          "y": 48,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 224,
+          "y": 48,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 224,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_innercorner_a.png"
+        },
+        {
+          "x": 240,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 216,
+          "y": 32,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 216,
+          "y": 16,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 232,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 152,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 184,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 168,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 184,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_innercorner_a.png"
+        },
+        {
+          "x": 200,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 232,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 216,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 232,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 232,
+          "y": 168,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 168,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 152,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 152,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 168,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 200,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 216,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 216,
+          "y": 168,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 200,
+          "y": 168,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 184,
+          "y": 168,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 168,
+          "y": 168,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 152,
+          "y": 168,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 264,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 264,
+          "y": 168,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 280,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 352,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 280,
+          "y": 168,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 344,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 352,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 360,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 416,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 432,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 472,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 456,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 440,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 480,
+          "y": 32,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 480,
+          "y": 16,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 480,
+          "y": 48,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 464,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 448,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 464,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 464,
+          "y": 8,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 432,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 416,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 584,
+          "y": 96,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 600,
+          "y": 96,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 600,
+          "y": 112,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 600,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 600,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 600,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 552,
+          "y": 112,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 552,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 584,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 568,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 552,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 552,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 568,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 584,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 632,
+          "y": 112,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 648,
+          "y": 112,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 664,
+          "y": 112,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 680,
+          "y": 112,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 696,
+          "y": 112,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 696,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 696,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 632,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 632,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 648,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 664,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 680,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 680,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 664,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 648,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 752,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 768,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 632,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 648,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 664,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 696,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 680,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 752,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 752,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 768,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 768,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 784,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 800,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 832,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 832,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_innercorner_a.png"
+        },
+        {
+          "x": 784,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 784,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 800,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 816,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 800,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 816,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 832,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 848,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 872,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 920,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 920,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_innercorner_a.png"
+        },
+        {
+          "x": 888,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 936,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 936,
+          "y": 152,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 936,
+          "y": 168,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 944,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 936,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_innercorner_a.png"
+        },
+        {
+          "x": 920,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 920,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 904,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 904,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 888,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 888,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 880,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 832,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 864,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 848,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 904,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 1120,
+          "y": 64,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 1120,
+          "y": 48,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 1120,
+          "y": 32,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 1136,
+          "y": 64,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 1152,
+          "y": 64,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 1168,
+          "y": 64,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 1184,
+          "y": 64,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 1200,
+          "y": 64,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 1200,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_innercorner_a.png"
+        },
+        {
+          "x": 1200,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 1216,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 1216,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 1200,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 1184,
+          "y": 32,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 1168,
+          "y": 32,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 1168,
+          "y": 48,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 1152,
+          "y": 48,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 1152,
+          "y": 32,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 1136,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 1136,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 1360,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 1360,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 1376,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 1392,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 1392,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 1376,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 584,
+          "y": 112,
+          "texture": "nameguy_farewell/ch3_carpet_inner_l.png"
+        },
+        {
+          "x": 584,
+          "y": 128,
+          "texture": "nameguy_farewell/ch3_carpet_inner_l.png"
+        },
+        {
+          "x": 568,
+          "y": 128,
+          "texture": "nameguy_farewell/ch3_carpet_inner_l.png"
+        },
+        {
+          "x": 568,
+          "y": 112,
+          "texture": "nameguy_farewell/ch3_carpet_inner_l.png"
+        },
+        {
+          "x": 184,
+          "y": 152,
+          "texture": "3-resort/carpet_inner_b.png"
+        },
+        {
+          "x": 576,
+          "y": 120,
+          "texture": "3-resort/carpet_inner_b.png"
+        },
+        {
+          "x": 1184,
+          "y": 48,
+          "texture": "3-resort/carpet_inner_b.png"
+        },
+        {
+          "x": 136,
+          "y": 32,
+          "texture": "monidsidespack_resort_improved/bgtilehole_a.png"
+        },
+        {
+          "x": 256,
+          "y": 64,
+          "texture": "monidsidespack_resort_improved/bgtilehole_b.png"
+        },
+        {
+          "x": 376,
+          "y": 104,
+          "texture": "monidsidespack_resort_improved/bgtilehole_big.png"
+        },
+        {
+          "x": 328,
+          "y": 81,
+          "texture": "monidsidespack_resort_improved/bgtilehole_e.png"
+        },
+        {
+          "x": 512,
+          "y": 104,
+          "texture": "monidsidespack_resort_improved/bgtilehole_a.png"
+        },
+        {
+          "x": 400,
+          "y": 88,
+          "texture": "monidsidespack_resort_improved/bgtilehole_b.png"
+        },
+        {
+          "x": 552,
+          "y": 48,
+          "texture": "monidsidespack_resort_improved/bgtilehole_c.png"
+        },
+        {
+          "x": 728,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/bgtilehole_a.png"
+        },
+        {
+          "x": 792,
+          "y": 96,
+          "texture": "monidsidespack_resort_improved/bgtilehole_b.png"
+        },
+        {
+          "x": 856,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/bgtilehole_big.png"
+        },
+        {
+          "x": 936,
+          "y": 56,
+          "texture": "monidsidespack_resort_improved/bgtilehole_c.png"
+        },
+        {
+          "x": 1128,
+          "y": 96,
+          "texture": "monidsidespack_resort_improved/bgtilehole_b.png"
+        },
+        {
+          "x": 1040,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/bgtilehole_e.png"
+        },
+        {
+          "x": 1040,
+          "y": 64,
+          "texture": "monidsidespack_resort_improved/bgtilehole_e.png"
+        },
+        {
+          "x": 1040,
+          "y": 88,
+          "texture": "monidsidespack_resort_improved/bgtilehole_e.png"
+        },
+        {
+          "x": 1168,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/bgtilehole_big.png"
+        },
+        {
+          "x": 1320,
+          "y": 80,
+          "texture": "monidsidespack_resort_improved/bgtilehole_a.png"
+        },
+        {
+          "x": 1312,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/bgtilehole_c.png"
+        },
+        {
+          "x": 81,
+          "y": 88,
+          "texture": "3-resort/bookshelf_mm_e.png"
+        },
+        {
+          "x": 49,
+          "y": 152,
+          "texture": "3-resort/bookshelf_bl_a.png"
+        },
+        {
+          "x": 97,
+          "y": 88,
+          "texture": "3-resort/bookshelf_ml_a.png"
+        },
+        {
+          "x": 97,
+          "y": 136,
+          "texture": "3-resort/bookshelf_mr_a.png"
+        },
+        {
+          "x": 97,
+          "y": 104,
+          "texture": "3-resort/bookshelf_mr_a.png"
+        },
+        {
+          "x": 65,
+          "y": 152,
+          "texture": "3-resort/bookshelf_bm_a.png"
+        },
+        {
+          "x": 81,
+          "y": 152,
+          "texture": "3-resort/bookshelf_bm_a.png"
+        },
+        {
+          "x": 49,
+          "y": 120,
+          "texture": "3-resort/bookshelf_mr_a.png"
+        },
+        {
+          "x": 49,
+          "y": 88,
+          "texture": "3-resort/bookshelf_ml_a.png"
+        },
+        {
+          "x": 65,
+          "y": 80,
+          "texture": "monidsidespack_resort_improved/bookshelf_top_flat.png"
+        },
+        {
+          "x": 65,
+          "y": 104,
+          "texture": "3-resort/bookshelf_mm_c.png"
+        },
+        {
+          "x": 81,
+          "y": 136,
+          "texture": "3-resort/bookshelf_mm_b.png"
+        },
+        {
+          "x": 65,
+          "y": 136,
+          "texture": "3-resort/bookshelf_mm_c.png"
+        },
+        {
+          "x": 49,
+          "y": 136,
+          "texture": "3-resort/bookshelf_ml_a.png"
+        },
+        {
+          "x": 81,
+          "y": 120,
+          "texture": "3-resort/bookshelf_mm_c.png"
+        },
+        {
+          "x": 49,
+          "y": 96,
+          "texture": "3-resort/bookshelf_mr_a.png"
+        },
+        {
+          "x": 65,
+          "y": 120,
+          "texture": "3-resort/bookshelf_mm_a.png"
+        },
+        {
+          "x": 49,
+          "y": 112,
+          "texture": "3-resort/bookshelf_ml_a.png"
+        },
+        {
+          "x": 97,
+          "y": 120,
+          "texture": "3-resort/bookshelf_ml_a.png"
+        },
+        {
+          "x": 65,
+          "y": 88,
+          "texture": "3-resort/bookshelf_mm_b.png"
+        },
+        {
+          "x": 97,
+          "y": 152,
+          "texture": "3-resort/bookshelf_br_a.png"
+        },
+        {
+          "x": 81,
+          "y": 104,
+          "texture": "3-resort/bookshelf_mm_a.png"
+        },
+        {
+          "x": 304,
+          "y": 152,
+          "texture": "3-resort/bookshelf_mm_a.png"
+        },
+        {
+          "x": 288,
+          "y": 168,
+          "texture": "3-resort/bookshelf_bl_a.png"
+        },
+        {
+          "x": 320,
+          "y": 136,
+          "texture": "3-resort/bookshelf_mm_b.png"
+        },
+        {
+          "x": 289,
+          "y": 124,
+          "texture": "monidsidespack_resort_improved/bookshelf_top_horn.png"
+        },
+        {
+          "x": 304,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/bookshelf_top_flat.png"
+        },
+        {
+          "x": 320,
+          "y": 152,
+          "texture": "3-resort/bookshelf_mm_c.png"
+        },
+        {
+          "x": 288,
+          "y": 152,
+          "texture": "3-resort/bookshelf_mr_a.png"
+        },
+        {
+          "x": 335,
+          "y": 124,
+          "texture": "monidsidespack_resort_improved/bookshelf_top_horn.png"
+        },
+        {
+          "x": 304,
+          "y": 168,
+          "texture": "3-resort/bookshelf_bm_a.png"
+        },
+        {
+          "x": 320,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/bookshelf_top_flat.png"
+        },
+        {
+          "x": 304,
+          "y": 136,
+          "texture": "3-resort/bookshelf_mm_a.png"
+        },
+        {
+          "x": 320,
+          "y": 168,
+          "texture": "3-resort/bookshelf_bm_a.png"
+        },
+        {
+          "x": 312,
+          "y": 120,
+          "texture": "3-resort/bookshelf_tm_a.png"
+        },
+        {
+          "x": 288,
+          "y": 136,
+          "texture": "3-resort/bookshelf_ml_a.png"
+        },
+        {
+          "x": 344,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 336,
+          "y": 144,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 336,
+          "y": 136,
+          "texture": "3-resort/bookshelf_mr_a.png"
+        },
+        {
+          "x": 336,
+          "y": 152,
+          "texture": "3-resort/bookshelf_ml_a.png"
+        },
+        {
+          "x": 336,
+          "y": 168,
+          "texture": "3-resort/bookshelf_br_a.png"
+        },
+        {
+          "x": 392,
+          "y": 152,
+          "texture": "3-resort/bookshelf_mm_a.png"
+        },
+        {
+          "x": 360,
+          "y": 168,
+          "texture": "3-resort/bookshelf_bl_a.png"
+        },
+        {
+          "x": 408,
+          "y": 168,
+          "texture": "3-resort/bookshelf_br_a.png"
+        },
+        {
+          "x": 361,
+          "y": 124,
+          "texture": "monidsidespack_resort_improved/bookshelf_top_horn.png"
+        },
+        {
+          "x": 376,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/bookshelf_top_flat.png"
+        },
+        {
+          "x": 376,
+          "y": 152,
+          "texture": "3-resort/bookshelf_mm_c.png"
+        },
+        {
+          "x": 360,
+          "y": 152,
+          "texture": "3-resort/bookshelf_mr_a.png"
+        },
+        {
+          "x": 407,
+          "y": 124,
+          "texture": "monidsidespack_resort_improved/bookshelf_top_horn.png"
+        },
+        {
+          "x": 376,
+          "y": 168,
+          "texture": "3-resort/bookshelf_bm_a.png"
+        },
+        {
+          "x": 392,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/bookshelf_top_flat.png"
+        },
+        {
+          "x": 376,
+          "y": 136,
+          "texture": "3-resort/bookshelf_mm_a.png"
+        },
+        {
+          "x": 408,
+          "y": 152,
+          "texture": "3-resort/bookshelf_ml_a.png"
+        },
+        {
+          "x": 392,
+          "y": 168,
+          "texture": "3-resort/bookshelf_bm_a.png"
+        },
+        {
+          "x": 384,
+          "y": 120,
+          "texture": "3-resort/bookshelf_tm_a.png"
+        },
+        {
+          "x": 360,
+          "y": 136,
+          "texture": "3-resort/bookshelf_ml_a.png"
+        },
+        {
+          "x": 408,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/bookshelf_side_b.png"
+        },
+        {
+          "x": 392,
+          "y": 136,
+          "texture": "3-resort/bookshelf_mm_e.png"
+        },
+        {
+          "x": 440,
+          "y": 168,
+          "texture": "3-resort/bookshelf_bl_a.png"
+        },
+        {
+          "x": 472,
+          "y": 136,
+          "texture": "3-resort/bookshelf_mm_b.png"
+        },
+        {
+          "x": 441,
+          "y": 124,
+          "texture": "monidsidespack_resort_improved/bookshelf_top_horn.png"
+        },
+        {
+          "x": 456,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/bookshelf_top_flat.png"
+        },
+        {
+          "x": 472,
+          "y": 152,
+          "texture": "3-resort/bookshelf_mm_c.png"
+        },
+        {
+          "x": 440,
+          "y": 152,
+          "texture": "3-resort/bookshelf_mr_a.png"
+        },
+        {
+          "x": 487,
+          "y": 124,
+          "texture": "monidsidespack_resort_improved/bookshelf_top_horn.png"
+        },
+        {
+          "x": 456,
+          "y": 168,
+          "texture": "3-resort/bookshelf_bm_a.png"
+        },
+        {
+          "x": 472,
+          "y": 128,
+          "texture": "monidsidespack_resort_improved/bookshelf_top_flat.png"
+        },
+        {
+          "x": 456,
+          "y": 136,
+          "texture": "3-resort/bookshelf_mm_a.png"
+        },
+        {
+          "x": 472,
+          "y": 168,
+          "texture": "3-resort/bookshelf_bm_a.png"
+        },
+        {
+          "x": 464,
+          "y": 120,
+          "texture": "3-resort/bookshelf_tm_a.png"
+        },
+        {
+          "x": 440,
+          "y": 136,
+          "texture": "3-resort/bookshelf_ml_a.png"
+        },
+        {
+          "x": 488,
+          "y": 136,
+          "texture": "3-resort/bookshelf_mr_a.png"
+        },
+        {
+          "x": 456,
+          "y": 184,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 472,
+          "y": 184,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 456,
+          "y": 152,
+          "texture": "3-resort/bookshelf_mm_b.png"
+        },
+        {
+          "x": 640,
+          "y": 48,
+          "texture": "3-resort/curtain_side_c.png"
+        },
+        {
+          "x": 800,
+          "y": 48,
+          "texture": "3-resort/curtain_side_b.png"
+        },
+        {
+          "x": 752,
+          "y": 48,
+          "texture": "3-resort/curtain_side_b.png"
+        },
+        {
+          "x": 688,
+          "y": 48,
+          "texture": "3-resort/curtain_side_b.png"
+        },
+        {
+          "x": 128,
+          "y": 64,
+          "texture": "3-resort/curtain_side_c.png"
+        },
+        {
+          "x": 1224,
+          "y": 88,
+          "texture": "3-resort/curtain_side_d.png"
+        },
+        {
+          "x": 1288,
+          "y": 88,
+          "texture": "3-resort/curtain_side_a.png"
+        },
+        {
+          "x": 252,
+          "y": 144,
+          "texture": "3-resort/storageshelf_mid_b.png"
+        },
+        {
+          "x": 252,
+          "y": 160,
+          "texture": "3-resort/storageshelf_mid_a.png"
+        },
+        {
+          "x": 252,
+          "y": 176,
+          "texture": "3-resort/storageshelf_top_a.png"
+        },
+        {
+          "x": 672,
+          "y": 104,
+          "texture": "3-resort/storageshelf_mid_b.png"
+        },
+        {
+          "x": 672,
+          "y": 120,
+          "texture": "3-resort/storageshelf_mid_c.png"
+        },
+        {
+          "x": 672,
+          "y": 136,
+          "texture": "3-resort/storageshelf_top_a.png"
+        },
+        {
+          "x": 672,
+          "y": 152,
+          "texture": "3-resort/storageshelf_mid_a.png"
+        },
+        {
+          "x": 624,
+          "y": 120,
+          "texture": "3-resort/storageshelf_mid_a.png"
+        },
+        {
+          "x": 624,
+          "y": 136,
+          "texture": "3-resort/storageshelf_mid_c.png"
+        },
+        {
+          "x": 624,
+          "y": 152,
+          "texture": "3-resort/storageshelf_mid_c.png"
+        },
+        {
+          "x": 792,
+          "y": 144,
+          "texture": "3-resort/storageshelf_mid_a.png"
+        },
+        {
+          "x": 792,
+          "y": 160,
+          "texture": "3-resort/storageshelf_top_a.png"
+        },
+        {
+          "x": 1287,
+          "y": 148,
+          "texture": "3-resort/storageshelf_mid_b.png"
+        },
+        {
+          "x": 1287,
+          "y": 164,
+          "texture": "3-resort/storageshelf_mid_c.png"
+        },
+        {
+          "x": 1287,
+          "y": 180,
+          "texture": "3-resort/storageshelf_mid_a.png"
+        },
+        {
+          "x": 480,
+          "y": 16,
+          "texture": "monidsidespack_resort_improved/hangshelf_a.png"
+        },
+        {
+          "x": 872,
+          "y": 24,
+          "texture": "monidsidespack_resort_improved/hangshelf_b.png"
+        },
+        {
+          "x": 872,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/hangshelf_a.png"
+        },
+        {
+          "x": 1208,
+          "y": 32,
+          "texture": "monidsidespack_resort_improved/hangshelf_a.png"
+        },
+        {
+          "x": 456,
+          "y": 80,
+          "texture": "3-resort/painting_b.png"
+        },
+        {
+          "x": 472,
+          "y": 104,
+          "texture": "3-resort/painting_e.png"
+        },
+        {
+          "x": 752,
+          "y": 96,
+          "texture": "3-resort/painting_a.png"
+        },
+        {
+          "x": 864,
+          "y": 80,
+          "texture": "3-resort/painting_b.png"
+        },
+        {
+          "x": 880,
+          "y": 112,
+          "texture": "3-resort/painting_e.png"
+        },
+        {
+          "x": 1232,
+          "y": 64,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 1240,
+          "y": 64,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 1248,
+          "y": 64,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 1256,
+          "y": 64,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 1264,
+          "y": 64,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 1272,
+          "y": 64,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 1280,
+          "y": 64,
+          "texture": "3-resort/curtain_center_a.png"
+        },
+        {
+          "x": 51,
+          "y": 152,
+          "texture": "3-resort/laundry_b.png"
+        },
+        {
+          "x": 72,
+          "y": 152,
+          "texture": "3-resort/laundry_c.png"
+        },
+        {
+          "x": 104,
+          "y": 152,
+          "texture": "3-resort/brokenbox_a.png"
+        },
+        {
+          "x": 120,
+          "y": 152,
+          "texture": "3-resort/brokenbox_b.png"
+        },
+        {
+          "x": 64,
+          "y": 152,
+          "texture": "3-resort/bench_a.png"
+        },
+        {
+          "x": 112,
+          "y": 144,
+          "texture": "3-resort/bucket_a.png"
+        },
+        {
+          "x": 128,
+          "y": 88,
+          "texture": "3-resort/chair_b.png"
+        },
+        {
+          "x": 168,
+          "y": 160,
+          "texture": "3-resort/cabinet_a.png"
+        },
+        {
+          "x": 400,
+          "y": 160,
+          "texture": "3-resort/cabinet_b.png"
+        },
+        {
+          "x": 200,
+          "y": 152,
+          "texture": "3-resort/granfather_clock00.png"
+        },
+        {
+          "x": 328,
+          "y": 168,
+          "texture": "3-resort/brokenbox_c.png"
+        },
+        {
+          "x": 336,
+          "y": 155,
+          "texture": "3-resort/brokenbox_b.png"
+        },
+        {
+          "x": 342,
+          "y": 168,
+          "texture": "3-resort/brokenbox_b.png"
+        },
+        {
+          "x": 686,
+          "y": 88,
+          "texture": "3-resort/brokenbox_b.png"
+        },
+        {
+          "x": 684,
+          "y": 75,
+          "texture": "3-resort/brokenbox_b.png"
+        },
+        {
+          "x": 664,
+          "y": 80,
+          "texture": "3-resort/bucket_a.png"
+        },
+        {
+          "x": 610,
+          "y": 104,
+          "texture": "3-resort/brokenbox_d.png"
+        },
+        {
+          "x": 752,
+          "y": 144,
+          "texture": "3-resort/piano.png"
+        },
+        {
+          "x": 752,
+          "y": 152,
+          "texture": "3-resort/bench_a.png"
+        },
+        {
+          "x": 180,
+          "y": 164,
+          "texture": "3-resort/table_b.png"
+        },
+        {
+          "x": 1340,
+          "y": 96,
+          "texture": "3-resort/laundry_b.png"
+        },
+        {
+          "x": 1373,
+          "y": 56,
+          "texture": "3-resort/brokenbox_b.png"
+        },
+        {
+          "x": 1361,
+          "y": 56,
+          "texture": "3-resort/brokenbox_d.png"
+        },
+        {
+          "x": 552,
+          "y": 96,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 568,
+          "y": 96,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 1039,
+          "y": 160,
+          "texture": "3-resort/head_trophy_a.png"
+        },
+        {
+          "x": 1320,
+          "y": 128,
+          "texture": "3-resort/sticks.png"
+        },
+        {
+          "x": 352,
+          "y": 32,
+          "texture": "3-resort/chandelier_b.png"
+        },
+        {
+          "x": 152,
+          "y": 32,
+          "texture": "3-resort/chandelier_a.png"
+        },
+        {
+          "x": 672,
+          "y": 32,
+          "texture": "3-resort/chandelier_a.png"
+        },
+        {
+          "x": 784,
+          "y": 32,
+          "texture": "3-resort/chandelier_b.png"
+        },
+        {
+          "x": 1001,
+          "y": 41,
+          "texture": "nameguy/chandelier_chain.png"
+        },
+        {
+          "x": 1001,
+          "y": 16,
+          "texture": "nameguy/chandelier_chain.png"
+        },
+        {
+          "x": 993,
+          "y": 47,
+          "texture": "nameguy/chandelier_broken.png"
+        },
+        {
+          "x": 1097,
+          "y": 16,
+          "texture": "nameguy/chandelier_chain.png"
+        },
+        {
+          "x": 1097,
+          "y": 41,
+          "texture": "nameguy/chandelier_chain.png"
+        },
+        {
+          "x": 1089,
+          "y": 47,
+          "texture": "nameguy/chandelier_broken.png"
+        },
+        {
+          "x": 1312,
+          "y": 48,
+          "texture": "3-resort/chandelier_b.png"
+        },
+        {
+          "x": 576,
+          "y": 24,
+          "texture": "3-resort/cobweb_b.png"
+        },
+        {
+          "x": 800,
+          "y": 24,
+          "texture": "3-resort/cobweb_b.png"
+        },
+        {
+          "x": 1128,
+          "y": 32,
+          "texture": "3-resort/cobweb_b.png"
+        },
+        {
+          "x": 376,
+          "y": 48,
+          "texture": "3-resort/curtain_side_b.png"
+        },
+        {
+          "x": 488,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 488,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 488,
+          "y": 152,
+          "texture": "3-resort/bookshelf_ml_a.png"
+        },
+        {
+          "x": 488,
+          "y": 168,
+          "texture": "3-resort/bookshelf_br_a.png"
+        },
+        {
+          "x": 504,
+          "y": 168,
+          "texture": "3-resort/bookshelf_br_a.png"
+        },
+        {
+          "x": 504,
+          "y": 160,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 504,
+          "y": 176,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 488,
+          "y": 160,
+          "texture": "3-resort/bellhopcart_a.png"
+        },
+        {
+          "x": 816,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 792,
+          "y": 112,
+          "texture": "3-resort/storageshelf_mid_a.png"
+        },
+        {
+          "x": 792,
+          "y": 128,
+          "texture": "3-resort/storageshelf_top_a.png"
+        },
+        {
+          "x": 80,
+          "y": 80,
+          "texture": "monidsidespack_resort_improved/bookshelf_top_flat.png"
+        },
+        {
+          "x": 36,
+          "y": 120,
+          "texture": "monidsidespack_resort_improved/carpet_top_a.png"
+        },
+        {
+          "x": 36,
+          "y": 136,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 48,
+          "y": 168,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 32,
+          "y": 88,
+          "texture": "3-resort/laundry_b.png"
+        },
+        {
+          "x": 496,
+          "y": 168,
+          "texture": "3-resort/bedstand_a.png"
+        },
+        {
+          "x": 1136,
+          "y": 40,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 81,
+          "y": 72,
+          "texture": "3-resort/bookshelf_bm_a.png"
+        },
+        {
+          "x": 97,
+          "y": 72,
+          "texture": "3-resort/bookshelf_br_a.png"
+        },
+        {
+          "x": 65,
+          "y": 72,
+          "texture": "3-resort/bookshelf_bm_a.png"
+        },
+        {
+          "x": 49,
+          "y": 72,
+          "texture": "3-resort/bookshelf_bl_a.png"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "name": "02",
+      "width": 480,
+      "height": 184,
+      "xoffset": 3920,
+      "yoffset": -288,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "resortLantern",
+          "x": 120,
+          "y": 24
+        },
+        {
+          "name": "lightbeam",
+          "x": 80,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 208,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 248,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 264,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 264,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 264,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 264,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 248,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 40
+        },
+        {
+          "name": "player",
+          "x": 8,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 352,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 352,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 384,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 400,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 416,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 24
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 8
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 40
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 464,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 448,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 120,
+          "y": 208
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 216
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 208
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 208
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 208
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 208
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 216
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 216
+        },
+        {
+          "name": "spinner",
+          "x": 248,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 248,
+          "y": 208
+        },
+        {
+          "name": "spinner",
+          "x": 264,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 264,
+          "y": 208
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 216
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 296,
+          "y": 216
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 312,
+          "y": 216
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 216
+        },
+        {
+          "name": "spring",
+          "x": 320,
+          "y": 136
+        },
+        {
+          "name": "fallingBlock",
+          "x": 312,
+          "y": 136
+        },
+        {
+          "name": "touchSwitch",
+          "x": 456,
+          "y": 128
+        },
+        {
+          "name": "player",
+          "x": 72,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 88,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 88,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 88,
+          "y": 200
+        },
+        {
+          "name": "spinner",
+          "x": 88,
+          "y": 216
+        },
+        {
+          "name": "switchGate",
+          "x": 64,
+          "y": 0
+        },
+        {
+          "name": "resortLantern",
+          "x": 104,
+          "y": 112
+        },
+        {
+          "name": "invisibleBarrier",
+          "x": -8,
+          "y": 56
+        },
+        {
+          "name": "infiniteStar",
+          "x": 272,
+          "y": 80
+        },
+        {
+          "name": "everest/customBirdTutorial",
+          "x": 128,
+          "y": 96
+        }
+      ],
+      "decals": [
+        {
+          "x": 40,
+          "y": 48,
+          "texture": "3-resort/vent.png"
+        },
+        {
+          "x": 56,
+          "y": 128,
+          "texture": "3-resort/fgtilehole.png"
+        },
+        {
+          "x": 392,
+          "y": 16,
+          "texture": "3-resort/cobweb_b.png"
+        },
+        {
+          "x": 8,
+          "y": 88,
+          "texture": "3-resort/gold_railingCenter.png"
+        },
+        {
+          "x": 24,
+          "y": 88,
+          "texture": "3-resort/gold_railingCenter.png"
+        },
+        {
+          "x": 36,
+          "y": 88,
+          "texture": "3-resort/gold_railingCenterBrokenA.png"
+        },
+        {
+          "x": 72,
+          "y": 33,
+          "texture": "generic/snow_h.png"
+        },
+        {
+          "x": 88,
+          "y": 40,
+          "texture": "3-resort/painting_c.png"
+        },
+        {
+          "x": 88,
+          "y": 176,
+          "texture": "3-resort/bgtilehole_b.png"
+        },
+        {
+          "x": 120,
+          "y": 16,
+          "texture": "3-resort/cobweb.png"
+        },
+        {
+          "x": 272,
+          "y": 8,
+          "texture": "3-resort/bgtilehole_f.png"
+        },
+        {
+          "x": 8,
+          "y": 80,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 8,
+          "y": 96,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 24,
+          "y": 96,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 24,
+          "y": 80,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 40,
+          "y": 72,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 40,
+          "y": 88,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 56,
+          "y": 72,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 56,
+          "y": 88,
+          "texture": "monidsidespack_resort_improved/carpet_inner_a.png"
+        },
+        {
+          "x": 72,
+          "y": 64,
+          "texture": "monidsidespack_resort_improved/carpet_corner_a.png"
+        },
+        {
+          "x": 72,
+          "y": 80,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 72,
+          "y": 96,
+          "texture": "monidsidespack_resort_improved/carpet_left_a.png"
+        },
+        {
+          "x": 440,
+          "y": 12,
+          "texture": "monidsidespack_resort_improved/bgtilehole_b.png"
+        },
+        {
+          "x": 66,
+          "y": 80,
+          "texture": "3-resort/bed_c.png"
+        },
+        {
+          "x": 85,
+          "y": 84,
+          "texture": "3-resort/debris_roof_c.png"
+        },
+        {
+          "x": 72,
+          "y": 72,
+          "texture": "3-resort/debris_roof_a.png"
+        },
+        {
+          "x": 48,
+          "y": 89,
+          "texture": "3-resort/bedstand_a.png"
+        },
+        {
+          "x": 16,
+          "y": 88,
+          "texture": "3-resort/laundry_a.png"
+        },
+        {
+          "x": 30,
+          "y": 88,
+          "texture": "3-resort/laundry_b.png"
+        },
+        {
+          "x": 432,
+          "y": 32,
+          "texture": "3-resort/chandelier_b.png"
+        },
+        {
+          "x": 424,
+          "y": 8,
+          "texture": "nameguy/chandelier_chain.png"
+        },
+        {
+          "x": 232,
+          "y": 24,
+          "texture": "3-resort/chandelier_a.png"
+        },
+        {
+          "x": 152,
+          "y": 16,
+          "texture": "3-resort/hangshelf_a.png"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "name": "03",
+      "width": 664,
+      "height": 184,
+      "xoffset": 3920,
+      "yoffset": -472,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "jumpThru",
+          "x": 64,
+          "y": 160
+        },
+        {
+          "name": "player",
+          "x": 80,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 152,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 168,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 184,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 136,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 200,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 216,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 232,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 248,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 264,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 96
+        },
+        {
+          "name": "spinner",
+          "x": 248,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 248,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 240,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 104
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 120
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 72
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 280,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 352,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 0
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 16
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 48
+        },
+        {
+          "name": "spinner",
+          "x": 328,
+          "y": 64
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 80
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 168
+        },
+        {
+          "name": "spinner",
+          "x": 384,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 112
+        },
+        {
+          "name": "spinner",
+          "x": 392,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 408,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 144,
+          "y": 56
+        },
+        {
+          "name": "spinner",
+          "x": 192,
+          "y": 32
+        },
+        {
+          "name": "spinner",
+          "x": 472,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 136
+        },
+        {
+          "name": "spinner",
+          "x": 480,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 496,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 512,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 544,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": 88
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 568,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 552,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 576,
+          "y": 128
+        },
+        {
+          "name": "spinner",
+          "x": 592,
+          "y": 152
+        },
+        {
+          "name": "spring",
+          "x": 528,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 456,
+          "y": 152
+        },
+        {
+          "name": "spinner",
+          "x": 440,
+          "y": 160
+        },
+        {
+          "name": "spinner",
+          "x": 424,
+          "y": 144
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 304,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 336,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 352,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 368,
+          "y": 184
+        },
+        {
+          "name": "spinner",
+          "x": 384,
+          "y": 176
+        },
+        {
+          "name": "invisibleBarrier",
+          "x": 272,
+          "y": 176
+        },
+        {
+          "name": "spinner",
+          "x": 320,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 288,
+          "y": 192
+        },
+        {
+          "name": "spinner",
+          "x": 384,
+          "y": 192
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 184,
+          "y": 104
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 272,
+          "y": 128
+        },
+        {
+          "name": "refill",
+          "x": 176,
+          "y": 48
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 384,
+          "y": 160
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 376,
+          "y": 160
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 360,
+          "y": 160
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 344,
+          "y": 160
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 328,
+          "y": 160
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 312,
+          "y": 160
+        },
+        {
+          "name": "AdventureHelper/DustTrackSpinnerMultinode",
+          "x": 297,
+          "y": 160
+        },
+        {
+          "name": "refill",
+          "x": 296,
+          "y": 40
+        },
+        {
+          "name": "refill",
+          "x": 352,
+          "y": 112
+        },
+        {
+          "name": "FemtoHelper/CustomSpeedRotateSpinner",
+          "x": 520,
+          "y": 120
+        },
+        {
+          "name": "FemtoHelper/CustomSpeedRotateSpinner",
+          "x": 512,
+          "y": 96
+        },
+        {
+          "name": "FemtoHelper/CustomSpeedRotateSpinner",
+          "x": 448,
+          "y": 144
+        },
+        {
+          "name": "FemtoHelper/CustomSpeedRotateSpinner",
+          "x": 440,
+          "y": 128
+        },
+        {
+          "name": "friendlyGhost",
+          "x": -32,
+          "y": 128
+        }
+      ],
+      "decals": [
+        {
+          "x": 96,
+          "y": 172,
+          "texture": "3-resort/brokenwood.png"
+        },
+        {
+          "x": 64,
+          "y": 172,
+          "texture": "3-resort/brokenwood.png"
+        },
+        {
+          "x": 288,
+          "y": 176,
+          "texture": "3-resort/brokenwood.png"
+        },
+        {
+          "x": 12,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 44,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 60,
+          "y": 164,
+          "texture": "3-resort/roofEdge_d.png"
+        },
+        {
+          "x": 28,
+          "y": 164,
+          "texture": "3-resort/roofCenter_b.png"
+        },
+        {
+          "x": -4,
+          "y": 164,
+          "texture": "3-resort/roofCenter_c.png"
+        },
+        {
+          "x": 108,
+          "y": 164,
+          "texture": "3-resort/roofCenter_c.png"
+        },
+        {
+          "x": 140,
+          "y": 164,
+          "texture": "3-resort/roofCenter_b.png"
+        },
+        {
+          "x": 156,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 124,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 100,
+          "y": 164,
+          "texture": "3-resort/roofEdge_d.png"
+        },
+        {
+          "x": 188,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 220,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 204,
+          "y": 164,
+          "texture": "3-resort/roofCenter_b.png"
+        },
+        {
+          "x": 172,
+          "y": 164,
+          "texture": "3-resort/roofCenter_c.png"
+        },
+        {
+          "x": 252,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 284,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 268,
+          "y": 164,
+          "texture": "3-resort/roofCenter_b.png"
+        },
+        {
+          "x": 236,
+          "y": 164,
+          "texture": "3-resort/roofCenter_c.png"
+        },
+        {
+          "x": 412,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 396,
+          "y": 164,
+          "texture": "3-resort/roofCenter_b.png"
+        },
+        {
+          "x": 300,
+          "y": 164,
+          "texture": "3-resort/roofEdge_d.png"
+        },
+        {
+          "x": 380,
+          "y": 164,
+          "texture": "3-resort/roofEdge_d.png"
+        },
+        {
+          "x": 384,
+          "y": 176,
+          "texture": "3-resort/brokenwood.png"
+        },
+        {
+          "x": 556,
+          "y": 164,
+          "texture": "3-resort/roofCenter_c.png"
+        },
+        {
+          "x": 588,
+          "y": 164,
+          "texture": "3-resort/roofCenter_b.png"
+        },
+        {
+          "x": 572,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 492,
+          "y": 164,
+          "texture": "3-resort/roofCenter_c.png"
+        },
+        {
+          "x": 524,
+          "y": 164,
+          "texture": "3-resort/roofCenter_b.png"
+        },
+        {
+          "x": 540,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 508,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 444,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 476,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 460,
+          "y": 164,
+          "texture": "3-resort/roofCenter_b.png"
+        },
+        {
+          "x": 428,
+          "y": 164,
+          "texture": "3-resort/roofCenter_c.png"
+        },
+        {
+          "x": 604,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 636,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 620,
+          "y": 164,
+          "texture": "3-resort/roofCenter_b.png"
+        },
+        {
+          "x": 668,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": 652,
+          "y": 164,
+          "texture": "3-resort/roofCenter_c.png"
+        },
+        {
+          "x": 64,
+          "y": 176,
+          "texture": "3-resort/brokenwood.png"
+        },
+        {
+          "x": 96,
+          "y": 176,
+          "texture": "3-resort/brokenwood.png"
+        },
+        {
+          "x": 160,
+          "y": 64,
+          "texture": "generic/snow_h.png"
+        },
+        {
+          "x": 144,
+          "y": 96,
+          "texture": "generic/snow_c.png"
+        },
+        {
+          "x": 264,
+          "y": 153,
+          "texture": "generic/snow_j.png"
+        },
+        {
+          "x": 272,
+          "y": 160,
+          "texture": "generic/snow_d.png"
+        },
+        {
+          "x": 296,
+          "y": 96,
+          "texture": "generic/snow_k.png"
+        },
+        {
+          "x": 480,
+          "y": 96,
+          "texture": "generic/snow_d.png"
+        },
+        {
+          "x": 392,
+          "y": 88,
+          "texture": "generic/snow_e.png"
+        },
+        {
+          "x": 18,
+          "y": 152,
+          "texture": "generic/snow_b.png"
+        },
+        {
+          "x": 34,
+          "y": 153,
+          "texture": "generic/snow_a.png"
+        },
+        {
+          "x": 128,
+          "y": 76,
+          "texture": "generic/snow_h.png"
+        },
+        {
+          "x": 192,
+          "y": 80,
+          "texture": "generic/snow_c.png"
+        },
+        {
+          "x": 192,
+          "y": 72,
+          "texture": "generic/snow_c.png"
+        },
+        {
+          "x": 200,
+          "y": 76,
+          "texture": "generic/snow_h.png"
+        },
+        {
+          "x": 184,
+          "y": 76,
+          "texture": "generic/snow_k.png"
+        },
+        {
+          "x": 192,
+          "y": 32,
+          "texture": "generic/snow_e.png"
+        },
+        {
+          "x": 284,
+          "y": 56,
+          "texture": "generic/snow_d.png"
+        },
+        {
+          "x": 296,
+          "y": 60,
+          "texture": "generic/snow_h.png"
+        },
+        {
+          "x": 494,
+          "y": 153,
+          "texture": "generic/snow_j.png"
+        },
+        {
+          "x": 478,
+          "y": 145,
+          "texture": "generic/snow_b.png"
+        },
+        {
+          "x": 474,
+          "y": 149,
+          "texture": "generic/snow_c.png"
+        },
+        {
+          "x": 462,
+          "y": 153,
+          "texture": "generic/snow_c.png"
+        },
+        {
+          "x": 470,
+          "y": 153,
+          "texture": "generic/snow_c.png"
+        },
+        {
+          "x": 478,
+          "y": 153,
+          "texture": "generic/snow_c.png"
+        },
+        {
+          "x": 482,
+          "y": 153,
+          "texture": "generic/snow_c.png"
+        },
+        {
+          "x": 482,
+          "y": 149,
+          "texture": "generic/snow_c.png"
+        },
+        {
+          "x": 472,
+          "y": 160,
+          "texture": "generic/snow_e.png"
+        },
+        {
+          "x": 488,
+          "y": 160,
+          "texture": "generic/snow_d.png"
+        },
+        {
+          "x": 268,
+          "y": 168,
+          "texture": "generic/snow_c.png"
+        },
+        {
+          "x": 584,
+          "y": 104,
+          "texture": "generic/snow_k.png"
+        },
+        {
+          "x": 636,
+          "y": 160,
+          "texture": "generic/snow_e.png"
+        },
+        {
+          "x": 628,
+          "y": 160,
+          "texture": "generic/snow_d.png"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "name": "04",
+      "width": 1584,
+      "height": 184,
+      "xoffset": 4584,
+      "yoffset": -472,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "refill",
+          "x": 200,
+          "y": 112
+        },
+        {
+          "name": "touchSwitch",
+          "x": 416,
+          "y": 48
+        },
+        {
+          "name": "switchGate",
+          "x": 424,
+          "y": 96
+        },
+        {
+          "name": "spikesUp",
+          "x": 424,
+          "y": 96
+        },
+        {
+          "name": "refill",
+          "x": 1384,
+          "y": 144
+        },
+        {
+          "name": "spikesLeft",
+          "x": 424,
+          "y": 96
+        },
+        {
+          "name": "player",
+          "x": 280,
+          "y": 128
+        },
+        {
+          "name": "refill",
+          "x": 88,
+          "y": 112
+        },
+        {
+          "name": "player",
+          "x": 16,
+          "y": 160
+        },
+        {
+          "name": "friendlyGhost",
+          "x": -32,
+          "y": 136
+        },
+        {
+          "name": "FemtoHelper/CustomSpeedRotateSpinner",
+          "x": 120,
+          "y": 88
+        },
+        {
+          "name": "FemtoHelper/CustomSpeedRotateSpinner",
+          "x": 120,
+          "y": 136
+        },
+        {
+          "name": "FemtoHelper/CustomSpeedRotateSpinner",
+          "x": 128,
+          "y": 112
+        },
+        {
+          "name": "FemtoHelper/CustomSpeedRotateSpinner",
+          "x": 160,
+          "y": 88
+        },
+        {
+          "name": "FemtoHelper/CustomSpeedRotateSpinner",
+          "x": 160,
+          "y": 136
+        },
+        {
+          "name": "FemtoHelper/CustomSpeedRotateSpinner",
+          "x": 152,
+          "y": 112
+        },
+        {
+          "name": "Ingeste/Heart",
+          "x": 1496,
+          "y": 88
+        }
+      ],
+      "decals": [
+        {
+          "x": 284,
+          "y": 132,
+          "texture": "3-resort/roofCenter_c.png"
+        },
+        {
+          "x": 276,
+          "y": 132,
+          "texture": "3-resort/roofCenter_b.png"
+        },
+        {
+          "x": 300,
+          "y": 132,
+          "texture": "3-resort/roofEdge.png"
+        },
+        {
+          "x": 260,
+          "y": 132,
+          "texture": "3-resort/roofEdge.png"
+        },
+        {
+          "x": 28,
+          "y": 164,
+          "texture": "3-resort/roofEdge.png"
+        },
+        {
+          "x": 12,
+          "y": 164,
+          "texture": "3-resort/roofCenter.png"
+        },
+        {
+          "x": -4,
+          "y": 164,
+          "texture": "3-resort/roofCenter_c.png"
+        }
+      ]
+    }
+  ]
+}

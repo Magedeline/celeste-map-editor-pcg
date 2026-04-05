@@ -1,0 +1,1688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <level id="00" width="320" height="728" xoffset="0" yoffset="0">
+    <tiles tileset="solids" offsetX="0" offsetY="0">
+  ffffffffffffffffffffffffffffffffffffffff
+  ffffffffffffffffffffffffffffffffffffffff
+  ffffffffffffffffffffffffffffffffffffffff
+  ffffffffffffffffffffffffffffffffffffffff
+  ffffffffffffffffffffffffffffffffffffffff
+  ffffffffffffffffffffffffffffffffffffffff
+  ffffffffffffffffffffffffffff0ff0ffffffff
+  ffffffffffffffffffffffff0ff00f00ffffffff
+  fffffffffffffffffffffff000f00000ffffffff
+  ffffffffffffffffff0fff0000f00000ffffffff
+  fffffffffffffffff000f00000000000fffff
+  fffffffffffffffff
+  ffffffffffffffff
+  ffffffffffffffff
+  ffffffffffffffff000000000000000000000fff
+  fffffffffffffff00000000000000000bbbbbbbb
+  fffffffffffffff00000000000000000bbbfffff
+  ffffffffffffff000000000000000000ffffffff
+  ffffffffffffff000000000000000000ffffffff
+  fffffffffffff0000000000000000000ffffffff
+  fffffffffffff0000000fffffff00000ffffffff
+  fffffffffffff0000000ffffffffffffffffffff
+  ffffffffffffff0000000fffffffffffffffffff
+  ffffffffffffff0000000fffffffffffffffffff
+  ffffffffffffff00000000ffffffffffffffffff
+  fffffffffffffff00000000fffffffffffffffff
+  fffffffffffffff00000000fffffffffffffffff
+  fffffffffffffff000000000ffffffffffffffff
+  fffffffffffffff0000000000fffffffffffffff
+  ffffffffffffffff000000000fffffffffffffff
+  ffffffffffffffff0000000000ffffffffffffff
+  ffffffffffffffff00000000000fffffffffffff
+  ffffffffffffffff00000000000fffffffffffff
+  fffffffffffffffff00000000000ffffffffffff
+  fffffffffffffffff000000000000fffffffffff
+  ffffffffffffffffff00000000000fffffffffff
+  fffffffffffffffffff00000000000ffffffffff
+  ffffffffffffffffffff00000000000fffffffff
+  fffffffffffffffffffff00000000000ffffffff
+  ffffffffffffffffffffff0000000000ffffffff
+  ffffffffffffffffffffff0000000000ffffffff
+  ffffffffffffffffffff000000000000ffffffff
+  fffffffffffffffffff0000000000000ffffffff
+  ffffffffffffffffff00000000000000ffffffff
+  fffffffffffffffff000000000000000ffffffff
+  ffffffffffffffff0000000000000000ffffffff
+  fffffffffffffff00000000000000000ffffffff
+  ffffffffffffff000000000000000000ffffffff
+  fffffffffffff0000000000000000000ffffffff
+  ffffffffffff00000000000000000000ffffffff
+  fffffffffff000000000000000000000ffffffff
+  ffffffffff0000000000000000000000ffffffff
+  fffffffff00000000000000000000000ffffffff
+  ffffffff000000000000000000000000ffffffff
+  fffffff0000000000000000000000000ffffffff
+  fffffff0000000000000000000000000ffffffff
+  fffffff0000000000000000000000000ffffffff
+  ffffffff000000000000000000000000ffffffff
+  ffffffff000000000000000000000000ffffffff
+  ffffffff000000000000000000000000ffffffff
+  ffffffff000000000000000000000000ffffffff
+  fffffffff00000000000000000000000ffffffff
+  ffffffffff0000000000000000000000ffffffff
+  ffffffffff0000000000000000000000ffffffff
+  ffffffffff000000000000f000000000ffffffff
+  ffffffffff00000000000ffff0000000ffffffff
+  ffffffffff0000000000ffffff000000ffffffff
+  ffffffffff0000000000fffffff00000ffffffff
+  ffffffffff0000000000ffffffffffffffffffff
+  ffffffffff00000000000fffffffffffffffffff
+  ffffffffff000000000000ffffffffffffffffff
+  ffffffffff0000000000000fffffffffffffffff
+  ffffffffff0000000000000fffffffffffffffff
+  ffffffffff0000000000000fffffffffffffffff
+  ffffffffff0000000000000fffffffffffffffff
+  0000ffffff00000000000000ffffffffffffffff
+  000000ffff0000000000000000ffffffffffffff
+  000000ffff0000000000000000000fffffffffff
+  000000ffff0000000000000000000000ffffffff
+  000000ffff0000000000000000000000ffffffff
+  00000000000000000000000000000000ffffffff
+  00000000000000000000000000000000ffffffff
+  00000000000000000000000000000000ffffffff
+  00000000000000000000000000000000ffffffff
+  ffffff00000000000000000000000000ffffffff
+  ffffffbbii0000000000000000000000ffffffff
+  bbbbbbbbbb0000000000000000000000ffffffff
+  bbbbbbbbbb0000000000000000000000ffffffff
+  bbbbbbbbbb0000000000000000000000ffffffff
+  bbbbbbbbbb0000000000000000000000ffffffff
+  bbbbbbbbbb0000000000000000000000ffffffff
+    </tiles>
+    <tiles tileset="bg" offsetX="0" offsetY="0">
+  000000000000000000000000000006666
+  000000000000000000000000066666666
+  0000000000000000000006666666666666
+  0000000000000000006666666666666666
+  0000000000000000666666666666666666666666
+  0000000000000000666666666666666666666666
+  0000000000000000666666666666666666666666
+  0000000000000006666666666666666666666666
+  0000000000000006666666660066666666666666
+  0000000000000006666666660066666666666666
+  0000000000000006666666666666666666666666
+  0000000000000000666666666666666666666666
+  00000000000000006666666666666666666666
+  000000000000000066666666666666666666666
+  0000000000000000666666666666666666666666
+  0000000000000000006666666666666666666666
+  0000000000000000000666666666666666666666
+  0000000000000000000666666666666666666666
+  0000000000000000000666666666666666666666
+  0000000000000000000066666666666666666666
+  0000000000000000000066666666666666666666
+  0000000000000000000066666666666666666666
+  0000000000000000000000666666666666666666
+  0000000000000000000000066666666666666666
+  0000000000000000000000006666666666666666
+  0000000000000000000000666666666666666666
+  0000000000000000000006666666666666666666
+  0000000000000000000066666666666666666666
+  0000000000000000000666666666666666666666
+  0000000000000000000666666666666666666666
+  0000000000000000000066666666666666666666
+  0000000000000000000666666666666666666666
+  0000000000000000006666666666666666666666
+  0000000000000000066666666666666666666666
+  0000000000000000666666666666666666666666
+  0000000000000000666666666666666666666666
+  0000000000000000666666666666666666666666
+  0000000000000000666666666666666666666666
+  0000000000000000066666666666666666666666
+  0000000000000000666666666666666666666666
+  0000000000000000666666666666666666666666
+  0000000000000000000666666666666666666666
+  0000000000000000000660666666666666666666
+  0000000000000000000000660066066666666666
+  0000000000000000000000660066000006066666
+  0000000000000000000000000000000000000006
+
+
+
+
+  00000000000000000000000000000066
+  00000000000000000000000000000066
+  00000000000000000000000000000066
+  0000000000000000000000000066666666
+  0000000000000000000000000066666666
+  0000000000000000000000006666666666
+  0000000000000000000066606666666666
+  0000000000000000000066666666666666
+  0000000000000000000066666666666666
+  0000000000000000000066666666666666
+  0000000000000000006666666666666666
+  0000000000000000006666666666666666
+  0000000000000000006666666666666666
+  0000000000000000666666666666666666
+  0000000000000000666666666666666666
+  000000000000006666666666666666
+  000000000000006666666666666
+  000000000000666666666666
+  00000000000066666666666
+  0000000000066666666666
+  000000000006666666666
+  00000000006666666666
+  000000000666666666666
+  0000000066666666666666
+  0000000666666666666666
+  000000666666666666666
+  0000006666666666666
+  00000066666666666
+  000006666666666666
+  000006666666666666
+  00000666666666666
+  00006666666666666
+  00006666666666666
+  00006666666666
+  0000666666666
+  0000666666666
+  000066666666
+    </tiles>
+    <entity name="spikesRight" x="80" y="496" />
+    <entity name="spikesRight" x="72" y="488" />
+    <entity name="spikesRight" x="64" y="456" />
+    <entity name="spikesRight" x="56" y="432" />
+    <entity name="spikesRight" x="64" y="424" />
+    <entity name="spikesRight" x="72" y="416" />
+    <entity name="spikesRight" x="80" y="408" />
+    <entity name="spikesRight" x="88" y="400" />
+    <entity name="spikesRight" x="96" y="392" />
+    <entity name="spikesRight" x="104" y="384" />
+    <entity name="spikesRight" x="112" y="376" />
+    <entity name="spikesRight" x="120" y="368" />
+    <entity name="spikesRight" x="128" y="360" />
+    <entity name="spikesRight" x="136" y="352" />
+    <entity name="spikesRight" x="144" y="344" />
+    <entity name="spikesRight" x="152" y="336" />
+    <entity name="spikesRight" x="160" y="328" />
+    <entity name="spikesDown" x="168" y="328" />
+    <entity name="spikesRight" x="176" y="312" />
+    <entity name="spikesUp" x="168" y="312" />
+    <entity name="spikesUp" x="160" y="304" />
+    <entity name="spikesUp" x="152" y="296" />
+    <entity name="spikesUp" x="136" y="280" />
+    <entity name="spikesUp" x="144" y="288" />
+    <entity name="spikesUp" x="128" y="264" />
+    <entity name="spikesUp" x="120" y="232" />
+    <entity name="spikesUp" x="112" y="200" />
+    <entity name="spikesUp" x="104" y="176" />
+    <entity name="spikesUp" x="160" y="160" />
+    <entity name="spikesUp" x="168" y="160" />
+    <entity name="spikesUp" x="176" y="160" />
+    <entity name="spikesUp" x="184" y="160" />
+    <entity name="spikesUp" x="192" y="160" />
+    <entity name="spikesUp" x="200" y="160" />
+    <entity name="spikesUp" x="208" y="160" />
+    <entity name="spikesUp" x="224" y="168" />
+    <entity name="spikesUp" x="216" y="168" />
+    <entity name="spikesUp" x="232" y="168" />
+    <entity name="spikesUp" x="232" y="168" />
+    <entity name="spikesUp" x="248" y="168" />
+    <entity name="spikesLeft" x="256" y="624" />
+    <entity name="spikesLeft" x="232" y="616" />
+    <entity name="spikesLeft" x="208" y="608" />
+    <entity name="spikesLeft" x="192" y="600" />
+    <entity name="spikesLeft" x="184" y="568" />
+    <entity name="spikesLeft" x="176" y="560" />
+    <entity name="spikesLeft" x="168" y="552" />
+    <entity name="spikesLeft" x="160" y="528" />
+    <entity name="spikesLeft" x="168" y="520" />
+    <entity name="spikesUp" x="168" y="520" />
+    <entity name="spikesUp" x="176" y="512" />
+    <entity name="spikesUp" x="184" y="520" />
+    <entity name="spikesUp" x="200" y="528" />
+    <entity name="spikesUp" x="208" y="536" />
+    <entity name="spikesUp" x="216" y="544" />
+    <entity name="spikesLeft" x="256" y="304" />
+    <entity name="crumbleBlock" x="216" y="504" />
+    <entity name="moveBlock" x="192" y="664" />
+    <entity name="triggerSpikesOriginalUp" x="192" y="664" />
+    <entity name="spinner" x="80" y="592" />
+    <entity name="spinner" x="88" y="600" />
+    <entity name="spinner" x="96" y="608" />
+    <entity name="spinner" x="104" y="616" />
+    <entity name="spinner" x="104" y="632" />
+    <entity name="spinner" x="104" y="648" />
+    <entity name="spinner" x="88" y="624" />
+    <entity name="spinner" x="80" y="608" />
+    <entity name="spinner" x="88" y="632" />
+    <entity name="spinner" x="80" y="632" />
+    <entity name="spinner" x="104" y="696" />
+    <entity name="spinner" x="104" y="704" />
+    <entity name="spinner" x="104" y="712" />
+    <entity name="spinner" x="104" y="720" />
+    <entity name="spinner" x="104" y="728" />
+    <entity name="crumbleBlock" x="96" y="680" />
+    <entity name="spinner" x="96" y="648" />
+    <entity name="spinner" x="80" y="648" />
+    <entity name="spinner" x="96" y="656" />
+    <entity name="spinner" x="96" y="656" />
+    <entity name="spinner" x="88" y="656" />
+    <entity name="spinner" x="88" y="664" />
+    <entity name="spinner" x="80" y="664" />
+    <entity name="crumbleBlock" x="168" y="136" />
+    <entity name="crumbleBlock" x="208" y="128" />
+    <entity name="spikesUp" x="168" y="136" />
+    <entity name="spikesUp" x="208" y="128" />
+    <entity name="player" x="24" y="672" />
+    <entity name="cliffside_flag" x="184" y="456" />
+    <entity name="cliffside_flag" x="208" y="624" />
+    <entity name="cliffside_flag" x="152" y="232" />
+    <entity name="refill" x="208" y="392" />
+    <entity name="player" x="312" y="112" />
+    <entity name="jumpThru" x="232" y="120" />
+    <entity name="goldenBerry" x="16" y="616" />
+    <entity name="Ingeste/PinkPlatinumStrawberry" x="40" y="616" />
+    <decal x="40" y="667" texture="generic/grass_b.png" />
+    <decal x="8" y="667" texture="generic/grass_c.png" />
+    <decal x="248" y="160" texture="4-cliffside/rubble_a.png" />
+    <decal x="24" y="667" texture="generic/grass_d.png" />
+    <decal x="32" y="664" texture="4-cliffside/flower_a.png" />
+    <decal x="56" y="672" texture="4-cliffside/rubble_j.png" />
+    <decal x="112" y="136" texture="4-cliffside/roots_bot_b.png" />
+    <decal x="208" y="256" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="232" y="520" texture="4-cliffside/roots_b.png" />
+    <decal x="232" y="472" texture="4-cliffside/roots_a.png" />
+    <decal x="232" y="424" texture="4-cliffside/roots_a.png" />
+    <decal x="232" y="376" texture="4-cliffside/roots_b.png" />
+    <decal x="232" y="328" texture="4-cliffside/roots_a.png" />
+    <decal x="232" y="280" texture="4-cliffside/roots_a.png" />
+    <decal x="232" y="536" texture="4-cliffside/rockaline.png" />
+    <decal x="136" y="240" texture="4-cliffside/woodbeam_a.png" />
+    <decal x="136" y="256" texture="4-cliffside/woodbeam_a.png" />
+    <decal x="152" y="256" texture="4-cliffside/woodbeam_e.png" />
+    <decal x="152" y="240" texture="4-cliffside/woodbeam_e.png" />
+    <decal x="136" y="248" texture="4-cliffside/woodbeam_h.png" />
+    <decal x="176" y="504" texture="4-cliffside/woodbeam_a.png" />
+    <decal x="176" y="488" texture="4-cliffside/woodbeam_a.png" />
+    <decal x="176" y="472" texture="4-cliffside/woodbeam_a.png" />
+    <decal x="176" y="464" texture="4-cliffside/woodbeam_a.png" />
+    <decal x="176" y="456" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="176" y="488" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="168" y="480" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="168" y="464" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="192" y="480" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="192" y="464" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="184" y="456" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="184" y="488" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="208" y="632" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="208" y="616" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="200" y="104" texture="4-cliffside/bg_a.png" />
+    <decal x="192" y="136" texture="4-cliffside/roots_c.png" />
+    <decal x="192" y="88" texture="4-cliffside/roots_b.png" />
+    <decal x="192" y="40" texture="4-cliffside/roots_a.png" />
+    <decal x="248" y="128" texture="4-cliffside/woodbean_h.png" />
+    <decal x="256" y="152" texture="4-cliffside/woodbeam_l.png" />
+    <decal x="248" y="136" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="176" y="200" texture="4-cliffside/wall_rock_a.png" />
+    <decal x="80" y="432" texture="4-cliffside/tree_d.png" />
+    <decal x="80" y="488" texture="4-cliffside/tree_c.png" />
+    <decal x="112" y="536" texture="4-cliffside/tree_a.png" />
+    <decal x="232" y="408" texture="4-cliffside/tree_b.png" />
+    <decal x="232" y="296" texture="4-cliffside/tree_a.png" />
+  </level>
+  <level id="01" width="800" height="184" xoffset="320" yoffset="32">
+    <tiles tileset="solids" offsetX="0" offsetY="0">
+  fff
+  fff
+  fff
+  ff
+  ff
+  ff
+  ff
+
+
+
+  ffffff
+  ffffff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbb
+  fffff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbb
+  fffff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbb
+  ffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbb
+  ffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbb
+  ffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbb
+  ffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbb
+  ffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbb
+  ffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbb
+  ffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbb
+  ffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbb
+  ffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbb
+    </tiles>
+    <tiles tileset="bg" offsetX="0" offsetY="0">
+  0666666666666666666066600666666666666666066666660066600000000000000000666666666666
+  0666600066666666660066600666666666666666000666666666600000000000000000666000666666
+  000000006606666666000666666666666666666000066666666600000000000000000006600000666
+  000000000006666666000666666666006606666000066660666600000000000000000000000000666
+  00000000000666666000066606666600660000000066666000000000000000000000000000000066
+  06000000006666666000000006666666660000000066666
+  66000000006666600000000006666666660000000066666
+  66660000006666660000000006666666000000000066666
+  6666000000066666000000000066666660000000006666000000000000000000000000000000000000000000000000000666
+  6666600000066660000000000066666660000000000666000000000000000000000000000000000000000000000000066666
+  6666600000000000000000000066666660000000000000000000000000000000000000000000000000000000000000066666
+  0000000000000000000000006666666666000000000000000000000000000000000000000000000000000000000000066666
+  000000000000000000000000666666666600000000000000000000000000000000000000000000000000000666000000666
+  0000000000000000000000006666666660000000000000000000000000000000000000000000000000000006666
+  0000000000000000000000000666666660666000000000006660000000000000000000000000000000000666666
+  0000000000000000000000000006666666666000000000666660000000000006660000000000000000000666666006
+  0006660000000000000000000006666666666000000000666660000000000006660666000000000000000666066666
+  0006660660000000000000000066666666666600000000666660000000000006666666000000000000000066666666
+  00066666600000000000000000666660666666066600000666660066000000666666660000000000000000666666666
+  00066666660000000000000000006660066666666600000666660066600000666606660000000000000000066666666
+  00060066660000000000000000000000066006666600006666660666600000666666660000000000000000666666666
+  0066006666000000000000000000000066600666666000666006666660000006666660066000000000000066666666
+  0066666600000000000000000000000066666666666000666006666666000666666666666000000000000000666666
+    </tiles>
+    <entity name="spikesDown" x="16" y="24" />
+    <entity name="spikesRight" x="32" y="112" />
+    <entity name="spikesRight" x="24" y="0" />
+    <entity name="spikesRight" x="40" y="96" />
+    <entity name="exitBlock" x="-8" y="32" />
+    <entity name="spinner" x="104" y="120" />
+    <entity name="spinner" x="104" y="104" />
+    <entity name="spinner" x="104" y="88" />
+    <entity name="spinner" x="104" y="72" />
+    <entity name="spinner" x="96" y="56" />
+    <entity name="spinner" x="112" y="56" />
+    <entity name="spinner" x="96" y="40" />
+    <entity name="spinner" x="112" y="40" />
+    <entity name="spinner" x="88" y="24" />
+    <entity name="spinner" x="104" y="24" />
+    <entity name="spinner" x="120" y="24" />
+    <entity name="spinner" x="120" y="8" />
+    <entity name="spinner" x="104" y="8" />
+    <entity name="spinner" x="88" y="8" />
+    <entity name="spinner" x="88" y="-8" />
+    <entity name="spinner" x="104" y="-8" />
+    <entity name="spinner" x="120" y="-8" />
+    <entity name="spinner" x="160" y="112" />
+    <entity name="spinner" x="160" y="128" />
+    <entity name="spinner" x="152" y="144" />
+    <entity name="spinner" x="168" y="144" />
+    <entity name="spinner" x="152" y="160" />
+    <entity name="spinner" x="168" y="160" />
+    <entity name="spinner" x="176" y="176" />
+    <entity name="spinner" x="160" y="176" />
+    <entity name="spinner" x="144" y="176" />
+    <entity name="spinner" x="144" y="192" />
+    <entity name="spinner" x="160" y="192" />
+    <entity name="spinner" x="176" y="192" />
+    <entity name="spinner" x="160" y="96" />
+    <entity name="spinner" x="225" y="86" />
+    <entity name="spinner" x="224" y="72" />
+    <entity name="spinner" x="224" y="56" />
+    <entity name="spinner" x="224" y="40" />
+    <entity name="spinner" x="224" y="24" />
+    <entity name="spinner" x="224" y="8" />
+    <entity name="spinner" x="224" y="-8" />
+    <entity name="spinner" x="244" y="87" />
+    <entity name="spinner" x="240" y="79" />
+    <entity name="spinner" x="232" y="64" />
+    <entity name="spinner" x="227" y="49" />
+    <entity name="spinner" x="296" y="56" />
+    <entity name="spinner" x="304" y="72" />
+    <entity name="spinner" x="304" y="88" />
+    <entity name="spinner" x="304" y="104" />
+    <entity name="spinner" x="304" y="120" />
+    <entity name="spinner" x="304" y="136" />
+    <entity name="spinner" x="304" y="152" />
+    <entity name="spinner" x="304" y="168" />
+    <entity name="spinner" x="304" y="184" />
+    <entity name="spinner" x="312" y="56" />
+    <entity name="spinner" x="352" y="120" />
+    <entity name="spinner" x="352" y="104" />
+    <entity name="spinner" x="352" y="88" />
+    <entity name="spinner" x="352" y="72" />
+    <entity name="spinner" x="352" y="56" />
+    <entity name="spinner" x="352" y="40" />
+    <entity name="spinner" x="352" y="24" />
+    <entity name="spinner" x="352" y="8" />
+    <entity name="spinner" x="352" y="-8" />
+    <entity name="spinner" x="360" y="120" />
+    <entity name="spinner" x="408" y="120" />
+    <entity name="spinner" x="416" y="136" />
+    <entity name="spinner" x="416" y="152" />
+    <entity name="spinner" x="416" y="168" />
+    <entity name="spinner" x="416" y="184" />
+    <entity name="spinner" x="424" y="120" />
+    <entity name="spinner" x="416" y="104" />
+    <entity name="spinner" x="480" y="8" />
+    <entity name="spinner" x="480" y="120" />
+    <entity name="spinner" x="480" y="-8" />
+    <entity name="spinner" x="480" y="56" />
+    <entity name="spinner" x="480" y="40" />
+    <entity name="spinner" x="480" y="72" />
+    <entity name="spinner" x="488" y="104" />
+    <entity name="spinner" x="480" y="88" />
+    <entity name="spinner" x="480" y="24" />
+    <entity name="spinner" x="472" y="104" />
+    <entity name="spinner" x="520" y="104" />
+    <entity name="spinner" x="528" y="120" />
+    <entity name="spinner" x="536" y="104" />
+    <entity name="spinner" x="528" y="88" />
+    <entity name="spinner" x="528" y="136" />
+    <entity name="spinner" x="528" y="152" />
+    <entity name="spinner" x="528" y="168" />
+    <entity name="spinner" x="528" y="184" />
+    <entity name="spinner" x="560" y="96" />
+    <entity name="spinner" x="560" y="8" />
+    <entity name="spinner" x="560" y="-8" />
+    <entity name="spinner" x="584" y="104" />
+    <entity name="spinner" x="592" y="88" />
+    <entity name="spinner" x="600" y="104" />
+    <entity name="spinner" x="592" y="120" />
+    <entity name="spinner" x="592" y="136" />
+    <entity name="spinner" x="592" y="152" />
+    <entity name="spinner" x="592" y="168" />
+    <entity name="spinner" x="592" y="184" />
+    <entity name="spinner" x="632" y="144" />
+    <entity name="spinner" x="640" y="160" />
+    <entity name="spinner" x="648" y="144" />
+    <entity name="spinner" x="640" y="128" />
+    <entity name="spinner" x="640" y="176" />
+    <entity name="spinner" x="664" y="40" />
+    <entity name="spinner" x="656" y="88" />
+    <entity name="spinner" x="672" y="88" />
+    <entity name="spinner" x="648" y="104" />
+    <entity name="spinner" x="664" y="104" />
+    <entity name="spinner" x="680" y="104" />
+    <entity name="spinner" x="656" y="120" />
+    <entity name="spinner" x="672" y="120" />
+    <entity name="spinner" x="664" y="136" />
+    <entity name="spinner" x="648" y="136" />
+    <entity name="spinner" x="680" y="136" />
+    <entity name="spinner" x="656" y="144" />
+    <entity name="spinner" x="672" y="144" />
+    <entity name="spinner" x="656" y="160" />
+    <entity name="spinner" x="672" y="160" />
+    <entity name="spinner" x="656" y="176" />
+    <entity name="spinner" x="672" y="176" />
+    <entity name="spinner" x="736" y="136" />
+    <entity name="spinner" x="728" y="152" />
+    <entity name="spinner" x="744" y="152" />
+    <entity name="spinner" x="736" y="168" />
+    <entity name="spinner" x="752" y="168" />
+    <entity name="spinner" x="728" y="184" />
+    <entity name="spinner" x="744" y="184" />
+    <entity name="cloud" x="104" y="152" />
+    <entity name="cloud" x="344" y="160" />
+    <entity name="cloud" x="504" y="128" />
+    <entity name="cloud" x="612" y="152" />
+    <entity name="player" x="32" y="80" />
+    <entity name="player" x="792" y="88" />
+    <entity name="spinner" x="104" y="112" />
+    <entity name="spinner" x="104" y="96" />
+    <entity name="spinner" x="104" y="80" />
+    <entity name="booster" x="256" y="112" />
+    <entity name="booster" x="288" y="32" />
+    <entity name="spinner" x="344" y="120" />
+    <entity name="booster" x="448" y="144" />
+    <entity name="booster" x="560" y="96" />
+    <entity name="spinner" x="576" y="104" />
+    <entity name="spinner" x="552" y="104" />
+    <entity name="spinner" x="561" y="105" />
+    <entity name="spinner" x="552" y="40" />
+    <entity name="spinner" x="560" y="24" />
+    <entity name="spinner" x="640" y="184" />
+    <entity name="spinner" x="728" y="136" />
+    <entity name="spinner" x="712" y="128" />
+    <entity name="spinner" x="696" y="120" />
+    <entity name="spinner" x="680" y="112" />
+    <entity name="spinner" x="680" y="120" />
+    <entity name="spinner" x="680" y="120" />
+    <entity name="spinner" x="696" y="136" />
+    <entity name="spinner" x="704" y="144" />
+    <entity name="spinner" x="712" y="152" />
+    <entity name="spinner" x="704" y="144" />
+    <entity name="spinner" x="696" y="136" />
+    <entity name="spinner" x="688" y="144" />
+    <entity name="spinner" x="696" y="152" />
+    <entity name="spinner" x="704" y="160" />
+    <entity name="spinner" x="720" y="160" />
+    <entity name="spinner" x="728" y="168" />
+    <entity name="spinner" x="736" y="176" />
+    <entity name="spinner" x="728" y="168" />
+    <entity name="spinner" x="712" y="160" />
+    <entity name="spinner" x="696" y="160" />
+    <entity name="spinner" x="704" y="168" />
+    <entity name="spinner" x="712" y="176" />
+    <entity name="spinner" x="720" y="184" />
+    <entity name="spinner" x="736" y="184" />
+    <entity name="spinner" x="744" y="192" />
+    <entity name="spinner" x="736" y="184" />
+    <entity name="spinner" x="728" y="176" />
+    <entity name="spinner" x="712" y="176" />
+    <entity name="spinner" x="712" y="168" />
+    <entity name="spinner" x="696" y="160" />
+    <entity name="spinner" x="680" y="160" />
+    <entity name="spinner" x="688" y="160" />
+    <entity name="spinner" x="696" y="176" />
+    <entity name="spinner" x="680" y="176" />
+    <entity name="spinner" x="672" y="168" />
+    <entity name="spinner" x="680" y="176" />
+    <entity name="spinner" x="688" y="184" />
+    <entity name="spinner" x="688" y="176" />
+    <entity name="spinner" x="648" y="8" />
+    <entity name="spinner" x="664" y="8" />
+    <entity name="spinner" x="680" y="8" />
+    <entity name="spinner" x="672" y="24" />
+    <entity name="spinner" x="656" y="24" />
+    <entity name="spinner" x="664" y="48" />
+    <entity name="spinner" x="656" y="0" />
+    <entity name="spinner" x="672" y="0" />
+    <entity name="spinner" x="640" y="0" />
+    <entity name="spinner" x="688" y="0" />
+    <entity name="spinner" x="664" y="32" />
+    <entity name="spinner" x="664" y="56" />
+    <entity name="booster" x="680" y="72" />
+    <decal x="760" y="88" texture="generic/snow_b.png" />
+    <decal x="240" y="93" texture="4-cliffside/bg_b.png" />
+    <decal x="19" y="42" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="752" y="88" texture="4-cliffside/flower_a.png" />
+    <decal x="784" y="80" texture="4-cliffside/flower_c.png" />
+    <decal x="10" y="73" texture="4-cliffside/rubble_h.png" />
+    <decal x="38" y="73" texture="4-cliffside/rubble_j.png" />
+    <decal x="22" y="73" texture="4-cliffside/rubble_c.png" />
+    <decal x="40" y="168" texture="4-cliffside/bg_a.png" />
+    <decal x="192" y="8" texture="4-cliffside/bg_c.png" />
+    <decal x="296" y="8" texture="4-cliffside/bg_d.png" />
+    <decal x="400" y="176" texture="4-cliffside/bg_f.png" />
+    <decal x="288" y="168" texture="4-cliffside/bg_e.png" />
+    <decal x="248" y="32" texture="4-cliffside/bg_a.png" />
+    <decal x="392" y="0" texture="4-cliffside/bg_c.png" />
+    <decal x="720" y="160" texture="4-cliffside/bg_c.png" />
+  </level>
+  <level id="02" width="6856" height="184" xoffset="1120" yoffset="48">
+    <tiles tileset="solids" offsetX="0" offsetY="0">
+  000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbb000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbb0000000000000000000000000bbbbbb0000000000000000000000000000000000000000000000bbbbbbbb0000000000000000000000000000bbbbbbbb000000000000000000000000bbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbb00000000000000000000000000000000000bbbbbbbbb0000000000000000000000000000bbbbbb00000000000000000000000000000000000000bbbbbb0000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb0000bbb0000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbfffffffffffffffff00000000ffffffffffffffff
+  0000000000000000000000000000000000000000000000000000000000000bbbbbbbbbb000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbb0000000000000000000000000bbbbbb0000000000000000000000000000000000000000000000bbbbbbbb0000000000000000000000000000bbbbbbbb000000000000000000000000bbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbb00000000000000000000000000000000000bbbbbbbbb000000000000000000000000000bbbbbbbb0000000000000000000000000000000000000bbbbbb0000000000000000000000000000000000000000000000bbbb0000000000000000000000bbbbbb000000000000000000000000000000000000000000000000000000000000000bbbbbbbbb0000000bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb0000bb00000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbfffffffffffffffff00000000ffffffffffffffff
+  000000000000000000000000000000000000000000000000000000000000000bbbbbb00000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbb00000000000000000000000000bbbbb0000000000000000000000000000000000000000000000bbbbbbb00000000000000000000000000000bbbbbbb00000000000000000000000000bbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbb00000000000000000000000000000000000bbbbbbbbb000000000000000000000000000bbbbbbbb0000000000000000000000000000000000000bbbbbb000000000000000000000000000000000000000000000bbbbb0000000000000000000000bbbbbb000000000000000000000000000000000000000000000000000000000000000bbbbbb0000000000bbbbbbbbbbbb000000000000000000bbbbbbbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbffffffffffffffff0000000000fffffffffffffff
+  000000000000000000000000000000000000000000000000000000000000000bbbb0000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbb00000000000000000000000000bbbbb0000000000000000000000000000000000000000000000bbbbbbb00000000000000000000000000000bbbbbbb00000000000000000000000000bbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbb00000000000000000000000000000000000bbbbbbbbb000000000000000000000000000bbbbbbbb0000000000000000000000000000000000000bbbbbb000000000000000000000000000000000000000000000bbbb00000000000000000000000bbbbb00000000000000000000000000000000000000000000000000000000000000000bbbbb0000000000bbbbbbbbbbb000000000000000000000bbbbbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbffffffffffffffff0000000000fffffffffffffff
+  0000000000000000000000000000000000000000000000000000000000000000bbb0000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbb00000000000000000000000000bbbb00000000000000000000000000000000000000000000000bbbbbb0000000000000000000000000000000bbbbbb00000000000000000000000000bbbbbbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbb00000000000000000000000000000000000bbbbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000bbbbbb00000000000000000000000000000000000000000000bbbbb00000000000000000000000bbbbb00000000000000000000000000000000000000000000000000000000000000000bbbbb00000bbbbbbbbbbbbbbbb0000000000000000000000bbbbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbffffffffffffffff0000000000fffffffffffffff
+  00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbb00000000000000000000000000bbbb000000000000000000000000000000000000000000000000bbbbb0000000000000000000000000000000bbbbb000000000000000000000000000bbbbbbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbb0000000000000000000000000000000000000bbbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbb0000000000000000000000000000000000000000000bbbbb00000000000000000000000bbbbb00000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbb00000000000000000000000bbbbbbbbbbbb000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbffffffffffffff0f0000000000f0fffffffffffff
+  000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbb00000000000000000000000000bbbb000000000000000000000000000000000000000000000000bbbbb0000000000000000000000000000000bbbbb000000000000000000000000000bbbbbbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbb0000000000000000000000000000000000000bbbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbb0000000000000000000000000000000000000000000bbbbb00000000000000000000000bbbbb00000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbb00000000000000000000000bbbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbffffffffffffff00000000000000fffffffffffff
+  000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbb00000000000000000000000000bbbb000000000000000000000000000000000000000000000000bbbbb0000000000000000000000000000000bbbbb000000000000000000000000000bbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbb0000000000000000000000000000000000000bbbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbb0000000000000000000000000000000000000000000bbbbb000000bbbbbbb0000000000bbbbb000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbb00000000000000000000000bbbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbfffffffffffff0000000000000000ffffffffffff
+  000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbb00000000000000000000000000bbbb000000000000000000000000000000000000000000000000bbbb00000000000000000000000000000000bbbbb000000000000000000000000000bbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbb00000000000000000000000000000000000000bbbbbbbb000000000000000000000000000bbbbbbbbb00000000000000000000000000000000000bbbbbbbb00000000000000000000000000000000000000000000bbbb000000bbbbbbb0000000000bbbbb000000000000000000000000000000000000000000000000000000000000000000bbbbbb000000000000000bbb00000000000000000000000bbbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbfffffffffffff0000000000000000ffffffffffff
+  bbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbb0000000000000000000000000000bbb000000000000000000000000000000000000000000000000bbbb00000000000000000000000000000000bbbbb000000000000000000000000000bbbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbb00000000000000000000000000000000000000bbbbbbb000000000000000000000000000bbbbbbbbbb00000000000000000000000000000000000bbbbbbbb00000000000000000000000000000000000000000000bbbb000000bbbbbbb0000000000bbbb0000000000000000000000000000000000000000000000000000000000000000000bbb000000000000000000bbb000000000000000000000000bbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbfffffffffffff0000000000000000ffffffffffff
+  bbbbbbbb000bbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbb0000000000000000000000000000bbb0000000000000000000000000000000000000000000000000bbb000000000000000000000000000000000bbbb0000000000000000000000000000bbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbb00000000000000000000000000000000000000bbbbbbb000000000000000000000000000bbbbbbbbbb00000000000000000000000000000000000bbbbbbbbb0000000000000000000000000000000000000000000bbbb000000bbbbbbb0000000000bbbb000000000000000000000000000000000000000000000000000000bbb0000000000000000000000000000000bb0000000000000000000000000bbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbffffffffffff000000000000000000fffffffffff
+  bbbbbbb0000bbbb000bbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbb0000000000000000000000000000bbb0000000000000000000000000000000000000000000000000bbb000000000000000000000000000000000bbbb0000000000000000000000000000bbbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbb000000000000000000000000000bbbbbbbbb0000000000000000000000000000000000000bbbbbbbb0000000000000000000000000000000000000000000bbbb000000bbbbbbb0000000000bbbb00000000000000000000000000000000000000000000bbbbbbbbbbbbb0000000000000000000000000000000bb0000000000000000000000000bbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbfffffffff000000000000000000000000ffffffff
+  bbbbbbb000bbbbb000bbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbb00000000000000000000000000000bbb0000000000000000000000000000000000000000000000000bbb000000000000000000000000000000000bbbb0000000000000000000000000000bbbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b00000000000000000000000000000000bbbbbbb000000000000000000000000000bbbbbbbb000000000000000000000000000000000000000bbbbbbb0000000000000000000000000000000000000000000bbbb000000bbbbbbb0000000000bbbb000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fff
+  bbbbbbbbbbbbbbb0000bbbbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000bbb000000000000000000000000000000000bbbb0000000000000000000000000000bbbbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000bbbbbbbbb00000000000000000000000000000000000000000bbbbb0000000000000000000000000000000000000000000bbbb000000bbbbbbb0000000000bbbb000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fff
+  bbbbbbbbbbbbbbb0000bbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000bbb000000000000000000000000000000000bbbb0000000000000000000000000000bbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbb000000000000000000000000000000000000000000bbb0000000000000000000000000000000000000000000bbbb000000bbbbbb00000000000bbbb000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fff
+  bbbbbbbbbbbbbbbb00bbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbb000000000000000000000000000000000000000b000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbb000000bbbbbb00000000000bbbb000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbb0000000000000bbbb00000000000000000000000000000bbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb0000000000000000000000000fff
+  bbbbbbbbbbbbbbbbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbb000000000000000000000000000000000000000b000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbb000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bb0000000bbbbbb000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbb00000000000000bbbb000000000000000000000000bbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbfffffffffffff0000000000000000ffffffffffff
+  bbbbbbbbbbbbbbbbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbb00000000000000000000000000000000000000bb0000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbb0000000000000000000000000000000bbbbbbbbbb000000000000000000000000bbbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbb0000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbb00000000000000bbbbb00000000000000000000000bbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbfffffffffffff0000000000000000ffffffffffff
+  bbbbbbbbbbbbbbbbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbb000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbb0000000000000000000000000000000bbbbbbbbbb000000000000000000000000bbbbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbb0000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbb00000000000000bbbbb00000000000000000000000bbbbbbbb0000000000000bbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbfffffffffffffff000000000000ffffffffffffff
+  bbbbbbbbbbbbbbbbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbbbbb0000000000000000000000000000000000000000000000000bbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbb0000bbbbb000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbb0000000000000000000000000000000bbbbbbbbbb00000000000000000000000bbbbbbbbbbbbb000000000000000000000000000000000000bbbbbbbbbb000000000000000000000000000000000000000000000000000bbbbbb0000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbb0000000000000bbbbbb00000000000000000000000bbbbbbbbb0000bbbbbbbbbbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbffffffffffffffffff000000fffffffffffffffff
+  bbbbbbbbbbbbbbbbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbbbbb000000000000000000000000000000000000000000000000bbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbb000000000000000000000000000000000bbbbbbb0000000000000000000000000bbbbbbbbbbbbbbbb000000000000000000000000000bbbbbbbbbbbbbbbb000000000000000000000000000000000000000000000000000bbbbbb00000000000bbbb0000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbb0000bb0000000bbbbbb00000000000000000000000bbbbbbbbb0000bbbbbbbbbbbbbbbbbb000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbfffffffffffffffffffffffffffffffffffffffff
+  bbbbbbbbbbbbbbbbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbbb0000000000000000000000000000000000000000000000000bbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbb000000000000000000000000000000000bbbbbb0000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb000000000000000000000000000000000000000000000000000bbbbbb00000000000bbbb0000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbb0000000bbbbbb000000000000000000000000bbbbbbbb0000bbbbbbbbbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbfffffffffffffffffffffffffffffffffffffffff
+  bbbbbbbbbbbbbbbbbbbbbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbbb0000000000000000000000000000000000000000000000000bbbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbb000000000000000000000000000000000bbbbbb0000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb000000000000000000000000000000000000000000000000000bbbbbb00000000000bbbb0000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbbbb0000000bbbbbb000000000000000000000000bbbbbbb000000bbbbbbbbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbbbbbbbbbfffffffffffffffffffffffffffffffffffffffff
+    </tiles>
+    <tiles tileset="bg" offsetX="0" offsetY="0">
+  00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006666666666666666666666666600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666600000000000066666666666666
+  00000000000000000000000000000000000000000000000000000000000000000666660000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006666666666666666666666666600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666600000000000066666666666666
+  00000000000000000000000000000000000000000000000000000000000000000666660000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006666600066666600006666666600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666600000000000066666666666666
+  00000000000000000000000000000000000000000000000000000000000000666666660000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006666000006666000000666666600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066000000000000000000000066666666660000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666600000000000066666666666666
+  00000000000000000000000000000000000000000000000000000000000000666666666000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006660000006660000000666666600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066000000000000000000000066666666660000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666660000000000666666666666666
+  00000000000000000000000000000000000000000000000000000000000000666666666000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006660000000666000000066666600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000666000000000000000000000066666666660000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666660000000000666666666666666
+  60000000000000000000000000000000000000000000000000000000000006666666666000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066660000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006600000006666000000066666600000000000000000000000000000000000000000000000000000000000000000000000000060000000000000000000000000666000000000000000000000066666666600000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666660000000000666666666666666
+  66000000000000000000000000000000000000000000000000000000000006600000066000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066660000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006600000006666000000066666600000000000000000000000000000000000000000000000000000000000000000000000000066000000000000000000000000666600000000000000000000066666600000000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666666000000006666666666666666
+  66600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066660000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000060000000000000000000000000006666000000066666600000000000000000000000000000000000000000000000000000000000000000000000006666000000000000000000000006660600000000000006000000066666600000000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666666000000006666666666666666
+  66600006660000000000000000000000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066660000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066666660000000000000000000000000000000660000006666000000000000000000000000000000000000000000000000000000000000000000000006666660000000000000000000000006660600000000000006000000066666600000000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666666000000006666666666666666
+  00000066666660066000000000000000000000000000000000000000000000000000000000000000000000000066000000000000000000000066666000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066666600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006660066666660000000000000000000000000000000660000006666000000000000000000000000000000000000000000000000000000000000000000000006666660000000000000000000000006000000000000000066000006666660000000000000666666000000000000000000000000000000000000000000000000000000000000000000066666666666666666600000066666666666666666
+  00000066666660666666000000000000000000000000000000000000000000000000000000000000000000000066000000000000000000000066666000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006666000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006666666666600000000000000000000000000000000660000006666000000000000000000000000000000000000000000000000000000000000000000000006666600000000000000000000000000000000000000000066666666006660000000000666666666600000000000000000000000000000000000000000000066666666666666666666666666666666666666600000066666666666666666
+  00000066666660666666000000000000000000000000000000000000000000066666000000000000000000000006000000000000000000000066666000000000000000000000000000000000066000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000666600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006666666666600000000000000000000000000000000660000006666000000000000000000000000000000000000000000000000000000000000000000000000666600000000000000000000000000000000000000000066666666660000000000006666666666600000000000000000000000000000000000000000000006666666006666666666666666666666666666660000666666666666666666
+  00000066666660666666000000000000000000000000000000000000000000066666660000000000000000000000000000000000000000000066666000000000000000000000000000000000066000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000666600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666660000000000000000000000000000006666000006666000000000000000000000000000000000000000000000000000000000066600000000000666666000000000000000000000000000000000000000066600666660000000000066666666666600000000000000000000000000000000000000000000666666666006666666666666666660066666666666666666666666666666666
+  00000066666660666666000000000000000000000000000000000000000000066666660000000000000000000000000000000000000000000066666000000000000000000000000000000006666000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000666600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666660000000000000000000000000000006666000000666000000000000000000000000000000000000000000000000000000000066660000000000066666000000000000000000000000000000000000000006600666666000000000000006666666600000000000000000000000000000000000000000006666066666666660066666606666660066666666666666666666666006666666
+  00000066666660666660000000000000000000000000000000000000000000066666660000000000000000000000000000000000000000000000000000000000000000066666666666666666660000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000666000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666660000000000000000000000000000006666000000066666000000000000000000000000000000000000000000000000000000066660000000000066666600000000000000000000000000000060000000000666600666660000000000006666666000000000000000000000000000000000000000000000666066666666660066666606666666666666666666666666666666006666666
+  00000000000000666660000000000000000000000000000000000000000000066666666000000000000000000000000000000000000000000000000000000000000000666666666666666666600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666000000000000000000000006600006666000000006660000000000000000000000000000000000000000000000000000000066660000000000066666600000000000000000000000000000060000000066666600666666000000000000666666000000000000000000000000000000000000000000000666000000000000000000006666666666666666666666666666666666666666
+  00000000000000666660000000000000000000000000000000000000000000666666666000000000000000000000000000000000000000000000000000000000000000666666666666666666666000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006666666666666666000000000000000000000066600006666000000000000000000000000000000000000000000000000000000000000000000066666000000000066666600000000000000000000000000000666000000666666666666606600000000000666666000000000000000000000000000000000000000000000666000000000000000000006666666666666666666666666666666666666666
+  00000000000000000000000000000000000000000000000000000000000000666666666000000000000000000000000000000000000000000000000000000000000000006666666666666666666000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666666600000000000000000000066600006666000000000000000000000000000000000000000000000000000000000000000000066666600000000000000000000000000000000000000000000666000000666666666666606600000000000666666600000000000000000000000000000000000000000000000000000000000000000000066666666666666666666666666666666666666
+  00000000000000000000000000000000000000000000000000000000000000666666600000000000000006666600000000000000000000000000000000000000000000666666666666666666600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666666600000000000000000000666600006666600000066660000000000000000000000000000000000000000000000000000000066666600000000000000000000000000000000000000000000666600000666666666666606660000000000666666600000000000000000000000000000000000000000000000000000000000000000000000666666666666666666666666666666666666
+  00000000000000000000000000000000000000000000000000000000000000666666600000000000000006666660000000000000000000000000000000000000000000666666666666666600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666666600000000000000000000666600006666666000666660000000000000000000000000000000000000000000000000000000066666600000000000000000000000000000000000000000000666666666066666666600006660000000006666666600000000000000000000000000000000000000000000000000000000000000000000000006666666666666666666666666666666666
+  00000000000000000000000000000000000000000000000000000000000000066666600000000000000006666666000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666666600000000000000000006666600006666666666666060000000000000000000000000000000000000000000000000000000066666600000000000000000000000000000000000000000000666666666066000000000006660000000006666666660000000000000000000000000000000000000000000000000000000000000000000000000000666666666666666666666666666666
+  0000000000000000000000000000000000000000000000000000000000000006666600000000000000000666666600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000066666666666666666600000000000000000006666660000666666666666600000000000000000000000000000000000000000000000000000000006666000000000000000000000000000000000000000000000066666666600000000000000666600000000666666666
+    </tiles>
+    <entity name="switchGate" x="5960" y="80" />
+    <entity name="switchGate" x="6368" y="96" />
+    <entity name="exitBlock" x="5852" y="-4" />
+    <entity name="exitBlock" x="5860" y="-2" />
+    <entity name="refill" x="6032" y="72" />
+    <entity name="refill" x="6080" y="72" />
+    <entity name="refill" x="6416" y="108" />
+    <entity name="spinner" x="5384" y="120" />
+    <entity name="spinner" x="5400" y="112" />
+    <entity name="spinner" x="5400" y="128" />
+    <entity name="spinner" x="5360" y="80" />
+    <entity name="spinner" x="5368" y="80" />
+    <entity name="spinner" x="5384" y="40" />
+    <entity name="spinner" x="5384" y="16" />
+    <entity name="spinner" x="5383" y="27" />
+    <entity name="spinner" x="5403" y="17" />
+    <entity name="spinner" x="5401" y="31" />
+    <entity name="spinner" x="5413" y="42" />
+    <entity name="spinner" x="5427" y="37" />
+    <entity name="spinner" x="5426" y="19" />
+    <entity name="spinner" x="5418" y="5" />
+    <entity name="spinner" x="5449" y="9" />
+    <entity name="spinner" x="5440" y="20" />
+    <entity name="spinner" x="5460" y="34" />
+    <entity name="spinner" x="5467" y="15" />
+    <entity name="spinner" x="5616" y="128" />
+    <entity name="spinner" x="5624" y="112" />
+    <entity name="spinner" x="5616" y="96" />
+    <entity name="spinner" x="5608" y="80" />
+    <entity name="spinner" x="5624" y="80" />
+    <entity name="spinner" x="5632" y="96" />
+    <entity name="spinner" x="5640" y="112" />
+    <entity name="spinner" x="5632" y="128" />
+    <entity name="spinner" x="5608" y="112" />
+    <entity name="spinner" x="5640" y="80" />
+    <entity name="spinner" x="5648" y="96" />
+    <entity name="spinner" x="5592" y="16" />
+    <entity name="spinner" x="5624" y="16" />
+    <entity name="spinner" x="5608" y="16" />
+    <entity name="spinner" x="5568" y="16" />
+    <entity name="spinner" x="5632" y="16" />
+    <entity name="spinner" x="5632" y="8" />
+    <entity name="spinner" x="5752" y="88" />
+    <entity name="spinner" x="5752" y="104" />
+    <entity name="spinner" x="5752" y="136" />
+    <entity name="spinner" x="5752" y="152" />
+    <entity name="spinner" x="5784" y="136" />
+    <entity name="spinner" x="5784" y="128" />
+    <entity name="spinner" x="5784" y="152" />
+    <entity name="spinner" x="5816" y="144" />
+    <entity name="spinner" x="5812" y="128" />
+    <entity name="spinner" x="5816" y="80" />
+    <entity name="spinner" x="5816" y="64" />
+    <entity name="spinner" x="5816" y="48" />
+    <entity name="spinner" x="5824" y="40" />
+    <entity name="spinner" x="5824" y="24" />
+    <entity name="spinner" x="5824" y="8" />
+    <entity name="spinner" x="5824" y="-8" />
+    <entity name="spinner" x="5656" y="120" />
+    <entity name="spinner" x="5648" y="128" />
+    <entity name="spinner" x="5552" y="24" />
+    <entity name="spinner" x="5544" y="48" />
+    <entity name="spinner" x="5828" y="86" />
+    <entity name="spinner" x="5857" y="87" />
+    <entity name="spinner" x="5832" y="72" />
+    <entity name="spinner" x="5832" y="56" />
+    <entity name="spinner" x="5840" y="40" />
+    <entity name="spinner" x="5840" y="24" />
+    <entity name="spinner" x="5840" y="8" />
+    <entity name="spinner" x="5840" y="-8" />
+    <entity name="spinner" x="5856" y="-8" />
+    <entity name="spinner" x="5854" y="8" />
+    <entity name="spinner" x="5854" y="24" />
+    <entity name="spinner" x="5854" y="40" />
+    <entity name="spinner" x="5846" y="56" />
+    <entity name="spinner" x="5856" y="70" />
+    <entity name="spinner" x="5846" y="72" />
+    <entity name="spinner" x="5832" y="136" />
+    <entity name="spinner" x="5832" y="152" />
+    <entity name="spinner" x="5840" y="144" />
+    <entity name="spinner" x="5854" y="56" />
+    <entity name="spinner" x="5936" y="88" />
+    <entity name="spinner" x="5952" y="96" />
+    <entity name="spinner" x="5960" y="112" />
+    <entity name="spinner" x="5960" y="128" />
+    <entity name="spinner" x="5960" y="144" />
+    <entity name="spinner" x="5960" y="160" />
+    <entity name="spinner" x="5960" y="176" />
+    <entity name="spinner" x="5960" y="192" />
+    <entity name="spinner" x="5976" y="192" />
+    <entity name="spinner" x="5976" y="176" />
+    <entity name="spinner" x="5976" y="160" />
+    <entity name="spinner" x="5976" y="144" />
+    <entity name="spinner" x="5976" y="128" />
+    <entity name="spinner" x="5976" y="112" />
+    <entity name="spinner" x="5984" y="96" />
+    <entity name="spinner" x="6000" y="88" />
+    <entity name="spinner" x="5984" y="80" />
+    <entity name="spinner" x="5968" y="80" />
+    <entity name="spinner" x="5952" y="84" />
+    <entity name="spinner" x="5924" y="95" />
+    <entity name="spinner" x="5816" y="96" />
+    <entity name="spinner" x="5968" y="96" />
+    <entity name="spinner" x="5915" y="102" />
+    <entity name="spinner" x="5842" y="85" />
+    <entity name="towerviewer" x="5280" y="168" />
+    <entity name="moveBlock" x="5304" y="96" />
+    <entity name="cliffflag" x="5864" y="36" />
+    <entity name="cliffflag" x="5922" y="95" />
+    <entity name="cliffflag" x="5662" y="126" />
+    <entity name="cliffflag" x="5660" y="178" />
+    <entity name="cliffflag" x="5398" y="68" />
+    <entity name="cliffflag" x="5310" y="169" />
+    <entity name="cliffflag" x="5651" y="14" />
+    <entity name="cliffflag" x="6280" y="-8" />
+    <entity name="spikesLeft" x="5736" y="72" />
+    <entity name="spikesDown" x="5320" y="120" />
+    <entity name="spikesDown" x="5704" y="24" />
+    <entity name="spikesLeft" x="5600" y="128" />
+    <entity name="spikesRight" x="5840" y="168" />
+    <entity name="spikesDown" x="5871" y="8" />
+    <entity name="spikesUp" x="5328" y="96" />
+    <entity name="spikesLeft" x="5704" y="16" />
+    <entity name="spikesLeft" x="6344" y="120" />
+    <entity name="spikesRight" x="5416" y="136" />
+    <entity name="spikesDown" x="5376" y="72" />
+    <entity name="spikesLeft" x="6352" y="40" />
+    <entity name="spikesRight" x="5672" y="152" />
+    <entity name="spikesLeft" x="5336" y="-32" />
+    <entity name="spikesLeft" x="5728" y="40" />
+    <entity name="spikesLeft" x="6344" y="-32" />
+    <entity name="spikesDown" x="5720" y="32" />
+    <entity name="spikesUp" x="5664" y="152" />
+    <entity name="spikesRight" x="5408" y="120" />
+    <entity name="spikesLeft" x="5344" y="32" />
+    <entity name="spikesLeft" x="5376" y="120" />
+    <entity name="spikesUp" x="6424" y="120" />
+    <entity name="spikesUp" x="5408" y="136" />
+    <entity name="spikesRight" x="5664" y="120" />
+    <entity name="spikesRight" x="5560" y="16" />
+    <entity name="spikesRight" x="5552" y="24" />
+    <entity name="spikesDown" x="5400" y="64" />
+    <entity name="spikesUp" x="5376" y="120" />
+    <entity name="spikesLeft" x="5704" y="152" />
+    <entity name="spikesLeft" x="5352" y="64" />
+    <entity name="spikesLeft" x="5520" y="72" />
+    <entity name="spikesDown" x="5804" y="96" />
+    <entity name="spikesDown" x="5336" y="24" />
+    <entity name="spikesLeft" x="5304" y="96" />
+    <entity name="spikesLeft" x="5720" y="24" />
+    <entity name="spikesUp" x="5704" y="152" />
+    <entity name="spikesDown" x="6352" y="96" />
+    <entity name="spikesLeft" x="5720" y="24" />
+    <entity name="spikesUp" x="5640" y="120" />
+    <entity name="spikesDown" x="5344" y="56" />
+    <entity name="spikesDown" x="5568" y="16" />
+    <entity name="spikesUp" x="5368" y="152" />
+    <entity name="spikesUp" x="6344" y="120" />
+    <entity name="spikesDown" x="6424" y="96" />
+    <entity name="spikesUp" x="5768" y="144" />
+    <entity name="spikesDown" x="5736" y="96" />
+    <entity name="spikesLeft" x="6352" y="160" />
+    <entity name="spikesUp" x="5960" y="80" />
+    <entity name="spikesUp" x="5600" y="128" />
+    <entity name="spikesLeft" x="5368" y="152" />
+    <entity name="spikesRight" x="5848" y="144" />
+    <entity name="spikesRight" x="5880" y="-32" />
+    <entity name="spikesRight" x="5544" y="40" />
+    <entity name="spikesLeft" x="5712" y="176" />
+    <entity name="spikesRight" x="5664" y="176" />
+    <entity name="spikesLeft" x="5608" y="168" />
+    <entity name="touchSwitch" x="5904" y="80" />
+    <entity name="refill" x="5536" y="112" />
+    <entity name="refill" x="5592" y="72" />
+    <entity name="spikesRight" x="3256" y="128" />
+    <entity name="spikesRight" x="3248" y="160" />
+    <entity name="spikesRight" x="4600" y="24" />
+    <entity name="spikesRight" x="4608" y="8" />
+    <entity name="spikesRight" x="4704" y="56" />
+    <entity name="spikesRight" x="4696" y="112" />
+    <entity name="spikesRight" x="4816" y="160" />
+    <entity name="spikesRight" x="4816" y="72" />
+    <entity name="spikesRight" x="4824" y="24" />
+    <entity name="spikesRight" x="4832" y="0" />
+    <entity name="spikesLeft" x="4152" y="64" />
+    <entity name="spikesLeft" x="4160" y="0" />
+    <entity name="spikesLeft" x="4160" y="152" />
+    <entity name="spikesLeft" x="4112" y="160" />
+    <entity name="spikesLeft" x="4784" y="8" />
+    <entity name="spikesLeft" x="4648" y="56" />
+    <entity name="spikesLeft" x="4784" y="160" />
+    <entity name="spikesUp" x="3504" y="136" />
+    <entity name="spikesUp" x="3800" y="64" />
+    <entity name="spikesUp" x="3792" y="72" />
+    <entity name="spikesUp" x="3784" y="104" />
+    <entity name="spikesUp" x="3776" y="136" />
+    <entity name="spikesUp" x="3768" y="152" />
+    <entity name="spikesUp" x="3760" y="168" />
+    <entity name="spikesUp" x="3856" y="112" />
+    <entity name="spikesUp" x="3872" y="160" />
+    <entity name="spikesUp" x="3896" y="168" />
+    <entity name="spikesUp" x="4112" y="160" />
+    <entity name="spikesUp" x="4160" y="152" />
+    <entity name="spikesUp" x="3864" y="144" />
+    <entity name="spikesUp" x="4152" y="64" />
+    <entity name="spikesUp" x="4216" y="80" />
+    <entity name="spikesUp" x="4208" y="40" />
+    <entity name="spikesUp" x="4648" y="56" />
+    <entity name="spikesUp" x="4784" y="160" />
+    <entity name="spikesUp" x="4944" y="112" />
+    <entity name="cliffside_flag" x="3264" y="100" />
+    <entity name="cliffside_flag" x="3576" y="88" />
+    <entity name="cliffside_flag" x="3576" y="72" />
+    <entity name="cliffside_flag" x="3584" y="4" />
+    <entity name="cliffside_flag" x="3584" y="30" />
+    <entity name="cliffside_flag" x="3584" y="56" />
+    <entity name="cliffside_flag" x="3872" y="69" />
+    <entity name="cliffside_flag" x="3864" y="12" />
+    <entity name="cliffside_flag" x="4040" y="83" />
+    <entity name="cliffside_flag" x="4024" y="98" />
+    <entity name="cliffside_flag" x="4008" y="111" />
+    <entity name="cliffside_flag" x="4008" y="119" />
+    <entity name="cliffside_flag" x="4419" y="118" />
+    <entity name="cliffside_flag" x="4461" y="57" />
+    <entity name="spikesDown" x="3520" y="104" />
+    <entity name="spikesDown" x="3800" y="32" />
+    <entity name="spikesDown" x="3856" y="96" />
+    <entity name="spikesDown" x="3864" y="88" />
+    <entity name="spikesDown" x="4152" y="88" />
+    <entity name="spikesDown" x="4160" y="96" />
+    <entity name="spikesDown" x="4168" y="104" />
+    <entity name="spikesDown" x="4184" y="112" />
+    <entity name="spikesDown" x="4200" y="120" />
+    <entity name="spikesDown" x="4784" y="128" />
+    <entity name="spikesDown" x="4576" y="136" />
+    <entity name="spikesDown" x="4592" y="128" />
+    <entity name="infiniteStar" x="3288" y="80" />
+    <entity name="infiniteStar" x="4208" y="136" />
+    <entity name="infiniteStar" x="4424" y="152" />
+    <entity name="refill" x="4464" y="104" />
+    <entity name="spinner" x="4224" y="112" />
+    <entity name="spinner" x="4224" y="88" />
+    <entity name="spinner" x="4216" y="96" />
+    <entity name="spinner" x="4232" y="104" />
+    <entity name="spinner" x="4240" y="88" />
+    <entity name="spinner" x="4248" y="104" />
+    <entity name="spinner" x="4256" y="88" />
+    <entity name="spinner" x="4248" y="72" />
+    <entity name="spinner" x="4232" y="72" />
+    <entity name="spinner" x="4216" y="80" />
+    <entity name="spinner" x="4264" y="104" />
+    <entity name="spinner" x="4280" y="112" />
+    <entity name="spinner" x="4296" y="104" />
+    <entity name="spinner" x="4296" y="88" />
+    <entity name="spinner" x="4288" y="72" />
+    <entity name="spinner" x="4272" y="64" />
+    <entity name="spinner" x="4256" y="64" />
+    <entity name="spinner" x="4264" y="80" />
+    <entity name="spinner" x="4278" y="92" />
+    <entity name="spinner" x="4240" y="160" />
+    <entity name="spinner" x="4256" y="168" />
+    <entity name="spinner" x="4272" y="168" />
+    <entity name="spinner" x="4288" y="160" />
+    <entity name="spinner" x="4304" y="168" />
+    <entity name="spinner" x="4320" y="160" />
+    <entity name="spinner" x="4336" y="168" />
+    <entity name="spinner" x="4352" y="160" />
+    <entity name="spinner" x="4368" y="168" />
+    <entity name="spinner" x="4352" y="176" />
+    <entity name="spinner" x="4368" y="184" />
+    <entity name="spinner" x="4352" y="192" />
+    <entity name="spinner" x="4336" y="184" />
+    <entity name="spinner" x="4320" y="192" />
+    <entity name="spinner" x="4320" y="176" />
+    <entity name="spinner" x="4304" y="184" />
+    <entity name="spinner" x="4288" y="176" />
+    <entity name="spinner" x="4288" y="192" />
+    <entity name="spinner" x="4272" y="184" />
+    <entity name="spinner" x="4256" y="184" />
+    <entity name="spinner" x="4240" y="176" />
+    <entity name="spinner" x="4240" y="192" />
+    <entity name="spinner" x="4304" y="72" />
+    <entity name="spinner" x="4312" y="56" />
+    <entity name="spinner" x="4296" y="56" />
+    <entity name="spinner" x="4312" y="40" />
+    <entity name="spinner" x="4320" y="24" />
+    <entity name="spinner" x="4336" y="16" />
+    <entity name="spinner" x="4352" y="8" />
+    <entity name="spinner" x="4368" y="0" />
+    <entity name="spinner" x="4344" y="0" />
+    <entity name="spinner" x="4296" y="40" />
+    <entity name="spinner" x="4304" y="24" />
+    <entity name="spinner" x="4312" y="8" />
+    <entity name="spinner" x="4328" y="0" />
+    <entity name="spinner" x="4320" y="-8" />
+    <entity name="spinner" x="4320" y="8" />
+    <entity name="spinner" x="4296" y="0" />
+    <entity name="spinner" x="4296" y="16" />
+    <entity name="spinner" x="4283" y="27" />
+    <entity name="spinner" x="4281" y="46" />
+    <entity name="spinner" x="4265" y="46" />
+    <entity name="spinner" x="4269" y="32" />
+    <entity name="spinner" x="4277" y="14" />
+    <entity name="spinner" x="4281" y="-2" />
+    <entity name="spinner" x="4216" y="64" />
+    <entity name="spinner" x="4232" y="56" />
+    <entity name="spinner" x="4248" y="48" />
+    <entity name="spinner" x="4256" y="24" />
+    <entity name="spinner" x="4256" y="8" />
+    <entity name="spinner" x="4264" y="-8" />
+    <entity name="spinner" x="4240" y="0" />
+    <entity name="spinner" x="4240" y="16" />
+    <entity name="spinner" x="4240" y="32" />
+    <entity name="spinner" x="4224" y="40" />
+    <entity name="spinner" x="4232" y="40" />
+    <entity name="spinner" x="4214" y="49" />
+    <entity name="spinner" x="4209" y="31" />
+    <entity name="spinner" x="4226" y="23" />
+    <entity name="spinner" x="4208" y="13" />
+    <entity name="spinner" x="4224" y="7" />
+    <entity name="spinner" x="4215" y="-6" />
+    <entity name="spinner" x="4368" y="152" />
+    <entity name="spinner" x="4360" y="136" />
+    <entity name="spinner" x="4368" y="120" />
+    <entity name="spinner" x="4368" y="104" />
+    <entity name="spinner" x="4376" y="88" />
+    <entity name="spinner" x="4376" y="72" />
+    <entity name="spinner" x="4392" y="64" />
+    <entity name="spinner" x="4392" y="80" />
+    <entity name="spinner" x="4408" y="64" />
+    <entity name="spinner" x="4384" y="0" />
+    <entity name="spinner" x="4400" y="0" />
+    <entity name="spinner" x="4416" y="0" />
+    <entity name="spinner" x="4504" y="0" />
+    <entity name="spinner" x="4512" y="16" />
+    <entity name="spinner" x="4520" y="0" />
+    <entity name="spinner" x="4528" y="32" />
+    <entity name="spinner" x="4528" y="16" />
+    <entity name="spinner" x="4536" y="0" />
+    <entity name="spinner" x="4544" y="16" />
+    <entity name="spinner" x="4544" y="32" />
+    <entity name="spinner" x="4536" y="48" />
+    <entity name="spinner" x="4552" y="48" />
+    <entity name="spinner" x="4544" y="64" />
+    <entity name="spinner" x="4560" y="64" />
+    <entity name="spinner" x="4560" y="32" />
+    <entity name="spinner" x="4560" y="16" />
+    <entity name="spinner" x="4552" y="0" />
+    <entity name="spinner" x="4568" y="0" />
+    <entity name="spinner" x="4544" y="80" />
+    <entity name="spinner" x="4536" y="96" />
+    <entity name="spinner" x="4528" y="112" />
+    <entity name="spinner" x="4544" y="112" />
+    <entity name="spinner" x="4552" y="96" />
+    <entity name="spinner" x="4560" y="80" />
+    <entity name="spinner" x="4560" y="112" />
+    <entity name="spinner" x="4568" y="96" />
+    <entity name="spinner" x="4584" y="0" />
+    <entity name="spinner" x="4576" y="16" />
+    <entity name="spinner" x="4376" y="136" />
+    <entity name="spinner" x="4384" y="120" />
+    <entity name="spinner" x="4384" y="104" />
+    <entity name="spinner" x="4376" y="152" />
+    <entity name="spinner" x="4384" y="168" />
+    <entity name="spinner" x="4384" y="184" />
+    <entity name="spinner" x="4400" y="184" />
+    <entity name="spinner" x="4528" y="128" />
+    <entity name="spinner" x="4544" y="128" />
+    <entity name="spinner" x="4560" y="128" />
+    <entity name="spinner" x="4576" y="136" />
+    <entity name="spinner" x="4512" y="136" />
+    <entity name="spinner" x="4520" y="120" />
+    <entity name="spinner" x="4568" y="120" />
+    <entity name="spinner" x="4496" y="0" />
+    <entity name="spinner" x="4496" y="8" />
+    <entity name="spinner" x="4480" y="0" />
+    <entity name="spinner" x="4464" y="0" />
+    <entity name="spinner" x="4448" y="0" />
+    <entity name="spinner" x="4432" y="0" />
+    <entity name="spinner" x="4424" y="64" />
+    <entity name="spinner" x="4440" y="64" />
+    <entity name="spinner" x="4456" y="64" />
+    <entity name="spinner" x="4432" y="80" />
+    <entity name="spinner" x="4416" y="80" />
+    <entity name="spinner" x="4408" y="80" />
+    <entity name="spinner" x="4416" y="96" />
+    <entity name="spinner" x="4400" y="96" />
+    <entity name="spinner" x="4400" y="112" />
+    <entity name="spinner" x="4392" y="128" />
+    <entity name="spinner" x="4384" y="144" />
+    <entity name="spinner" x="4568" y="48" />
+    <entity name="spinner" x="4576" y="32" />
+    <entity name="spinner" x="4576" y="64" />
+    <entity name="spinner" x="4576" y="80" />
+    <entity name="spinner" x="4576" y="112" />
+    <entity name="moveBlock" x="4944" y="112" />
+    <entity name="booster" x="4800" y="144" />
+    <entity name="cliffside_flag" x="1256" y="61" />
+    <entity name="cliffside_flag" x="1284" y="91" />
+    <entity name="cliffside_flag" x="1244" y="107" />
+    <entity name="cliffside_flag" x="2592" y="109" />
+    <entity name="cliffside_flag" x="1892" y="124" />
+    <entity name="cliffside_flag" x="1892" y="139" />
+    <entity name="cliffside_flag" x="1892" y="151" />
+    <entity name="cliffside_flag" x="2188" y="167" />
+    <entity name="cliffside_flag" x="2188" y="147" />
+    <entity name="spikesLeft" x="2400" y="160" />
+    <entity name="spikesLeft" x="2424" y="88" />
+    <entity name="spikesLeft" x="2416" y="24" />
+    <entity name="spikesLeft" x="2408" y="0" />
+    <entity name="spikesLeft" x="2512" y="120" />
+    <entity name="spikesLeft" x="2504" y="136" />
+    <entity name="spikesLeft" x="3152" y="136" />
+    <entity name="spikesDown" x="2424" y="120" />
+    <entity name="spikesDown" x="2464" y="112" />
+    <entity name="spikesDown" x="2472" y="56" />
+    <entity name="spikesDown" x="2480" y="16" />
+    <entity name="spikesDown" x="2408" y="16" />
+    <entity name="spikesDown" x="2416" y="80" />
+    <entity name="spikesDown" x="1448" y="16" />
+    <entity name="spikesDown" x="1456" y="72" />
+    <entity name="spikesDown" x="1488" y="32" />
+    <entity name="spikesDown" x="1872" y="80" />
+    <entity name="spikesDown" x="1864" y="40" />
+    <entity name="spikesDown" x="1904" y="64" />
+    <entity name="spikesDown" x="1912" y="32" />
+    <entity name="spikesDown" x="1920" y="16" />
+    <entity name="spikesDown" x="2208" y="16" />
+    <entity name="spikesDown" x="2200" y="40" />
+    <entity name="spikesDown" x="2160" y="80" />
+    <entity name="spikesDown" x="2168" y="120" />
+    <entity name="spikesDown" x="2472" y="104" />
+    <entity name="spikesDown" x="2152" y="32" />
+    <entity name="wallSpringLeft" x="1288" y="144" />
+    <entity name="wallSpringLeft" x="1488" y="96" />
+    <entity name="wallSpringLeft" x="1704" y="160" />
+    <entity name="wallSpringLeft" x="1904" y="112" />
+    <entity name="wallSpringLeft" x="2200" y="138" />
+    <entity name="spikesRight" x="2520" y="120" />
+    <entity name="spikesRight" x="2528" y="144" />
+    <entity name="spikesRight" x="2536" y="168" />
+    <entity name="spikesRight" x="2472" y="64" />
+    <entity name="spikesRight" x="2480" y="24" />
+    <entity name="spikesRight" x="2480" y="80" />
+    <entity name="spikesRight" x="2488" y="0" />
+    <entity name="refill" x="2904" y="88" />
+    <entity name="spikesUp" x="2456" y="160" />
+    <entity name="spikesUp" x="2488" y="152" />
+    <entity name="spikesUp" x="2504" y="136" />
+    <entity name="spikesUp" x="2512" y="120" />
+    <entity name="spikesUp" x="2520" y="144" />
+    <entity name="spikesUp" x="2528" y="168" />
+    <entity name="spikesUp" x="2400" y="160" />
+    <entity name="spikesUp" x="2408" y="152" />
+    <entity name="spikesUp" x="2472" y="80" />
+    <entity name="booster" x="2472" y="136" />
+    <entity name="spinner" x="2528" y="160" />
+    <entity name="spinner" x="2544" y="168" />
+    <entity name="spinner" x="2560" y="168" />
+    <entity name="spinner" x="2576" y="160" />
+    <entity name="spinner" x="2592" y="160" />
+    <entity name="spinner" x="2600" y="176" />
+    <entity name="spinner" x="2600" y="192" />
+    <entity name="spinner" x="2584" y="192" />
+    <entity name="spinner" x="2584" y="176" />
+    <entity name="spinner" x="2568" y="176" />
+    <entity name="spinner" x="2568" y="192" />
+    <entity name="spinner" x="2552" y="192" />
+    <entity name="spinner" x="2552" y="176" />
+    <entity name="spinner" x="2536" y="176" />
+    <entity name="spinner" x="2536" y="192" />
+    <entity name="spinner" x="1696" y="152" />
+    <entity name="spinner" x="1680" y="152" />
+    <entity name="spinner" x="1672" y="168" />
+    <entity name="spinner" x="1672" y="184" />
+    <entity name="spinner" x="1688" y="168" />
+    <entity name="spinner" x="2608" y="168" />
+    <entity name="spinner" x="2624" y="160" />
+    <entity name="spinner" x="2632" y="144" />
+    <entity name="spinner" x="2640" y="160" />
+    <entity name="spinner" x="2632" y="176" />
+    <entity name="spinner" x="2616" y="176" />
+    <entity name="spinner" x="2616" y="192" />
+    <entity name="spinner" x="2632" y="192" />
+    <entity name="spinner" x="2640" y="184" />
+    <entity name="player" x="1264" y="144" />
+    <entity name="cliffside_flag" x="192" y="112" />
+    <entity name="cliffside_flag" x="192" y="137" />
+    <entity name="cliffside_flag" x="192" y="151" />
+    <entity name="cliffside_flag" x="952" y="49" />
+    <entity name="cliffside_flag" x="857" y="136" />
+    <entity name="cliffside_flag" x="857" y="150" />
+    <entity name="cliffside_flag" x="712" y="1" />
+    <entity name="player" x="32" y="72" />
+    <entity name="player" x="1184" y="144" />
+    <entity name="spinner" x="64" y="88" />
+    <entity name="spinner" x="80" y="96" />
+    <entity name="spinner" x="96" y="96" />
+    <entity name="spinner" x="80" y="112" />
+    <entity name="spinner" x="64" y="112" />
+    <entity name="spinner" x="64" y="104" />
+    <entity name="spinner" x="48" y="96" />
+    <entity name="spinner" x="120" y="96" />
+    <entity name="spinner" x="136" y="104" />
+    <entity name="spinner" x="152" y="104" />
+    <entity name="spinner" x="152" y="120" />
+    <entity name="spinner" x="136" y="120" />
+    <entity name="spinner" x="120" y="112" />
+    <entity name="spinner" x="120" y="128" />
+    <entity name="spinner" x="136" y="136" />
+    <entity name="spinner" x="520" y="112" />
+    <entity name="spinner" x="488" y="128" />
+    <entity name="spinner" x="504" y="120" />
+    <entity name="spinner" x="537" y="113" />
+    <entity name="spinner" x="554" y="119" />
+    <entity name="spinner" x="520" y="128" />
+    <entity name="spinner" x="536" y="128" />
+    <entity name="spinner" x="504" y="136" />
+    <entity name="spinner" x="552" y="136" />
+    <entity name="spinner" x="522" y="56" />
+    <entity name="spinner" x="536" y="56" />
+    <entity name="spinner" x="512" y="48" />
+    <entity name="spinner" x="528" y="40" />
+    <entity name="spinner" x="520" y="24" />
+    <entity name="spinner" x="528" y="48" />
+    <entity name="spinner" x="544" y="40" />
+    <entity name="spinner" x="536" y="24" />
+    <entity name="spinner" x="504" y="16" />
+    <entity name="spinner" x="496" y="0" />
+    <entity name="spinner" x="552" y="8" />
+    <entity name="spinner" x="528" y="94" />
+    <entity name="spinner" x="552" y="104" />
+    <entity name="spinner" x="552" y="61" />
+    <entity name="spinner" x="568" y="69" />
+    <entity name="spinner" x="504" y="64" />
+    <entity name="spinner" x="488" y="72" />
+    <entity name="spinner" x="500" y="110" />
+    <entity name="spinner" x="514" y="99" />
+    <entity name="spinner" x="542" y="97" />
+    <entity name="spinner" x="568" y="48" />
+    <entity name="spinner" x="560" y="32" />
+    <entity name="spinner" x="568" y="16" />
+    <entity name="spinner" x="576" y="0" />
+    <entity name="spinner" x="496" y="32" />
+    <entity name="spinner" x="480" y="8" />
+    <entity name="spinner" x="464" y="0" />
+    <entity name="spinner" x="520" y="152" />
+    <entity name="spinner" x="536" y="144" />
+    <entity name="spinner" x="536" y="168" />
+    <entity name="spinner" x="520" y="176" />
+    <entity name="spinner" x="536" y="192" />
+    <entity name="spinner" x="504" y="168" />
+    <entity name="spinner" x="504" y="192" />
+    <entity name="spinner" x="496" y="152" />
+    <entity name="spinner" x="552" y="152" />
+    <entity name="spinner" x="552" y="168" />
+    <entity name="spinner" x="544" y="184" />
+    <entity name="spinner" x="568" y="112" />
+    <entity name="spinner" x="579" y="121" />
+    <entity name="spinner" x="568" y="128" />
+    <entity name="spinner" x="568" y="144" />
+    <entity name="spinner" x="488" y="56" />
+    <entity name="spinner" x="496" y="40" />
+    <entity name="spinner" x="472" y="80" />
+    <entity name="spinner" x="479" y="67" />
+    <entity name="spinner" x="700" y="108" />
+    <entity name="spinner" x="718" y="92" />
+    <entity name="spinner" x="717" y="75" />
+    <entity name="spinner" x="684" y="108" />
+    <entity name="spinner" x="696" y="122" />
+    <entity name="spinner" x="712" y="112" />
+    <entity name="spinner" x="728" y="104" />
+    <entity name="spinner" x="728" y="120" />
+    <entity name="spinner" x="712" y="128" />
+    <entity name="spinner" x="704" y="136" />
+    <entity name="spinner" x="720" y="136" />
+    <entity name="spinner" x="696" y="152" />
+    <entity name="spinner" x="712" y="152" />
+    <entity name="spinner" x="728" y="168" />
+    <entity name="spinner" x="704" y="168" />
+    <entity name="spinner" x="712" y="184" />
+    <entity name="spinner" x="688" y="176" />
+    <entity name="spinner" x="736" y="184" />
+    <entity name="spinner" x="696" y="184" />
+    <entity name="spinner" x="680" y="184" />
+    <entity name="spinner" x="680" y="160" />
+    <entity name="spinner" x="704" y="64" />
+    <entity name="spinner" x="720" y="56" />
+    <entity name="spinner" x="728" y="40" />
+    <entity name="spinner" x="736" y="56" />
+    <entity name="spinner" x="728" y="72" />
+    <entity name="spinner" x="736" y="88" />
+    <entity name="spinner" x="712" y="48" />
+    <entity name="spinner" x="488" y="16" />
+    <entity name="spinner" x="824" y="0" />
+    <entity name="spinner" x="832" y="16" />
+    <entity name="spinner" x="832" y="32" />
+    <entity name="spinner" x="832" y="48" />
+    <entity name="spinner" x="840" y="64" />
+    <entity name="spinner" x="864" y="96" />
+    <entity name="spinner" x="832" y="96" />
+    <entity name="spinner" x="848" y="96" />
+    <entity name="spinner" x="840" y="80" />
+    <entity name="spinner" x="856" y="80" />
+    <entity name="spinner" x="856" y="64" />
+    <entity name="spinner" x="864" y="48" />
+    <entity name="spinner" x="848" y="48" />
+    <entity name="spinner" x="848" y="32" />
+    <entity name="spinner" x="864" y="32" />
+    <entity name="spinner" x="864" y="16" />
+    <entity name="spinner" x="848" y="16" />
+    <entity name="spinner" x="840" y="0" />
+    <entity name="spinner" x="856" y="0" />
+    <entity name="spinner" x="872" y="0" />
+    <entity name="spinner" x="848" y="176" />
+    <entity name="spinner" x="832" y="184" />
+    <entity name="spinner" x="864" y="184" />
+    <entity name="spinner" x="848" y="192" />
+    <entity name="spinner" x="816" y="184" />
+    <entity name="spinner" x="800" y="184" />
+    <entity name="spinner" x="784" y="184" />
+    <entity name="spinner" x="768" y="184" />
+    <entity name="spinner" x="752" y="184" />
+    <entity name="spinner" x="848" y="128" />
+    <entity name="spinner" x="856" y="112" />
+    <entity name="spinner" x="840" y="112" />
+    <entity name="spinner" x="912" y="96" />
+    <entity name="spinner" x="920" y="112" />
+    <entity name="spinner" x="920" y="128" />
+    <entity name="spinner" x="920" y="144" />
+    <entity name="spinner" x="920" y="160" />
+    <entity name="spinner" x="912" y="176" />
+    <entity name="spinner" x="912" y="192" />
+    <entity name="spinner" x="928" y="192" />
+    <entity name="spinner" x="928" y="176" />
+    <entity name="spinner" x="928" y="95" />
+    <entity name="spinner" x="920" y="80" />
+    <entity name="spinner" x="701" y="45" />
+    <entity name="spinner" x="711" y="37" />
+    <entity name="spinner" x="936" y="80" />
+    <entity name="spinner" x="952" y="88" />
+    <entity name="spinner" x="944" y="104" />
+    <entity name="spinner" x="936" y="120" />
+    <entity name="spinner" x="952" y="112" />
+    <entity name="spinner" x="944" y="128" />
+    <entity name="spinner" x="936" y="136" />
+    <entity name="spinner" x="936" y="152" />
+    <entity name="spinner" x="936" y="168" />
+    <entity name="spinner" x="944" y="184" />
+    <entity name="spinner" x="862" y="126" />
+    <entity name="spinner" x="860" y="172" />
+    <entity name="spinner" x="694" y="56" />
+    <entity name="spinner" x="1056" y="80" />
+    <entity name="spinner" x="1064" y="96" />
+    <entity name="spinner" x="1048" y="96" />
+    <entity name="spinner" x="1040" y="88" />
+    <entity name="spinner" x="1024" y="96" />
+    <entity name="spinner" x="1040" y="112" />
+    <entity name="spinner" x="1056" y="104" />
+    <entity name="spinner" x="1064" y="112" />
+    <entity name="spinner" x="1064" y="168" />
+    <entity name="spinner" x="1072" y="184" />
+    <entity name="spinner" x="1056" y="184" />
+    <entity name="spinner" x="1040" y="184" />
+    <entity name="spinner" x="1048" y="168" />
+    <entity name="spinner" x="1064" y="160" />
+    <entity name="spinner" x="1024" y="184" />
+    <entity name="booster" x="471" y="109" />
+    <entity name="booster" x="696" y="80" />
+    <entity name="booster" x="768" y="144" />
+    <entity name="booster" x="888" y="112" />
+    <entity name="spikesLeft" x="1048" y="0" />
+    <entity name="spikesLeft" x="1056" y="48" />
+    <entity name="spikesLeft" x="1064" y="88" />
+    <entity name="spikesLeft" x="1064" y="144" />
+    <entity name="spikesLeft" x="1072" y="168" />
+    <entity name="spinner" x="936" y="104" />
+    <entity name="refill" x="6536" y="108" />
+    <entity name="lightbeam" x="6696" y="-32" />
+    <entity name="water" x="6624" y="128" />
+    <entity name="waterfall" x="6640" y="40" />
+    <entity name="waterfall" x="6744" y="40" />
+    <entity name="spikesUp" x="6632" y="144" />
+    <entity name="spikesUp" x="6648" y="152" />
+    <entity name="spikesUp" x="6672" y="160" />
+    <entity name="spikesUp" x="6720" y="152" />
+    <entity name="spikesUp" x="6744" y="144" />
+    <entity name="spikesUp" x="6760" y="128" />
+    <entity name="player" x="5224" y="88" />
+    <entity name="refill" x="824" y="144" />
+    <entity name="refill" x="1024" y="136" />
+    <entity name="refill" x="5824" y="112" />
+    <entity name="refill" x="6128" y="72" />
+    <entity name="refill" x="6224" y="72" />
+    <entity name="booster" x="4496" y="56" />
+    <entity name="blackGem" x="6696" y="64" />
+    <decal x="3264" y="105" texture="generic/snow_k.png" />
+    <decal x="3256" y="108" texture="generic/snow_h.png" />
+    <decal x="3256" y="121" texture="generic/snow_k.png" />
+    <decal x="1288" y="145" texture="generic/snow_k.png" />
+    <decal x="1280" y="146" texture="generic/snow_k.png" />
+    <decal x="1280" y="160" texture="generic/snow_h.png" />
+    <decal x="1272" y="176" texture="generic/snow_h.png" />
+    <decal x="1272" y="184" texture="generic/snow_h.png" />
+    <decal x="1480" y="96" texture="generic/snow_k.png" />
+    <decal x="1696" y="163" texture="generic/snow_f.png" />
+    <decal x="1896" y="113" texture="generic/snow_k.png" />
+    <decal x="2192" y="138" texture="generic/snow_h.png" />
+    <decal x="3152" y="112" texture="generic/snow_k.png" />
+    <decal x="1284" y="168" texture="generic/snow_d.png" />
+    <decal x="1280" y="170" texture="generic/snow_d.png" />
+    <decal x="3152" y="124" texture="generic/snow_k.png" />
+    <decal x="3152" y="130" texture="generic/snow_h.png" />
+    <decal x="56" y="80" texture="generic/snow_k.png" />
+    <decal x="112" y="88" texture="generic/snow_k.png" />
+    <decal x="96" y="88" texture="generic/snow_h.png" />
+    <decal x="97" y="93" texture="generic/snow_h.png" />
+    <decal x="89" y="100" texture="generic/snow_g.png" />
+    <decal x="112" y="97" texture="generic/snow_h.png" />
+    <decal x="112" y="104" texture="generic/snow_h.png" />
+    <decal x="112" y="117" texture="generic/snow_k.png" />
+    <decal x="161" y="115" texture="generic/snow_k.png" />
+    <decal x="161" y="107" texture="generic/snow_h.png" />
+    <decal x="152" y="96" texture="generic/snow_h.png" />
+    <decal x="192" y="101" texture="generic/snow_h.png" />
+    <decal x="192" y="104" texture="generic/snow_h.png" />
+    <decal x="1066" y="147" texture="generic/snow_g.png" />
+    <decal x="1072" y="157" texture="generic/snow_h.png" />
+    <decal x="5385" y="94" texture="4-cliffside/roots_c.png" />
+    <decal x="5399" y="90" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="5272" y="160" texture="4-cliffside/rubble_d.png" />
+    <decal x="5288" y="160" texture="4-cliffside/rubble_c.png" />
+    <decal x="5294" y="166" texture="4-cliffside/rubble_h.png" />
+    <decal x="5266" y="161" texture="4-cliffside/rubble_j.png" />
+    <decal x="5344" y="41" texture="4-cliffside/roots_bot_b.png" />
+    <decal x="5352" y="74" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="5224" y="72" texture="4-cliffside/rock_b.png" />
+    <decal x="5232" y="80" texture="4-cliffside/flower_a.png" />
+    <decal x="5216" y="80" texture="4-cliffside/flower_d.png" />
+    <decal x="5264" y="72" texture="4-cliffside/flower_a.png" />
+    <decal x="5262" y="72" texture="4-cliffside/flower_b.png" />
+    <decal x="5304" y="152" texture="4-cliffside/flower_d.png" />
+    <decal x="5480" y="72" texture="4-cliffside/roots_a.png" />
+    <decal x="5480" y="120" texture="4-cliffside/roots_b.png" />
+    <decal x="5480" y="168" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="5491" y="73" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="5520" y="79" texture="4-cliffside/wall_rock_a.png" />
+    <decal x="5448" y="144" texture="4-cliffside/tree_d.png" />
+    <decal x="5677" y="94" texture="4-cliffside/tree_b.png" />
+    <decal x="5606" y="98" texture="4-cliffside/woodbeam_c.png" />
+    <decal x="5604" y="52" texture="4-cliffside/woodbeam_l.png" />
+    <decal x="5610" y="76" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="5612" y="76" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="5613" y="77" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="5628" y="69" texture="4-cliffside/woodbeam_k.png" />
+    <decal x="5568" y="68" texture="4-cliffside/tree_d.png" />
+    <decal x="5667" y="145" texture="4-cliffside/rubble_j.png" />
+    <decal x="5648" y="116" texture="4-cliffside/tree_c.png" />
+    <decal x="5566" y="25" texture="4-cliffside/tree_c.png" />
+    <decal x="5393" y="36" texture="4-cliffside/tree_d.png" />
+    <decal x="5463" y="39" texture="4-cliffside/tree_d.png" />
+    <decal x="5347" y="65" texture="4-cliffside/woodbeam_e.png" />
+    <decal x="5415" y="32" texture="4-cliffside/woodbeam_i.png" />
+    <decal x="5444" y="29" texture="4-cliffside/tree_d.png" />
+    <decal x="5325" y="172" texture="4-cliffside/woodbeam_k.png" />
+    <decal x="5345" y="179" texture="4-cliffside/woodbeam_j.png" />
+    <decal x="5363" y="174" texture="4-cliffside/woodbeam_k.png" />
+    <decal x="5267" y="131" texture="4-cliffside/woodbeam_j.png" />
+    <decal x="5416" y="130" texture="4-cliffside/woodbeam_e.png" />
+    <decal x="5768" y="112" texture="4-cliffside/bg_e.png" />
+    <decal x="5792" y="128" texture="4-cliffside/bg_c.png" />
+    <decal x="5832" y="111" texture="4-cliffside/roots_a.png" />
+    <decal x="5797" y="115" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="5761" y="104" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="5744" y="116" texture="4-cliffside/roots_bot_b.png" />
+    <decal x="5953" y="138" texture="4-cliffside/woodbeam_e.png" />
+    <decal x="5942" y="101" texture="4-cliffside/woodbeam_k.png" />
+    <decal x="5992" y="108" texture="4-cliffside/woodbeam_i.png" />
+    <decal x="5848" y="172" texture="4-cliffside/wall_rock_a.png" />
+    <decal x="5702" y="30" texture="4-cliffside/roots_c.png" />
+    <decal x="5701" y="78" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="5875" y="19" texture="4-cliffside/rock_c.png" />
+    <decal x="5940" y="121" texture="4-cliffside/tree_b.png" />
+    <decal x="5958" y="150" texture="4-cliffside/tree_c.png" />
+    <decal x="5939" y="161" texture="4-cliffside/tree_d.png" />
+    <decal x="6432" y="104" texture="4-cliffside/bg_c.png" />
+    <decal x="6448" y="104" texture="4-cliffside/bg_d.png" />
+    <decal x="6400" y="112" texture="4-cliffside/bg_d.png" />
+    <decal x="6472" y="120" texture="4-cliffside/bg_a.png" />
+    <decal x="5960" y="72" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="5976" y="72" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="5969" y="68" texture="4-cliffside/woodbeam_e.png" />
+    <decal x="5960" y="60" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="5976" y="60" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="5808" y="137" texture="4-cliffside/rubble_i.png" />
+    <decal x="5776" y="136" texture="4-cliffside/rubble_e.png" />
+    <decal x="5935" y="74" texture="4-cliffside/rubble_c.png" />
+    <decal x="5968" y="57" texture="4-cliffside/woodbeam_b.png" />
+    <decal x="5779" y="132" texture="4-cliffside/woodbeam_j.png" />
+    <decal x="3208" y="96" texture="4-cliffside/rubble_c.png" />
+    <decal x="3232" y="96" texture="4-cliffside/rubble_i.png" />
+    <decal x="3265" y="140" texture="4-cliffside/woodbeam_e.png" />
+    <decal x="3254" y="169" texture="4-cliffside/woodbeam_e.png" />
+    <decal x="3224" y="84" texture="4-cliffside/tree_c.png" />
+    <decal x="3248" y="96" texture="4-cliffside/rubble_j.png" />
+    <decal x="3572" y="93" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="3528" y="52" texture="4-cliffside/roots_a.png" />
+    <decal x="3928" y="88" texture="4-cliffside/tree_a.png" />
+    <decal x="3862" y="107" texture="4-cliffside/tree_c.png" />
+    <decal x="4120" y="64" texture="4-cliffside/tree_d.png" />
+    <decal x="4259" y="128" texture="4-cliffside/roots_bot_b.png" />
+    <decal x="4440" y="24" texture="4-cliffside/roots_b.png" />
+    <decal x="4440" y="72" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="4440" y="88" texture="4-cliffside/roots_a.png" />
+    <decal x="4440" y="136" texture="4-cliffside/roots_bot_b.png" />
+    <decal x="4426" y="105" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="4429" y="20" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="4451" y="12" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="4583" y="164" texture="4-cliffside/roots_b.png" />
+    <decal x="4545" y="138" texture="4-cliffside/roots_a.png" />
+    <decal x="4545" y="186" texture="4-cliffside/roots_a.png" />
+    <decal x="4523" y="151" texture="4-cliffside/roots_bot_b.png" />
+    <decal x="4565" y="148" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="4533" y="132" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="4635" y="86" texture="4-cliffside/tree_b.png" />
+    <decal x="4648" y="113" texture="4-cliffside/tree_c.png" />
+    <decal x="4615" y="76" texture="4-cliffside/tree_d.png" />
+    <decal x="4626" y="130" texture="4-cliffside/tree_d.png" />
+    <decal x="4600" y="39" texture="4-cliffside/wall_rock_a.png" />
+    <decal x="4757" y="97" texture="4-cliffside/tree_b.png" />
+    <decal x="4732" y="46" texture="4-cliffside/tree_b.png" />
+    <decal x="4702" y="122" texture="4-cliffside/tree_c.png" />
+    <decal x="4615" y="5" texture="4-cliffside/tree_c.png" />
+    <decal x="4712" y="176" texture="4-cliffside/tree_b.png" />
+    <decal x="4799" y="145" texture="4-cliffside/tree_c.png" />
+    <decal x="4764" y="82" texture="4-cliffside/tree_d.png" />
+    <decal x="4731" y="72" texture="4-cliffside/tree_d.png" />
+    <decal x="4843" y="168" texture="4-cliffside/tree_d.png" />
+    <decal x="4839" y="129" texture="4-cliffside/tree_b.png" />
+    <decal x="4787" y="45" texture="4-cliffside/tree_b.png" />
+    <decal x="4825" y="113" texture="4-cliffside/tree_d.png" />
+    <decal x="5120" y="88" texture="4-cliffside/flower_c.png" />
+    <decal x="5136" y="88" texture="4-cliffside/flower_b.png" />
+    <decal x="5160" y="88" texture="4-cliffside/flower_d.png" />
+    <decal x="5184" y="80" texture="4-cliffside/flower_b.png" />
+    <decal x="5111" y="88" texture="4-cliffside/flower_a.png" />
+    <decal x="5163" y="89" texture="4-cliffside/rubble_e.png" />
+    <decal x="5144" y="88" texture="4-cliffside/rubble_j.png" />
+    <decal x="4008" y="152" texture="4-cliffside/woodbeam_j.png" />
+    <decal x="4023" y="142" texture="4-cliffside/woodbeam_g.png" />
+    <decal x="4026" y="152" texture="4-cliffside/woodbeam_i.png" />
+    <decal x="4038" y="161" texture="4-cliffside/woodbeam_k.png" />
+    <decal x="4044" y="143" texture="4-cliffside/woodbean_h.png" />
+    <decal x="4060" y="159" texture="4-cliffside/woodbean_h.png" />
+    <decal x="4040" y="131" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="4040" y="120" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="4040" y="108" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="4031" y="125" texture="4-cliffside/woodbeam_c.png" />
+    <decal x="4024" y="113" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="4040" y="96" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="4024" y="103" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="4040" y="86" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="4008" y="125" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="4008" y="114" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="4049" y="130" texture="4-cliffside/woodbeam_e.png" />
+    <decal x="4216" y="137" texture="4-cliffside/woodbeam_h.png" />
+    <decal x="4205" y="139" texture="4-cliffside/woodbeam_j.png" />
+    <decal x="4213" y="108" texture="4-cliffside/woodbeam_j.png" />
+    <decal x="4399" y="170" texture="4-cliffside/woodbeam_j.png" />
+    <decal x="4389" y="161" texture="4-cliffside/woodbeam_h.png" />
+    <decal x="4392" y="155" texture="4-cliffside/woodbeam_k.png" />
+    <decal x="4403" y="145" texture="4-cliffside/woodbeam_g.png" />
+    <decal x="4418" y="129" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="4427" y="141" texture="4-cliffside/woodbeam_e.png" />
+    <decal x="4418" y="114" texture="4-cliffside/woodbeam_c.png" />
+    <decal x="4395" y="118" texture="4-cliffside/woodbeam_g.png" />
+    <decal x="4434" y="114" texture="4-cliffside/woodbeam_e.png" />
+    <decal x="4409" y="147" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="3517" y="19" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="3583" y="20" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="3569" y="179" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="3812" y="-2" texture="4-cliffside/roots_b.png" />
+    <decal x="3858" y="3" texture="4-cliffside/roots_a.png" />
+    <decal x="3871" y="-22" texture="4-cliffside/roots_bot_b.png" />
+    <decal x="4242" y="126" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="4269" y="112" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="4362" y="145" texture="4-cliffside/rubble_g.png" />
+    <decal x="4410" y="166" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="4427" y="178" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="4537" y="75" texture="4-cliffside/roots_b.png" />
+    <decal x="4391" y="103" texture="4-cliffside/roots_a.png" />
+    <decal x="4669" y="40" texture="4-cliffside/rock_a.png" />
+    <decal x="4684" y="44" texture="4-cliffside/rock_b.png" />
+    <decal x="4636" y="180" texture="4-cliffside/roots_bot_b.png" />
+    <decal x="4650" y="162" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="4779" y="166" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="4801" y="150" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="4839" y="20" texture="4-cliffside/roots_b.png" />
+    <decal x="4839" y="68" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="4812" y="76" texture="4-cliffside/roots_b.png" />
+    <decal x="4819" y="19" texture="4-cliffside/roots_a.png" />
+    <decal x="4816" y="50" texture="4-cliffside/roots_a.png" />
+    <decal x="1208" y="136" texture="4-cliffside/bg_b.png" />
+    <decal x="1256" y="136" texture="4-cliffside/flower_c.png" />
+    <decal x="1476" y="126" texture="4-cliffside/roots_bot_b.png" />
+    <decal x="1893" y="142" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="1222" y="128" texture="4-cliffside/woodbeam_h.png" />
+    <decal x="1209" y="142" texture="4-cliffside/woodbeam_j.png" />
+    <decal x="1286" y="171" texture="4-cliffside/wall_rock_a.png" />
+    <decal x="1272" y="136" texture="4-cliffside/rubble_i.png" />
+    <decal x="1232" y="136" texture="4-cliffside/rubble_g.png" />
+    <decal x="2188" y="164" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="2552" y="136" texture="4-cliffside/tree_d.png" />
+    <decal x="2480" y="72" texture="4-cliffside/wall_rock_a.png" />
+    <decal x="2483" y="39" texture="4-cliffside/wall_rock_a.png" />
+    <decal x="2478" y="16" texture="4-cliffside/wall_rock_a.png" />
+    <decal x="2492" y="-3" texture="4-cliffside/wall_rock_a.png" />
+    <decal x="2474" y="79" texture="4-cliffside/tree_c.png" />
+    <decal x="2669" y="128" texture="4-cliffside/tree_b.png" />
+    <decal x="2469" y="128" texture="4-cliffside/roots_c.png" />
+    <decal x="2470" y="176" texture="4-cliffside/roots_bot_b.png" />
+    <decal x="2440" y="128" texture="4-cliffside/roots_bot_b.png" />
+    <decal x="2541" y="165" texture="4-cliffside/tree_c.png" />
+    <decal x="2525" y="145" texture="4-cliffside/tree_c.png" />
+    <decal x="2564" y="161" texture="4-cliffside/tree_b.png" />
+    <decal x="3114" y="98" texture="4-cliffside/tree_b.png" />
+    <decal x="3141" y="46" texture="4-cliffside/tree_d.png" />
+    <decal x="3192" y="96" texture="4-cliffside/rubble_c.png" />
+    <decal x="3168" y="88" texture="4-cliffside/rock_b.png" />
+    <decal x="2504" y="136" texture="generic/snow_k.png" />
+    <decal x="2462" y="153" texture="generic/snow_n.png" />
+    <decal x="2497" y="148" texture="generic/snow_k.png" />
+    <decal x="2486" y="160" texture="generic/snow_e.png" />
+    <decal x="2491" y="148" texture="generic/snow_c.png" />
+    <decal x="2450" y="144" texture="generic/snow_c.png" />
+    <decal x="2444" y="146" texture="generic/snow_c.png" />
+    <decal x="1244" y="136" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="1244" y="120" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="1284" y="128" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="1284" y="112" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="1284" y="102" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="1244" y="104" texture="4-cliffside/woodbeam_c.png" />
+    <decal x="1229" y="104" texture="4-cliffside/woodbeam_a.png" />
+    <decal x="1260" y="104" texture="4-cliffside/woodbeam_a.png" />
+    <decal x="1275" y="104" texture="4-cliffside/woodbeam_a.png" />
+    <decal x="1284" y="96" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="1291" y="85" texture="4-cliffside/woodbeam_e.png" />
+    <decal x="1276" y="92" texture="4-cliffside/woodbeam_e.png" />
+    <decal x="1293" y="124" texture="4-cliffside/woodbeam_e.png" />
+    <decal x="1256" y="91" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="1256" y="75" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="1256" y="59" texture="4-cliffside/woodbeam_c.png" />
+    <decal x="1239" y="59" texture="4-cliffside/woodbeam_a.png" />
+    <decal x="1224" y="104" texture="4-cliffside/woodbeam_a.png" />
+    <decal x="1272" y="59" texture="4-cliffside/woodbeam_e.png" />
+    <decal x="1892" y="125" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="1892" y="141" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="1892" y="157" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="1892" y="167" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="1892" y="180" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="2188" y="141" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="2188" y="183" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="2188" y="173" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="2188" y="157" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="2592" y="144" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="2592" y="136" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="2592" y="128" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="2592" y="112" texture="4-cliffside/woodbeam_f.png" />
+    <decal x="2589" y="144" texture="4-cliffside/woodbeam_h.png" />
+    <decal x="2609" y="153" texture="4-cliffside/woodbeam_g.png" />
+    <decal x="2408" y="21" texture="4-cliffside/rock_c.png" />
+    <decal x="32" y="48" texture="4-cliffside/house_b.png" />
+    <decal x="504" y="80" texture="4-cliffside/roots_b.png" />
+    <decal x="528" y="80" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="486" y="35" texture="4-cliffside/roots_b.png" />
+    <decal x="551" y="78" texture="4-cliffside/roots_a.png" />
+    <decal x="702" y="81" texture="4-cliffside/roots_c.png" />
+    <decal x="691" y="135" texture="4-cliffside/roots_b.png" />
+    <decal x="928" y="64" texture="4-cliffside/rock_d.png" />
+    <decal x="1112" y="136" texture="4-cliffside/roots_a.png" />
+    <decal x="1147" y="136" texture="4-cliffside/roots_b.png" />
+    <decal x="1184" y="136" texture="4-cliffside/roots_a.png" />
+    <decal x="1080" y="136" texture="4-cliffside/flower_c.png" />
+    <decal x="1072" y="136" texture="4-cliffside/flower_b.png" />
+    <decal x="1012" y="155" texture="4-cliffside/tree_b.png" />
+    <decal x="221" y="114" texture="4-cliffside/tree_d.png" />
+    <decal x="231" y="73" texture="4-cliffside/tree_b.png" />
+    <decal x="786" y="132" texture="4-cliffside/tree_a.png" />
+    <decal x="824" y="160" texture="4-cliffside/tree_c.png" />
+    <decal x="1032" y="147" texture="4-cliffside/tree_d.png" />
+    <decal x="890" y="148" texture="4-cliffside/tree_b.png" />
+    <decal x="731" y="169" texture="4-cliffside/tree_c.png" />
+    <decal x="950" y="168" texture="4-cliffside/wall_rock_a.png" />
+    <decal x="1092" y="132" texture="4-cliffside/woodbeam_h.png" />
+    <decal x="1168" y="136" texture="4-cliffside/woodbean_h.png" />
+    <decal x="160" y="80" texture="4-cliffside/flower_a.png" />
+    <decal x="16" y="64" texture="4-cliffside/flower_a.png" />
+    <decal x="184" y="80" texture="4-cliffside/flower_c.png" />
+    <decal x="104" y="72" texture="4-cliffside/flower_d.png" />
+    <decal x="48" y="64" texture="4-cliffside/flower_c.png" />
+    <decal x="712" y="23" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="712" y="7" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="816" y="71" texture="4-cliffside/tree_d.png" />
+    <decal x="856" y="136" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="856" y="152" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="856" y="168" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="952" y="72" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="952" y="56" texture="4-cliffside/woodbeam_d.png" />
+    <decal x="563" y="30" texture="4-cliffside/roots_b.png" />
+    <decal x="475" y="52" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="495" y="151" texture="4-cliffside/roots_bot_a.png" />
+    <decal x="725" y="147" texture="4-cliffside/roots_bot_b.png" />
+    <decal x="6792" y="120" texture="4-cliffside/bg_c.png" />
+    <decal x="6592" y="112" texture="4-cliffside/bg_e.png" />
+    <decal x="6560" y="104" texture="4-cliffside/bg_b.png" />
+    <decal x="6672" y="136" texture="4-cliffside/bg_b.png" />
+    <decal x="6720" y="144" texture="4-cliffside/bg_b.png" />
+    <decal x="6744" y="80" texture="4-cliffside/bg_b.png" />
+    <decal x="6656" y="104" texture="4-cliffside/bg_b.png" />
+    <decal x="6816" y="112" texture="4-cliffside/bg_d.png" />
+    <decal x="6704" y="128" texture="4-cliffside/bg_d.png" />
+    <decal x="6624" y="112" texture="4-cliffside/flower_c.png" />
+    <decal x="6608" y="112" texture="4-cliffside/flower_d.png" />
+    <decal x="6576" y="112" texture="4-cliffside/flower_b.png" />
+    <decal x="6776" y="120" texture="4-cliffside/flower_c.png" />
+    <decal x="6808" y="120" texture="4-cliffside/flower_a.png" />
+    <decal x="6792" y="120" texture="4-cliffside/flower_d.png" />
+    <decal x="6824" y="120" texture="4-cliffside/rubble_a.png" />
+    <decal x="6656" y="144" texture="4-cliffside/rubble_e.png" />
+    <decal x="6752" y="136" texture="4-cliffside/rubble_f.png" />
+    <decal x="6736" y="144" texture="4-cliffside/rubble_i.png" />
+    <decal x="6728" y="144" texture="4-cliffside/rubble_j.png" />
+    <decal x="6712" y="152" texture="4-cliffside/rubble_j.png" />
+    <decal x="6688" y="152" texture="4-cliffside/rubble_g.png" />
+    <decal x="6640" y="136" texture="4-cliffside/rubble_i.png" />
+    <decal x="6544" y="104" texture="4-cliffside/rock_d.png" />
+    <decal x="0" y="0" texture="4-cliffside/tree_a.png" />
+  </level>
+</map>

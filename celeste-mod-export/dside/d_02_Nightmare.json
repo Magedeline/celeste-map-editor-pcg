@@ -1,0 +1,1019 @@
+{
+  "package": "d_02_Nightmare",
+  "levels": [
+    {
+      "id": "0",
+      "name": "0",
+      "width": 336,
+      "height": 200,
+      "xoffset": -352,
+      "yoffset": 128,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "dreamBlock",
+          "x": 160,
+          "y": 0
+        },
+        {
+          "name": "dreamBlock",
+          "x": 112,
+          "y": 112
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 96,
+          "y": 136
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 96,
+          "y": 48
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 172,
+          "y": 108
+        },
+        {
+          "name": "player",
+          "x": 24,
+          "y": 160
+        },
+        {
+          "name": "player",
+          "x": 312,
+          "y": 88
+        },
+        {
+          "name": "SorbetHelper/KillZone",
+          "x": 160,
+          "y": 0
+        },
+        {
+          "name": "SorbetHelper/KillZone",
+          "x": 112,
+          "y": 112
+        },
+        {
+          "name": "goldenBerry",
+          "x": 16,
+          "y": 120
+        },
+        {
+          "name": "MaggyHelper/PinkPlatinumStrawberry",
+          "x": 40,
+          "y": 120
+        }
+      ],
+      "decals": [
+        {
+          "x": 264,
+          "y": 80,
+          "texture": "2-oldsite/barrel.png"
+        },
+        {
+          "x": 280,
+          "y": 80,
+          "texture": "2-oldsite/barrel.png"
+        },
+        {
+          "x": 296,
+          "y": 80,
+          "texture": "2-oldsite/barrel.png"
+        },
+        {
+          "x": 288,
+          "y": 64,
+          "texture": "2-oldsite/barrel.png"
+        },
+        {
+          "x": 272,
+          "y": 64,
+          "texture": "2-oldsite/barrel.png"
+        },
+        {
+          "x": 280,
+          "y": 48,
+          "texture": "2-oldsite/barrel.png"
+        },
+        {
+          "x": 72,
+          "y": 152,
+          "texture": "2-oldsite/cage_modular_bot.png"
+        },
+        {
+          "x": 72,
+          "y": 120,
+          "texture": "2-oldsite/cage_modular_bot.png"
+        },
+        {
+          "x": 72,
+          "y": 136,
+          "texture": "2-oldsite/cage_modular_midA.png"
+        },
+        {
+          "x": 176,
+          "y": 112,
+          "texture": "2-oldsite/tableD.png"
+        },
+        {
+          "x": 96,
+          "y": 148,
+          "texture": "2-oldsite/barrel.png"
+        },
+        {
+          "x": 11,
+          "y": 148,
+          "texture": "2-oldsite/barrel_brokenA.png"
+        },
+        {
+          "x": 27,
+          "y": 148,
+          "texture": "2-oldsite/barrel_brokenB.png"
+        },
+        {
+          "x": 89,
+          "y": 60,
+          "texture": "2-oldsite/barrel.png"
+        },
+        {
+          "x": 104,
+          "y": 60,
+          "texture": "2-oldsite/barrel.png"
+        },
+        {
+          "x": 96,
+          "y": 44,
+          "texture": "2-oldsite/barrel.png"
+        },
+        {
+          "x": 168,
+          "y": 112,
+          "texture": "2-oldsite/chair.png"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "1",
+      "width": 336,
+      "height": 184,
+      "xoffset": -16,
+      "yoffset": 80,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 24,
+          "y": 112
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 160,
+          "y": 104
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 240,
+          "y": 120
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 176,
+          "y": 52
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 236,
+          "y": 56
+        },
+        {
+          "name": "spikesUp",
+          "x": 224,
+          "y": 104
+        },
+        {
+          "name": "spikesLeft",
+          "x": 280,
+          "y": 72
+        },
+        {
+          "name": "spikesLeft",
+          "x": 280,
+          "y": 160
+        },
+        {
+          "name": "spikesDown",
+          "x": 240,
+          "y": 160
+        },
+        {
+          "name": "spikesLeft",
+          "x": 280,
+          "y": 0
+        },
+        {
+          "name": "spikesLeft",
+          "x": 272,
+          "y": 112
+        },
+        {
+          "name": "spikesUp",
+          "x": 232,
+          "y": 152
+        },
+        {
+          "name": "spikesUp",
+          "x": 144,
+          "y": 72
+        },
+        {
+          "name": "spikesRight",
+          "x": 144,
+          "y": 32
+        },
+        {
+          "name": "spikesDown",
+          "x": 136,
+          "y": 80
+        },
+        {
+          "name": "spikesLeft",
+          "x": 136,
+          "y": 24
+        },
+        {
+          "name": "spikesUp",
+          "x": 136,
+          "y": 24
+        },
+        {
+          "name": "spikesRight",
+          "x": 72,
+          "y": 48
+        },
+        {
+          "name": "spikesRight",
+          "x": 88,
+          "y": 152
+        },
+        {
+          "name": "spikesRight",
+          "x": 112,
+          "y": 0
+        },
+        {
+          "name": "switchGate",
+          "x": 280,
+          "y": 24
+        },
+        {
+          "name": "spikesRight",
+          "x": 192,
+          "y": 24
+        },
+        {
+          "name": "touchSwitch",
+          "x": 176,
+          "y": 52
+        },
+        {
+          "name": "touchSwitch",
+          "x": 240,
+          "y": 120
+        },
+        {
+          "name": "player",
+          "x": 24,
+          "y": 136
+        },
+        {
+          "name": "player",
+          "x": 312,
+          "y": 72
+        },
+        {
+          "name": "spikesLeft",
+          "x": 280,
+          "y": 24
+        }
+      ],
+      "decals": [
+        {
+          "x": 216,
+          "y": 56,
+          "texture": "2-oldsite/window.png"
+        },
+        {
+          "x": 104,
+          "y": 80,
+          "texture": "2-oldsite/window.png"
+        },
+        {
+          "x": 256,
+          "y": 88,
+          "texture": "2-oldsite/tableB.png"
+        },
+        {
+          "x": 232,
+          "y": 88,
+          "texture": "2-oldsite/barrel.png"
+        },
+        {
+          "x": 248,
+          "y": 88,
+          "texture": "2-oldsite/barrel.png"
+        },
+        {
+          "x": 240,
+          "y": 72,
+          "texture": "2-oldsite/barrel_brokenA.png"
+        },
+        {
+          "x": 256,
+          "y": 64,
+          "texture": "2-oldsite/window_boarded.png"
+        },
+        {
+          "x": 24,
+          "y": 120,
+          "texture": "2-oldsite/table_broken.png"
+        },
+        {
+          "x": 16,
+          "y": 120,
+          "texture": "2-oldsite/chair_broken.png"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2",
+      "width": 400,
+      "height": 248,
+      "xoffset": 320,
+      "yoffset": 16,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "touchSwitch",
+          "x": 208,
+          "y": 140
+        },
+        {
+          "name": "triggerSpikesOriginalUp",
+          "x": 200,
+          "y": 152
+        },
+        {
+          "name": "triggerSpikesOriginalLeft",
+          "x": 216,
+          "y": 128
+        },
+        {
+          "name": "triggerSpikesOriginalDown",
+          "x": 200,
+          "y": 128
+        },
+        {
+          "name": "triggerSpikesOriginalRight",
+          "x": 200,
+          "y": 128
+        },
+        {
+          "name": "touchSwitch",
+          "x": 200,
+          "y": 28
+        },
+        {
+          "name": "touchSwitch",
+          "x": 288,
+          "y": 60
+        },
+        {
+          "name": "touchSwitch",
+          "x": 264,
+          "y": 212
+        },
+        {
+          "name": "touchSwitch",
+          "x": 144,
+          "y": 212
+        },
+        {
+          "name": "touchSwitch",
+          "x": 128,
+          "y": 60
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 208,
+          "y": 144
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 16,
+          "y": 104
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 144,
+          "y": 208
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 264,
+          "y": 200
+        },
+        {
+          "name": "refill",
+          "x": 200,
+          "y": 32
+        },
+        {
+          "name": "refill",
+          "x": 128,
+          "y": 64
+        },
+        {
+          "name": "refill",
+          "x": 288,
+          "y": 64
+        },
+        {
+          "name": "spikesUp",
+          "x": 264,
+          "y": 96
+        },
+        {
+          "name": "spikesUp",
+          "x": 248,
+          "y": 80
+        },
+        {
+          "name": "spikesUp",
+          "x": 216,
+          "y": 64
+        },
+        {
+          "name": "spikesUp",
+          "x": 192,
+          "y": 80
+        },
+        {
+          "name": "spikesUp",
+          "x": 168,
+          "y": 64
+        },
+        {
+          "name": "spikesUp",
+          "x": 152,
+          "y": 80
+        },
+        {
+          "name": "spikesUp",
+          "x": 136,
+          "y": 96
+        },
+        {
+          "name": "spikesLeft",
+          "x": 136,
+          "y": 96
+        },
+        {
+          "name": "spikesDown",
+          "x": 136,
+          "y": 152
+        },
+        {
+          "name": "spikesDown",
+          "x": 152,
+          "y": 168
+        },
+        {
+          "name": "spikesDown",
+          "x": 200,
+          "y": 216
+        },
+        {
+          "name": "spikesRight",
+          "x": 216,
+          "y": 200
+        },
+        {
+          "name": "spikesRight",
+          "x": 232,
+          "y": 184
+        },
+        {
+          "name": "spikesRight",
+          "x": 248,
+          "y": 168
+        },
+        {
+          "name": "spikesRight",
+          "x": 280,
+          "y": 96
+        },
+        {
+          "name": "spikesLeft",
+          "x": 152,
+          "y": 152
+        },
+        {
+          "name": "spikesLeft",
+          "x": 168,
+          "y": 168
+        },
+        {
+          "name": "spikesLeft",
+          "x": 152,
+          "y": 80
+        },
+        {
+          "name": "spikesLeft",
+          "x": 168,
+          "y": 64
+        },
+        {
+          "name": "switchGate",
+          "x": 320,
+          "y": 120
+        },
+        {
+          "name": "spikesLeft",
+          "x": 320,
+          "y": 120
+        },
+        {
+          "name": "player",
+          "x": 16,
+          "y": 136
+        },
+        {
+          "name": "darkChaser",
+          "x": 88,
+          "y": 32
+        },
+        {
+          "name": "darkChaser",
+          "x": 104,
+          "y": 32
+        },
+        {
+          "name": "darkChaser",
+          "x": 120,
+          "y": 32
+        },
+        {
+          "name": "player",
+          "x": 360,
+          "y": 160
+        },
+        {
+          "name": "spikesLeft",
+          "x": 320,
+          "y": 160
+        },
+        {
+          "name": "spikesLeft",
+          "x": 320,
+          "y": 0
+        },
+        {
+          "name": "spikesRight",
+          "x": 64,
+          "y": 0
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 120,
+          "y": 136
+        }
+      ],
+      "decals": [
+        {
+          "x": 376,
+          "y": 144,
+          "texture": "2-oldsite/tableC.png"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3",
+      "width": 808,
+      "height": 192,
+      "xoffset": 720,
+      "yoffset": 48,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "spikesUp",
+          "x": 248,
+          "y": 96
+        },
+        {
+          "name": "spikesUp",
+          "x": 304,
+          "y": 64
+        },
+        {
+          "name": "spikesRight",
+          "x": 328,
+          "y": 64
+        },
+        {
+          "name": "spikesLeft",
+          "x": 304,
+          "y": 112
+        },
+        {
+          "name": "spikesDown",
+          "x": 224,
+          "y": 112
+        },
+        {
+          "name": "spikesLeft",
+          "x": 112,
+          "y": 112
+        },
+        {
+          "name": "spikesLeft",
+          "x": 112,
+          "y": 16
+        },
+        {
+          "name": "spikesDown",
+          "x": 72,
+          "y": 16
+        },
+        {
+          "name": "spikesRight",
+          "x": 72,
+          "y": 16
+        },
+        {
+          "name": "spikesDown",
+          "x": 32,
+          "y": 40
+        },
+        {
+          "name": "spikesRight",
+          "x": 32,
+          "y": 40
+        },
+        {
+          "name": "spikesRight",
+          "x": 136,
+          "y": 96
+        },
+        {
+          "name": "spikesRight",
+          "x": 136,
+          "y": 16
+        },
+        {
+          "name": "spikesDown",
+          "x": 136,
+          "y": 16
+        },
+        {
+          "name": "spikesLeft",
+          "x": 224,
+          "y": 16
+        },
+        {
+          "name": "spikesLeft",
+          "x": 224,
+          "y": 80
+        },
+        {
+          "name": "spikesRight",
+          "x": 248,
+          "y": 80
+        },
+        {
+          "name": "spikesRight",
+          "x": 248,
+          "y": 16
+        },
+        {
+          "name": "spikesDown",
+          "x": 248,
+          "y": 16
+        },
+        {
+          "name": "spikesRight",
+          "x": 328,
+          "y": 0
+        },
+        {
+          "name": "spikesDown",
+          "x": 304,
+          "y": 144
+        },
+        {
+          "name": "fallingBlock",
+          "x": 424,
+          "y": 48
+        },
+        {
+          "name": "spikesDown",
+          "x": 424,
+          "y": 80
+        },
+        {
+          "name": "spikesRight",
+          "x": 616,
+          "y": 48
+        },
+        {
+          "name": "spikesUp",
+          "x": 424,
+          "y": 48
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 56,
+          "y": 88
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 176,
+          "y": 56
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 280,
+          "y": 56
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 384,
+          "y": 72
+        },
+        {
+          "name": "player",
+          "x": 40,
+          "y": 128
+        },
+        {
+          "name": "player",
+          "x": 784,
+          "y": 56
+        }
+      ],
+      "decals": [
+        {
+          "x": 376,
+          "y": 32,
+          "texture": "2-oldsite/window_boarded.png"
+        },
+        {
+          "x": 272,
+          "y": 80,
+          "texture": "2-oldsite/table_broken.png"
+        },
+        {
+          "x": 448,
+          "y": 32,
+          "texture": "2-oldsite/chair_broken.png"
+        },
+        {
+          "x": 480,
+          "y": 24,
+          "texture": "2-oldsite/cloth_pole00.png"
+        },
+        {
+          "x": 16,
+          "y": 120,
+          "texture": "2-oldsite/door.png"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4",
+      "width": 320,
+      "height": 1152,
+      "xoffset": 1528,
+      "yoffset": -952,
+      "solids": "",
+      "bg": "",
+      "entities": [
+        {
+          "name": "player",
+          "x": 24,
+          "y": 1056
+        },
+        {
+          "name": "fallingBlock",
+          "x": 224,
+          "y": 872
+        },
+        {
+          "name": "CommunalHelper/DreamRefill",
+          "x": 240,
+          "y": 1056
+        },
+        {
+          "name": "refill",
+          "x": 184,
+          "y": 848
+        },
+        {
+          "name": "CommunalHelper/ConnectedDreamBlock",
+          "x": 144,
+          "y": 552
+        },
+        {
+          "name": "CommunalHelper/ConnectedDreamBlock",
+          "x": 128,
+          "y": 552
+        },
+        {
+          "name": "CommunalHelper/ConnectedDreamBlock",
+          "x": 120,
+          "y": 496
+        },
+        {
+          "name": "CommunalHelper/ConnectedDreamBlock",
+          "x": 80,
+          "y": 496
+        },
+        {
+          "name": "CommunalHelper/ConnectedDreamBlock",
+          "x": 80,
+          "y": 440
+        },
+        {
+          "name": "CommunalHelper/ConnectedDreamBlock",
+          "x": 80,
+          "y": 432
+        },
+        {
+          "name": "CommunalHelper/ConnectedDreamBlock",
+          "x": 136,
+          "y": 368
+        },
+        {
+          "name": "fallingBlock",
+          "x": 120,
+          "y": 256
+        },
+        {
+          "name": "spikesDown",
+          "x": 80,
+          "y": 680
+        },
+        {
+          "name": "spikesLeft",
+          "x": 80,
+          "y": 616
+        },
+        {
+          "name": "spikesDown",
+          "x": 208,
+          "y": 680
+        },
+        {
+          "name": "spikesRight",
+          "x": 240,
+          "y": 552
+        },
+        {
+          "name": "spikesUp",
+          "x": 136,
+          "y": 368
+        },
+        {
+          "name": "spikesLeft",
+          "x": 80,
+          "y": 432
+        },
+        {
+          "name": "refill",
+          "x": 166,
+          "y": 203
+        },
+        {
+          "name": "spikesRight",
+          "x": 152,
+          "y": 744
+        },
+        {
+          "name": "spikesUp",
+          "x": 120,
+          "y": 744
+        },
+        {
+          "name": "spikesUp",
+          "x": 120,
+          "y": 256
+        },
+        {
+          "name": "spikesLeft",
+          "x": 120,
+          "y": 256
+        },
+        {
+          "name": "spikesDown",
+          "x": 120,
+          "y": 312
+        },
+        {
+          "name": "spikesRight",
+          "x": 152,
+          "y": 256
+        },
+        {
+          "name": "spikesUp",
+          "x": 176,
+          "y": 368
+        },
+        {
+          "name": "spikesRight",
+          "x": 240,
+          "y": 368
+        },
+        {
+          "name": "spikesUp",
+          "x": 80,
+          "y": 368
+        },
+        {
+          "name": "spikesLeft",
+          "x": 80,
+          "y": 368
+        },
+        {
+          "name": "spikesLeft",
+          "x": 80,
+          "y": 536
+        },
+        {
+          "name": "spikesDown",
+          "x": 120,
+          "y": 816
+        },
+        {
+          "name": "CommunalHelper/ConnectedDreamBlock",
+          "x": 80,
+          "y": 744
+        },
+        {
+          "name": "refill",
+          "x": 168,
+          "y": 288
+        },
+        {
+          "name": "CommunalHelper/ConnectedDreamBlock",
+          "x": 112,
+          "y": 1040
+        },
+        {
+          "name": "spikesUp",
+          "x": 112,
+          "y": 1040
+        },
+        {
+          "name": "spikesRight",
+          "x": 184,
+          "y": 1040
+        },
+        {
+          "name": "MaggyHelper/HeartGem",
+          "x": 160,
+          "y": 112
+        },
+        {
+          "name": "killbox",
+          "x": 0,
+          "y": 848
+        },
+        {
+          "name": "killbox",
+          "x": 0,
+          "y": 344
+        },
+        {
+          "name": "killbox",
+          "x": 0,
+          "y": 712
+        },
+        {
+          "name": "killbox",
+          "x": 0,
+          "y": 232
+        }
+      ],
+      "decals": []
+    }
+  ]
+}
