@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';" />
+  <title>Celeste Map Editor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ═══════════════════ TOOLBAR ═══════════════════════════════ -->
+<header id="toolbar">
+  <span class="app-title">Celeste Map Editor</span>
+
+  <div class="toolbar-group">
+    <button id="btn-new"    title="New map (Ctrl+N)">New</button>
+    <button id="btn-open"   title="Open JSON (Ctrl+O)">Open</button>
+    <button id="btn-save"   title="Save (Ctrl+S)">Save</button>
+    <button id="btn-export" title="Save As…">Save As</button>
+  </div>
+
+  <div class="toolbar-group" id="toolbar-pcg">
+    <button id="btn-add-pcg-room"  title="Add a new PCG-generated room to the map">+ PCG Room</button>
+    <button id="btn-regen-room"    title="Regenerate selected room tiles via PCG (keeps position &amp; size)">↺ Regen</button>
+    <button id="btn-resize-pcg"    title="Resize selected room then re-fill tiles via PCG">⤢ Resize+PCG</button>
+    <button id="btn-gan-fill"      title="Fill selected room with GAN-generated tiles (requires GAN server)" class="btn-gan">🧠 GAN Fill</button>
+  </div>
+
+  <div class="toolbar-group">
+    <label title="Topology graph overlay">
+      <input type="checkbox" id="toggle-topology" checked /> Topo
+    </label>
+    <label title="Tile grid when zoomed in">
+      <input type="checkbox" id="toggle-grid" checked /> Grid
+    </label>
+    <label title="Background layer">
+      <input type="checkbox" id="toggle-bg" checked /> BG
+    </label>
+    <label title="Entities layer">
+      <input type="checkbox" id="toggle-entities" checked /> Entities
+    </label>
+    <label title="Triggers layer">
+      <input type="checkbox" id="toggle-triggers" checked /> Triggers
+    </label>
+    <button id="btn-fit" title="Fit view to all rooms (Shift+F)">Fit</button>
+  </div>
+
+  <div id="generator-status" class="gen-status gen-checking">● Checking…</div>
+</header>
+
+<!-- ═══════════════════ MAIN ═══════════════════════════════════ -->
+<div id="main-area">
+
+  <!-- LEFT PANEL -->
+  <aside id="left-panel">
+
+    <div class="panel-section">
+      <h3>Tools</h3>
+      <div class="tool-buttons">
+        <button data-tool="select"   class="active" title="Select / Move / Resize rooms  (V)">⊹ Select</button>
+        <button data-tool="create"                  title="Draw new room by dragging  (T)">🞤 Room</button>
+        <button data-tool="fg"                      title="Paint foreground tiles  (F)">▪ FG Tiles</button>
+        <button data-tool="bg"                      title="Paint background tiles  (B)">▫ BG Tiles</button>
+        <button data-tool="entities"                title="Place entities  (E)">◈ Entity</button>
+        <button data-tool="triggers"                title="Place triggers  (G)">⬡ Trigger</button>
+        <button data-tool="erase"                   title="Erase tiles &amp; entities  (X)">✕ Erase</button>
+      </div>
+      <div class="tool-hint" id="tool-hint">Click to select a room</div>
+    </div>
+
+    <div id="tile-palette-section" class="panel-section" style="display:none">
+      <h3>Tile Brush  <span class="hint-key">1-9 a-f</span></h3>
+      <div id="tile-palette" class="tile-palette"></div>
+    </div>
+
+    <div id="entity-palette-section" class="panel-section" style="display:none">
+      <h3>Entity  <span class="hint-key">↑↓ scroll</span></h3>
+      <input type="text" id="entity-search" class="search-input" placeholder="Search entities…" />
+      <div id="entity-palette" class="entity-palette"></div>
+    </div>
+
+    <div id="trigger-palette-section" class="panel-section" style="display:none">
+      <h3>Trigger  <span class="hint-key">↑↓ scroll</span></h3>
+      <input type="text" id="trigger-search" class="search-input" placeholder="Search triggers…" />
+      <div id="trigger-palette" class="trigger-palette"></div>
+    </div>
+
+    <div class="panel-section panel-section--shortcuts">
+      <h3>Shortcuts</h3>
+      <ul class="shortcut-list">
+        <li><kbd>V</kbd> Select</li>
+        <li><kbd>T</kbd> Create Room</li>
+        <li><kbd>F</kbd>/<kbd>B</kbd> FG/BG</li>
+        <li><kbd>E</kbd>/<kbd>G</kbd> Entity/Trigger</li>
+        <li><kbd>X</kbd> Erase</li>
+        <li><kbd>RMB</kbd> Pan</li>
+        <li><kbd>Scroll</kbd> Zoom</li>
+        <li><kbd>Shift+F</kbd> Fit</li>
+        <li><kbd>Alt+↑↓←→</kbd> Move room</li>
+        <li><kbd>Q/E</kbd> Width ±8</li>
+        <li><kbd>A/D</kbd> Height ±8</li>
+        <li><kbd>Ctrl+T</kbd> New Room</li>
+        <li><kbd>Ctrl+Shift+T</kbd> Room Props</li>
+        <li><kbd>Ctrl+A</kbd> Select All</li>
+        <li><kbd>Ctrl+C/V</kbd> Copy/Paste</li>
+        <li><kbd>Ctrl+Z/Y</kbd> Undo/Redo</li>
+        <li><kbd>Del</kbd> Delete room</li>
+      </ul>
+    </div>
+
+  </aside>
+
+  <!-- CANVAS -->
+  <main id="canvas-container">
+    <canvas id="map-canvas"></canvas>
+    <!-- context menu -->
+    <div id="ctx-menu" class="ctx-menu" style="display:none">
+      <div class="ctx-item" data-action="props">Room Properties…</div>
+      <div class="ctx-item" data-action="regen">↺ Regenerate via PCG</div>
+      <div class="ctx-item" data-action="resize-pcg">⤢ Resize + Regen PCG</div>
+      <div class="ctx-item" data-action="gan-fill">🧠 GAN Fill</div>
+      <div class="ctx-sep"></div>
+      <div class="ctx-item" data-action="copy">Copy (Ctrl+C)</div>
+      <div class="ctx-item" data-action="paste">Paste (Ctrl+V)</div>
+      <div class="ctx-sep"></div>
+      <div class="ctx-item danger" data-action="delete">Delete Room (Del)</div>
+    </div>
+  </main>
+
+  <!-- RIGHT PANEL -->
+  <aside id="right-panel">
+    <div class="tab-bar">
+      <button class="tab-btn active" data-tab="inspector">Inspector</button>
+      <button class="tab-btn" data-tab="topology">Topology</button>
+      <button class="tab-btn" data-tab="mods">Mods</button>
+    </div>
+
+    <div class="tab-pane active" id="tab-inspector">
+      <div class="panel-section no-border">
+        <div id="inspector-content">
+          <p class="no-selection">No room selected.<br/>Click a room to inspect.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane" id="tab-topology">
+      <div class="panel-section no-border">
+        <div id="topology-info">
+          <p class="no-selection">Generate a map to see topology.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane" id="tab-mods">
+      <div class="panel-section no-border">
+        <div id="mod-browser"></div>
+      </div>
+    </div>
+  </aside>
+
+</div>
+
+<!-- ════════════════ GENERATOR PANEL ════════════════════════ -->
+<section id="generator-panel">
+  <div class="gen-row">
+
+    <div class="gen-field">
+      <label>Mode</label>
+      <select id="gen-mode">
+        <option value="pseudo" selected>Pseudo</option>
+        <option value="true">True</option>
+      </select>
+    </div>
+
+    <div class="gen-field">
+      <label>Layout</label>
+      <select id="gen-layout">
+        <option value="grid">Grid</option>
+        <option value="criticalPath">Critical Path</option>
+        <option value="criticalPathBranches">CP + Branches</option>
+        <option value="celesteRandomizer">Celeste Rand.</option>
+        <option value="openSkeleton">Open Skeleton</option>
+      </select>
+    </div>
+
+    <div class="gen-field">
+      <label>Archetype</label>
+      <select id="gen-archetype">
+        <option value="linearAscent">Linear Ascent</option>
+        <option value="longRunDensityBurst">Density Burst</option>
+        <option value="spineCompactBranching">Spine Branch</option>
+        <option value="landmarkCorridor">Landmark</option>
+        <option value="celesteCategory">Celeste Cat.</option>
+        <option value="segmentedSummit">Segmented</option>
+      </select>
+    </div>
+
+    <div class="gen-field">
+      <label>Kit</label>
+      <select id="gen-kit">
+        <option value="house">House</option>
+        <option value="resort">Resort</option>
+        <option value="cliffside">Cliffside</option>
+        <option value="kirby">Kirby</option>
+        <option value="mario">Mario</option>
+        <option value="metroidvania">Metroidvania</option>
+        <option value="labybirth">Labybirth</option>
+        <option value="pizzatower">Pizza Tower</option>
+        <option value="arcade">Arcade</option>
+      </select>
+    </div>
+
+    <div class="gen-field">
+      <label>Seed</label>
+      <div class="seed-row">
+        <input type="number" id="gen-seed" min="0" max="4294967295" placeholder="random" />
+        <button id="btn-randomize-seed" title="Random seed">⟳</button>
+      </div>
+    </div>
+
+    <div class="gen-field">
+      <label>Cluster W×H</label>
+      <div class="cluster-row">
+        <input type="number" id="gen-cluster-w" value="3" min="1" max="12" />
+        <span>×</span>
+        <input type="number" id="gen-cluster-h" value="2" min="1" max="12" />
+      </div>
+    </div>
+
+    <div class="gen-field">
+      <label>Room W×H (px)</label>
+      <div class="cluster-row">
+        <input type="number" id="gen-room-w" value="320" min="80" max="1024" step="8" />
+        <span>×</span>
+        <input type="number" id="gen-room-h" value="184" min="80" max="1024" step="8" />
+      </div>
+    </div>
+
+    <div class="gen-field gen-action">
+      <button id="btn-generate" class="btn-primary">▶ Generate</button>
+    </div>
+
+  </div>
+  <div id="gen-summary" class="gen-summary"></div>
+</section>
+
+<!-- ════════════════ ROOM PROPERTIES MODAL ═════════════════= -->
+<div id="modal-room-props" class="modal" style="display:none">
+  <div class="modal-box">
+    <div class="modal-title">Room Properties <button class="modal-close" id="modal-close-btn">✕</button></div>
+    <div class="modal-body">
+      <div class="modal-field"><label>Name</label><input id="mp-name" type="text" /></div>
+      <div class="modal-row">
+        <div class="modal-field"><label>X</label><input id="mp-x" type="number" step="8" /></div>
+        <div class="modal-field"><label>Y</label><input id="mp-y" type="number" step="8" /></div>
+      </div>
+      <div class="modal-row">
+        <div class="modal-field"><label>Width</label><input id="mp-w" type="number" step="8" min="80" /></div>
+        <div class="modal-field"><label>Height</label><input id="mp-h" type="number" step="8" min="80" /></div>
+      </div>
+      <div class="modal-field"><label>Music</label><input id="mp-music" type="text" /></div>
+      <div class="modal-field"><label>Ambience</label><input id="mp-ambience" type="text" /></div>
+      <div class="modal-field"><label>Wind</label>
+        <select id="mp-wind">
+          <option value="">None</option>
+          <option value="Left">Left</option>
+          <option value="Right">Right</option>
+          <option value="UpStrong">Up (Strong)</option>
+          <option value="DownStrong">Down (Strong)</option>
+        </select>
+      </div>
+      <div class="modal-field"><label>Room Color</label>
+        <select id="mp-color">
+          <option value="0">0 – Blue Grey</option>
+          <option value="1">1 – Red</option>
+          <option value="2">2 – Yellow</option>
+          <option value="3">3 – Green</option>
+          <option value="4">4 – Teal</option>
+          <option value="5">5 – Purple</option>
+          <option value="6">6 – Pink</option>
+          <option value="7">7 – Olive</option>
+        </select>
+      </div>
+      <div class="modal-flags">
+        <label><input id="mp-dark"       type="checkbox" /> Dark</label>
+        <label><input id="mp-underwater" type="checkbox" /> Underwater</label>
+        <label><input id="mp-space"      type="checkbox" /> Space</label>
+        <label><input id="mp-hasCheckpoint" type="checkbox" /> Checkpoint</label>
+        <label><input id="mp-delayAltMusic" type="checkbox" /> Alt Music Delay</label>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button id="mp-apply" class="btn-primary">Apply</button>
+      <button id="mp-cancel" class="btn-secondary">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════ STATUS BAR ═════════════════════════════= -->
+<footer id="status-bar">Ready</footer>
+
+<script src="renderer.js"></script>
+</body>
+</html>

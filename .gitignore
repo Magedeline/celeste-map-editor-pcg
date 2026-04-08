@@ -20,4 +20,22 @@ csharp-monogame-shared/obj/
 csharp-native-editor/bin/
 csharp-native-editor/obj/
 
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# CelesteGAN generated data
+celeste-gan/data/
+celeste-gan/training-maps/
+celeste-gan/checkpoints/
+
+# Generated maps
+*.map.json
+*.map.bin
+
+# Logs
+ogmo-debug.log
+
 .fake

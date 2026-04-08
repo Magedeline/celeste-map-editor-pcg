@@ -1,0 +1,41 @@
+{
+  "name": "celeste-map-editor",
+  "version": "1.0.0",
+  "description": "Celeste PCG Map Editor — Standalone Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win --x64",
+    "build:mac": "electron-builder --mac",
+    "build:linux": "electron-builder --linux"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^35.1.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.celeste.map-editor",
+    "productName": "Celeste Map Editor",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "renderer.js",
+      "styles.css"
+    ],
+    "extraResources": [
+      {
+        "from": "../cpp/build/celeste_pcg_generator.exe",
+        "to": "generator/celeste_pcg_generator.exe"
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    }
+  }
+}
