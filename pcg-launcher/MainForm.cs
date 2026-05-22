@@ -47,6 +47,7 @@ internal sealed class MainForm : Form
     private readonly TextBox _packageNameTextBox;
     private readonly TextBox _outputPathTextBox;
     private readonly CheckBox _exportBinCheckBox;
+    private readonly CheckBox _strictVanillaBinCheckBox;
     private readonly TextBox _binOutputPathTextBox;
     private readonly Label _generatorPathLabel;
     private readonly Label _summaryLabel;
@@ -199,6 +200,14 @@ internal sealed class MainForm : Form
             BackColor = NightPanel,
             ForeColor = NightText,
         };
+        _strictVanillaBinCheckBox = new CheckBox
+        {
+            AutoSize = true,
+            Checked = true,
+            Text = "Strict vanilla map.bin schema",
+            BackColor = NightPanel,
+            ForeColor = NightText,
+        };
         _binOutputPathTextBox = CreateTextBox(DefaultBinOutputPath());
         _browseButton = CreateActionButton("Browse JSON...", NightActionSecondary);
         _browseButton.Margin = new Padding(6, 3, 0, 3);
@@ -223,8 +232,9 @@ internal sealed class MainForm : Form
         var outputPanel = CreatePathPickerPanel(_outputPathTextBox, _browseButton);
         AddField(settingsPanel, 12, "Output JSON", outputPanel);
         AddField(settingsPanel, 13, "Export map.bin", _exportBinCheckBox);
+        AddField(settingsPanel, 14, "map.bin Schema", _strictVanillaBinCheckBox);
         var binOutputPanel = CreatePathPickerPanel(_binOutputPathTextBox, _browseBinButton);
-        AddField(settingsPanel, 14, "Output map.bin", binOutputPanel);
+        AddField(settingsPanel, 15, "Output map.bin", binOutputPanel);
 
         var kitPanel = new Panel
         {
@@ -508,7 +518,7 @@ internal sealed class MainForm : Form
             if (_exportBinCheckBox.Checked)
             {
                 await WriteBinFromJsonAsync(_lastGeneratedJson);
-                exportMessages.Add($"map.bin saved to {Path.GetFileName(_binOutputPathTextBox.Text)}");
+                exportMessages.Add($"map.bin ({GetSelectedMapBinSchemaLabel()}) saved to {Path.GetFileName(_binOutputPathTextBox.Text)}");
             }
 
             _summaryLabel.Text = $"Summary: Export complete. {string.Join("; ", exportMessages)}.";
@@ -635,7 +645,7 @@ internal sealed class MainForm : Form
             LoadPreviewFromJson(rawJson);
             _jsonOutputTextBox.Text = FormatJsonForDisplay(rawJson);
             await WriteBinFromJsonAsync(rawJson);
-            _summaryLabel.Text = $"Summary: Converted {Path.GetFileName(_outputPathTextBox.Text)} to {Path.GetFileName(_binOutputPathTextBox.Text)} and loaded the preview.";
+            _summaryLabel.Text = $"Summary: Converted {Path.GetFileName(_outputPathTextBox.Text)} to {Path.GetFileName(_binOutputPathTextBox.Text)} using {GetSelectedMapBinSchemaLabel()} mode and loaded the preview.";
             _seedLabel.Text = "Seed: reused existing JSON";
             SaveLauncherSettings();
         }
@@ -652,10 +662,22 @@ internal sealed class MainForm : Form
     private async Task WriteBinFromJsonAsync(string rawJson)
     {
         var map = CelesteMapJsonConverter.ParseMap(rawJson, ResolvePackageName());
-        var bytes = CelesteMapBinarySerializer.Serialize(map);
+        var bytes = CelesteMapBinarySerializer.Serialize(map, ResolveMapBinSchemaMode());
 
         Directory.CreateDirectory(Path.GetDirectoryName(_binOutputPathTextBox.Text) ?? AppContext.BaseDirectory);
         await File.WriteAllBytesAsync(_binOutputPathTextBox.Text, bytes);
+    }
+
+    private MapBinSchemaMode ResolveMapBinSchemaMode()
+    {
+        return _strictVanillaBinCheckBox.Checked
+            ? MapBinSchemaMode.StrictVanilla
+            : MapBinSchemaMode.ExtensionFriendly;
+    }
+
+    private string GetSelectedMapBinSchemaLabel()
+    {
+        return _strictVanillaBinCheckBox.Checked ? "strict vanilla" : "extension-friendly";
     }
 
     private string ResolvePackageName()
@@ -1047,6 +1069,7 @@ internal sealed class MainForm : Form
             ApplyTextValue(_packageNameTextBox, settings.PackageName);
             ApplyTextValue(_outputPathTextBox, settings.OutputPath);
             _exportBinCheckBox.Checked = settings.ExportBin;
+            _strictVanillaBinCheckBox.Checked = settings.StrictVanillaBin ?? true;
             ApplyTextValue(_binOutputPathTextBox, settings.BinOutputPath);
         }
         catch
@@ -1077,7 +1100,8 @@ internal sealed class MainForm : Form
                 _packageNameTextBox.Text,
                 _outputPathTextBox.Text,
                 _exportBinCheckBox.Checked,
-                _binOutputPathTextBox.Text);
+                _binOutputPathTextBox.Text,
+                _strictVanillaBinCheckBox.Checked);
             var json = JsonSerializer.Serialize(settings, new JsonSerializerOptions { WriteIndented = true });
             File.WriteAllText(SettingsFilePath, json);
         }
@@ -1151,7 +1175,8 @@ internal sealed class MainForm : Form
         string PackageName,
         string OutputPath,
         bool ExportBin,
-        string BinOutputPath);
+        string BinOutputPath,
+        bool? StrictVanillaBin);
 
     private sealed record GeneratorResponse(string RawJson, string Summary, string SeedLabel);
 }

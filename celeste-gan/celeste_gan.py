@@ -329,11 +329,14 @@ class CelesteGAN:
     def train(self, tile_grids: list[np.ndarray], epochs: int = 2000,
               lr: float = 5e-4, lambda_rec: float = 10.0,
               checkpoint_dir: Optional[Path] = None,
-              batch_size: int = 16):
+              batch_size: int = 16,
+              log_every: int = 10):
         """Train the multi-scale GAN on a collection of tile grids."""
         if not tile_grids:
             print("No training data!")
             return
+
+        log_every = max(1, int(log_every))
 
         # Use the median room size as target
         heights = [g.shape[0] for g in tile_grids]
@@ -443,7 +446,7 @@ class CelesteGAN:
                     epoch_loss_rec += loss_rec.item()
                     n_batches += 1
 
-                if epoch % 100 == 0 or epoch == epochs - 1:
+                if epoch % log_every == 0 or epoch == epochs - 1:
                     print(f"  Epoch {epoch:4d} | D: {epoch_loss_d/n_batches:.4f} | "
                           f"G_adv: {epoch_loss_g/n_batches:.4f} | "
                           f"Rec: {epoch_loss_rec/n_batches:.4f}")
@@ -716,7 +719,7 @@ def cmd_train(args):
     checkpoint_dir = Path(args.checkpoint_dir)
     gan.train(grids, epochs=args.epochs, lr=args.lr,
               lambda_rec=args.lambda_rec, checkpoint_dir=checkpoint_dir,
-              batch_size=args.batch_size)
+              batch_size=args.batch_size, log_every=args.log_every)
 
 
 def cmd_generate(args):
@@ -783,6 +786,7 @@ def main():
     p_train.add_argument('--lr', type=float, default=5e-4, help='Learning rate')
     p_train.add_argument('--lambda-rec', type=float, default=10.0, help='Reconstruction loss weight')
     p_train.add_argument('--batch-size', type=int, default=16, help='Mini-batch size')
+    p_train.add_argument('--log-every', type=int, default=10, help='Print metrics every N epochs')
     p_train.add_argument('--checkpoint-dir', default='./checkpoints', help='Where to save model')
 
     # generate

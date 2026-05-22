@@ -184,6 +184,7 @@ If you want a standalone window you can open by double-clicking instead of runni
 - The launcher now uses a Windows night-style dark theme so the generator, preview, and export workflow are easier on the eyes during longer sessions
 - The launcher now renders a full-map preview panel so you can inspect the generated layout before exporting JSON or `map.bin`
 - `Generate Preview` keeps the generated JSON in memory, updates the preview, and lets you export only after the layout looks correct
+- The launcher now exposes a `map.bin` schema toggle so you can switch between strict vanilla Celeste export and the older extension-friendly binary shape
 - The preview panel now supports mouse-wheel zoom, `+` / `-` zoom shortcuts, arrow-key panning, `Ctrl+0` reset, double-click reset, and a dedicated `Reset View` button
 - The preview also shows a stronger per-kit accent theme and legend so each preset reads more distinctly before export
 - The preview now draws layout-aware topology overlays, so the main route, branch links, checkpoints, and hub rooms are easier to read before export

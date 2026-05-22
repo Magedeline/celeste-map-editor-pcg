@@ -8,9 +8,8 @@ const TILE_SIZE = 8;
 const TILE_COLORS = {
   '1':'#43567e','2':'#744646','3':'#8b76c4','4':'#c57047',
   '5':'#999675','6':'#548c66','7':'#5a5f6c','8':'#4d7a81',
-  '9':'#8a6a48','a':'#7c5c3d','b':'#6b7b55','c':'#7c6b4e',
-  'd':'#5a7c6b','e':'#7c4a4a','f':'#4a5a7c','g':'#7c7c4a',
-  'h':'#4a7c7c','i':'#6b564e','j':'#7c6b7c','k':'#5a6b7c',
+  '9':'#8a6a48','a':'#d1b450','b':'#686880','c':'#db80ab',
+  'd':'#f5c274','e':'#83dbcd','f':'#b6b6c2',
 };
 
 const ROOM_COLORS = [
@@ -190,10 +189,12 @@ function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').re
 class Room {
   constructor(d = {}) {
     this.name       = d.name       || 'room_0';
-    this.x          = d.x    != null ? d.x    : 0;
-    this.y          = d.y    != null ? d.y    : 0;
-    this.width      = d.width      || 320;
-    this.height     = d.height     || 184;
+    this.x          = (d.x != null && typeof d.x === 'number' && isFinite(d.x)) ? d.x : 0;
+    this.y          = (d.y != null && typeof d.y === 'number' && isFinite(d.y)) ? d.y : 0;
+    const rawW = (typeof d.width === 'number' && isFinite(d.width) && d.width > 0) ? d.width : 320;
+    const rawH = (typeof d.height === 'number' && isFinite(d.height) && d.height > 0) ? d.height : 184;
+    this.width      = rawW;
+    this.height     = rawH;
     this.tileWidth  = d.tileWidth  || Math.floor(this.width  / TILE_SIZE);
     this.tileHeight = d.tileHeight || Math.floor(this.height / TILE_SIZE);
     this.tilesFg    = d.tilesFg ? { tiles: [...d.tilesFg.tiles]  } : { tiles: this._empty() };
@@ -238,7 +239,11 @@ class Room {
 
 class MapModel {
   constructor() {
+    this.packageName     = 'newmap';
     this.rooms           = [];
+    this.fillers         = [];
+    this.stylesFg        = [];
+    this.stylesBg        = [];
     this.previewMetadata = null;
     this._history        = [];
     this._historyIdx     = -1;
@@ -250,12 +255,21 @@ class MapModel {
   get isDirty()  { return this._dirty; }
 
   loadFromGenerator(data) {
+    this.packageName = data.packageName || this.packageName || 'newmap';
     this.rooms = data.rooms.map(r => new Room(r));
+    this.fillers = Array.isArray(data.fillers) ? data.fillers.map(f => ({ ...f })) : [];
+    this.stylesFg = Array.isArray(data.stylesFg) ? data.stylesFg.map(s => ({ ...s })) : [];
+    this.stylesBg = Array.isArray(data.stylesBg) ? data.stylesBg.map(s => ({ ...s })) : [];
     this.previewMetadata = data.previewMetadata || null;
     this._filePath = null; this._dirty = true; this._resetHistory();
   }
   loadFromJSON(jsonStr, filePath = null) {
     const data = JSON.parse(jsonStr);
+    this.packageName = data.packageName || data.package || this.packageName || 'newmap';
+    this.fillers = Array.isArray(data.fillers) ? data.fillers.map(f => ({ ...f })) : [];
+    this.stylesFg = Array.isArray(data.stylesFg) ? data.stylesFg.map(s => ({ ...s })) : [];
+    this.stylesBg = Array.isArray(data.stylesBg) ? data.stylesBg.map(s => ({ ...s })) : [];
+
     if (Array.isArray(data.rooms)) {
       this.rooms = data.rooms.map(r => new Room(r));
       this.previewMetadata = data.previewMetadata || null;
@@ -263,6 +277,7 @@ class MapModel {
       this.rooms = data.levels.map(l => this._convLevel(l));
       this.previewMetadata = null;
     } else throw new Error('Unknown map format');
+
     this._filePath = filePath; this._dirty = false; this._resetHistory();
   }
   _convLevel(l) {
@@ -279,7 +294,16 @@ class MapModel {
       tileWidth:tw, tileHeight:th, tilesFg:parseTiles(l.solids), tilesBg:parseTiles(l.bg),
       entities:l.entities||[], triggers:l.triggers||[], decalsFg:l.decals||[], color:l.c||0, music:l.music||'', dark:!!l.dark, underwater:!!l.underwater });
   }
-  toJSON() { return JSON.stringify({ rooms:this.rooms, previewMetadata:this.previewMetadata }, null, 2); }
+  toJSON() {
+    return JSON.stringify({
+      packageName: this.packageName,
+      rooms: this.rooms,
+      fillers: this.fillers,
+      stylesFg: this.stylesFg,
+      stylesBg: this.stylesBg,
+      previewMetadata: this.previewMetadata,
+    }, null, 2);
+  }
 
   _resetHistory() { this._history = [this.rooms.map(r => r.clone())]; this._historyIdx = 0; }
   pushHistory() {
@@ -359,12 +383,33 @@ class CanvasRenderer {
     this.zoom = clamp(this.zoom*f, 0.1, 8);
     this.panX = sx/this.zoom-wx; this.panY = sy/this.zoom-wy;
   }
+  resetView() {
+    this.zoom = 1; this.panX = 0; this.panY = 0;
+  }
   fitToScreen(rooms) {
-    if (!rooms || !rooms.length) return;
+    if (!rooms || !rooms.length) { this.resetView(); return; }
     let x0=Infinity, y0=Infinity, x1=-Infinity, y1=-Infinity;
-    for (const r of rooms) { x0=Math.min(x0,r.x); y0=Math.min(y0,r.y); x1=Math.max(x1,r.x+r.width); y1=Math.max(y1,r.y+r.height); }
+    let validRoomCount = 0;
+    for (const r of rooms) {
+      // Skip rooms with invalid coordinates
+      if (!r || typeof r.x !== 'number' || typeof r.y !== 'number' ||
+          typeof r.width !== 'number' || typeof r.height !== 'number' ||
+          !isFinite(r.x) || !isFinite(r.y) || !isFinite(r.width) || !isFinite(r.height)) continue;
+      validRoomCount++;
+      x0=Math.min(x0,r.x); y0=Math.min(y0,r.y);
+      x1=Math.max(x1,r.x+r.width); y1=Math.max(y1,r.y+r.height);
+    }
+    if (validRoomCount === 0) {
+      console.warn('fitToScreen: No rooms with valid coordinates found');
+      this.resetView(); return;
+    }
     const pad = 64;
-    this.zoom = clamp(Math.min((this.canvas.width-pad*2)/(x1-x0),(this.canvas.height-pad*2)/(y1-y0)), 0.1, 4);
+    const width = Math.max(1, x1 - x0);
+    const height = Math.max(1, y1 - y0);
+    // Guard against zero-sized canvas (can happen before first layout pass after load)
+    const cw = this.canvas.width  > pad*2 ? this.canvas.width  : 1024;
+    const ch = this.canvas.height > pad*2 ? this.canvas.height : 768;
+    this.zoom = clamp(Math.min((cw-pad*2)/width,(ch-pad*2)/height), 0.1, 4);
     this.panX = pad/this.zoom - x0; this.panY = pad/this.zoom - y0;
   }
 
@@ -585,6 +630,10 @@ class AppUI {
     this._lastTileKey = null;
     this._statusMsg   = 'Ready';
     this._requestedRender = false;
+    this._ganStatusTimer = null;
+    this._ganStartInProgress = false;
+    this._ganStatusRefreshInFlight = false;
+    this._ganModelPath = '';
 
     this._initDOM();
   }
@@ -636,6 +685,8 @@ class AppUI {
     // Toolbar / file
     document.getElementById('btn-new').addEventListener(   'click', () => this._newMap());
     document.getElementById('btn-open').addEventListener(  'click', () => this._openMap());
+    const closeBtn2 = document.getElementById('btn-close');
+    if (closeBtn2) closeBtn2.addEventListener('click', () => this._closeMap());
     document.getElementById('btn-save').addEventListener(  'click', () => this._saveMap());
     document.getElementById('btn-export').addEventListener('click', () => this._exportMap());
     document.getElementById('btn-fit').addEventListener(   'click', () => { this.renderer.fitToScreen(this.map.rooms); this._render(); });
@@ -645,6 +696,8 @@ class AppUI {
     document.getElementById('btn-regen-room').addEventListener(   'click', () => this._regenRoom());
     document.getElementById('btn-resize-pcg').addEventListener(   'click', () => this._resizePcgRoom());
     document.getElementById('btn-gan-fill').addEventListener(     'click', () => this._ganFillRoom());
+    document.getElementById('btn-gan-start').addEventListener(    'click', () => this._startGanServer());
+    document.getElementById('btn-gan-model').addEventListener(    'click', () => this._pickGanModel());
     document.getElementById('btn-randomize-seed').addEventListener('click', () => { document.getElementById('gen-seed').value = Math.floor(Math.random()*4294967295); });
     document.getElementById('btn-generate').addEventListener(     'click', () => this._generate());
 
@@ -664,6 +717,8 @@ class AppUI {
     const applyBtn = document.getElementById('mp-apply'); if (applyBtn) applyBtn.addEventListener('click', () => this._applyRoomProps());
 
     this._checkGeneratorPath();
+    this._updateGanModelButton();
+    this._startGanStatusPolling();
     this._render();
   }
 
@@ -678,7 +733,7 @@ class AppUI {
       this._requestedRender = false;
       this.renderer.render(this.map.rooms.length ? this.map : null, this.selectedIndices, this._hoverInfo,
         this._isCreating ? this._createPreview : null, this._isRubberBand ? this._rubberBand : null);
-      this._updateInspector(); this._updateTopology(); this._updateStatusBar();
+      this._updateInspector(); this._updateRoomList(); this._updateTopology(); this._updateStatusBar();
     });
   }
 
@@ -910,6 +965,7 @@ class AppUI {
     if (ctrl&&e.key==='s') { e.preventDefault(); this._saveMap(); return; }
     if (ctrl&&e.key==='o') { e.preventDefault(); this._openMap(); return; }
     if (ctrl&&e.key==='n') { e.preventDefault(); this._newMap(); return; }
+    if (ctrl&&e.key==='w') { e.preventDefault(); this._closeMap(); return; }
     if (ctrl&&!e.shiftKey&&e.key==='t') { e.preventDefault(); this._setTool('create'); return; }
     if (ctrl&&e.shiftKey &&e.key==='T') { e.preventDefault(); this._openRoomPropsModal(); return; }
     if (ctrl&&e.key==='a') { e.preventDefault(); this.selectedIndices=new Set(this.map.selectAll()); this._render(); return; }
@@ -1053,6 +1109,12 @@ class AppUI {
     this._setStatus('GAN filling room...');
     const kit = document.getElementById('gen-kit')?.value || 'house';
     try {
+      const health = await window.electronAPI.ganHealth({ port: 5555 });
+      if (!(health && health.status === 'ok' && health.model_loaded)) {
+        await this._refreshGanStatus();
+        throw new Error('GAN server is offline. Click "Start GAN Server" in the toolbar, then try again.');
+      }
+
       const result = await window.electronAPI.ganFillRoom({
         width: room.width,
         height: room.height,
@@ -1066,23 +1128,82 @@ class AppUI {
       this._render();
       this._setStatus(`GAN filled ${room.name} (${result.width}×${result.height} tiles)`);
     } catch (err) {
-      const msg = err?.error || err?.message || String(err);
+      const raw = err?.error || err?.message || String(err);
+      const msg = String(raw).replace(/^Error invoking remote method 'gan-fill-room':\s*/i, '');
       this._setStatus(`GAN Error: ${msg}`);
       alert(`GAN Fill failed:\n\n${msg}`);
     }
   }
 
   // ── File ops ──────────────────────────────────────────────
+  _resetTransients() {
+    // Clear every piece of transient interaction state so a stale selection,
+    // hover, rubber-band, or in-flight room-create cannot leak into the next map.
+    this.selectedIndices.clear();
+    this._isPainting = false;
+    this._isDragging = false;
+    this._isResize   = false; this._resizeDir = null;
+    this._isPanning  = false;
+    this._isRubberBand = false;
+    this._isCreating = false;
+    this._panStart = null; this._panOrigin = null;
+    this._dragStart = null; this._dragOrigins = {};
+    this._rbStart = null; this._resizeOrigin = null;
+    this._createStart = null; this._createPreview = null;
+    this._rubberBand = null;
+    this._hoverInfo  = null;
+    this._lastTileKey = null;
+  }
+
+  _applyLoadedMap(statusMsg) {
+    // Must run AFTER this.map has been populated. Resets viewport, clears
+    // transient state, then defers fitToScreen to the next frame so the
+    // canvas has been laid out (fixes "loaded but invisible" on first open).
+    this._resetTransients();
+    this.renderer.resetView();
+    this._resize();            // ensure canvas.width/height reflect current layout
+    this._render();            // paint placeholder / background immediately
+    requestAnimationFrame(() => {
+      this._resize();
+      this.renderer.fitToScreen(this.map.rooms);
+      this._render();
+      if (statusMsg) this._setStatus(statusMsg);
+    });
+  }
+
   async _newMap() {
     if (this.map.isDirty&&this.map.rooms.length>0&&!confirm('Discard unsaved changes?')) return;
-    this.map=new MapModel(); this.selectedIndices.clear();
-    document.getElementById('gen-summary').textContent=''; this._render(); this._setStatus('New map');
+    this.map = new MapModel();
+    document.getElementById('gen-summary').textContent = '';
+    this._applyLoadedMap('New map');
   }
+
+  async _closeMap() {
+    if (this.map.isDirty && this.map.rooms.length > 0 &&
+        !confirm('Close map and discard unsaved changes?')) return;
+    this.map = new MapModel();
+    const gs = document.getElementById('gen-summary'); if (gs) gs.textContent = '';
+    const topo = document.getElementById('topology-info');
+    if (topo) topo.innerHTML = '<p class="no-selection">Generate a map to see topology.</p>';
+    this._applyLoadedMap('Map closed');
+  }
+
   async _openMap() {
     try {
-      const r=await window.electronAPI.openMap(); if (!r) return;
-      this.map.loadFromJSON(r.content,r.filePath); this.renderer.fitToScreen(this.map.rooms); this.selectedIndices.clear(); this._render(); this._setStatus(`Opened: ${r.filePath}`);
-    } catch(err) { alert(`Failed to open:\n${err.message||err}`); }
+      const r = await window.electronAPI.openMap();
+      if (!r) return;
+      if (this.map.isDirty && this.map.rooms.length > 0 &&
+          !confirm('Discard unsaved changes to current map?')) return;
+      // Replace model with a fresh one so previous history/buffers don't linger.
+      this.map = new MapModel();
+      this.map.loadFromJSON(r.content, r.filePath);
+      // Track binary origin so Save routes through the binary writer (main.js
+      // already detects by extension, but this keeps intent explicit).
+      this.map._isBinary = typeof r.filePath === 'string' && /\.bin$/i.test(r.filePath);
+      this._applyLoadedMap(`Opened: ${r.filePath}`);
+    } catch (err) {
+      alert(`Failed to open:\n${err.message || err}`);
+    }
   }
   async _saveMap() {
     try {
@@ -1119,6 +1240,53 @@ class AppUI {
     r.dark=get('mp-dark'); r.underwater=get('mp-underwater'); r.space=get('mp-space');
     r.hasCheckpoint=get('mp-hasCheckpoint'); r.delayAltMusic=get('mp-delayAltMusic');
     this.map.pushHistory(); this._closeModal(); this._render(); this._setStatus(`Updated ${r.name}`);
+  }
+
+  // ── Room List panel ──────────────────────────────────────
+  _updateRoomList() {
+    const pane = document.getElementById('rooms-content'); if (!pane) return;
+    if (!this.map.rooms.length) { pane.innerHTML = '<p class="no-selection">No rooms yet.<br/>Click Generate to create rooms.</p>'; return; }
+
+    let html = `<div class="room-list-header"><span>${this.map.rooms.length} rooms</span><span>Click to focus</span></div>`;
+    html += `<div class="room-list-actions"><button id="btn-select-all-rooms">Select All</button><button id="btn-fit-rooms">Fit View</button></div>`;
+    html += `<ul class="room-list">`;
+
+    for (let i = 0; i < this.map.rooms.length; i++) {
+      const r = this.map.rooms[i];
+      const isSel = this.selectedIndices.has(i);
+      const color = ROOM_COLORS[r.color % ROOM_COLORS.length] || '#4a5a7a';
+      html += `<li class="room-item${isSel ? ' selected' : ''}" data-index="${i}">
+        <span class="room-color" style="background:${color}"></span>
+        <span class="room-name">${esc(r.name)}</span>
+        <span class="room-pos">${r.x},${r.y}</span>
+      </li>`;
+    }
+    html += `</ul>`;
+    pane.innerHTML = html;
+
+    // Add click handlers
+    pane.querySelectorAll('.room-item').forEach(item => {
+      item.addEventListener('click', (e) => {
+        const idx = parseInt(item.dataset.index);
+        if (e.shiftKey) { this.selectedIndices.has(idx) ? this.selectedIndices.delete(idx) : this.selectedIndices.add(idx); }
+        else { this.selectedIndices.clear(); this.selectedIndices.add(idx); }
+        this._centerOnRoom(idx);
+        this._render();
+      });
+    });
+
+    const selAllBtn = document.getElementById('btn-select-all-rooms');
+    if (selAllBtn) selAllBtn.addEventListener('click', () => { this.selectedIndices = new Set(this.map.selectAll()); this._render(); });
+
+    const fitBtn = document.getElementById('btn-fit-rooms');
+    if (fitBtn) fitBtn.addEventListener('click', () => { this.renderer.fitToScreen(this.map.rooms); this._render(); });
+  }
+
+  _centerOnRoom(index) {
+    const r = this.map.rooms[index]; if (!r) return;
+    // Center camera on room
+    this.renderer.panX = (this.renderer.canvas.width / 2 / this.renderer.zoom) - (r.x + r.width / 2);
+    this.renderer.panY = (this.renderer.canvas.height / 2 / this.renderer.zoom) - (r.y + r.height / 2);
   }
 
   // ── Inspector panel ───────────────────────────────────────
@@ -1192,6 +1360,171 @@ class AppUI {
       el.textContent=info.exists?'● Generator ready':'✗ Generator not found';
       el.className=`gen-status ${info.exists?'gen-ok':'gen-error'}`; el.title=info.path;
     } catch(_) {}
+  }
+
+  _setGanStatusBadge(cls, text, title = '') {
+    const el = document.getElementById('gan-status');
+    if (!el) return;
+    el.className = `gen-status ${cls}`;
+    el.textContent = text;
+    el.title = title;
+  }
+
+  _setGanStartButtonState(disabled, text, title) {
+    const btn = document.getElementById('btn-gan-start');
+    if (!btn) return;
+    btn.disabled = !!disabled;
+    if (text) btn.textContent = text;
+    if (title) btn.title = title;
+  }
+
+  _updateGanModelButton() {
+    const btn = document.getElementById('btn-gan-model');
+    if (!btn) return;
+
+    if (this._ganModelPath) {
+      const parts = this._ganModelPath.split(/[\\/]/);
+      const fileName = parts[parts.length - 1] || this._ganModelPath;
+      btn.textContent = `Model: ${fileName}`;
+      btn.title = this._ganModelPath;
+      return;
+    }
+
+    btn.textContent = 'GAN Model...';
+    btn.title = 'Choose a GAN model checkpoint (.pt/.pth). Default path: celeste-gan/checkpoints/celeste_gan.pt';
+  }
+
+  async _pickGanModel() {
+    try {
+      const picked = await window.electronAPI.ganPickModel({ initialPath: this._ganModelPath });
+      if (!picked || !picked.path) return;
+
+      this._ganModelPath = picked.path;
+      this._updateGanModelButton();
+      const parts = picked.path.split(/[\\/]/);
+      this._setStatus(`GAN model selected: ${parts[parts.length - 1] || picked.path}`);
+    } catch (err) {
+      const raw = err?.error || err?.message || String(err);
+      const msg = String(raw).replace(/^Error invoking remote method 'gan-pick-model':\s*/i, '');
+      this._setStatus(`GAN model selection failed: ${msg}`);
+      alert(`Failed to select GAN model:\n\n${msg}`);
+    }
+  }
+
+  _startGanStatusPolling() {
+    this._refreshGanStatus();
+    if (this._ganStatusTimer) clearInterval(this._ganStatusTimer);
+    this._ganStatusTimer = setInterval(() => {
+      this._refreshGanStatus();
+    }, 5000);
+    window.addEventListener('beforeunload', () => {
+      if (this._ganStatusTimer) clearInterval(this._ganStatusTimer);
+      this._ganStatusTimer = null;
+    }, { once: true });
+  }
+
+  async _refreshGanStatus() {
+    if (this._ganStatusRefreshInFlight) return;
+    this._ganStatusRefreshInFlight = true;
+    try {
+      if (this._ganStartInProgress) {
+        this._setGanStatusBadge('gen-checking', '● GAN starting…', 'Launching local GAN server');
+        this._setGanStartButtonState(true, 'Starting...', 'Launching local GAN HTTP server');
+        return;
+      }
+
+      const health = await window.electronAPI.ganHealth({ port: 5555 });
+      if (health && health.status === 'ok' && health.model_loaded) {
+        this._setGanStatusBadge('gen-ok', '● GAN ready', 'GAN server is online and model is loaded');
+        this._setGanStartButtonState(true, 'GAN Running', 'GAN server is already running');
+        return;
+      }
+
+      if (health && health.status === 'ok' && !health.model_loaded) {
+        this._setGanStatusBadge('gen-warn', '● GAN online (loading model)', 'GAN server is reachable but model is not loaded yet');
+        this._setGanStartButtonState(true, 'Loading...', 'GAN model is still loading');
+        return;
+      }
+
+      if (health && health.status === 'timeout') {
+        this._setGanStatusBadge('gen-error', '✗ GAN timeout', 'GAN health request timed out');
+      } else {
+        this._setGanStatusBadge('gen-error', '✗ GAN offline', 'GAN server is not reachable');
+      }
+      this._setGanStartButtonState(false, 'Start GAN Server', 'Start local GAN HTTP server on port 5555');
+    } catch {
+      this._setGanStatusBadge('gen-error', '✗ GAN offline', 'GAN server is not reachable');
+      this._setGanStartButtonState(false, 'Start GAN Server', 'Start local GAN HTTP server on port 5555');
+    } finally {
+      this._ganStatusRefreshInFlight = false;
+    }
+  }
+
+  async _waitForGanReady(timeoutMs = 18000) {
+    const startedAt = Date.now();
+    while (Date.now() - startedAt < timeoutMs) {
+      try {
+        const health = await window.electronAPI.ganHealth({ port: 5555 });
+        if (health && health.status === 'ok' && health.model_loaded) return true;
+      } catch (_) {}
+      await new Promise((resolve) => setTimeout(resolve, 450));
+    }
+    return false;
+  }
+
+  async _startGanServer() {
+    if (this._ganStartInProgress) return;
+    this._ganStartInProgress = true;
+    this._setGanStatusBadge('gen-checking', '● GAN starting…', 'Launching local GAN server');
+    this._setGanStartButtonState(true, 'Starting...', 'Launching local GAN HTTP server');
+    this._setStatus('Starting GAN server...');
+
+    try {
+      let result = null;
+
+      try {
+        const startParams = { port: 5555 };
+        if (this._ganModelPath) startParams.modelPath = this._ganModelPath;
+        result = await window.electronAPI.ganStartServer(startParams);
+      } catch (startErr) {
+        const rawStart = startErr?.error || startErr?.message || String(startErr);
+        const startMsg = String(rawStart).replace(/^Error invoking remote method 'gan-start-server':\s*/i, '');
+
+        if (/GAN model not found at:/i.test(startMsg)) {
+          const shouldPick = confirm('GAN model checkpoint not found.\n\nPick a .pt/.pth model file now?');
+          if (shouldPick) {
+            await this._pickGanModel();
+            if (!this._ganModelPath) throw startErr;
+            result = await window.electronAPI.ganStartServer({ port: 5555, modelPath: this._ganModelPath });
+          } else {
+            throw startErr;
+          }
+        } else {
+          throw startErr;
+        }
+      }
+
+      const ready = await this._waitForGanReady(result?.warmingUp ? 28000 : 14000);
+      await this._refreshGanStatus();
+
+      if (ready) {
+        this._setStatus('GAN server is ready');
+      } else if (result?.alreadyRunning) {
+        this._setStatus('GAN server is already running');
+      } else {
+        this._setStatus('GAN server started and is still loading');
+      }
+    } catch (err) {
+      const raw = err?.error || err?.message || String(err);
+      const msg = String(raw).replace(/^Error invoking remote method 'gan-start-server':\s*/i, '');
+      this._setGanStatusBadge('gen-error', '✗ GAN offline', msg);
+      this._setGanStartButtonState(false, 'Start GAN Server', 'Start local GAN HTTP server on port 5555');
+      this._setStatus(`GAN start failed: ${msg}`);
+      alert(`Failed to start GAN server:\n\n${msg}`);
+    } finally {
+      this._ganStartInProgress = false;
+      await this._refreshGanStatus();
+    }
   }
 }
 

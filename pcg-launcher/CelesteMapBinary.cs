@@ -19,12 +19,17 @@ internal static class CelesteMapJsonConverter
             throw new InvalidOperationException("JSON root must be an object.");
         }
 
-        if (!root.TryGetProperty("rooms", out var roomsElement) || roomsElement.ValueKind != JsonValueKind.Array)
+        var hasRooms = TryGetArrayProperty(root, "rooms", out var roomsElement);
+        if (!hasRooms && !TryGetArrayProperty(root, "levels", out roomsElement))
         {
-            throw new InvalidOperationException("JSON must contain a rooms array.");
+            throw new InvalidOperationException("JSON must contain either a rooms array or a levels array.");
         }
 
         var packageName = GetOptionalString(root, "packageName");
+        if (string.IsNullOrWhiteSpace(packageName))
+        {
+            packageName = GetOptionalString(root, "package");
+        }
         if (string.IsNullOrWhiteSpace(packageName))
         {
             packageName = packageNameFallback;
@@ -43,6 +48,17 @@ internal static class CelesteMapJsonConverter
             StylesBg = ParseArray(root, "stylesBg", ParseStyle),
             PreviewMetadata = ParsePreviewMetadata(root),
         };
+    }
+
+    private static bool TryGetArrayProperty(JsonElement element, string propertyName, out JsonElement arrayElement)
+    {
+        if (element.TryGetProperty(propertyName, out arrayElement) && arrayElement.ValueKind == JsonValueKind.Array)
+        {
+            return true;
+        }
+
+        arrayElement = default;
+        return false;
     }
 
     private static PreviewMetadataData? ParsePreviewMetadata(JsonElement root)
@@ -80,16 +96,51 @@ internal static class CelesteMapJsonConverter
 
     private static RoomData ParseRoom(JsonElement element)
     {
+        var name = GetOptionalString(element, "name") ?? GetOptionalString(element, "id");
+        if (string.IsNullOrWhiteSpace(name))
+        {
+            throw new InvalidOperationException("Missing required room name/id value.");
+        }
+
+        var x = GetOptionalInt(element, "x") ?? GetOptionalInt(element, "xoffset");
+        if (!x.HasValue)
+        {
+            throw new InvalidOperationException("Missing required numeric property 'x'/'xoffset'.");
+        }
+
+        var y = GetOptionalInt(element, "y") ?? GetOptionalInt(element, "yoffset");
+        if (!y.HasValue)
+        {
+            throw new InvalidOperationException("Missing required numeric property 'y'/'yoffset'.");
+        }
+
         var width = GetRequiredInt(element, "width");
         var height = GetRequiredInt(element, "height");
         var tileWidth = GetOptionalInt(element, "tileWidth") ?? Math.Max(1, width / 8);
         var tileHeight = GetOptionalInt(element, "tileHeight") ?? Math.Max(1, height / 8);
 
+        var tilesFg = ParseTileGrid(element, "tilesFg", tileWidth, tileHeight)
+            ?? ParseTileGridFromStringProperty(element, "solids", tileWidth, tileHeight);
+        var tilesBg = ParseTileGrid(element, "tilesBg", tileWidth, tileHeight)
+            ?? ParseTileGridFromStringProperty(element, "bg", tileWidth, tileHeight);
+        var fgTiles = ParseObjectTileGrid(element, "fgTiles", tileWidth, tileHeight)
+            ?? ParseObjectTileGridFromStringProperty(element, "fgtiles", tileWidth, tileHeight);
+        var objTiles = ParseObjectTileGrid(element, "objTiles", tileWidth, tileHeight)
+            ?? ParseObjectTileGridFromStringProperty(element, "objtiles", tileWidth, tileHeight);
+        var bgTiles = ParseObjectTileGrid(element, "bgTiles", tileWidth, tileHeight)
+            ?? ParseObjectTileGridFromStringProperty(element, "bgtiles", tileWidth, tileHeight);
+
+        var decalsFg = ParseArray(element, "decalsFg", ParseDecal);
+        if (decalsFg.Count == 0)
+        {
+            decalsFg = ParseArray(element, "decals", ParseDecal);
+        }
+
         return new RoomData
         {
-            Name = GetRequiredString(element, "name"),
-            X = GetRequiredInt(element, "x"),
-            Y = GetRequiredInt(element, "y"),
+            Name = name,
+            X = x.Value,
+            Y = y.Value,
             Width = width,
             Height = height,
             TileWidth = tileWidth,
@@ -99,7 +150,7 @@ internal static class CelesteMapJsonConverter
             MusicLayer2 = GetOptionalBool(element, "musicLayer2") ?? true,
             MusicLayer3 = GetOptionalBool(element, "musicLayer3") ?? true,
             MusicLayer4 = GetOptionalBool(element, "musicLayer4") ?? true,
-            AltMusic = GetOptionalString(element, "altMusic") ?? string.Empty,
+            AltMusic = GetOptionalString(element, "altMusic") ?? GetOptionalString(element, "alt_music") ?? string.Empty,
             Ambience = GetOptionalString(element, "ambience") ?? string.Empty,
             Dark = GetOptionalBool(element, "dark") ?? false,
             Underwater = GetOptionalBool(element, "underwater") ?? false,
@@ -108,13 +159,19 @@ internal static class CelesteMapJsonConverter
             CameraOffsetX = GetOptionalInt(element, "cameraOffsetX") ?? 0,
             CameraOffsetY = GetOptionalInt(element, "cameraOffsetY") ?? 0,
             WindPattern = GetOptionalString(element, "windPattern") ?? "None",
-            Color = GetOptionalInt(element, "color") ?? 0,
-            TilesFg = ParseTileGrid(element, "tilesFg", tileWidth, tileHeight),
-            TilesBg = ParseTileGrid(element, "tilesBg", tileWidth, tileHeight),
-            ObjTiles = ParseObjectTileGrid(element, "objTiles", tileWidth, tileHeight),
+            Color = GetOptionalInt(element, "color") ?? GetOptionalInt(element, "c") ?? 0,
+            MusicProgress = GetOptionalString(element, "musicProgress") ?? GetOptionalString(element, "music_progress") ?? string.Empty,
+            AmbienceProgress = GetOptionalString(element, "ambienceProgress") ?? GetOptionalString(element, "ambience_progress") ?? string.Empty,
+            DelayAltMusicFade = GetOptionalBool(element, "delayAltMusicFade") ?? GetOptionalBool(element, "delay_alt_music_fade") ?? false,
+            Whisper = GetOptionalBool(element, "whisper") ?? false,
+            TilesFg = tilesFg,
+            TilesBg = tilesBg,
+            FgTiles = fgTiles,
+            ObjTiles = objTiles,
+            BgTiles = bgTiles,
             Entities = ParseArray(element, "entities", ParseEntity),
             Triggers = ParseArray(element, "triggers", ParseEntity),
-            DecalsFg = ParseArray(element, "decalsFg", ParseDecal),
+            DecalsFg = decalsFg,
             DecalsBg = ParseArray(element, "decalsBg", ParseDecal),
         };
     }
@@ -191,6 +248,91 @@ internal static class CelesteMapJsonConverter
         };
     }
 
+    private static TileGridData? ParseTileGridFromStringProperty(JsonElement room, string propertyName, int fallbackWidth, int fallbackHeight)
+    {
+        if (!room.TryGetProperty(propertyName, out var element) || element.ValueKind == JsonValueKind.Null)
+        {
+            return null;
+        }
+
+        var raw = element.ValueKind == JsonValueKind.String ? element.GetString() ?? string.Empty : element.ToString();
+        var rows = SplitRows(raw, fallbackHeight);
+        var flattened = new List<char>(fallbackWidth * fallbackHeight);
+
+        foreach (var row in rows)
+        {
+            for (var column = 0; column < fallbackWidth; column++)
+            {
+                flattened.Add(column < row.Length ? row[column] : '0');
+            }
+        }
+
+        return new TileGridData
+        {
+            Width = fallbackWidth,
+            Height = fallbackHeight,
+            Tiles = flattened,
+        };
+    }
+
+    private static ObjectTileGridData? ParseObjectTileGridFromStringProperty(JsonElement room, string propertyName, int fallbackWidth, int fallbackHeight)
+    {
+        if (!room.TryGetProperty(propertyName, out var element) || element.ValueKind == JsonValueKind.Null)
+        {
+            return null;
+        }
+
+        var raw = element.ValueKind == JsonValueKind.String ? element.GetString() ?? string.Empty : element.ToString();
+        var rows = SplitRows(raw, fallbackHeight);
+        var flattened = new List<int>(fallbackWidth * fallbackHeight);
+
+        foreach (var row in rows)
+        {
+            var values = row.Split(',', StringSplitOptions.TrimEntries);
+            for (var column = 0; column < fallbackWidth; column++)
+            {
+                if (column < values.Length
+                    && int.TryParse(values[column], NumberStyles.Integer, CultureInfo.InvariantCulture, out var value))
+                {
+                    flattened.Add(value);
+                }
+                else
+                {
+                    flattened.Add(-1);
+                }
+            }
+        }
+
+        return new ObjectTileGridData
+        {
+            Width = fallbackWidth,
+            Height = fallbackHeight,
+            Tiles = flattened,
+        };
+    }
+
+    private static List<string> SplitRows(string raw, int expectedRows)
+    {
+        var rows = raw.Replace("\r", string.Empty).Split('\n').ToList();
+
+        while (rows.Count > expectedRows && rows[^1].Length == 0)
+        {
+            rows.RemoveAt(rows.Count - 1);
+        }
+
+        if (rows.Count > expectedRows)
+        {
+            rows = rows.Take(expectedRows).ToList();
+        }
+
+        while (rows.Count < expectedRows)
+        {
+            rows.Add(string.Empty);
+        }
+
+        return rows;
+    }
+
     private static EntityData ParseEntity(JsonElement element)
     {
         var attributes = new Dictionary<string, object?>(StringComparer.Ordinal);
@@ -205,7 +347,7 @@ internal static class CelesteMapJsonConverter
         return new EntityData
         {
             Name = GetRequiredString(element, "name"),
-            Id = GetRequiredInt(element, "id"),
+            Id = GetOptionalInt(element, "id") ?? 0,
             X = GetRequiredInt(element, "x"),
             Y = GetRequiredInt(element, "y"),
             Width = GetOptionalInt(element, "width") ?? 0,
@@ -402,11 +544,17 @@ internal static class CelesteMapJsonConverter
     }
 }
 
+internal enum MapBinSchemaMode
+{
+    ExtensionFriendly,
+    StrictVanilla,
+}
+
 internal static class CelesteMapBinarySerializer
 {
-    public static byte[] Serialize(CelesteMapData map)
+    public static byte[] Serialize(CelesteMapData map, MapBinSchemaMode schemaMode)
     {
-        var writer = new BinaryWriter();
+        var writer = new BinaryWriter(schemaMode);
         return writer.Serialize(map);
     }
 
@@ -415,6 +563,12 @@ internal static class CelesteMapBinarySerializer
         private readonly List<byte> _buffer = new();
         private readonly Dictionary<string, int> _lookup = new(StringComparer.Ordinal);
         private readonly List<string> _lookupList = new();
+        private readonly MapBinSchemaMode _schemaMode;
+
+        public BinaryWriter(MapBinSchemaMode schemaMode)
+        {
+            _schemaMode = schemaMode;
+        }
 
         public byte[] Serialize(CelesteMapData map)
         {
@@ -449,7 +603,7 @@ internal static class CelesteMapBinarySerializer
 
             foreach (var item in new[]
             {
-                "Map", "levels", "level", "solids", "bg", "objtiles", "entities", "triggers",
+                "Map", "levels", "level", "solids", "bg", "fgtiles", "objtiles", "bgtiles", "entities", "triggers",
                 "fgdecals", "bgdecals", "decal", "Filler", "rect", "Style", "Foregrounds",
                 "Backgrounds", "parallax", "apply", "node"
             })
@@ -460,9 +614,10 @@ internal static class CelesteMapBinarySerializer
             foreach (var item in new[]
             {
                 "name", "x", "y", "width", "height", "w", "h", "music", "musicLayer1",
-                "musicLayer2", "musicLayer3", "musicLayer4", "altMusic", "ambience", "dark",
+                "musicLayer2", "musicLayer3", "musicLayer4", "altMusic", "alt_music", "ambience", "dark",
                 "underwater", "space", "disableDownTransition", "cameraOffsetX", "cameraOffsetY",
-                "windPattern", "color", "innerText", "id", "texture", "scaleX", "scaleY",
+                "windPattern", "color", "c", "musicProgress", "ambienceProgress", "delayAltMusicFade",
+                "whisper", "innerText", "id", "texture", "scaleX", "scaleY",
                 "rotation", "scrollx", "scrolly", "speedx", "speedy", "alpha", "flipx", "flipy",
                 "loopx", "loopy", "blendmode", "only", "exclude", "flag", "notflag", "tag"
             })
@@ -547,6 +702,18 @@ internal static class CelesteMapBinarySerializer
         private void WriteRoomElement(RoomData room)
         {
             WriteLookupIndex("level");
+
+            if (_schemaMode == MapBinSchemaMode.StrictVanilla)
+            {
+                WriteStrictVanillaRoomElement(room);
+                return;
+            }
+
+            WriteExtensionFriendlyRoomElement(room);
+        }
+
+        private void WriteExtensionFriendlyRoomElement(RoomData room)
+        {
             var attributes = new List<KeyValuePair<string, object?>>
             {
                 new("name", room.Name),
@@ -584,42 +751,132 @@ internal static class CelesteMapBinarySerializer
 
             WriteUInt16(childCount);
 
-            if (room.TilesFg is not null) WriteTilesElement("solids", room.TilesFg);
-            if (room.TilesBg is not null) WriteTilesElement("bg", room.TilesBg);
-            if (room.ObjTiles is not null) WriteObjectTilesElement(room.ObjTiles);
+            if (room.TilesFg is not null)
+            {
+                WriteTilesElement("solids", room.TilesFg);
+            }
+
+            if (room.TilesBg is not null)
+            {
+                WriteTilesElement("bg", room.TilesBg);
+            }
+
+            if (room.ObjTiles is not null)
+            {
+                WriteObjectTilesElement("objtiles", room.ObjTiles, writeAllRowsWhenPresent: true);
+            }
+
             WriteEntitiesElement("entities", room.Entities);
             WriteEntitiesElement("triggers", room.Triggers);
             WriteDecalsElement("fgdecals", room.DecalsFg);
             WriteDecalsElement("bgdecals", room.DecalsBg);
         }
 
-        private void WriteTilesElement(string name, TileGridData grid)
+        private void WriteStrictVanillaRoomElement(RoomData room)
+        {
+            var attributes = new List<KeyValuePair<string, object?>>
+            {
+                new("name", room.Name),
+                new("x", room.X),
+                new("y", room.Y),
+                new("width", room.Width),
+                new("height", room.Height),
+                new("music", room.Music),
+                new("musicLayer1", room.MusicLayer1),
+                new("musicLayer2", room.MusicLayer2),
+                new("musicLayer3", room.MusicLayer3),
+                new("musicLayer4", room.MusicLayer4),
+                new("alt_music", room.AltMusic),
+                new("ambience", room.Ambience),
+                new("dark", room.Dark),
+                new("underwater", room.Underwater),
+                new("space", room.Space),
+                new("disableDownTransition", room.DisableDownTransition),
+                new("cameraOffsetX", room.CameraOffsetX),
+                new("cameraOffsetY", room.CameraOffsetY),
+                new("windPattern", room.WindPattern),
+                new("c", room.Color),
+                new("musicProgress", room.MusicProgress),
+                new("ambienceProgress", room.AmbienceProgress),
+                new("delayAltMusicFade", room.DelayAltMusicFade),
+                new("whisper", room.Whisper),
+            };
+
+            WriteByte(attributes.Count);
+            foreach (var attribute in attributes)
+            {
+                WriteValue(attribute.Key, attribute.Value);
+            }
+
+            var childCount = 8;
+            if (room.Triggers.Count > 0) childCount++;
+
+            WriteUInt16(childCount);
+
+            WriteTilesElement("bg", room.TilesBg);
+            WriteObjectTilesElement("fgtiles", room.FgTiles, writeAllRowsWhenPresent: false);
+            WriteTilesElement("solids", room.TilesFg);
+            WriteObjectTilesElement("objtiles", room.ObjTiles, writeAllRowsWhenPresent: false);
+            WriteObjectTilesElement("bgtiles", room.BgTiles, writeAllRowsWhenPresent: false);
+            WriteDecalsElement("fgdecals", room.DecalsFg);
+            if (room.Triggers.Count > 0)
+            {
+                WriteEntitiesElement("triggers", room.Triggers);
+            }
+            WriteEntitiesElement("entities", room.Entities);
+            WriteDecalsElement("bgdecals", room.DecalsBg);
+        }
+
+        private void WriteTilesElement(string name, TileGridData? grid)
         {
             WriteLookupIndex(name);
             WriteByte(1);
 
-            var rows = new List<string>(grid.Height);
-            for (var row = 0; row < grid.Height; row++)
+            var innerText = string.Empty;
+            if (grid is not null)
             {
-                rows.Add(new string(grid.Tiles.Skip(row * grid.Width).Take(grid.Width).ToArray()));
+                var rows = new List<string>(grid.Height);
+                for (var row = 0; row < grid.Height; row++)
+                {
+                    rows.Add(new string(grid.Tiles.Skip(row * grid.Width).Take(grid.Width).ToArray()));
+                }
+
+                innerText = string.Join('\n', rows);
             }
 
-            WriteRleValue("innerText", string.Join('\n', rows));
+            WriteRleValue("innerText", innerText);
             WriteUInt16(0);
         }
 
-        private void WriteObjectTilesElement(ObjectTileGridData grid)
+        private void WriteObjectTilesElement(string name, ObjectTileGridData? grid, bool writeAllRowsWhenPresent)
         {
-            WriteLookupIndex("objtiles");
+            WriteLookupIndex(name);
             WriteByte(1);
 
-            var rows = new List<string>(grid.Height);
-            for (var row = 0; row < grid.Height; row++)
+            var innerText = string.Empty;
+            if (grid is not null
+                && grid.Width > 0
+                && grid.Height > 0
+                && (writeAllRowsWhenPresent || grid.Tiles.Any(tile => tile >= 0)))
             {
-                rows.Add(string.Join(',', grid.Tiles.Skip(row * grid.Width).Take(grid.Width)));
+                var rows = new List<string>(grid.Height);
+                for (var row = 0; row < grid.Height; row++)
+                {
+                    var values = new List<string>(grid.Width);
+                    for (var column = 0; column < grid.Width; column++)
+                    {
+                        var index = row * grid.Width + column;
+                        var tile = index < grid.Tiles.Count ? grid.Tiles[index] : -1;
+                        values.Add(tile.ToString(CultureInfo.InvariantCulture));
+                    }
+
+                    rows.Add(string.Join(',', values));
+                }
+
+                innerText = string.Join('\n', rows);
             }
 
-            WriteRleValue("innerText", string.Join('\n', rows));
+            WriteRleValue("innerText", innerText);
             WriteUInt16(0);
         }
 
@@ -677,16 +934,22 @@ internal static class CelesteMapBinarySerializer
             foreach (var decal in decals)
             {
                 WriteLookupIndex("decal");
+                var texture = _schemaMode == MapBinSchemaMode.StrictVanilla
+                    ? NormalizeDecalTexture(decal.Texture)
+                    : decal.Texture;
+                var color = _schemaMode == MapBinSchemaMode.StrictVanilla
+                    ? NormalizeColorHex(decal.Color, "ffffffff")
+                    : decal.Color;
                 var attributes = new List<KeyValuePair<string, object?>>
                 {
-                    new("texture", decal.Texture),
+                    new("texture", texture),
                     new("x", decal.X),
                     new("y", decal.Y),
                     new("scaleX", decal.ScaleX),
                     new("scaleY", decal.ScaleY),
                 };
                 if (Math.Abs(decal.Rotation) > float.Epsilon) attributes.Add(new("rotation", decal.Rotation));
-                if (!string.Equals(decal.Color, "ffffffff", StringComparison.OrdinalIgnoreCase)) attributes.Add(new("color", decal.Color));
+                if (!string.Equals(color, "ffffffff", StringComparison.OrdinalIgnoreCase)) attributes.Add(new("color", color));
 
                 WriteByte(attributes.Count);
                 foreach (var attribute in attributes)
@@ -695,6 +958,37 @@ internal static class CelesteMapBinarySerializer
                 }
                 WriteUInt16(0);
             }
+        }
+
+        private static string NormalizeDecalTexture(string texture)
+        {
+            var normalized = (texture ?? string.Empty).Trim().Replace('\\', '/');
+            if (normalized.StartsWith("decals/", StringComparison.OrdinalIgnoreCase))
+            {
+                normalized = normalized["decals/".Length..];
+            }
+
+            if (string.IsNullOrEmpty(normalized))
+            {
+                return normalized;
+            }
+
+            if (!normalized.EndsWith(".png", StringComparison.OrdinalIgnoreCase))
+            {
+                normalized += ".png";
+            }
+
+            return normalized;
+        }
+
+        private static string NormalizeColorHex(string color, string fallback)
+        {
+            if (string.IsNullOrWhiteSpace(color))
+            {
+                return fallback;
+            }
+
+            return color.Trim().TrimStart('#').ToLowerInvariant();
         }
 
         private void WriteFillerElement(IReadOnlyList<FillerData> fillers)
@@ -1000,9 +1294,15 @@ internal sealed class RoomData
     public int CameraOffsetY { get; init; }
     public string WindPattern { get; init; } = "None";
     public int Color { get; init; }
+    public string MusicProgress { get; init; } = string.Empty;
+    public string AmbienceProgress { get; init; } = string.Empty;
+    public bool DelayAltMusicFade { get; init; }
+    public bool Whisper { get; init; }
     public TileGridData? TilesFg { get; init; }
     public TileGridData? TilesBg { get; init; }
+    public ObjectTileGridData? FgTiles { get; init; }
     public ObjectTileGridData? ObjTiles { get; init; }
+    public ObjectTileGridData? BgTiles { get; init; }
     public List<EntityData> Entities { get; init; } = new();
     public List<EntityData> Triggers { get; init; } = new();
     public List<DecalData> DecalsFg { get; init; } = new();

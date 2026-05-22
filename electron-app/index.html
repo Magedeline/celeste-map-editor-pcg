@@ -15,7 +15,8 @@
 
   <div class="toolbar-group">
     <button id="btn-new"    title="New map (Ctrl+N)">New</button>
-    <button id="btn-open"   title="Open JSON (Ctrl+O)">Open</button>
+    <button id="btn-open"   title="Open map.bin or JSON (Ctrl+O)">Open</button>
+    <button id="btn-close"  title="Close / unload current map (Ctrl+W)">Close</button>
     <button id="btn-save"   title="Save (Ctrl+S)">Save</button>
     <button id="btn-export" title="Save As…">Save As</button>
   </div>
@@ -25,6 +26,12 @@
     <button id="btn-regen-room"    title="Regenerate selected room tiles via PCG (keeps position &amp; size)">↺ Regen</button>
     <button id="btn-resize-pcg"    title="Resize selected room then re-fill tiles via PCG">⤢ Resize+PCG</button>
     <button id="btn-gan-fill"      title="Fill selected room with GAN-generated tiles (requires GAN server)" class="btn-gan">🧠 GAN Fill</button>
+  </div>
+
+  <div class="toolbar-group" id="toolbar-gan">
+    <button id="btn-gan-start" title="Start local GAN HTTP server on port 5555">Start GAN Server</button>
+    <button id="btn-gan-model" title="Choose a GAN model checkpoint (.pt/.pth)">GAN Model...</button>
+    <div id="gan-status" class="gen-status gen-checking" title="GAN server health">● GAN checking…</div>
   </div>
 
   <div class="toolbar-group">
@@ -132,6 +139,7 @@
   <aside id="right-panel">
     <div class="tab-bar">
       <button class="tab-btn active" data-tab="inspector">Inspector</button>
+      <button class="tab-btn" data-tab="rooms">Rooms</button>
       <button class="tab-btn" data-tab="topology">Topology</button>
       <button class="tab-btn" data-tab="mods">Mods</button>
     </div>
@@ -140,6 +148,14 @@
       <div class="panel-section no-border">
         <div id="inspector-content">
           <p class="no-selection">No room selected.<br/>Click a room to inspect.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane" id="tab-rooms">
+      <div class="panel-section no-border">
+        <div id="rooms-content">
+          <p class="no-selection">No rooms yet.<br/>Click Generate to create rooms.</p>
         </div>
       </div>
     </div>

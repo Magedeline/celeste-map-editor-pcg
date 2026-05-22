@@ -49,6 +49,7 @@ Options:
 | `--nf` | 64 | Base filter count |
 | `--lr` | 5e-4 | Learning rate |
 | `--lambda-rec` | 10.0 | Reconstruction loss weight |
+| `--log-every` | 10 | Print training metrics every N epochs |
 | `--checkpoint-dir` | ./checkpoints | Where to save the model |
 
 Checkpoint is saved to `checkpoints/celeste_gan.pt`.
