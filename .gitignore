@@ -39,3 +39,9 @@ celeste-gan/checkpoints/
 ogmo-debug.log
 
 .fake
+
+# Embedded git repositories
+Selene/
+lua_libs/
+luafilesystem/
+luajit-request/
