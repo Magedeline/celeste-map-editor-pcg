@@ -37,13 +37,37 @@ celeste-gan/checkpoints/
 
 # Logs
 ogmo-debug.log
+build-output.log
 
 .fake
+
+# IDE
+.vs/
 
 # Embedded git repositories
 Selene/
 lua_libs/
 luafilesystem/
 luajit-request/
-Celeste-Map-Editor-v1.0.0.tar.gz
-.gitignore
+
+# Generated/test files
+generated_map.json
+test-export/
+
+# Root binary artifacts
+celeste_pcg_generator
+
+# Release archives
+/Celeste-Map-Editor-v1.0.0.zip
+/Celeste-Map-Editor-v1.0.0.tar.gz
+/Celeste-PCG-Generator-v1.0.0.tar.gz
+/Celeste-PCG-Generator-v1.0.0.zip
+electron-app/release/
+
+# GameBanana package artifacts
+gamebanana-package/Celeste-PCG-Generator-v1.0.0.zip
+gamebanana-package/zi1tsFqS
+
+# LuaJIT binaries
+lua_libs/luajit/bin/*.exe
+lua_libs/luajit/bin/*.dll
