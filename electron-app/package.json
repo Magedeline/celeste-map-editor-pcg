@@ -20,7 +20,7 @@
     "appId": "com.celeste.map-editor",
     "productName": "Celeste Map Editor",
     "directories": {
-      "output": "dist"
+      "output": "release"
     },
     "files": [
       "main.js",

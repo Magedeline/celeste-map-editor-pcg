@@ -162,7 +162,7 @@ ipcMain.handle('generate-map', async (_event, params) => {
     const genPath = getGeneratorPath();
 
     if (!fs.existsSync(genPath)) {
-      return reject({ error: `Generator not found at: ${genPath}` });
+      return reject(new Error(`Generator not found at: ${genPath}\n\nBuild the C++ generator first:\ncd cpp && cmake -B build -S . && cmake --build build --config Release`));
     }
 
     const args = [];
@@ -183,22 +183,22 @@ ipcMain.handle('generate-map', async (_event, params) => {
 
     child.stdout.on('data', (d) => { stdout += d.toString(); });
     child.stderr.on('data', (d) => { stderr += d.toString(); });
-    child.on('error', (err) => reject({ error: `Failed to launch generator: ${err.message}` }));
+    child.on('error', (err) => reject(new Error(`Failed to launch generator: ${err.message}`)));
     child.on('close', (code) => {
       if (code !== 0) {
-        return reject({ error: stderr.trim() || `Generator exited with code ${code}` });
+        return reject(new Error(stderr.trim() || `Generator exited with code ${code}`));
       }
       try {
         resolve(JSON.parse(stdout));
       } catch (e) {
-        reject({ error: `Could not parse generator output: ${e.message}\n${stdout.substring(0, 500)}` });
+        reject(new Error(`Could not parse generator output: ${e.message}\n${stdout.substring(0, 500)}`));
       }
     });
 
     // Safety timeout
     setTimeout(() => {
       child.kill();
-      reject({ error: 'Generator timed out after 30 seconds' });
+      reject(new Error('Generator timed out after 30 seconds'));
     }, 30000);
   });
 });
@@ -324,7 +324,9 @@ ipcMain.handle('save-map', async (_event, { content, filePath }) => {
 ipcMain.handle('generate-single-room', async (_event, params) => {
   return new Promise((resolve, reject) => {
     const genPath = getGeneratorPath();
-    if (!fs.existsSync(genPath)) return reject({ error: `Generator not found: ${genPath}` });
+    if (!fs.existsSync(genPath)) {
+      return reject(new Error(`Generator not found: ${genPath}\n\nBuild the C++ generator first:\ncd cpp && cmake -B build -S . && cmake --build build --config Release`));
+    }
 
     const args = [
       '--cluster-width',  '1',
@@ -343,12 +345,12 @@ ipcMain.handle('generate-single-room', async (_event, params) => {
     let stdout = '', stderr = '';
     child.stdout.on('data', d => { stdout += d.toString(); });
     child.stderr.on('data', d => { stderr += d.toString(); });
-    child.on('error', err => reject({ error: err.message }));
+    child.on('error', err => reject(new Error(err.message)));
     child.on('close', code => {
-      if (code !== 0) return reject({ error: stderr.trim() || `exit ${code}` });
-      try { resolve(JSON.parse(stdout)); } catch (e) { reject({ error: `Parse error: ${e.message}` }); }
+      if (code !== 0) return reject(new Error(stderr.trim() || `Generator exited with code ${code}`));
+      try { resolve(JSON.parse(stdout)); } catch (e) { reject(new Error(`Parse error: ${e.message}`)); }
     });
-    setTimeout(() => { child.kill(); reject({ error: 'Timed out' }); }, 20000);
+    setTimeout(() => { child.kill(); reject(new Error('Generator timed out')); }, 20000);
   });
 });
 
@@ -477,14 +479,22 @@ ipcMain.handle('gan-start-server', async (_event, params) => {
   if (!fs.existsSync(scriptPath)) {
     throw new Error(`GAN script not found: ${scriptPath}`);
   }
-  if (!fs.existsSync(modelPath)) {
-    throw new Error(`GAN model not found at: ${modelPath}\n\nTrain or place celeste_gan.pt there, then try again.`);
+  
+  // Model is now optional - server uses Perlin noise fallback if no model
+  const hasModel = fs.existsSync(modelPath);
+  if (!hasModel) {
+    console.log(`GAN model not found at ${modelPath}, will use Perlin noise fallback`);
   }
 
   const pythonPath = getGanPythonPath();
   ganServerLogs = '';
 
-  const child = spawn(pythonPath, [scriptPath, 'serve', '--model', modelPath, '--port', String(port)], {
+  const spawnArgs = [scriptPath, 'serve', '--port', String(port)];
+  if (hasModel) {
+    spawnArgs.push('--model', modelPath);
+  }
+
+  const child = spawn(pythonPath, spawnArgs, {
     cwd: ganRoot,
     windowsHide: true,
     env: {
@@ -494,7 +504,8 @@ ipcMain.handle('gan-start-server', async (_event, params) => {
   });
 
   ganServerChild = child;
-  appendGanLog(`[gan-server] launch ${pythonPath} ${scriptPath} serve --model ${modelPath} --port ${port}\n`);
+  const logArgs = hasModel ? `${scriptPath} serve --model ${modelPath} --port ${port}` : `${scriptPath} serve --port ${port} (Perlin fallback)`;
+  appendGanLog(`[gan-server] launch ${pythonPath} ${logArgs}\n`);
 
   child.stdout.on('data', (d) => appendGanLog(d.toString()));
   child.stderr.on('data', (d) => appendGanLog(d.toString()));

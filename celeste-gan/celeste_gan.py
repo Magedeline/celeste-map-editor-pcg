@@ -129,6 +129,98 @@ def strings_to_tile_grid(rows: list[str]) -> np.ndarray:
     return grid
 
 
+def generate_perlin_noise(height: int, width: int, scale: float = 10.0, octaves: int = 4) -> np.ndarray:
+    """Generate Perlin noise-based tile grid.
+    
+    Returns integer tile grid with values mapped to tile indices.
+    """
+    try:
+        from noise import pnoise2
+    except ImportError:
+        # Fallback simple noise if perlin-noise library not available
+        return _generate_simple_noise(height, width)
+    
+    grid = np.zeros((height, width), dtype=np.float32)
+    persistence = 0.5
+    lacunarity = 2.0
+    
+    for y in range(height):
+        for x in range(width):
+            value = 0.0
+            amplitude = 1.0
+            frequency = 1.0 / scale
+            for _ in range(octaves):
+                value += pnoise2(x * frequency, y * frequency, repeatx=width, repeaty=height) * amplitude
+                amplitude *= persistence
+                frequency *= lacunarity
+            grid[y, x] = value
+    
+    # Normalize to 0-15 range
+    grid = (grid - grid.min()) / (grid.max() - grid.min() + 1e-8)
+    return (grid * 15).astype(np.int32)
+
+
+def _generate_simple_noise(height: int, width: int) -> np.ndarray:
+    """Simple random noise fallback when perlin-noise library unavailable.
+    
+    Creates more natural-looking terrain with clusters and empty areas.
+    """
+    # Start with random values
+    grid = np.random.randint(0, 16, size=(height, width), dtype=np.int32)
+    
+    # Apply simple smoothing to create clusters
+    for _ in range(2):
+        # Count neighbors for each cell
+        padded = np.pad(grid, 1, mode='edge')
+        neighbors = (padded[:-2, 1:-1] + padded[2:, 1:-1] + 
+                     padded[1:-1, :-2] + padded[1:-1, 2:]) / 4
+        # Blend with neighbors
+        grid = ((grid * 0.6 + neighbors * 0.4)).astype(np.int32)
+    
+    # Clip to valid range
+    return np.clip(grid, 0, 15).astype(np.int32)
+
+
+def _remap_grid_to_kit(grid: np.ndarray, kit: str, empty_threshold: int = 3) -> np.ndarray:
+    """Remap generated tile indices to use a specific kit's tile assignments.
+    
+    Standalone version that doesn't require CelesteGAN class.
+    
+    Args:
+        grid: Input tile grid with values 0-15
+        kit: Kit name for tile remapping
+        empty_threshold: Values below this become empty space (default 3)
+    """
+    kit_def = KIT_TILES.get(kit, KIT_TILES['house'])
+    wall_idx = CHAR_TO_IDX[kit_def['wall']]
+    bg_idx = CHAR_TO_IDX[kit_def['bg']]
+    plat_idx = CHAR_TO_IDX[kit_def['platform']]
+    trim_idx = CHAR_TO_IDX[kit_def['trim']]
+
+    remapped = np.zeros_like(grid)
+    for r in range(grid.shape[0]):
+        for c in range(grid.shape[1]):
+            v = grid[r, c]
+            if v < empty_threshold:  # Low values = empty space
+                remapped[r, c] = 0
+            elif v <= 6:
+                remapped[r, c] = wall_idx
+            elif v <= 9:
+                remapped[r, c] = plat_idx
+            elif v <= 12:
+                remapped[r, c] = bg_idx
+            else:
+                remapped[r, c] = trim_idx
+
+    return remapped
+
+
+def generate_perlin_with_kit(height: int, width: int, kit: str = 'house') -> np.ndarray:
+    """Generate Perlin noise and remap to kit tiles."""
+    grid = generate_perlin_noise(height, width)
+    return _remap_grid_to_kit(grid, kit)
+
+
 # ---------------------------------------------------------------------------
 # Data preparation
 # ---------------------------------------------------------------------------
@@ -524,39 +616,18 @@ class CelesteGAN:
         return self._remap_to_kit(grid, kit)
 
     @staticmethod
-    def _remap_to_kit(grid: np.ndarray, kit: str) -> np.ndarray:
+    def _remap_to_kit(grid: np.ndarray, kit: str, empty_threshold: int = 3) -> np.ndarray:
         """Remap generated tile indices to use a specific kit's tile assignments.
 
         The GAN generates abstract tile categories. This maps them to the kit's
         actual tile characters:
+          - Low values (< empty_threshold) → empty
           - Solid/dense tiles → kit wall tile
           - Medium tiles → kit platform tile
           - Light tiles → kit background tile
           - Sparse tiles → kit trim tile
-          - Index 0 → stays empty
         """
-        kit_def = KIT_TILES.get(kit, KIT_TILES['house'])
-        wall_idx = CHAR_TO_IDX[kit_def['wall']]
-        bg_idx = CHAR_TO_IDX[kit_def['bg']]
-        plat_idx = CHAR_TO_IDX[kit_def['platform']]
-        trim_idx = CHAR_TO_IDX[kit_def['trim']]
-
-        remapped = np.zeros_like(grid)
-        for r in range(grid.shape[0]):
-            for c in range(grid.shape[1]):
-                v = grid[r, c]
-                if v == 0:
-                    remapped[r, c] = 0  # empty stays empty
-                elif v <= 4:
-                    remapped[r, c] = wall_idx
-                elif v <= 8:
-                    remapped[r, c] = plat_idx
-                elif v <= 12:
-                    remapped[r, c] = bg_idx
-                else:
-                    remapped[r, c] = trim_idx
-
-        return remapped
+        return _remap_grid_to_kit(grid, kit, empty_threshold)
 
     def save(self, path: Path):
         """Save all models and metadata to a single checkpoint."""
@@ -571,23 +642,30 @@ class CelesteGAN:
         torch.save(state, path)
 
     def load(self, path: Path):
-        """Load models from checkpoint."""
+        """Load models from checkpoint with flexible state dict handling."""
         state = torch.load(path, map_location=self.device, weights_only=False)
-        self.num_scales = state['num_scales']
-        self.nf = state['nf']
-        self.scale_sizes = state['scale_sizes']
-        self.noise_amplitudes = state['noise_amplitudes']
+        self.num_scales = state.get('num_scales', 3)
+        self.nf = state.get('nf', 64)
+        self.scale_sizes = state.get('scale_sizes', [(12, 20), (17, 30), (23, 40)])
+        self.noise_amplitudes = state.get('noise_amplitudes', [1.0, 0.3, 0.1])
 
         self.generators = []
         self.discriminators = []
         for i in range(self.num_scales):
             gen = Generator(3, 3, self.nf).to(self.device)
-            gen.load_state_dict(state['generators'][i])
+            # Try strict loading first, fall back to flexible loading
+            try:
+                gen.load_state_dict(state['generators'][i], strict=True)
+            except RuntimeError:
+                gen.load_state_dict(state['generators'][i], strict=False)
             gen.eval()
             self.generators.append(gen)
 
             disc = Discriminator(3, self.nf).to(self.device)
-            disc.load_state_dict(state['discriminators'][i])
+            try:
+                disc.load_state_dict(state['discriminators'][i], strict=True)
+            except RuntimeError:
+                disc.load_state_dict(state['discriminators'][i], strict=False)
             disc.eval()
             self.discriminators.append(disc)
 
@@ -620,20 +698,29 @@ class GANRequestHandler(BaseHTTPRequestHandler):
             height = params.get('height', 23)
             kit = params.get('kit', 'house')
             temperature = params.get('temperature', 1.0)
+            use_perlin = params.get('use_perlin', False) or params.get('mode') == 'perlin'
 
             # Validate inputs
             width = max(5, min(width, 256))
             height = max(5, min(height, 128))
             temperature = max(0.1, min(temperature, 3.0))
 
-            if _gan_instance is None:
-                self._send_error(503, 'Model not loaded')
-                return
-
             try:
-                grid = _gan_instance.generate_with_kit(height, width, kit, temperature)
+                # Use Perlin noise if requested or if GAN not available
+                if use_perlin or _gan_instance is None:
+                    if use_perlin:
+                        grid = generate_perlin_with_kit(height, width, kit)
+                    elif _gan_instance is None:
+                        # Fallback to simple noise when no model
+                        grid = _generate_simple_noise(height, width)
+                        grid = _remap_grid_to_kit(grid, kit)
+                    else:
+                        grid = _gan_instance.generate_with_kit(height, width, kit, temperature)
+                else:
+                    grid = _gan_instance.generate_with_kit(height, width, kit, temperature)
+                
                 tiles = tile_grid_to_strings(grid)
-                result = {'tiles': tiles, 'width': width, 'height': height}
+                result = {'tiles': tiles, 'width': width, 'height': height, 'mode': 'perlin' if use_perlin else 'gan'}
                 self._send_json(200, result)
             except Exception as e:
                 self._send_error(500, str(e))
@@ -661,12 +748,23 @@ class GANRequestHandler(BaseHTTPRequestHandler):
         self._send_json(code, {'error': msg})
 
 
-def serve_model(model_path: Path, port: int = 5555, device: str = 'cpu'):
-    """Start HTTP server for GAN inference."""
+def serve_model(model_path: Optional[Path] = None, port: int = 5555, device: str = 'cpu'):
+    """Start HTTP server for GAN inference.
+    
+    If model_path is None or doesn't exist, server will use Perlin noise fallback.
+    """
     global _gan_instance
-    _gan_instance = CelesteGAN(device=device)
-    _gan_instance.load(model_path)
-    print(f"Model loaded from {model_path}")
+    if model_path and model_path.exists():
+        _gan_instance = CelesteGAN(device=device)
+        try:
+            _gan_instance.load(model_path)
+            print(f"Model loaded from {model_path}")
+        except Exception as e:
+            print(f"Warning: Could not load model ({e}). Using Perlin noise fallback.")
+            _gan_instance = None
+    else:
+        print(f"No model found at {model_path}. Using Perlin noise fallback.")
+        _gan_instance = None
     print(f"Serving on http://127.0.0.1:{port}")
 
     server = HTTPServer(('127.0.0.1', port), GANRequestHandler)
@@ -760,10 +858,10 @@ def cmd_generate(args):
 
 
 def cmd_serve(args):
-    model_path = Path(args.model)
-    if not model_path.exists():
-        print(f"Model not found: {model_path}")
-        sys.exit(1)
+    model_path = Path(args.model) if args.model else None
+    if model_path and not model_path.exists():
+        print(f"Model not found: {model_path}, will use Perlin noise fallback")
+        model_path = None
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     serve_model(model_path, args.port, device)
 
@@ -801,7 +899,7 @@ def main():
 
     # serve
     p_serve = sub.add_parser('serve', help='Start HTTP server for Electron integration')
-    p_serve.add_argument('--model', required=True, help='Path to .pt checkpoint')
+    p_serve.add_argument('--model', default=None, help='Path to .pt checkpoint (optional, uses Perlin fallback if not provided)')
     p_serve.add_argument('--port', type=int, default=5555, help='Server port')
 
     args = parser.parse_args()

@@ -45,3 +45,5 @@ Selene/
 lua_libs/
 luafilesystem/
 luajit-request/
+Celeste-Map-Editor-v1.0.0.tar.gz
+.gitignore

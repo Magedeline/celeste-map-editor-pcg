@@ -1,6 +1,6 @@
 import {
   TILE_PALETTE, ENTITY_TYPES, TRIGGER_TYPES, MOD_BROWSER,
-  ENTITY_COLOR, ROOM_COLORS,
+  ENTITY_COLOR, ROOM_COLORS, TILE_COLORS,
 } from './constants.js';
 import { MapModel, Room, snap8, clamp, esc } from './MapModel.js';
 import { CanvasRenderer } from './CanvasRenderer.js';
