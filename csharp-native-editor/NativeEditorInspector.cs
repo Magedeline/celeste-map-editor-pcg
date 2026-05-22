@@ -721,6 +721,21 @@ internal sealed class NativeEditorInspectorForm : Form
     private void ClearRoomFields()
     {
         _roomNameTextBox.Text = string.Empty;
+        _roomXInput.Value = 0;
+        _roomYInput.Value = 0;
+        _roomWidthInput.Value = 320;
+        _roomHeightInput.Value = 184;
+        _musicTextBox.Text = string.Empty;
+        _altMusicTextBox.Text = string.Empty;
+        _ambienceTextBox.Text = string.Empty;
+        _windPatternTextBox.Text = string.Empty;
+        _colorInput.Value = 0;
+        _darkCheckBox.Checked = false;
+        _underwaterCheckBox.Checked = false;
+        _spaceCheckBox.Checked = false;
+        _disableDownTransitionCheckBox.Checked = false;
+        _cameraOffsetXInput.Value = 0;
+        _cameraOffsetYInput.Value = 0;
     }
 
     private void ClearEntityFields()

@@ -29,7 +29,8 @@
       "preload.js",
       "index.html",
       "renderer.js",
-      "styles.css"
+      "styles.css",
+      "renderer/**/*"
     ],
     "extraResources": [
       {
@@ -66,8 +67,12 @@
       }
     ],
     "win": {
-      "target": "nsis",
-      "icon": "assets/icon.ico"
+      "target": "portable",
+      "icon": "assets/icon.ico",
+      "forceCodeSigning": false,
+      "signtoolOptions": {
+        "signingHashAlgorithms": []
+      }
     }
   }
 }

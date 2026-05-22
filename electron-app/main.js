@@ -11,6 +11,7 @@ const {
   createBinaryMapFromEditor,
 } = require('./mapBinary');
 
+let mainWindow = null;
 let ganServerChild = null;
 let ganServerLogs = '';
 const GAN_LOG_LIMIT = 16000;
@@ -138,13 +139,15 @@ function createWindow() {
     win.show();
     // Open DevTools only in dev
     if (!app.isPackaged) {
-      // win.webContents.openDevTools({ mode: 'detach' });
+      win.webContents.openDevTools({ mode: 'detach' });
     }
   });
 
   win.on('close', (e) => {
     // Renderer signals dirty state; we just let it close for now
   });
+
+  mainWindow = win;
 }
 
 app.whenReady().then(createWindow);
@@ -204,7 +207,7 @@ ipcMain.handle('generate-map', async (_event, params) => {
 // IPC: Open file
 // ---------------------------------------------------------------------------
 ipcMain.handle('open-map', async () => {
-  const result = await dialog.showOpenDialog({
+  const result = await dialog.showOpenDialog(mainWindow, {
     title: 'Open Celeste Map',
     filters: [
       { name: 'Celeste Maps', extensions: ['bin', 'json'] },
@@ -250,7 +253,7 @@ ipcMain.handle('gan-pick-model', async (_event, params) => {
     initialPath = fallbackDir;
   }
 
-  const result = await dialog.showOpenDialog({
+  const result = await dialog.showOpenDialog(mainWindow, {
     title: 'Select GAN model checkpoint',
     defaultPath: initialPath,
     filters: [
@@ -273,7 +276,7 @@ ipcMain.handle('save-map', async (_event, { content, filePath }) => {
   const rawContent = typeof content === 'string' ? content : JSON.stringify(content ?? {}, null, 2);
 
   if (!targetPath) {
-    const res = await dialog.showSaveDialog({
+    const res = await dialog.showSaveDialog(mainWindow, {
       title: 'Save Map',
       defaultPath: 'my-map.bin',
       filters: [
