@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "electron": "^35.1.0",
-    "electron-builder": "^25.1.8"
+    "electron-builder": "^26.15.3"
   },
   "build": {
     "appId": "com.celeste.map-editor",
